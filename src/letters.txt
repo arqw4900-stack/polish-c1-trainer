@@ -1,0 +1,353 @@
+// @ id | регистр (off/semi/inf) | название по-польски | по-русски
+// sit: ситуация / b: часть | текст (\n — новая строка) | разбор | выравнивание (r, ra, c)
+// r: формула | когда уместна / f: фраза | перевод / q: упражнение##почему
+
+@ motywacyjny | off | List motywacyjny | Сопроводительное письмо к резюме
+sit: Вы откликаетесь на вакансию младшего аналитика данных в варшавской компании. Письмо прикладывается к CV и уходит в отдел кадров; имя рекрутера неизвестно.
+b: Отправитель | Anna Kowalczyk\nul. Polna 12/4\n30-001 Kraków\ntel. 600 123 456 | Имя, адрес и контакты — в левом верхнем углу, без слов «Nadawca» или «Od».
+b: Место и дата | Kraków, 14 marca 2026 r. | Справа: город, запятая, дата. **r.** = roku.  | r
+b: Адресат | Dział Kadr\nDataLab Sp. z o.o.\nul. Prosta 51\n00-838 Warszawa | Адресат — справа под датой. | ra
+b: Обращение | Szanowni Państwo, | Имя рекрутера неизвестно — **Szanowni Państwo**. После обращения — запятая и новая строка; по словарной норме текст продолжают с маленькой буквы, на практике часто пишут с заглавной.
+b: Вступление | w odpowiedzi na ogłoszenie opublikowane w serwisie Pracuj.pl chciałabym zgłosić swoją kandydaturę na stanowisko młodszego analityka danych. | Сразу: откуда узнали о вакансии и на какую должность претендуете.
+b: Опыт | Od dwóch lat pracuję jako asystentka w dziale analiz firmy ubezpieczeniowej, gdzie przygotowuję raporty sprzedażowe i automatyzuję zestawienia w Pythonie i SQL. Dzięki temu skróciłam czas przygotowania miesięcznego raportu z trzech dni do kilku godzin. | Конкретные достижения с цифрами убеждают сильнее, чем общие слова о «коммуникабельности».
+b: Почему эта фирма | Państwa firma od dawna jest dla mnie przykładem tego, jak dane mogą realnie wspierać decyzje biznesowe. Szczególnie zainteresował mnie projekt analizy ruchu w komunikacji miejskiej, o którym czytałam na Państwa blogu. | Покажите, что знаете компанию. **Państwa** в письме пишут с заглавной.
+b: Заключение | Będę wdzięczna za możliwość zaprezentowania swoich kwalifikacji podczas rozmowy. W załączeniu przesyłam CV. | Вежливая просьба о собеседовании и упоминание вложения.
+b: Завершение и подпись | Z poważaniem\nAnna Kowalczyk | **Z poważaniem** — стандарт официального письма. Запятую после формулы не ставят.
+b: Согласие на обработку данных | Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji. | Стандартная формула (RODO) — в конце письма или в CV.
+r: Szanowni Państwo, | когда имя адресата неизвестно — самый безопасный вариант
+r: Szanowna Pani, / Szanowny Panie, | когда адресат известен, но вы не используете имя или титул
+r: Szanowna Pani Dyrektor, | если знаете должность; женские титулы не склоняются
+r: Z poważaniem | стандартное официальное завершение
+r: Z wyrazami szacunku | более почтительно и торжественно
+r: Witam / Cześć | **не использовать**: «Witam» в письме незнакомому человеку считается невежливым
+f: W odpowiedzi na ogłoszenie… | В ответ на объявление…
+f: Chciałabym zgłosić swoją kandydaturę na stanowisko… | Хотела бы предложить свою кандидатуру на должность…
+f: Posiadam kilkuletnie doświadczenie w… | У меня несколько лет опыта в…
+f: Jestem przekonana, że moje umiejętności przyczynią się do… | Уверена, что мои навыки помогут…
+f: Szczególnie zainteresowało mnie… | Особенно меня заинтересовало…
+f: Będę wdzięczna za możliwość rozmowy. | Буду признательна за возможность собеседования.
+f: W załączeniu przesyłam CV. | Во вложении отправляю резюме.
+f: Pozostaję do Państwa dyspozycji. | Остаюсь в вашем распоряжении.
+q: Nie znasz nazwiska rekrutera. List zaczynasz od: ___|Szanowni Państwo,|Witam,|Cześć,|Drodzy Państwo,##Адресат неизвестен — **Szanowni Państwo**. «Witam» звучит невежливо, «Drodzy» — для близких людей.
+q: W odpowiedzi na ___ chciałbym zgłosić swoją kandydaturę.|ogłoszenie|ogłoszeniem|ogłoszenia|ogłoszeniu##**W odpowiedzi na + В.п.**: w odpowiedzi na ogłoszenie.
+q: Najlepsze zakończenie listu motywacyjnego to: ___|Z poważaniem|Buziaki|Na razie|Trzymaj się##**Z poważaniem** — нейтральное официальное завершение. Остальное — для друзей.
+q: W ___ przesyłam moje CV.|załączeniu|załącznik|załączenie|załączonym##Устойчивая формула: **W załączeniu przesyłam…** (также можно: W załączniku przesyłam…).
+q: Będę ___ za możliwość rozmowy.|wdzięczna|wdzięcznością|wdzięczności|wdzięcznie##**Być wdzięcznym za + В.п.**: będę wdzięczna (женщина) / wdzięczny (мужчина) za możliwość…
+q: Szczególnie zainteresował mnie projekt opisany na ___ blogu.|Państwa|waszym|twoim|ich##К адресату официального письма обращаются **Państwo**: na Państwa blogu. «Wasz» и «twój» — слишком фамильярно.
+
+@ reklamacja | off | Reklamacja towaru | Рекламация (жалоба на бракованный товар)
+sit: Через месяц после покупки в интернет-магазине сломалась стиральная машина. Вы требуете бесплатного ремонта или замены по закону о правах потребителя.
+b: Отправитель | Marek Nowak\nul. Leśna 8\n60-101 Poznań\ntel. 501 222 333 | Ваши данные — чтобы продавец мог ответить.
+b: Место и дата | Poznań, 3 lutego 2026 r. | Дата важна: от неё считают срок ответа. | r
+b: Адресат | AGD-Market Sp. z o.o.\nDział Reklamacji\nul. Handlowa 5\n02-222 Warszawa | Название фирмы и отдел. | ra
+b: Тема | Reklamacja pralki Aqua 7000 (zamówienie nr 45218) | Коротко и с номером заказа — так письмо быстрее попадёт к нужному сотруднику.
+b: Обращение | Szanowni Państwo, | Стандарт для письма в компанию.
+b: Факты | w dniu 2 stycznia 2026 r. kupiłem w Państwa sklepie internetowym pralkę Aqua 7000 (paragon nr 1122/2026). Od 28 stycznia urządzenie nie odprowadza wody, a na wyświetlaczu pojawia się błąd E21. Pralka była używana zgodnie z instrukcją obsługi. | Только факты: что и когда купили, в чём дефект. Без эмоций.
+b: Требование | Na podstawie przepisów ustawy o prawach konsumenta dotyczących niezgodności towaru z umową żądam nieodpłatnej naprawy pralki, a jeżeli naprawa nie będzie możliwa — wymiany na nowy egzemplarz. | Чёткое требование. Ссылка на закон показывает, что вы знаете свои права. **Żądam** здесь не грубость, а юридическая точность.
+b: Срок ответа | Proszę o ustosunkowanie się do reklamacji w terminie 14 dni od jej otrzymania. | Продавец обязан ответить потребителю в течение 14 дней — иначе считается, что рекламация признана.
+b: Завершение | Z poważaniem\nMarek Nowak | Официальное завершение и подпись.
+b: Приложения | Załączniki:\n1. kopia paragonu\n2. zdjęcie wyświetlacza z kodem błędu | Список приложений — под подписью.
+r: Szanowni Państwo, | стандартное обращение к компании
+r: Z poważaniem | официальное завершение
+r: Żądam… | требование в рекламации — нормальная, юридически точная формула
+r: Uprzejmie proszę o… | мягче, если хотите сохранить дружелюбный тон
+f: Składam reklamację dotyczącą… | Подаю рекламацию относительно…
+f: Towar okazał się wadliwy. | Товар оказался бракованным.
+f: Urządzenie przestało działać po… | Устройство перестало работать через…
+f: Żądam nieodpłatnej naprawy lub wymiany towaru. | Требую бесплатного ремонта или замены товара.
+f: Żądam obniżenia ceny lub zwrotu pieniędzy. | Требую снижения цены или возврата денег.
+f: Proszę o ustosunkowanie się do reklamacji. | Прошу дать ответ на рекламацию.
+f: W przypadku nieuwzględnienia reklamacji… | В случае отказа в рекламации…
+f: Załączam kopię dowodu zakupu. | Прилагаю копию документа о покупке.
+q: W temacie reklamacji najlepiej podać: ___|numer zamówienia|swoje hobby|ocenę sklepu|życzenia świąteczne##Номер заказа или чека помогает быстро найти покупку.
+q: Pralka przestała działać, dlatego ___ jej nieodpłatnej naprawy.|żądam|żądam się|żądać|żąda##**Żądać + Р.п.** (naprawy), 1-е лицо: żądam.
+q: Sprzedawca powinien odpowiedzieć na reklamację konsumenta w ciągu ___.|14 dni|roku|godziny|trzech miesięcy##По закону о правах потребителя — **14 дней**; молчание продавца означает признание рекламации.
+q: Towar okazał się ___.|wadliwy|wadą|wadliwie|wady##После **okazać się** — прилагательное: okazał się wadliwy (или wadliwym).
+q: Do listu dołączam ___ paragonu.|kopię|kopia|kopii|kopią##**Dołączać + В.п.**: dołączam **kopię** paragonu.
+
+@ urzad | off | Wniosek do urzędu | Заявление в городскую администрацию
+sit: Для дела о виде на жительство нужна справка о регистрации по месту жительства (zameldowanie). Вы пишете заявление в городскую администрацию.
+b: Заявитель | Olena Petrenko\nul. Słoneczna 15/7\n31-500 Kraków | Данные заявителя — слева вверху; в заявлениях часто добавляют номер PESEL.
+b: Место и дата | Kraków, 10 kwietnia 2026 r. | Справа вверху. | r
+b: Адресат | Prezydent Miasta Krakowa\nWydział Spraw Administracyjnych | Заявление адресуют **органу власти** по должности (Prezydent Miasta, Burmistrz, Wójt), а не «urzędowi» вообще. | ra
+b: Заголовок | WNIOSEK\no wydanie zaświadczenia o zameldowaniu na pobyt czasowy | По центру — тип документа и предмет просьбы. Обращение «Szanowni Państwo» в заявлении обычно не пишут. | c
+b: Просьба | Wnoszę o wydanie zaświadczenia potwierdzającego moje zameldowanie na pobyt czasowy pod adresem: ul. Słoneczna 15/7, 31-500 Kraków. | **Wnoszę o…** — канцелярская формула «прошу».
+b: Цель | Zaświadczenie jest mi niezbędne do przedłożenia w Małopolskim Urzędzie Wojewódzkim w postępowaniu w sprawie udzielenia zezwolenia na pobyt czasowy. | Укажите, для чего нужна справка: от этого может зависеть её содержание.
+b: Оплата | Opłatę skarbową uiściłam przelewem na rachunek urzędu, a potwierdzenie przelewu dołączam do wniosku. | **Uiścić opłatę** — официальное «оплатить сбор».
+b: Подпись | Olena Petrenko | В заявлении завершающая формула не обязательна, достаточно подписи.
+b: Приложение | Załącznik:\npotwierdzenie uiszczenia opłaty skarbowej | Список приложений — под подписью.
+r: Prezydent Miasta… / Wojewoda… | адресат — орган власти, названный по должности
+r: WNIOSEK / PODANIE | вместо обращения — заголовок с типом документа
+r: Wnoszę o… / Uprzejmie proszę o… | официальная просьба; «wnoszę» — более канцелярский вариант
+r: Z poważaniem | можно поставить перед подписью, но в заявлении это не обязательно
+f: Wnoszę o wydanie zaświadczenia… | Прошу выдать справку…
+f: Zwracam się z prośbą o… | Обращаюсь с просьбой о…
+f: Zaświadczenie jest mi niezbędne do… | Справка нужна мне для…
+f: w sprawie… | по делу…, по вопросу…
+f: Opłatę skarbową uiściłam przelewem. | Гербовый сбор я оплатила переводом.
+f: Proszę o przesłanie zaświadczenia na adres… | Прошу выслать справку по адресу…
+f: Do wniosku dołączam… | К заявлению прилагаю…
+f: Wyrażam zgodę na doręczanie pism drogą elektroniczną. | Согласна получать документы в электронном виде.
+q: Wniosek do urzędu miasta adresujemy do: ___|Prezydenta Miasta Krakowa|Kochanego Urzędu|Pana Urzędnika|Drogiego Urzędu##Заявление адресуют **органу** — по должности: Prezydent Miasta (Burmistrz, Wójt).
+q: ___ o wydanie zaświadczenia o zameldowaniu.|Wnoszę|Wnoszę się|Wnieść|Wnosisz##**Wnosić o + В.п.** — официальная формула «прошу»: Wnoszę o wydanie…
+q: Opłatę skarbową ___ przelewem.|uiściłam|uiszczałam się|uiścić|uiścię##**Uiścić opłatę** — оплатить сбор. Прошедшее время ж.р.: uiściłam.
+q: Zaświadczenie jest mi ___ do przedłożenia w urzędzie wojewódzkim.|niezbędne|niezbędny|niezbędna|niezbędnie##Согласование с «zaświadczenie» (средний род): jest mi **niezbędne**.
+q: Zamiast zwrotu „Szanowni Państwo” wniosek zwykle otwiera ___.|nagłówek „Wniosek”|słowo „Cześć”|data urodzenia|lista załączników##В заявлении вместо обращения — заголовок с типом документа: **WNIOSEK o…**
+
+@ dziekanat | off | Podanie do dziekana | Заявление в деканат
+sit: Вы болели во время зимней сессии и не смогли сдать два экзамена. Нужно попросить декана продлить сессию.
+b: Студент | Paweł Zieliński\nnr albumu 123456\nekonomia, II rok, studia stacjonarne | Вверху слева — имя, **номер альбома** (студенческий номер), направление и курс.
+b: Место и дата | Poznań, 5 lutego 2026 r. | Справа вверху. | r
+b: Адресат | Dziekan Wydziału Ekonomii\nprof. dr hab. Jan Kowalski | Должность и учёные звания декана. Заявление подают через деканат. | ra
+b: Заголовок | Podanie o przedłużenie sesji egzaminacyjnej | Тип документа и суть — по центру. | c
+b: Обращение | Szanowny Panie Dziekanie, | Звательный падеж: **Panie Dziekanie**. К женщине — **Pani Dziekan**.
+b: Просьба | zwracam się z uprzejmą prośbą o przedłużenie zimowej sesji egzaminacyjnej do 28 lutego 2026 r. w zakresie egzaminów z mikroekonomii i statystyki. | Формула **Zwracam się z uprzejmą prośbą o…** + точная дата и предметы.
+b: Обоснование | Swoją prośbę uzasadniam tym, że od 20 stycznia do 3 lutego przebywałem na zwolnieniu lekarskim z powodu zapalenia płuc, co uniemożliwiło mi przystąpienie do egzaminów w wyznaczonych terminach. Pozostałe przedmioty zaliczyłem w terminie. | **Swoją prośbę uzasadniam tym, że…** — стандартное обоснование. Упомяните, что остальное сдано.
+b: Вложение | Kopię zaświadczenia lekarskiego załączam do podania. | Подтверждающий документ.
+b: Завершение | Z wyrazami szacunku\nPaweł Zieliński | В академической переписке уместно почтительное **Z wyrazami szacunku**.
+r: Szanowny Panie Dziekanie, / Szanowna Pani Dziekan, | к декану (женский титул не склоняется)
+r: Szanowny Panie Profesorze, | если декан — профессор, можно обращаться по званию
+r: Z wyrazami szacunku | почтительное завершение
+r: Z poważaniem | нейтральный официальный вариант
+f: Zwracam się z uprzejmą prośbą o… | Обращаюсь с покорнейшей просьбой о…
+f: Swoją prośbę uzasadniam tym, że… | Свою просьбу обосновываю тем, что…
+f: przedłużenie sesji egzaminacyjnej | продление экзаменационной сессии
+f: urlop dziekański | академический отпуск
+f: wpis warunkowy na kolejny semestr | условный перевод на следующий семестр
+f: przystąpić do egzaminu | явиться на экзамен, сдавать экзамен
+f: w wyznaczonym terminie | в назначенный срок
+f: Uprzejmie proszę o pozytywne rozpatrzenie mojej prośby. | Прошу положительно рассмотреть мою просьбу.
+q: Szanowny Panie ___, zwracam się z prośbą o przedłużenie sesji.|Dziekanie|Dziekan|Dziekana|Dziekanowi##Обращение — звательный падеж: **Panie Dziekanie**.
+q: Szanowna Pani ___, uprzejmie proszę o zgodę na urlop dziekański.|Dziekan|Dziekanie|Dziekanko|Dziekana##Женские титулы не склоняются: **Pani Dziekan**.
+q: Swoją prośbę ___ tym, że byłem chory.|uzasadniam|uzasadniam się|tłumaczę się|usprawiedliwiam##Устойчивая формула: **Swoją prośbę uzasadniam tym, że…**
+q: Choroba uniemożliwiła mi ___ do egzaminu.|przystąpienie|przystąpić|przystępując|przystąpieniem##**Uniemożliwić komuś coś** (В.п.): uniemożliwiła mi **przystąpienie** do egzaminu.
+q: Na górze podania student podaje imię, nazwisko i ___.|numer albumu|numer buta|ulubiony przedmiot|nazwisko matki##**Numer albumu** — номер студента; по нему деканат находит ваше дело.
+
+@ najem | off | Wypowiedzenie umowy najmu | Расторжение договора аренды
+sit: Вы переезжаете в другой город и расторгаете договор аренды квартиры с месячным сроком уведомления, как предусмотрено договором. Хотите вернуть залог.
+b: Арендатор | Katarzyna Wiśniewska\nul. Ogrodowa 3/12\n90-001 Łódź | Ваши данные — слева вверху.
+b: Место и дата | Łódź, 30 czerwca 2026 r. | Дата важна: от неё считают срок уведомления. | r
+b: Адресат | Pan Tomasz Lewandowski\nul. Kwiatowa 17\n90-102 Łódź | Арендодатель — частное лицо: **Pan / Pani** + имя и фамилия. | ra
+b: Заголовок | Wypowiedzenie umowy najmu lokalu mieszkalnego | Суть документа — по центру. | c
+b: Обращение | Szanowny Panie, | Официально, но лично. Если вы общались по имени — **Szanowny Panie Tomaszu**.
+b: Суть | niniejszym wypowiadam umowę najmu lokalu mieszkalnego przy ul. Ogrodowej 3/12 w Łodzi, zawartą w dniu 1 września 2024 r., z zachowaniem jednomiesięcznego okresu wypowiedzenia przewidzianego w § 8 umowy. Umowa ulegnie rozwiązaniu z dniem 31 lipca 2026 r. | **Niniejszym wypowiadam…** — «настоящим расторгаю». Указаны договор, срок и дата окончания.
+b: Передача квартиры | Proponuję przekazanie lokalu wraz z kluczami 31 lipca o godz. 18:00 i sporządzenie protokołu zdawczo-odbiorczego. | Конкретная дата передачи ключей и акт приёма-передачи.
+b: Залог | Jednocześnie uprzejmie proszę o zwrot kaucji w wysokości 2500 zł na rachunek bankowy, z którego opłacałam czynsz. | **Jednocześnie** — «вместе с тем»: удобный переход ко второй просьбе.
+b: Благодарность | Dziękuję za dobrą współpracę w okresie najmu. | Вежливая фраза оставляет хорошее впечатление — и помогает вернуть залог.
+b: Завершение | Z poważaniem\nKatarzyna Wiśniewska | Официальное завершение.
+r: Szanowny Panie, / Szanowna Pani, | частному арендодателю при официальном общении
+r: Szanowny Panie Tomaszu, | если обращаетесь по имени, сохраняя официальный тон
+r: Z poważaniem | официальное завершение
+r: Z pozdrowieniami | теплее, если отношения хорошие
+f: Niniejszym wypowiadam umowę najmu… | Настоящим расторгаю договор аренды…
+f: z zachowaniem okresu wypowiedzenia | с соблюдением срока уведомления
+f: Umowa ulegnie rozwiązaniu z dniem… | Договор прекращает действие с…
+f: przekazanie lokalu i kluczy | передача квартиры и ключей
+f: protokół zdawczo-odbiorczy | акт приёма-передачи
+f: zwrot kaucji | возврат залога
+f: Proszę o potwierdzenie otrzymania wypowiedzenia. | Прошу подтвердить получение уведомления.
+f: Dziękuję za dobrą współpracę. | Благодарю за хорошее сотрудничество.
+q: ___ wypowiadam umowę najmu lokalu przy ul. Ogrodowej 3/12.|Niniejszym|Niniejsze|Niniejszy|Ninie##**Niniejszym** — «настоящим» в официальных документах.
+q: Wypowiadam umowę z zachowaniem jednomiesięcznego okresu ___.|wypowiedzenia|wypowiadania|wypowiedzi|wypowiedziany##Термин — **okres wypowiedzenia** (срок уведомления).
+q: Umowa ulegnie ___ z dniem 31 lipca.|rozwiązaniu|rozwiązanie|rozwiązania|rozwiązać##**Ulec + Д.п.**: ulegnie rozwiązaniu (будет расторгнут).
+q: Uprzejmie proszę o zwrot ___.|kaucji|kaucję|kaucja|kaucją##**Zwrot + Р.п.**: zwrot **kaucji**.
+q: Wypowiedzenie najbezpieczniej wysłać ___.|listem poleconym|kartką pocztową|SMS-em bez podpisu|przez znajomego##Заказное письмо (лучше с уведомлением о вручении) доказывает, что уведомление получено вовремя.
+
+@ wykladowca | semi | E-mail do wykładowcy | Письмо преподавателю
+sit: Вы студентка и хотите перенести выступление с проектом на другую дату, потому что в этот день выступаете на конференции. Пишете профессору по электронной почте.
+b: Тема | Temat: Prośba o zmianę terminu prezentacji – Maria Nowicka, gr. 3 | В теме — суть и кто пишет: преподаватели получают десятки писем.
+b: Обращение | Szanowna Pani Profesor, | По званию: **Pani Profesor / Panie Profesorze**, к доктору — **Pani Doktor / Panie Doktorze**. Не «Pani Mario».
+b: Представление | nazywam się Maria Nowicka i jestem studentką drugiego roku filologii polskiej. Uczestniczę w Pani seminarium we wtorki o 10:00. | Коротко представьтесь: преподаватель может вас не помнить.
+b: Просьба | Chciałabym zapytać, czy byłaby możliwość przeniesienia mojej prezentacji z 12 na 19 maja. W dniach 11–13 maja wygłaszam referat na studenckiej konferencji naukowej w Lublinie. | Вежливая просьба через условное наклонение: **czy byłaby możliwość…** + краткая причина.
+b: Альтернатива | Jeśli zmiana terminu nie jest możliwa, mogę przesłać prezentację wcześniej lub przedstawić ją na konsultacjach. | Предложите альтернативу — это показывает уважение к времени адресата.
+b: Благодарность | Z góry dziękuję za odpowiedź. | **Z góry dziękuję** — «заранее благодарю».
+b: Завершение | Z wyrazami szacunku\nMaria Nowicka | Преподавателю — **Z wyrazami szacunku** или **Z poważaniem**. «Pozdrawiam» — только если преподаватель сам так пишет.
+r: Szanowna Pani Profesor, / Szanowny Panie Profesorze, | стандарт для письма профессору
+r: Szanowny Panie Doktorze, / Szanowna Pani Doktor, | преподавателю со степенью доктора
+r: Dzień dobry, | допустимо в e-mail, но звучит проще, чем обращение по званию
+r: Z wyrazami szacunku / Z poważaniem | завершение письма преподавателю
+r: Łączę wyrazy szacunku | книжный, очень вежливый вариант
+r: Witam / Hej | не использовать
+f: Chciałabym zapytać, czy byłaby możliwość… | Хотела бы спросить, есть ли возможность…
+f: Zwracam się z prośbą o… | Обращаюсь с просьбой о…
+f: przeniesienie terminu | перенос даты
+f: Czy mogłabym prosić o konsultację? | Могу ли я попросить о консультации?
+f: Przepraszam za kłopot. | Извините за беспокойство.
+f: Będę wdzięczna za informację. | Буду благодарна за информацию.
+f: Z góry dziękuję za odpowiedź. | Заранее благодарю за ответ.
+f: W załączniku przesyłam… | Во вложении отправляю…
+q: Piszesz do wykładowcy z tytułem doktora (mężczyzny): ___|Szanowny Panie Doktorze,|Witam Pana,|Cześć,|Szanowny Doktor,##К мужчине с докторской степенью — **Szanowny Panie Doktorze** (звательный падеж).
+q: Chciałabym zapytać, ___ byłaby możliwość przełożenia terminu.|czy|że|żeby|jeśli##Косвенный вопрос — **czy**: czy byłaby możliwość…
+q: Z ___ dziękuję za odpowiedź.|góry|górę|górą|gór##Устойчивое выражение: **z góry dziękuję** — заранее благодарю.
+q: Najlepsze zakończenie maila do pani profesor to: ___|Z wyrazami szacunku|Buziaki|Nara|Do usłyszenia, kochana##**Z wyrazami szacunku** — почтительно и уместно в академической переписке.
+q: W temacie maila do wykładowcy warto podać ___.|swoje imię, nazwisko i grupę|tylko słowo „Pytanie”|emotikonę|datę urodzenia##Тема с именем и группой помогает сразу понять, от кого и о чём письмо.
+
+@ wspolpracownik | semi | E-mail do kolegi z pracy | Письмо коллеге
+sit: Вы уходите в отпуск и передаёте коллеге незаконченный проект. В офисе все на «ты», но письмо деловое.
+b: Тема | Temat: Przekazanie projektu Alfa na czas mojego urlopu | Тема — о чём письмо, без лишних слов.
+b: Обращение | Cześć, Michale, | Имя — в звательном падеже (Michale, Kasiu) и отделяется запятой.
+b: Цель | jak wiesz, od poniedziałku jestem na urlopie, więc przekazuję Ci projekt Alfa. Poniżej najważniejsze informacje. | **Ci** с заглавной — вежливость даже в письме на «ты».
+b: Статус | Prezentacja dla klienta jest gotowa w 90 procentach – brakuje tylko slajdu z budżetem. Dane finansowe obiecała przesłać Ola z księgowości do środy. | Что сделано, что осталось, кто за что отвечает.
+b: Сроки и материалы | Spotkanie z klientem odbędzie się w czwartek o 11:00 w sali konferencyjnej na trzecim piętrze. Wszystkie materiały znajdziesz w folderze projektu na dysku. | Конкретные даты, место и где лежат файлы.
+b: Связь | Gdyby coś było niejasne, śmiało dzwoń – do piątku jestem pod telefonem. | **Śmiało** — «не стесняйся»: дружелюбная разговорная нота.
+b: Благодарность | Wielkie dzięki, że mnie zastąpisz! | Коротко и тепло.
+b: Завершение | Pozdrawiam\nKasia | **Pozdrawiam** — нейтральное завершение для коллег. Теплее — «Pozdrawiam serdecznie», «Do usłyszenia».
+r: Cześć, Michale, / Hej, | коллеге, с которым вы на «ты»
+r: Dzień dobry, | нейтрально, если не уверены в тоне
+r: Panie Michale, / Pani Kasiu, | вежливое «вы» по имени (звательный падеж)
+r: Pozdrawiam / Pozdrawiam serdecznie | стандартные завершения в рабочей переписке
+r: Miłego dnia! / Do usłyszenia | дружелюбное завершение
+f: Przekazuję Ci projekt… | Передаю тебе проект…
+f: Poniżej najważniejsze informacje. | Ниже — самое важное.
+f: Wszystkie materiały znajdziesz w… | Все материалы найдёшь в…
+f: Termin oddania to… | Срок сдачи —…
+f: Gdyby coś było niejasne, daj znać. | Если что-то непонятно, дай знать.
+f: Jestem pod telefonem. | Я на связи.
+f: Dzięki z góry! | Заранее спасибо!
+f: Wracam do biura 15 sierpnia. | Возвращаюсь в офис 15 августа.
+q: Cześć, ___, przesyłam Ci materiały.|Michale|Michał|Michała|Michałowi##Обращение по имени — звательный падеж: **Michale**.
+q: Przekazuję ___ projekt na czas urlopu.|Ci|cię|się|tobą##Дательный падеж от ty — **ci**; в письмах из вежливости пишут с заглавной: **Ci**.
+q: Gdyby coś było niejasne, daj ___.|znać|znajomość|znany|znaczy##Устойчивое выражение: **daj znać** — дай знать.
+q: Najbardziej naturalne zakończenie maila do kolegi z pracy: ___|Pozdrawiam|Z wyrazami głębokiego szacunku|Niniejszym kończę|Łączę wyrazy poważania##**Pozdrawiam** — нейтрально и дружелюбно. Остальное — слишком официально для коллеги.
+q: Do piątku jestem ___ telefonem.|pod|przy|na|z##Устойчивое выражение: **być pod telefonem** — быть на связи.
+
+@ przelozona | semi | Prośba do przełożonej | Просьба к начальнице
+sit: Вам нужны два дня отпуска в загруженный период. Вы пишете начальнице, с которой давно работаете и общаетесь на «вы», но по имени.
+b: Тема | Temat: Prośba o urlop 18–19 listopada | Суть — уже в теме.
+b: Обращение | Pani Ewo, | **Pani + имя в звательном** — вежливо и тепло; так обращаются к руководителю, с которым давно работают.
+b: Просьба | chciałabym poprosić o dwa dni urlopu wypoczynkowego: 18 i 19 listopada. Wiem, że to intensywny okres przed zamknięciem kwartału, dlatego zależało mi na tym, żeby zapytać z wyprzedzeniem. | Просьба и понимание ситуации — это показывает ответственность.
+b: Причина | W tych dniach odbywa się ślub mojej siostry w Gdańsku. | Причину можно назвать коротко, без подробностей.
+b: Организация работы | Raport miesięczny przygotuję do 15 listopada, a w czasie mojej nieobecności pilne sprawy klientów przejmie Tomek, z którym już wszystko ustaliłam. | Главное для руководителя: кто вас заменит и что будет сделано заранее.
+b: Готовность к компромиссу | Gdyby te terminy były problemem, proszę dać znać – postaram się znaleźć inne rozwiązanie. | **Proszę dać znać** — вежливое «дайте знать» на «вы».
+b: Завершение | Pozdrawiam serdecznie\nJoanna | **Pozdrawiam serdecznie** — тепло, но корректно. С более официальным начальником — «Z poważaniem».
+r: Pani Ewo, / Panie Marku, | вежливое «вы» по имени (звательный падеж)
+r: Szanowna Pani Dyrektor, | если отношения официальные
+r: Pozdrawiam serdecznie | тёплое и корректное завершение
+r: Z poważaniem | официальное завершение
+r: Proszę dać znać / Proszę o informację | вежливое «дайте знать» на «вы»: proszę + инфинитив
+f: Chciałabym poprosić o… | Хотела бы попросить о…
+f: urlop wypoczynkowy / urlop na żądanie | ежегодный отпуск / отпуск по требованию
+f: z wyprzedzeniem | заблаговременно
+f: W czasie mojej nieobecności… | Во время моего отсутствия…
+f: Pilne sprawy przejmie… | Срочные дела возьмёт на себя…
+f: Wszystko już ustaliłam z… | Я уже всё согласовала с…
+f: Gdyby to był problem, proszę dać znać. | Если это проблема, дайте, пожалуйста, знать.
+f: Dziękuję za zrozumienie. | Спасибо за понимание.
+q: ___ Ewo, chciałabym poprosić o dwa dni urlopu.|Pani|Pana|Panią|Pan##Вежливое обращение к женщине по имени: **Pani Ewo**.
+q: Chciałam zapytać o urlop z ___.|wyprzedzeniem|wyprzedzenie|wyprzedzaniem|przodu##Устойчивое выражение: **z wyprzedzeniem** — заранее.
+q: W czasie mojej ___ pilne sprawy przejmie Tomek.|nieobecności|nieobecność|nieobecnością|nieobecny##**W czasie + Р.п.**: w czasie mojej **nieobecności**.
+q: Gdyby to był problem, proszę ___ znać.|dać|dajcie|dasz|daj##**Proszę + инфинитив** — вежливая просьба на «вы»: proszę **dać** znać.
+q: Dziękuję za ___.|zrozumienie|zrozumieniem|zrozumienia|rozumieć##**Dziękować za + В.п.**: dziękuję za **zrozumienie**.
+
+@ przyjaciolka | inf | List do przyjaciółki | Письмо подруге
+sit: Полгода назад вы переехали в Гданьск и пишете подруге в Краков: что нового, как дела у неё, и зовёте в гости.
+b: Место и дата | Gdańsk, 2 października | В личном письме дата короче, год можно не писать. | r
+b: Обращение | Kochana Magdo! | **Kochana / Droga** + звательный падеж (Magda → Magdo). После восклицательного знака текст начинается с заглавной буквы.
+b: Вступление | Wieki całe się nie odzywałam, wiem, wiem – okropnie mi wstyd! Ale wreszcie usiadłam do porządnego listu, a nie do kolejnego esemesa z buźką. | Неформальное начало: извинение, шутка, эмоции.
+b: Новости | Gdańsk mnie zachwycił. Mieszkam w starej kamienicy we Wrzeszczu, do morza mam dwadzieścia minut rowerem, a w każdą sobotę chodzę na molo w Brzeźnie. W pracy też jest dobrze: koledzy z działu to przesympatyczni ludzie, którzy w trzy miesiące nauczyli mnie więcej kaszubskich słów niż ja ich rosyjskich. | Живые подробности: где живёте, что любите, смешные мелочи.
+b: Вопросы о ней | A co u Ciebie? Jak tam nowa praca i czy Twój kot nadal terroryzuje sąsiadów? Pisz koniecznie, bo strasznie tęsknię za naszymi wieczorami na Kazimierzu. | Вопросы адресату — обязательная часть личного письма. **Ciebie, Twój** — с заглавной из вежливости.
+b: Приглашение | Może wpadniesz do mnie na weekend w listopadzie? Pokażę Ci wszystkie moje ulubione miejsca, a wieczorem pójdziemy na rybę z widokiem na port. | Приглашение с конкретикой: когда и что будете делать.
+b: Завершение | Ściskam Cię mocno\nTwoja Ola | **Ściskam (mocno)**, **Buziaki**, **Całuję** — для близких. **Twoja / Twój** перед именем — тепло.
+b: Постскриптум | PS Przywieź mi, proszę, obwarzanka – tutaj nikt nie wie, co to jest! | **PS** (по норме без точек) — место для шутки или мелкой просьбы.
+r: Kochana Magdo! / Droga Magdo! | близкой подруге; имя в звательном падеже
+r: Cześć Magda! / Hej! | совсем непринуждённо, разговорный вариант
+r: Ściskam / Buziaki / Całuję | тёплые завершения для близких
+r: Pozdrawiam serdecznie | нейтрально-тёплое, подходит и для знакомых
+r: Ty, Ciebie, Twój | в письмах пишут с заглавной — знак уважения
+f: Wieki całe się nie odzywałam. | Сто лет не давала о себе знать.
+f: Co u Ciebie słychać? | Как у тебя дела?
+f: Mam dla Ciebie mnóstwo nowin. | У меня для тебя куча новостей.
+f: Strasznie za Tobą tęsknię. | Ужасно по тебе скучаю.
+f: Może wpadniesz do mnie na weekend? | Может, заглянешь ко мне на выходные?
+f: Pisz koniecznie! | Обязательно пиши!
+f: Daj znać, co u Ciebie. | Дай знать, как ты.
+f: Ściskam Cię mocno. | Крепко обнимаю.
+q: Kochana ___! Dawno do Ciebie nie pisałam.|Magdo|Magda|Magdę|Magdy##В письме — звательный падеж: **Magdo**.
+q: Strasznie za ___ tęsknię.|Tobą|Ciebie|Tobie|Ty##**Tęsknić za + Т.п.**: tęsknię za **Tobą**.
+q: Co u ___ słychać?|Ciebie|Ty|Tobą|Ci##**U + Р.п.**: co u **Ciebie** słychać.
+q: Najcieplejsze zakończenie listu do przyjaciółki: ___|Ściskam Cię mocno|Z poważaniem|Z wyrazami szacunku|Uprzejmie pozdrawiam##**Ściskam Cię mocno** — тепло и по-дружески; остальное — официальные формулы.
+q: Może ___ do mnie na weekend?|wpadniesz|wpadasz się|wypadniesz|zapadniesz##**Wpaść do kogoś** — заглянуть в гости (разг.). «Wypaść» — выпасть, «zapaść» — провалиться.
+
+@ zaproszenie | inf | Zaproszenie na urodziny | Приглашение на день рождения
+sit: Вам исполняется тридцать, вы устраиваете праздник на даче родителей под Варшавой и приглашаете друзей по электронной почте.
+b: Тема | Temat: Trzydziestka na działce – zapraszam! | Тема-приглашение: повод и тон сразу понятны.
+b: Обращение | Hej, kochani! | **Kochani** — к группе друзей (мужско-личная форма, если в группе есть мужчины).
+b: Повод | Nie wierzę, że to piszę, ale za miesiąc kończę trzydzieści lat! Z tej okazji chciałabym zaprosić Was na imprezę na działce moich rodziców. | Повод и само приглашение — в первых строках. **Was** с заглавной.
+b: Детали | Kiedy: sobota, 20 czerwca, od 16:00 do późna\nGdzie: ogródki działkowe „Pod Lipami”, ul. Wiśniowa 12, Konstancin\nDojazd: autobus z Wilanowa albo napiszcie, to kogoś podrzucimy. | Когда, где, как добраться — отдельными строками, чтобы легко найти.
+b: Что взять | Zapewniamy grilla, napoje i tort. Jeśli chcecie, przynieście coś do picia albo swoją ulubioną sałatkę. Prezenty? Najlepszym prezentem będzie Wasza obecność, serio. | Неформально: шутка, «serio».
+b: Подтверждение | Dajcie znać do 10 czerwca, czy będziecie, żebym wiedziała, ile kiełbasek kupić. Można przyjść z osobą towarzyszącą! | Попросите подтвердить участие к дате. **Osoba towarzysząca** — «плюс один».
+b: Завершение | Do zobaczenia!\nBuziaki\nZuza | **Do zobaczenia!** и **Buziaki** — дружеские завершения.
+r: Hej, kochani! / Cześć wszystkim! | приглашение для друзей
+r: Drodzy Przyjaciele, | теплее и чуть торжественнее
+r: Szanowni Państwo, | официальное приглашение (юбилей фирмы, конференция)
+r: Do zobaczenia! / Buziaki | дружеские завершения
+r: Serdecznie zapraszam | универсальное вежливое «приглашаю»
+f: Z okazji… chciałabym zaprosić Was na… | По случаю… хочу пригласить вас на…
+f: Serdecznie zapraszam! | Сердечно приглашаю!
+f: Impreza zaczyna się o… | Праздник начинается в…
+f: Dajcie znać, czy będziecie. | Дайте знать, придёте ли.
+f: Proszę o potwierdzenie obecności do… | Прошу подтвердить участие до…
+f: z osobą towarzyszącą | со спутником, «плюс один»
+f: Najlepszym prezentem będzie Wasza obecność. | Лучшим подарком будет ваше присутствие.
+f: Nie może Was zabraknąć! | Вы обязательно должны быть!
+q: Z ___ urodzin zapraszam Was na grilla.|okazji|okazja|okazję|okazją##Устойчивое выражение: **z okazji + Р.п.** — по случаю.
+q: Dajcie znać, ___ będziecie.|czy|że|żeby|aby##Косвенный вопрос («придёте ли») — **czy**.
+q: Można przyjść z osobą ___.|towarzyszącą|towarzyszyć|towarzysz|towarzyszącej##Устойчивое выражение: **z osobą towarzyszącą** (творительный падеж ж.р.).
+q: Nie może Was ___!|zabraknąć|brakować się|zabraknie|brakło##**Nie może Was zabraknąć!** — вы обязательно должны прийти.
+q: Oficjalne zaproszenie na jubileusz firmy zaczyna się od: ___|Szanowni Państwo,|Hej, kochani!|Siema!|Cześć wszystkim!##Официальное приглашение — **Szanowni Państwo**.
+
+@ gratulacje | inf | Gratulacje z okazji ślubu | Поздравление со свадьбой
+sit: Ваши друзья Ania и Piotr поженились. Вы не смогли приехать на свадьбу и пишете им поздравление.
+b: Обращение | Kochani Aniu i Piotrze! | Оба имени — в звательном падеже. **Kochani** — мужско-личная форма: в паре есть мужчина.
+b: Поздравление | Z całego serca gratuluję Wam ślubu! | **Gratulować komuś czegoś**: Wam (Д.п.) + ślubu (Р.п.).
+b: Сожаление | Bardzo żałuję, że nie mogłam być z Wami w tym wyjątkowym dniu – zdjęcia z wesela oglądałam ze łzami w oczach. | Отсутствие объясните коротко, без длинных оправданий.
+b: Пожелания | Życzę Wam, żeby Wasza miłość była zawsze tak silna jak dziś, żebyście wspierali się w trudnych chwilach i nigdy nie przestali się razem śmiać. | **Życzę Wam, żebyście…** — пожелание через żeby + прошедшее время.
+b: Традиционная формула | Wszystkiego najlepszego na nowej drodze życia! | Классическое свадебное пожелание: **na nowej drodze życia**.
+b: Обещание встречи | Jak tylko wrócę z Kanady, przyjadę do Was z prezentem i butelką szampana. | Тёплое продолжение отношений.
+b: Завершение | Ściskam Was mocno\nOla | Дружеское завершение.
+r: Kochani Aniu i Piotrze! | паре друзей; оба имени в звательном падеже
+r: Drodzy Państwo Młodzi! | теплее и торжественнее — молодожёнам
+r: Szanowni Państwo, | официальное поздравление (коллеге, клиенту)
+r: Ściskam Was mocno / Całuję | для близких
+r: Z serdecznymi pozdrowieniami | тепло и подходит почти для всех
+f: Z całego serca gratuluję Wam… | От всего сердца поздравляю вас с…
+f: Wszystkiego najlepszego na nowej drodze życia! | Всего наилучшего на новом жизненном пути!
+f: Życzę Wam dużo miłości i cierpliwości. | Желаю вам много любви и терпения.
+f: Sto lat! | Сто лет! (традиционное пожелание и песня)
+f: Moje najserdeczniejsze gratulacje! | Мои сердечнейшие поздравления!
+f: Gratuluję awansu! | Поздравляю с повышением!
+f: Trzymam za Was kciuki! | Держу за вас кулачки!
+f: Niech spełnią się wszystkie Wasze marzenia! | Пусть сбудутся все ваши мечты!
+q: Z całego serca gratuluję Wam ___!|ślubu|ślub|ślubem|ślubowi##**Gratulować komuś czegoś** — Д.п. (Wam) + Р.п. (ślubu).
+q: Kochani Aniu i ___!|Piotrze|Piotr|Piotra|Piotrem##Оба имени в звательном падеже: Aniu i **Piotrze**.
+q: ___ Aniu i Piotrze! (обращение к паре)|Kochani|Kochane|Kochany|Kochana##В паре есть мужчина — мужско-личная форма мн.ч.: **Kochani**.
+q: Życzę Wam, ___ zawsze się wspierali.|żebyście|że|żeby|czy##**Życzę, żebyście** + прошедшее время (wspierali).
+q: Wszystkiego najlepszego na nowej drodze ___!|życia|życie|życiem|żyć##Свадебная формула: **na nowej drodze życia**.
+
+@ przeprosiny | inf | Przeprosiny | Извинение перед другом
+sit: Вы забыли о дне рождения друга и не пришли на ужин, который он устроил. Пишете ему извинение.
+b: Обращение | Drogi Kubo, | Kuba → **Kubo** (звательный, как mama → mamo).
+b: Признание вины | piszę, bo wiem, że nawaliłam. Zapomniałam o Twoich urodzinach i o kolacji, którą tak starannie przygotowałeś. Nie ma na to dobrego usprawiedliwienia. | Хорошее извинение начинается с признания, без «но».
+b: Сожаление | Bardzo mi przykro i naprawdę jest mi wstyd. Wiem, jak bardzo czekałeś na ten wieczór. | **Bardzo mi przykro**, **jest mi wstyd** — прямые слова сожаления.
+b: Объяснение | Ostatnie tygodnie w pracy były szalone i kompletnie straciłam rachubę czasu – ale to Twoje święto, a nie moje problemy, powinno było być najważniejsze. | Объяснение — одной фразой, без перекладывания вины. **Powinno było być** — «должно было быть».
+b: Как загладить вину | Czy pozwolisz, że zaproszę Cię w sobotę na kolację do tej gruzińskiej knajpki, którą tak lubisz? Ja stawiam, oczywiście. | Предложите исправить ситуацию делом. **Ja stawiam** — я угощаю.
+b: Надежда | Mam nadzieję, że mi wybaczysz. Nasza przyjaźń jest dla mnie bardzo ważna. | Тёплый финал.
+b: Завершение | Przepraszam raz jeszcze i ściskam\nMonika | Ещё одно извинение и дружеское завершение.
+r: Drogi Kubo, / Kochany Kubo! | близкому другу; Kuba → Kubo
+r: Szanowny Panie, przepraszam za… | официальное извинение (клиенту, начальнику)
+r: Bardzo mi przykro / Przepraszam z całego serca | личное извинение
+r: Najmocniej przepraszam za… | очень вежливо, подходит и для официальных писем
+r: Ściskam / Do zobaczenia | тёплое завершение
+f: Bardzo mi przykro, że… | Мне очень жаль, что…
+f: Najmocniej przepraszam za… | Приношу глубочайшие извинения за…
+f: Nie ma na to usprawiedliwienia. | Этому нет оправдания.
+f: Jest mi naprawdę wstyd. | Мне правда стыдно.
+f: Mam nadzieję, że mi wybaczysz. | Надеюсь, ты меня простишь.
+f: Chciałabym to jakoś naprawić. | Хотела бы как-то это исправить.
+f: Ja stawiam! | Я угощаю!
+f: Przepraszam za zamieszanie. | Извините за неразбериху.
+q: Drogi ___, przepraszam, że zapomniałam o Twoich urodzinach.|Kubo|Kuba|Kubę|Kubie##Kuba → звательный **Kubo** (как mama → mamo).
+q: Bardzo mi ___, że nie przyszłam.|przykro|przykry|przykrość|przykre##Устойчивое выражение: **Bardzo mi przykro** — мне очень жаль.
+q: Mam nadzieję, że mi ___.|wybaczysz|wybaczyć|wybaczasz się|wybacz##«Надеюсь, что простишь» — будущее время совершенного вида: **wybaczysz**.
+q: Najmocniej ___ za opóźnienie w odpowiedzi.|przepraszam|przepraszam się|przeproszę się|przepraszać##**Najmocniej przepraszam** — вежливое извинение; глагол **przepraszać** без «się».
+q: To Twoje święto powinno ___ najważniejsze.|było być|było|być było|będzie być##«Должно было быть» — **powinno było być**.

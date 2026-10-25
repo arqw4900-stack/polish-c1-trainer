@@ -1,0 +1,199 @@
+// @ id | заголовок | по-русски | тема | уровень
+// p: абзац / g: форма в тексте = перевод / q: вопрос | верный | неверный | неверный
+
+@ kawalerka | Kawalerka na Nadodrzu | Квартира-студия во Вроцлаве | Город и жильё | C1
+p: Kiedy Kasia dostała pracę we Wrocławiu, wydawało jej się, że najtrudniejsze ma już za sobą. Szybko jednak przekonała się, że znalezienie mieszkania w dużym mieście to osobna przygoda. Ogłoszenia znikały w ciągu kilku godzin, a te, które zostawały, wyglądały podejrzanie dobrze albo podejrzanie tanio.
+p: Po dwóch tygodniach poszukiwań trafiła na kawalerkę na Nadodrzu — dawnej dzielnicy robotniczej, która od kilku lat przeżywa drugą młodość. Kamienica była odnowiona, na podwórku ktoś posadził lawendę, a z okna widać było wieże katedry. Właściciel, starszy pan w eleganckim swetrze, od progu zaznaczył, że nie życzy sobie zwierząt ani imprez.
+p: Wszystko szło dobrze, dopóki nie zaczęli rozmawiać o umowie. Pan Zbigniew chciał trzech czynszów kaucji i umowy zawartej „na gębę”, bo — jak twierdził — papiery tylko komplikują życie. Kasia wiedziała jednak od koleżanki, że bez pisemnej umowy najmu trudno później dochodzić swoich praw, a o zameldowaniu można zapomnieć.
+p: Zamiast się kłócić, zaproponowała kompromis: umowę na piśmie, protokół zdawczo-odbiorczy ze zdjęciami licznika i ścian oraz kaucję w wysokości dwóch czynszów. Właściciel długo milczał, po czym niespodziewanie się uśmiechnął. — Widzę, że pani wie, czego chce — powiedział. — Takim najemcom ufam bardziej niż tym, którzy na wszystko się zgadzają.
+g: przekonała się = убедилась
+g: podejrzanie = подозрительно
+g: przeżywa drugą młodość = переживает вторую молодость
+g: od progu = с порога
+g: nie życzy sobie = не желает, не допускает
+g: na gębę = на словах, без бумаг (разг.)
+g: dochodzić swoich praw = отстаивать свои права
+g: protokół zdawczo-odbiorczy = акт приёма-передачи
+g: licznika = счётчика
+g: najemcom = арендаторам
+q: Dlaczego Kasia nie chciała umowy „na gębę”? | Bez umowy na piśmie trudno dochodzić praw i się zameldować | Właściciel wydał jej się nieuprzejmy | Kaucja była dla niej za niska
+q: Co zaproponowała właścicielowi? | Pisemną umowę, protokół ze zdjęciami i niższą kaucję | Wyższy czynsz w zamian za brak umowy | Rezygnację z mieszkania
+q: Jak zareagował pan Zbigniew? | Zgodził się, bo docenił jej stanowczość | Obraził się i zakończył rozmowę | Zażądał jeszcze wyższej kaucji
+
+@ rozmowa | Pytanie o pieniądze | Вопрос о деньгах | Работа | C1
+p: Igor przygotowywał się do tej rozmowy kwalifikacyjnej przez cały tydzień. Przećwiczył odpowiedzi na typowe pytania, przejrzał profil firmy i nauczył się na pamięć kilku zdań o swoich mocnych stronach. Najbardziej stresowała go jednak nie rozmowa po polsku, tylko pytanie o oczekiwania finansowe.
+p: Rekruterka okazała się życzliwa i konkretna. Zapytała o jego doświadczenie w zarządzaniu projektami, o to, jak radzi sobie z presją czasu, i poprosiła o przykład konfliktu w zespole. Igor opowiedział, jak kiedyś musiał pogodzić dwóch programistów, z których każdy był przekonany o swojej racji. Rozwiązaniem okazało się nie przekonywanie ich, lecz wspólne ustalenie kryteriów, według których oceni się oba pomysły.
+p: Wreszcie padło pytanie, którego się obawiał. Zamiast podać jedną kwotę, przypomniał sobie radę znajomego i zapytał najpierw o widełki płacowe przewidziane dla tego stanowiska. Rekruterka podała przedział, który był wyższy, niż się spodziewał. Igor wskazał górną granicę, uzasadniając to certyfikatem i znajomością trzech języków.
+p: Na koniec sam zadał kilka pytań: o pracę hybrydową, budżet szkoleniowy i o to, jak wygląda wdrożenie nowych osób. Wychodząc z biura, czuł, że niezależnie od wyniku zrobił coś ważnego: pierwszy raz rozmawiał o pieniądzach bez poczucia, że prosi o łaskę. Dwa dni później dostał ofertę.
+g: przećwiczył = отрепетировал
+g: mocnych stronach = сильных сторонах
+g: oczekiwania finansowe = финансовые ожидания
+g: pogodzić = примирить
+g: przekonany o swojej racji = уверенный в своей правоте
+g: padło pytanie = прозвучал вопрос
+g: się obawiał = опасался
+g: przedział = диапазон
+g: uzasadniając = обосновывая
+g: prosi o łaskę = просит милости, одолжения
+q: Co najbardziej stresowało Igora przed rozmową? | Pytanie o oczekiwania finansowe | Rozmowa po polsku | Test z programowania
+q: Jak rozwiązał konflikt dwóch programistów? | Wspólnie ustalili kryteria oceny pomysłów | Wybrał pomysł starszego kolegi | Zgłosił sprawę szefowi
+q: Co zrobił, gdy zapytano go o pieniądze? | Zapytał o widełki i wskazał górną granicę | Podał najniższą możliwą kwotę | Odmówił odpowiedzi
+
+@ spoldzielnia | Ser z Podlasia | Сыр с Подляшья | Деньги и бизнес | C1
+p: Kiedy w małej wsi pod Białymstokiem zamknięto ostatnią mleczarnię, wydawało się, że miejscowi rolnicy nie mają przed sobą żadnej przyszłości. Skup mleka płacił grosze, a koszty utrzymania krów rosły z roku na rok. Wtedy Agnieszka, córka jednego z gospodarzy, wróciła z Warszawy z pomysłem, który sąsiedzi uznali za szalony.
+p: Zaproponowała, żeby kilka rodzin założyło spółdzielnię i zaczęło samo produkować sery. Pierwsze miesiące były trudne. Trzeba było wyremontować starą oborę, spełnić wymagania sanepidu i znaleźć pieniądze na kocioł do pasteryzacji. Część kosztów pokryła dotacja z funduszy unijnych, resztę spółdzielcy wyłożyli z własnych oszczędności.
+p: Prawdziwym przełomem okazał się jednak internet. Agnieszka założyła sklep internetowy i zaczęła opowiadać w mediach społecznościowych historię każdego sera: z czyjego mleka powstał, ile dojrzewał i dlaczego ma taki, a nie inny smak. Klienci z dużych miast pokochali tę szczerość. Zamówienia zaczęły przychodzić szybciej, niż spółdzielnia była w stanie je realizować.
+p: Dziś spółdzielnia zatrudnia dwanaście osób, a jej sery można kupić w delikatesach w Warszawie i Gdańsku. Agnieszka powtarza, że nie chodziło o to, by szybko się wzbogacić, tylko o to, by wieś przetrwała. — Najważniejsze było przekonać ludzi, że razem znaczymy więcej niż osobno — mówi.
+g: mleczarnię = молокозавод
+g: Skup mleka = закупка молока
+g: gospodarzy = хозяев (фермеров)
+g: spółdzielnię = кооператив
+g: oborę = коровник
+g: kocioł = котёл
+g: wyłożyli = выложили, вложили
+g: dojrzewał = созревал
+g: realizować = выполнять
+g: przetrwała = выжила, уцелела
+q: Dlaczego rolnicy byli w trudnej sytuacji? | Zamknięto mleczarnię, a za mleko płacono bardzo mało | Ich krowy zachorowały | Nikt nie chciał kupować ich sera
+q: Co okazało się przełomem dla spółdzielni? | Sprzedaż przez internet i opowiadanie historii serów | Duży kredyt z banku | Reklama w telewizji
+q: Co według Agnieszki było najważniejsze? | Przekonanie ludzi do wspólnego działania | Szybkie wzbogacenie się | Eksport sera za granicę
+
+@ karta | Ponaglenie | Жалоба на волокиту | Право и учреждения | C1
+p: Oksana mieszka w Polsce od czterech lat. Pracuje w biurze rachunkowym, płaci podatki, ma polskich przyjaciół i coraz częściej łapie się na tym, że myśli po polsku. Jedno tylko spędza jej sen z powiek: wniosek o kartę pobytu, który złożyła w urzędzie wojewódzkim ponad rok temu.
+p: Przez pierwsze miesiące cierpliwie czekała. Potem zaczęła dzwonić na infolinię, ale albo nikt nie odbierał, albo słyszała, że sprawa „jest w toku”. Tymczasem jej paszport wkrótce traci ważność, a bez decyzji nie może pojechać do rodziców na święta, bo nie ma pewności, że wpuszczą ją z powrotem.
+p: Koleżanka z pracy, która studiowała prawo, poradziła jej, żeby złożyła ponaglenie. Oksana nie wiedziała nawet, że coś takiego istnieje. Okazało się, że zgodnie z kodeksem postępowania administracyjnego strona może się poskarżyć na bezczynność urzędu, jeśli sprawa nie została załatwiona w terminie. Pismo kieruje się do organu wyższego stopnia, ale składa się je za pośrednictwem urzędu, który prowadzi sprawę.
+p: Razem napisały krótkie, rzeczowe pismo: dane wnioskodawczyni, numer sprawy, data złożenia wniosku i prośba o niezwłoczne wydanie decyzji. Oksana wysłała je listem poleconym za potwierdzeniem odbioru. Miesiąc później dostała wezwanie do uzupełnienia jednego dokumentu, a po kolejnych trzech tygodniach — decyzję pozytywną. — Nie wiem, czy to zasługa ponaglenia — śmieje się — ale pierwszy raz poczułam, że nie jestem tylko numerkiem w kolejce.
+g: łapie się na tym = ловит себя на том
+g: spędza jej sen z powiek = не даёт ей спать
+g: jest w toku = в процессе рассмотрения
+g: traci ważność = теряет срок действия
+g: ponaglenie = жалоба на затягивание дела
+g: bezczynność = бездействие
+g: organu wyższego stopnia = вышестоящего органа
+g: za pośrednictwem = через, при посредничестве
+g: rzeczowe = деловое, по существу
+g: niezwłoczne = безотлагательное
+g: uzupełnienia = дополнения, доукомплектования
+q: Co najbardziej martwiło Oksanę? | Bardzo długie oczekiwanie na kartę pobytu | Brak pracy | Kłopoty z językiem polskim
+q: Gdzie składa się ponaglenie? | Za pośrednictwem urzędu, który prowadzi sprawę | Bezpośrednio w sądzie | W ambasadzie swojego kraju
+q: Jak zakończyła się sprawa? | Oksana dostała decyzję pozytywną | Wniosek został odrzucony | Sprawa wciąż jest w toku
+
+@ budzet | Plac zabaw czy parking? | Детская площадка или парковка? | Общество и политика | C1
+p: Na zebranie mieszkańców osiedla przyszło tym razem prawie sto osób, choć zwykle pojawiało się najwyżej dwudziestu emerytów i jeden zagubiony student. Powód był prosty: w budżecie obywatelskim do wygrania był milion złotych, a na liście zostały dwa projekty — nowy plac zabaw z zielenią albo wielopoziomowy parking.
+p: Zwolennicy parkingu mówili o codziennej frustracji. Wracają z pracy po osiemnastej i krążą po osiedlu nawet pół godziny, a w końcu zostawiają samochód na trawniku i dostają mandat od straży miejskiej. Ich przeciwnicy odpowiadali, że więcej miejsc parkingowych oznacza tylko więcej aut, a dzieci od lat bawią się między śmietnikami.
+p: Emocje szybko sięgnęły zenitu. Ktoś zarzucił drugiej stronie egoizm, ktoś inny przypomniał, kto w zeszłym roku spóźniał się z czynszem. Radna, która prowadziła spotkanie, kilka razy prosiła o spokój i przypominała, że głosowanie odbędzie się przez internet, a nie na sali.
+p: Najciekawsze wydarzyło się jednak po zebraniu. Dwie sąsiadki z przeciwnych obozów, które wcześniej znały się tylko z widzenia, wyszły razem przed blok i zaczęły liczyć. Okazało się, że w okolicy jest pusty parking przy markecie, otwarty w nocy, a plac zabaw zmieściłby się na nieużywanym boisku. Po tygodniu złożyły wspólny projekt na kolejną edycję budżetu. Jak powiedziała jedna z nich, demokracja zaczyna się wtedy, gdy przestajemy krzyczeć i zaczynamy rozmawiać.
+g: osiedla = жилого квартала
+g: zagubiony = растерянный
+g: Zwolennicy = сторонники
+g: krążą = кружат
+g: trawniku = газоне
+g: przeciwnicy = противники
+g: śmietnikami = мусорными контейнерами
+g: sięgnęły zenitu = достигли предела
+g: zarzucił = упрекнул, обвинил
+g: obozów = лагерей
+g: z widzenia = в лицо (не будучи знакомыми)
+q: O co spierali się mieszkańcy? | O to, czy z budżetu obywatelskiego sfinansować plac zabaw, czy parking | O wybór nowej radnej | O wysokość czynszu
+q: Jak miało się odbyć głosowanie? | Przez internet | Na zebraniu przez podniesienie rąk | Listownie
+q: Co zrobiły dwie sąsiadki po zebraniu? | Przygotowały wspólny, kompromisowy projekt | Złożyły skargę do prezydenta miasta | Wyprowadziły się z osiedla
+
+@ sor | Noc na SOR-ze | Ночь в приёмном отделении | Здоровье | C1
+p: Była prawie północ, kiedy tata Michała złapał się za klatkę piersiową i powiedział, że coś jest nie tak. Michał nie zastanawiał się długo: zadzwonił na numer alarmowy, a dyspozytorka spokojnym głosem kazała mu otworzyć drzwi i nie podawać ojcu żadnych leków. Karetka przyjechała po dwunastu minutach, które wydawały się wiecznością.
+p: Ratownicy zrobili EKG jeszcze w mieszkaniu. Zawału na szczęście nie było, ale ciśnienie było bardzo wysokie, więc zabrali ojca na szpitalny oddział ratunkowy. Tam zaczęło się czekanie. Na korytarzu siedzieli ludzie z rozbitymi głowami, kaszlące dzieci i starsza pani, która co kwadrans pytała, czy już jest jej kolej.
+p: Michał był wściekły. Wydawało mu się, że nikt się nimi nie interesuje, a przecież jego ojciec mógł umrzeć. Dopiero pielęgniarka, która podeszła z kubkiem herbaty, wytłumaczyła mu, że na SOR-ze nie obowiązuje kolejność zgłoszeń, tylko stan pacjenta. Ci, którzy czekają najdłużej, są zwykle w najlepszej sytuacji.
+p: O czwartej nad ranem lekarka wypisała ojca do domu z nowymi lekami i skierowaniem do kardiologa. Michał wychodził zmęczony, ale z innym nastawieniem. Rano napisał na forum miasta długi wpis — nie z narzekaniem, jak planował w nocy, lecz z podziękowaniem dla ludzi, którzy pracują tam, gdzie każdy z nas ma nadzieję nigdy nie trafić.
+g: klatkę piersiową = грудную клетку
+g: dyspozytorka = диспетчер
+g: wiecznością = вечностью
+g: rozbitymi = разбитыми
+g: co kwadrans = каждые четверть часа
+g: kolej = очередь
+g: kolejność zgłoszeń = очерёдность обращения
+g: wypisała = выписала
+g: nastawieniem = настроем
+g: trafić = попасть
+q: Co poradziła Michałowi dyspozytorka? | Otworzyć drzwi i nie dawać ojcu leków | Zawieźć ojca samemu do szpitala | Podać ojcu tabletkę na ciśnienie
+q: Od czego zależy kolejność przyjęć na SOR-ze? | Od stanu pacjenta | Od godziny przyjazdu | Od wieku pacjenta
+q: Co Michał napisał rano na forum? | Podziękowanie dla pracowników szpitala | Skargę na długie czekanie | Prośbę o polecenie dobrego kardiologa
+
+@ lesniczy | Leśniczy | Лесничий | Природа и экология | C1
+p: Pan Tadeusz jest leśniczym od trzydziestu lat i zna swój rewir lepiej niż własne mieszkanie. Potrafi rozpoznać ślady żubra, wie, gdzie sarny chowają młode, i pamięta czasy, kiedy w lesie nie spotykało się nikogo poza grzybiarzami. Dziś coraz częściej spotyka ludzi z transparentami.
+p: Wszystko przez kornika, małego chrząszcza, który po kilku suchych latach zaatakował świerki na niespotykaną skalę. Część leśników uważa, że chore drzewa trzeba wycinać, żeby ratować resztę drzewostanu. Ekolodzy odpowiadają, że w lesie naturalnym martwe drzewa są częścią cyklu życia, a wycinka niszczy siedliska rzadkich gatunków ptaków i grzybów.
+p: Pan Tadeusz ma z tym sporem kłopot, bo widzi racje obu stron. Pamięta, jak w młodości sadził świerki w równych rzędach, jak na plantacji. Dziś wie, że taki las jest słaby i podatny na choroby. — Przyroda nie zna pojęcia porządku — mówi. — To my wymyśliliśmy, że las ma wyglądać jak park.
+p: W zeszłym roku zaprosił do leśniczówki aktywistów i kolegów z nadleśnictwa. Przyszli nieufni, z gotowymi argumentami. Rozmawiali do późnej nocy przy ognisku. Nie doszli do porozumienia w każdej sprawie, ale ustalili jedno: w części lasu zostawią martwe drzewa w spokoju i przez dziesięć lat będą wspólnie obserwować, co się wydarzy. Pan Tadeusz uśmiecha się, że może nie doczeka wyników, ale las ma czas.
+g: rewir = участок (лесничего)
+g: grzybiarzami = грибниками
+g: transparentami = транспарантами
+g: chrząszcza = жука
+g: na niespotykaną skalę = в небывалых масштабах
+g: drzewostanu = древостоя
+g: podatny = подверженный
+g: leśniczówki = дома лесничего
+g: nadleśnictwa = лесничества (лесхоза)
+g: ognisku = костре
+g: doczeka = доживёт до
+q: Dlaczego w lesie pojawili się protestujący? | Z powodu sporu o wycinkę drzew zaatakowanych przez kornika | Z powodu budowy nowej drogi | Z powodu polowań na żubry
+q: Co pan Tadeusz myśli dziś o lasach sadzonych w równych rzędach? | Że są słabe i podatne na choroby | Że są najpiękniejsze | Że najłatwiej je chronić
+q: Co ustalili uczestnicy spotkania w leśniczówce? | Że w części lasu zostawią martwe drzewa i będą obserwować przyrodę | Że wytną wszystkie chore drzewa | Że zamkną las dla turystów
+
+@ asystent | Asystent | Ассистент | Наука и технологии | C1
+p: Kiedy w firmie Joanny wprowadzono asystenta opartego na sztucznej inteligencji, połowa zespołu przyjęła go z entuzjazmem, a druga połowa — z nieukrywaną podejrzliwością. Program miał streszczać spotkania, pisać pierwsze wersje raportów i odpowiadać na proste pytania klientów.
+p: Joanna, analityczka danych, należała do sceptyków. Nie chodziło o strach przed utratą pracy, tylko o zaufanie. Przez pierwsze tygodnie sprawdzała każdą liczbę, którą wygenerował asystent. Zwykle wszystko się zgadzało, ale raz wyłapała błąd, który mógł kosztować firmę kontrakt: program pomylił dane z dwóch różnych kwartałów, a raport wyglądał zupełnie przekonująco.
+p: Na zebraniu działu zaproponowała prostą zasadę: maszyna może przygotować szkic, ale za każdy dokument odpowiada konkretny człowiek, który go podpisuje. Kierownik najpierw się skrzywił, bo liczył na oszczędność czasu, ale po dyskusji przyznał jej rację. Wprowadzili też coś w rodzaju dziennika wpadek, do którego każdy mógł wpisać błąd programu.
+p: Po pół roku okazało się, że zespół pracuje szybciej, a pomyłek jest mniej. Joanna nie stała się entuzjastką, ale przestała traktować asystenta jak zagrożenie. — To jak bardzo zdolny stażysta — tłumaczy znajomym. — Pracuje szybko i nigdy się nie męczy, ale nie przyjdzie mu do głowy, że czegoś nie wie. Dlatego ktoś musi go pilnować.
+g: opartego = основанного
+g: nieukrywaną = нескрываемой
+g: streszczać = кратко пересказывать
+g: utratą = потерей
+g: wyłapała = заметила, выловила
+g: przekonująco = убедительно
+g: szkic = черновик
+g: się skrzywił = поморщился
+g: wpadek = промахов
+g: pilnować = присматривать, контролировать
+q: Dlaczego Joanna była sceptyczna wobec asystenta? | Nie miała zaufania do jego wyników | Bała się, że straci pracę | Uważała, że jest za drogi
+q: Jaką zasadę zaproponowała? | Za każdy dokument odpowiada człowiek, który go podpisuje | Program może sam wysyłać raporty klientom | Trzeba zrezygnować z programu
+q: Do kogo Joanna porównuje asystenta? | Do zdolnego stażysty | Do doświadczonego szefa | Do zepsutego kalkulatora
+
+@ premiera | Premiera | Премьера | Культура и медиа | C1
+p: Na godzinę przed premierą Ewa siedziała w garderobie i wpatrywała się w lustro, nie widząc własnej twarzy. Grała w teatrze od dziesięciu lat, ale jeszcze nigdy nie dostała głównej roli w tak głośnym spektaklu. Reżyser, znany z bezkompromisowych adaptacji klasyki, przeniósł akcję „Moralności pani Dulskiej” do współczesnego apartamentowca na strzeżonym osiedlu.
+p: Próby były wyczerpujące. Reżyser kazał powtarzać jedną scenę po dwadzieścia razy i rzadko kogokolwiek chwalił. Ewa kilka razy była bliska rezygnacji, zwłaszcza po tym, jak w internecie pojawiły się złośliwe komentarze ludzi, którzy spektaklu nie widzieli, ale już wiedzieli, że to „profanacja”.
+p: Kiedy zgasły światła, trema minęła w jednej chwili. Ewa czuła publiczność jak jeden wielki, oddychający organizm. Ludzie śmiali się w miejscach, których nikt nie przewidział, a w finale, gdy Dulska zamyka drzwi przed własnym synem, na widowni zapadła taka cisza, że słychać było szum klimatyzacji.
+p: Owacja na stojąco trwała kilka minut. Następnego dnia recenzje były podzielone: jedni pisali o odważnym odczytaniu dramatu, inni o niepotrzebnej publicystyce. Ewa przeczytała tylko jedną, krótką, napisaną przez emerytowaną nauczycielkę na blogu: „Wyszłam z teatru i zadzwoniłam do syna, z którym nie rozmawiałam od roku”. Uznała, że to najważniejsza recenzja, jaką kiedykolwiek dostała.
+g: garderobie = гримёрке
+g: wpatrywała się = всматривалась
+g: głośnym = нашумевшем
+g: bezkompromisowych = бескомпромиссных
+g: strzeżonym osiedlu = охраняемом жилом комплексе
+g: wyczerpujące = изнурительные
+g: trema = волнение перед выходом на сцену
+g: zapadła = наступила
+g: odczytaniu = прочтении
+g: publicystyce = публицистике
+q: Czym wyróżniał się spektakl, w którym grała Ewa? | Akcję klasycznego dramatu przeniesiono do współczesności | Był to musical | Grali w nim wyłącznie amatorzy
+q: Co działo się w internecie przed premierą? | Ludzie, którzy nie widzieli spektaklu, pisali złośliwe komentarze | Wszystkie bilety sprzedano w godzinę | Reżyser przepraszał za spektakl
+q: Którą recenzję Ewa uznała za najważniejszą? | Wpis emerytowanej nauczycielki, która zadzwoniła do syna | Tekst znanego krytyka w tygodniku | Recenzję w telewizji publicznej
+
+@ wesele | Wesele pod Tarnowem | Свадьба под Тарновом | Разговорный язык | C1
+p: — Słuchaj, ogarniesz mi transport na wesele? — zapytał Bartek w środę wieczorem. — Moja fura padła na amen, a nie chcę wydawać kasy na taksówkę z Krakowa pod Tarnów. Kuba westchnął, bo planował spokojny weekend, ale kumplowi się nie odmawia. — Spoko, podrzucę cię. Tylko bez kitu, wyjeżdżamy punktualnie.
+p: Oczywiście nie wyjechali punktualnie. Bartek zaspał, potem okazało się, że zapomniał prezentu, a na autostradzie złapali korek. Kiedy w końcu dotarli pod kościół, ceremonia już trwała. Weszli na palcach, ale Bartek potknął się o próg i cała rodzina panny młodej odwróciła się w ich stronę. — Ale przypał — szepnął. — Dobra, nie spinaj się — odpowiedział Kuba. — Zaraz wszyscy o tym zapomną.
+p: Wesele było, jak to się mówi, na bogato: sto pięćdziesiąt osób, orkiestra do białego rana i tyle jedzenia, że stoły się uginały. Ciocia Grażyna co pięć minut dolewała gościom wódki i powtarzała, że kto z nią nie wypije, ten ją obrazi. Kuba prowadził, więc grzecznie odmawiał, co ciocia uznała za osobistą zniewagę.
+p: Około trzeciej nad ranem orkiestra zagrała „Jesteś szalona” i nawet najbardziej sztywni wujkowie ruszyli na parkiet. Kuba, który miał wyjść po północy, tańczył z babcią panny młodej i świetnie się bawił. Kiedy rano wracali do Krakowa, Bartek, lekko skacowany, zapytał: — No i co, żałujesz? — Weź przestań — zaśmiał się Kuba. — Było mega. Ale następnym razem to ty prowadzisz.
+g: ogarniesz = организуешь, устроишь (разг.)
+g: fura padła na amen = тачка окончательно сломалась (разг.)
+g: kumplowi = корешу, приятелю
+g: bez kitu = без шуток
+g: zaspał = проспал
+g: potknął się = споткнулся
+g: przypał = палево, конфуз (разг.)
+g: nie spinaj się = не напрягайся
+g: na bogato = с размахом (разг.)
+g: uginały = прогибались
+g: zniewagę = оскорбление
+g: parkiet = танцпол
+g: skacowany = с похмелья
+g: Weź przestań = да брось ты
+q: Dlaczego Bartek poprosił Kubę o transport? | Bo jego samochód się zepsuł | Bo nie miał prawa jazdy | Bo chciał oszczędzić na paliwie
+q: Co się stało, kiedy weszli do kościoła? | Bartek potknął się i wszyscy się odwrócili | Ksiądz przerwał ceremonię | Pomylili kościoły
+q: Dlaczego ciocia Grażyna się obraziła? | Bo Kuba odmawiał picia wódki | Bo nie przynieśli prezentu | Bo Kuba nie chciał z nią tańczyć

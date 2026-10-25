@@ -1,0 +1,237 @@
+# Разговорный язык | Język potoczny
+spoko | норм, без проблем | Spoko, zdążymy na pociąg.
+na luzie | расслабленно, без напряга | Rozmowa była na luzie, bez sztywnych pytań.
+wyluzuj | расслабься | Wyluzuj, to tylko egzamin próbny.
+luzak | человек на расслабоне | Nowy szef to luzak, nikt nie chodzi w garniturze.
+ogarnąć | разобраться, справиться, привести в порядок | Ogarnę te papiery do jutra.
+ogarnięty | толковый, собранный | Nowy stażysta jest naprawdę ogarnięty.
+czaić | въезжать, понимать | Czaisz, o co mi chodzi?
+kumać | сечь, соображать | Nic nie kumam z tej instrukcji.
+kumpel | приятель, кореш | Wpadłem na kumpla ze studiów.
+ziomek | братан, земляк | Siema, ziomek, dawno cię nie widziałem!
+siema | привет (молодёжное) | Siema, co tam u ciebie?
+nara | пока (молодёжное) | Dobra, nara, muszę uciekać.
+dzięki | спасибо (разг.) | Dzięki za podwózkę!
+sorki | сорян, извини | Sorki, zapomniałam oddzwonić.
+dobra | ладно, окей | Dobra, to widzimy się o ósmej.
+jasne | конечно, ясное дело | Jasne, że przyjdę na twoje urodziny!
+nie ma sprawy | не вопрос | Podrzucisz mnie na dworzec? – Nie ma sprawy.
+wszystko gra | всё путём | Spokojnie, wszystko gra.
+git | ништяк, порядок | Wszystko załatwione, jest git.
+fajny | классный | Masz fajną kurtkę.
+mega | супер, очень (разг.) | Było mega fajnie, musimy to powtórzyć.
+sztos | бомба, огонь (о чём-то отличном) | Ta pizza to sztos.
+dać czadu | зажечь, выдать по полной | Zespół dał czadu na koncercie.
+wymiatać | рулить, быть лучшим | Ona wymiata w szachy.
+kozak | крутой, смельчак | Skoczyłeś z tego mostu? Ale z ciebie kozak!
+essa | кайф, есть! (молодёжное) | Zdałem prawo jazdy! Essa!
+krindż | кринж | Ten filmik to totalny krindż.
+czilować | чиллить, отдыхать | W niedzielę czilujemy nad jeziorem.
+masakra | кошмар, жесть | W pracy masakra, nie mam chwili dla siebie.
+żenada | позорище | Ten występ to była żenada.
+obciach | стыдоба, позор | Przyjść w dresie na wesele? Totalny obciach.
+przypał | палево, неловкая ситуация | Ale przypał, wszyscy to widzieli.
+ale lipa | вот фигня, облом | Odwołali koncert? Ale lipa!
+do bani | никуда не годится | Ten telefon jest do bani.
+kasa | бабки, деньги | Nie mam kasy na wakacje.
+hajs | бабло | Ile hajsu poszło na ten remont?
+stówa | сотня (100 злотых) | Pożycz mi stówę do piątku.
+dycha | десятка (10 злотых) | Bilet kosztował dychę.
+fucha | халтура, подработка | Złapał fuchę na weekend.
+robota | работа (разг.) | Mam dziś masę roboty.
+korpo | корпорация как место работы (пренебр.) | Uciekł z korpo i otworzył piekarnię.
+ściemniać | врать, пудрить мозги | Nie ściemniaj, widziałem cię w kinie.
+ściema | враньё, туфта | Ta promocja to jedna wielka ściema.
+wciskać kit | вешать лапшу на уши | Nie wciskaj mi kitu, wiem, jak było.
+bez kitu | без шуток, серьёзно | Bez kitu, widziałem go w telewizji.
+serio | серьёзно?, правда | Serio? Nie wierzę!
+no weź | да ладно тебе, ну перестань | No weź, nie obrażaj się o taki drobiazg.
+no nie? | правда же? | Fajnie tu, no nie?
+w sumie | в принципе, вообще-то | W sumie masz rację.
+jakby | как бы (слово-паразит) | To jest jakby trochę dziwne.
+generalnie | в целом (слово-паразит) | Generalnie było spoko, tylko jedzenie słabe.
+totalnie | абсолютно, полностью (разг.) | Totalnie się z tobą zgadzam.
+strasznie | ужасно, очень (разг.) | Strasznie się cieszę, że jesteś.
+kurczę | блин! | Kurczę, zapomniałem kluczy!
+cholera | чёрт! | Cholera, spóźnimy się!
+jasny gwint | ёлки-палки | Jasny gwint, znowu pada!
+o matko | мамочки!, боже мой | O matko, ile tu ludzi!
+no to klops | ну всё, приехали | Zgubiłeś bilety? No to klops.
+i po ptakach | и пиши пропало | Bramkarz się pomylił i po ptakach.
+co jest grane? | что происходит? | Co jest grane? Czemu wszyscy krzyczą?
+o co kaman? | в чём прикол? (шутл.) | O co kaman z tym zdjęciem?
+w try miga | в два счёта | Naprawił kran w try miga.
+na maksa | по полной, на полную | Bawiliśmy się na maksa.
+kupa ludzi | куча народу | Na koncercie była kupa ludzi.
+od groma | уйма, до фига | Mam od groma roboty przed świętami.
+ciut | чуточку | Dosyp ciut cukru.
+na oko | на глаз, навскидку | Na oko ma ze trzydzieści lat.
+z grubsza | в общих чертах | Opowiem ci z grubsza, co się stało.
+na szybko | на скорую руку | Zjadłem coś na szybko w pracy.
+na czuja | наугад, по наитию | Wybrałem odpowiedź na czuja i trafiłem.
+na odwal się | спустя рукава | Zrobił projekt na odwal się.
+po łebkach | поверхностно, по верхам | Przeczytałem ten rozdział po łebkach.
+na ostatnią chwilę | в последний момент | Zawsze pakuje się na ostatnią chwilę.
+od ręki | сразу, на месте | Paszport tymczasowy wyrobili mi od ręki.
+na amen | насовсем, окончательно | Komputer padł na amen.
+paść | сломаться, сдохнуть (о технике) | Bateria mi padła w połowie rozmowy.
+rozwalić | разбить, разнести | Rozwalił auto na drzewie.
+walnąć | шарахнуть, ударить | Walnął pięścią w stół.
+zwinąć | стащить, стянуть | Ktoś mi zwinął portfel w tramwaju.
+zgarnąć | загрести, забрать | Zgarnął całą pulę.
+wkurzać | бесить | Wkurza mnie, kiedy ktoś się spóźnia.
+wkurzony | взбешённый | Szef był wkurzony jak nigdy.
+spinać się | напрягаться, нервничать (разг.) | Nie spinaj się tak przed rozmową.
+mieć cykora | трусить, дрейфить | Miałem cykora przed skokiem na bungee.
+dołek | хандра, депрессняк | Od tygodnia mam dołek.
+zdołowany | подавленный, в депрессняке | Jest zdołowany po rozstaniu.
+jarać się | тащиться (от чего-л.) | Jara się nowym telefonem jak dziecko.
+kręcić kogoś | заводить, нравиться (кому-л.) | Szybkie samochody w ogóle mnie nie kręcą.
+wkręcić kogoś | разыграть | Wkręciłeś mnie! Myślałem, że to prawda.
+wkręcić się | втянуться, подсесть | Wkręciłem się w ten serial.
+olać | забить, проигнорировать | Olałem tę imprezę i poszedłem spać.
+mieć gdzieś | плевать (на что-л.) | Mam gdzieś, co ludzie powiedzą.
+mieć w nosie | до лампочки | On ma w nosie twoje rady.
+zwiać | смыться, удрать | Złodziej zwiał, zanim przyjechała policja.
+spadaj | отвали | Spadaj, nie mam czasu na głupoty.
+zmywać się | сваливать, уходить | Zmywam się, jutro wcześnie wstaję.
+muszę lecieć | мне пора бежать | Sorry, muszę lecieć, mam autobus.
+wpaść do kogoś | заскочить к кому-л. | Wpadnij do mnie wieczorem na herbatę.
+skoczyć do sklepu | сбегать в магазин | Skoczę do sklepu po mleko.
+wyrwać się | вырваться (освободиться) | Wyrwę się z pracy na godzinę.
+kimać | дрыхнуть | Kimałem do południa.
+uciąć sobie drzemkę | вздремнуть | Po obiedzie ucięłam sobie drzemkę.
+żarcie | жратва, еда | Żarcie w tej knajpie jest rewelacyjne.
+knajpa | кафешка, забегаловка | Spotkajmy się w knajpie na rogu.
+browar | пивко (разг.) | Idziemy na browara po pracy?
+flaszka | бутылка водки | Przyniósł flaszkę na imieniny.
+impreza | вечеринка | Impreza trwała do rana.
+melanż | тусовка (молодёжн.) | Po sesji robimy melanż u Kaśki.
+balanga | гулянка, пирушка | Sąsiedzi znowu mają balangę.
+kac | похмелье | Mam potwornego kaca.
+wstawiony | подвыпивший, навеселе | Wujek był już lekko wstawiony.
+zalany | пьяный в стельку | Był tak zalany, że nie trafił do domu.
+fura | тачка (машина) | Kupił nową furę na kredyt.
+chata | хата, дом | Rodzice wyjechali, mamy wolną chatę.
+ciuchy | шмотки | Kupuję ciuchy w lumpeksie.
+lumpeks | секонд-хенд | W lumpeksie znalazłam markową kurtkę za grosze.
+kiecka | платье (разг.) | Ładna kiecka, nowa?
+komóra | мобила | Zadzwoń do mnie na komórę.
+komp | комп | Komp mi się znowu zawiesił.
+net | инет | Na działce nie mam netu.
+fotka | фотка | Wrzuć fotkę na Insta.
+koleś | чувак | Jakiś koleś pytał o ciebie.
+typ | тип, подозрительный субъект | Pod sklepem kręci się jakiś dziwny typ.
+facet | мужчина, парень (разг.) | Jej facet jest strażakiem.
+babka | тётка, женщина (разг.) | Ta nowa szefowa to fajna babka.
+starzy | предки (родители) | Starzy wyjechali na weekend.
+dzieciak | малой, ребёнок | Dzieciaki grają w piłkę na podwórku.
+smarkacz | сопляк | Ten smarkacz mi pyskował!
+ciacho | красавчик | Nowy kolega to niezłe ciacho.
+randka | свидание | Idziemy na pierwszą randkę.
+podrywać | клеить, флиртовать | Podrywał ją cały wieczór.
+bajerować | заговаривать зубы | Przestań mnie bajerować i powiedz prawdę.
+chodzić ze sobą | встречаться (о паре) | Chodzą ze sobą od liceum.
+rzucić kogoś | бросить кого-л. | Rzuciła go po trzech latach.
+dać kosza | отшить, дать от ворот поворот | Dała mu kosza przy wszystkich.
+zakochany po uszy | влюблённый по уши | Jest zakochany po uszy.
+obibok | лодырь | Ten obibok znowu nic nie zrobił.
+sztywniak | сухарь, человек без чувства юмора | Nie bądź sztywniakiem, zatańcz z nami.
+nudziarz | зануда | Nie zapraszaj tego nudziarza.
+mądrala | умник | Pan mądrala znowu wie wszystko najlepiej.
+cwaniak | ловкач, хитрюга | Ten cwaniak zawsze znajdzie jakiś sposób.
+frajer | лох, простак | Nie bądź frajerem, nie płać za nich.
+lamus | лузер, отстой (молодёжн.) | Tylko lamus by się na to nabrał.
+palant | придурок | Co za palant, zajechał mi drogę!
+świr | псих | Ten świr jeździ dwieście na godzinę.
+kapuś | стукач | Ktoś z klasy okazał się kapusiem.
+lizus | подлиза | Lizus zawsze przynosi pani kwiaty.
+mieć nierówno pod sufitem | быть с приветом | On chyba ma nierówno pod sufitem.
+wtopa | прокол | Zapomniałem o jej urodzinach. Ale wtopa!
+wpadka | ляп, конфуз | Prezenter zaliczył wpadkę na wizji.
+nawalić | облажаться, подвести | Znowu nawaliłem z terminem.
+zawalić | завалить (дело) | Zawaliłem egzamin z ekonomii.
+dać plamę | опозориться, сплоховать | Dałem plamę na prezentacji.
+strzelić gafę | допустить бестактность | Strzeliłem gafę, pytając o jej męża.
+palnąć głupstwo | ляпнуть глупость | Palnąłem głupstwo i wszyscy zamilkli.
+zrobić w konia | надуть, обвести вокруг пальца | Sprzedawca zrobił nas w konia.
+przekręt | махинация | To był zwykły przekręt.
+kombinować | мутить, хитрить | Przestań kombinować i powiedz, jak było.
+po znajomości | по блату | Bilety załatwił po znajomości.
+mieć plecy | иметь связи | Dostał tę pracę, bo ma plecy.
+obgadywać | перемывать косточки | Obgadują szefową w kuchni.
+gadać | болтать | Gadaliśmy do trzeciej w nocy.
+nawijać | трепаться, заливать | Nawija o swoich podróżach bez przerwy.
+nauczka | урок на будущее | Niech to będzie dla ciebie nauczka.
+mieć farta | везти | Miałem farta, ostatni bilet był mój.
+pech | невезение | Co za pech, znowu pada!
+mieć pod górkę | всё идёт туго | Ostatnio mam w życiu pod górkę.
+iść jak po maśle | идти как по маслу | Wszystko poszło jak po maśle.
+trzymać kciuki | держать кулачки (желать удачи) | Trzymam kciuki za twój egzamin.
+owijać w bawełnę | ходить вокруг да около | Nie owijaj w bawełnę, mów, co się stało.
+mieć muchy w nosie | быть не в духе | Szef ma dziś muchy w nosie.
+rzucać grochem o ścianę | как об стенку горох | Tłumaczyć mu coś to jak rzucać grochem o ścianę.
+bułka z masłem | проще простого | Ten test to bułka z masłem.
+nie mój cyrk, nie moje małpy | не мои проблемы | Kłócą się? Nie mój cyrk, nie moje małpy.
+robić z igły widły | делать из мухи слона | Nie rób z igły widły, to tylko rysa.
+obiecywać gruszki na wierzbie | обещать золотые горы | Politycy znowu obiecują gruszki na wierzbie.
+wyjść na prostą | выправить положение | Po latach długów wreszcie wyszli na prostą.
+mieć nóż na gardle | быть припёртым к стенке | Mam nóż na gardle, termin mija jutro.
+dać komuś popalić | задать жару | Dzieciaki dały mi dziś popalić.
+dmuchać na zimne | перестраховываться | Wolę dmuchać na zimne i wziąć parasol.
+iść na łatwiznę | идти по пути наименьшего сопротивления | Nie idź na łatwiznę, przeczytaj całą książkę.
+na zbity pysk | с треском (выгнать) | Wyrzucili go z pracy na zbity pysk.
+wylać z roboty | выгнать с работы | Za spóźnienia wylali go z roboty.
+ni z gruszki, ni z pietruszki | ни с того ни с сего | Ni z gruszki, ni z pietruszki zaczął krzyczeć.
+zbić z tropu | сбить с толку | Jego pytanie zbiło mnie z tropu.
+stawać na głowie | из кожи вон лезть | Stawała na głowie, żeby zdążyć przed terminem.
+siedzieć jak na szpilkach | сидеть как на иголках | Czekając na wyniki, siedziałam jak na szpilkach.
+mieć głowę na karku | иметь голову на плечах | Ten chłopak ma głowę na karku.
+mieć dwie lewe ręce | быть неумехой, руки-крюки | Mam dwie lewe ręce do majsterkowania.
+wpuścić w maliny | подставить, обвести | Wpuścił nas w maliny i zniknął z pieniędzmi.
+wziąć nogi za pas | дать дёру | Na widok policji wziął nogi za pas.
+kopnąć w kalendarz | отбросить коньки | Stary telewizor w końcu kopnął w kalendarz.
+gdzie diabeł mówi dobranoc | у чёрта на куличках | Mieszkają tam, gdzie diabeł mówi dobranoc.
+lać wodę | лить воду | W wypracowaniu lał wodę przez dwie strony.
+ani mru-mru | ни гугу | Ani mru-mru nikomu o prezencie!
+trzymać język za zębami | держать язык за зубами | Trzymaj język za zębami, to tajemnica.
+być w siódmym niebie | быть на седьмом небе | Po zaręczynach była w siódmym niebie.
+spaść z nieba | появиться как нельзя кстати | Spadłeś mi z nieba, potrzebuję pomocy!
+na święty nigdy | после дождичка в четверг | Odda ci te pieniądze na święty nigdy.
+dzielić włos na czworo | придираться к мелочам | Nie dziel włosa na czworo, plan jest dobry.
+przelać czarę goryczy | переполнить чашу терпения | Jego ostatnie kłamstwo przelało czarę goryczy.
+zjeść zęby na czymś | собаку съесть на чём-л. | Zjadł zęby na podatkach.
+słoń na ucho nadepnął | медведь на ухо наступил | Nie śpiewaj, tobie słoń na ucho nadepnął.
+mieć węża w kieszeni | быть скупердяем | Ma węża w kieszeni i nigdy nie stawia.
+ruszyć głową | пораскинуть мозгами | Rusz głową, a znajdziesz rozwiązanie.
+wyssany z palca | высосанный из пальца | Te zarzuty są wyssane z palca.
+chodzić jak w zegarku | работать как часы | Firma chodzi jak w zegarku.
+mieć coś z głowy | разделаться с чем-л. | Zrobię to dziś, żeby mieć to z głowy.
+zbijać bąki | бить баклуши | Zamiast pracować, zbija bąki.
+pal licho | да бог с ним | Pal licho pieniądze, ważne, że jesteś cały.
+o mały włos | чуть не, едва не | O mały włos, a spóźniłbym się na samolot.
+na łeb na szyję | сломя голову | Biegł na łeb na szyję, żeby zdążyć.
+dać sobie spokój | махнуть рукой, бросить | Daj sobie spokój z tym facetem.
+nie ma lekko | жизнь не сахар | Nie ma lekko, trzeba wstać o piątej.
+nie ma co płakać nad rozlanym mlekiem | что упало, то пропало | Stało się, nie ma co płakać nad rozlanym mlekiem.
+kto rano wstaje, temu Pan Bóg daje | кто рано встаёт, тому бог подаёт | Kto rano wstaje, temu Pan Bóg daje, więc ruszamy o świcie.
+co dwie głowy, to nie jedna | одна голова хорошо, а две лучше | Pomóż mi, co dwie głowy, to nie jedna.
+nie chwal dnia przed zachodem słońca | не говори гоп, пока не перепрыгнешь | Wygrywamy, ale nie chwal dnia przed zachodem słońca.
+gdzie kucharek sześć, tam nie ma co jeść | у семи нянек дитя без глазу | Za dużo nas w tym projekcie, gdzie kucharek sześć, tam nie ma co jeść.
+lepszy wróbel w garści niż gołąb na dachu | лучше синица в руках, чем журавль в небе | Bierz tę ofertę, lepszy wróbel w garści niż gołąb na dachu.
+mądry Polak po szkodzie | задним умом крепок | Mądry Polak po szkodzie, teraz kupujemy alarm.
+apetyt rośnie w miarę jedzenia | аппетит приходит во время еды | Najpierw chciał rower, teraz motor, apetyt rośnie w miarę jedzenia.
+fajrant | конец рабочего дня | Fajrant! Idziemy do domu.
+ściągać kogoś | вытаскивать кого-л. (куда-то) | Ściągnęła mnie na tę imprezę wbrew mojej woli.
+podrzucić | подбросить (подвезти) | Podrzucę cię na dworzec.
+podwózka | подвоз (кого-л. на машине) | Dzięki za podwózkę, oszczędziłeś mi godzinę.
+bryndza | безденежье, туго с деньгами | W tym miesiącu straszna bryndza, nie stać mnie na kino.
+być spłukanym | быть на мели | Do wypłaty jestem kompletnie spłukany.
+sępić | клянчить | Ciągle sępi papierosy od kolegów.
+wysępić | выклянчить | Wysępił od taty stówę na koncert.
+kitować | прятать, заныкать | Kitował słodycze pod łóżkiem.
+zaklepać | забить (место, очередь) | Zaklepałam nam miejsca w pierwszym rzędzie.
+odwalić | отмочить, выкинуть (фортель) | Co ty odwaliłeś na tej imprezie?
+nagrabić sobie | навлечь на себя неприятности | Nagrabił sobie u szefa tym spóźnieniem.
+dostać opieprz | получить нагоняй | Dostałem opieprz za bałagan w kuchni.
+zarywać noc | не спать всю ночь | Przed sesją zarywam noce.

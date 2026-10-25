@@ -1,0 +1,219 @@
+# Культура и медиа | Kultura i media
+kultura | культура | Kultura jest lustrem społeczeństwa.
+dziedzictwo kulturowe | культурное наследие | Drewniane kościoły to ważna część dziedzictwa kulturowego.
+sztuka | искусство | Sztuka współczesna często prowokuje.
+dzieło | произведение | To dzieło młodego Matejki.
+arcydzieło | шедевр | „Dama z gronostajem” to arcydzieło Leonarda.
+twórca | творец, автор | Twórca serialu udzielił wywiadu.
+twórczość | творчество | Twórczość Szymborskiej przetłumaczono na wiele języków.
+artysta | деятель искусства, артист | Artyści protestowali przeciwko cięciom budżetu.
+malarz | художник-живописец | Malarz pracował nad portretem przez rok.
+malarstwo | живопись | Interesuje się malarstwem holenderskim.
+obraz | картина | Obraz wisi w Muzeum Narodowym.
+płótno | холст | Płótno uszkodzono podczas transportu.
+pędzel | кисть | Maluje cienkim pędzlem.
+rzeźba | скульптура | Rzeźba stoi na środku rynku.
+rzeźbiarz | скульптор | Rzeźbiarz pracuje w marmurze.
+grafika | графика | Na wystawie pokazano grafiki z XVIII wieku.
+fotografia | фотография | Fotografia uliczna to jego pasja.
+wystawa | выставка | Wystawa potrwa do końca marca.
+wernisaż | вернисаж | Na wernisażu podawano wino.
+galeria | галерея | Galeria sprzedała wszystkie obrazy.
+muzeum | музей | W muzeum są darmowe wtorki.
+kurator wystawy | куратор выставки | Kuratorka wystawy oprowadziła nas po salach.
+eksponat | экспонат | Eksponatów nie wolno dotykać.
+zabytek | памятник истории и архитектуры | Zamek jest zabytkiem klasy zerowej.
+architektura | архитектура | Architektura socrealistyczna budzi mieszane uczucia.
+literatura | литература | Literatura polska ma pięciu noblistów.
+pisarz | писатель | Pisarz pracuje nad kolejną powieścią.
+poeta | поэт | Poeta czytał swoje wiersze w kawiarni.
+poezja | поэзия | Poezja Herberta jest pełna ironii.
+proza | проза | Proza Tokarczuk jest gęsta i wielowątkowa.
+powieść | роман | Powieść ma ponad tysiąc stron.
+opowiadanie | рассказ | Zbiór opowiadań zdobył nagrodę.
+wiersz | стихотворение | Nauczyłem się tego wiersza na pamięć.
+tomik wierszy | сборник стихов | Wydała pierwszy tomik wierszy w wieku dwudziestu lat.
+reportaż | репортаж | Polska szkoła reportażu słynie na całym świecie.
+literatura faktu | документальная проза | Kapuściński to klasyk literatury faktu.
+bohater | герой, персонаж | Główny bohater powieści jest antybohaterem.
+fabuła | сюжет | Fabuła jest przewidywalna, ale dialogi błyskotliwe.
+wątek | сюжетная линия | Wątek miłosny wydał mi się zbędny.
+narrator | рассказчик | Narrator nie zna całej prawdy.
+zakończenie | концовка | Zakończenie filmu jest otwarte.
+wydawnictwo | издательство | Wydawnictwo odrzuciło rękopis.
+wydanie | издание | To pierwsze wydanie z autografem autora.
+nakład | тираж | Nakład wyczerpał się w tydzień.
+bestseller | бестселлер | Jego kryminał stał się bestsellerem.
+przekład | художественный перевод | Przekład wiernie oddaje styl oryginału.
+tłumacz | переводчик | Tłumaczka pracowała nad książką dwa lata.
+recenzja | рецензия | Recenzje spektaklu są entuzjastyczne.
+krytyk | критик | Krytycy nie zostawili na filmie suchej nitki.
+Nagroda Nobla | Нобелевская премия | Olga Tokarczuk otrzymała Nagrodę Nobla w dziedzinie literatury.
+teatr | театр | Teatr wystawia „Dziady” Mickiewicza.
+spektakl | спектакль | Spektakl trwa trzy godziny z przerwą.
+premiera | премьера | Na premierze były tłumy.
+scena | сцена | Aktor wszedł na scenę w ciszy.
+kulisy | кулисы | Za kulisami panował chaos.
+reżyser | режиссёр | Reżyser zmienił zakończenie sztuki.
+aktor | актёр | Aktor zagrał rolę życia.
+rola | роль | Dostała główną rolę w serialu.
+obsada | актёрский состав | Obsada filmu jest gwiazdorska.
+widownia | зрительный зал | Widownia była pełna do ostatniego miejsca.
+publiczność | публика | Publiczność nagrodziła aktorów owacją na stojąco.
+oklaski | аплодисменты | Oklaski trwały kilka minut.
+antrakt | антракт | W antrakcie wypiliśmy kawę w foyer.
+wejściówka | входной билет (недорогой, без места) | Kupiłam wejściówkę na balkon.
+opera | опера | Opera „Straszny dwór” to klasyka polskiej sceny.
+balet | балет | Balet „Dziadek do orzechów” grany jest co roku przed świętami.
+filharmonia | филармония | W piątek idziemy do filharmonii.
+koncert | концерт | Koncert odwołano z powodu choroby wokalisty.
+orkiestra | оркестр | Orkiestra stroiła instrumenty.
+dyrygent | дирижёр | Dyrygent uniósł batutę.
+kompozytor | композитор | Chopin to najsłynniejszy polski kompozytor.
+utwór | музыкальное произведение, композиция | Ten utwór grano na jego pogrzebie.
+melodia | мелодия | Ta melodia chodzi mi po głowie.
+tekst piosenki | текст песни | Nie znam tekstu piosenki, tylko refren.
+płyta | альбом, пластинка | Zespół nagrał nową płytę.
+kapela | музыкальная группа (разг.) | Kapela grała do białego rana.
+wokalista | вокалист | Wokalista stracił głos przed koncertem.
+muzyka klasyczna | классическая музыка | Przy muzyce klasycznej lepiej się uczę.
+muzyka ludowa | народная музыка | Muzyka ludowa przeżywa renesans.
+festiwal | фестиваль | Festiwal w Opolu to tradycja od lat sześćdziesiątych.
+kino | кинотеатр, кино | Kino studyjne pokazuje filmy europejskie.
+film fabularny | художественный фильм | Jego pierwszy film fabularny zdobył Złote Lwy.
+film dokumentalny | документальный фильм | Film dokumentalny o hodowli zwierząt wstrząsnął widzami.
+zwiastun | трейлер | Zwiastun zdradza za dużo.
+napisy | субтитры | Wolę oglądać filmy z napisami.
+dubbing | дубляж | Dubbing w filmach dla dzieci jest świetny.
+lektor | закадровый перевод (лектор) | W polskiej telewizji filmy czyta lektor.
+ekranizacja | экранизация | Ekranizacja „Wiedźmina” podzieliła fanów.
+scenariusz | сценарий | Scenariusz powstał na podstawie prawdziwej historii.
+scenarzysta | сценарист | Scenarzysta napisał trzy wersje zakończenia.
+hit kinowy | кассовый фильм | Ta komedia była hitem kinowym roku.
+serial | сериал | Serial ma już piętnaście sezonów.
+odcinek | серия, эпизод | Obejrzałam cały sezon w jeden weekend, odcinek po odcinku.
+platforma streamingowa | стриминговая платформа | Platformy streamingowe zmieniły rynek filmowy.
+media | СМИ | Media rozdmuchały sprawę.
+media publiczne | государственные СМИ | Media publiczne powinny być bezstronne.
+wolność prasy | свобода прессы | Ranking wolności prasy jest dla nas niepochlebny.
+prasa | пресса | Prasa codzienna traci czytelników.
+gazeta | газета | Kupuję gazetę tylko w weekend.
+dziennik | ежедневная газета | Ten dziennik ukazuje się od stu lat.
+tygodnik | еженедельник | Tygodnik opinii opublikował wywiad z premierem.
+miesięcznik | ежемесячный журнал | Prenumeruję miesięcznik podróżniczy.
+czasopismo | журнал (периодическое издание) | Czasopismo zamieściło sprostowanie.
+nagłówek | заголовок | Nagłówek był sensacyjny, a treść nudna.
+artykuł | статья | Artykuł wywołał burzę w sieci.
+felieton | авторская колонка, фельетон | Co tydzień czytam jego felieton.
+wywiad | интервью | Udzieliła wywiadu radiowej Trójce.
+dziennikarz | журналист | Dziennikarz chroni swoje źródła.
+dziennikarstwo śledcze | журналистские расследования | Dziennikarstwo śledcze ujawniło aferę.
+redaktor | редактор | Redaktor skrócił tekst o połowę.
+redakcja | редакция | Redakcja przeprosiła za błąd.
+korespondent | корреспондент | Korespondentka relacjonuje wydarzenia z Kijowa.
+wiadomości | новости | Oglądam wiadomości o dziewiętnastej.
+serwis informacyjny | выпуск новостей | Serwis informacyjny przerwano z powodu wypadku.
+telewizja | телевидение | Telewizja straciła młodych widzów.
+radio | радио | W samochodzie zawsze słucham radia.
+audycja | радиопередача | Audycja nadawana jest w niedzielę rano.
+program telewizyjny | телепередача | Prowadzi program telewizyjny o gotowaniu.
+prowadzący | ведущий | Prowadzący zadawał niewygodne pytania.
+transmisja na żywo | прямая трансляция | Transmisja na żywo z meczu przyciągnęła miliony.
+oglądalność | зрительский рейтинг | Oglądalność finału pobiła rekord.
+fałszywe wiadomości | фейковые новости | Fałszywe wiadomości szerzą się w sieci błyskawicznie.
+klikbajt | кликбейт | Ten tytuł to typowy klikbajt.
+media społecznościowe | социальные сети | Media społecznościowe zabierają mi za dużo czasu.
+influencer | инфлюенсер | Influencerka reklamowała szkodliwy suplement.
+bloger | блогер | Bloger kulinarny wydał książkę.
+podcast | подкаст | Słucham podcastów w drodze do pracy.
+wpis | пост, запись | Jej wpis udostępniono tysiące razy.
+komentarz | комментарий | Nie czytaj komentarzy pod artykułami.
+udostępnić | поделиться, сделать репост | Udostępnij to ogłoszenie znajomym.
+polubić | лайкнуть | Polubiło to zdjęcie tylko pięć osób.
+obserwować | подписаться, следить (в соцсети) | Obserwuję ją na Instagramie.
+hejt | хейт, травля в интернете | Po występie spadła na nią fala hejtu.
+hejter | хейтер | Hejterzy piszą pod każdym jej postem.
+portal plotkarski | сайт светских сплетен | Portal plotkarski opisał ich rozstanie.
+celebryta | знаменитость, селебрити | Celebryta reklamuje kawę.
+gwiazda | звезда (знаменитость) | Gwiazda rocka przyjechała na festiwal.
+sława | слава | Sława przyszła do niego nagle.
+autograf | автограф | Stałam w kolejce po autograf.
+widz | зритель | Widzowie wyszli przed końcem filmu.
+słuchacz | слушатель | Słuchacze dzwonią do studia z pytaniami.
+czytelnik | читатель | Czytelnicy pokochali tę bohaterkę.
+czytelnictwo | читательская активность | Czytelnictwo w Polsce jest niskie.
+księgarnia | книжный магазин | W księgarni spędzam całe godziny.
+antykwariat | букинистический магазин | W antykwariacie znalazłem pierwsze wydanie.
+audiobook | аудиокнига | Audiobooków słucham podczas biegania.
+komiks | комикс | Komiksy to też literatura.
+gra komputerowa | компьютерная игра | Polska gra komputerowa podbiła świat.
+popkultura | поп-культура | Popkultura czerpie z mitologii.
+kultura masowa | массовая культура | Kultura masowa bywa lekceważona przez krytyków.
+kultura wysoka | высокая культура | Opera uchodzi za symbol kultury wysokiej.
+gust | эстетический вкус | O gustach się nie dyskutuje.
+kicz | китч | Krasnale ogrodowe to dla niej kicz.
+awangarda | авангард | Awangarda lat dwudziestych zrywała z tradycją.
+nurt | течение, направление | Ten nurt w malarstwie narodził się w Paryżu.
+epoka | эпоха | Romantyzm to epoka wieszczów.
+romantyzm | романтизм | Mickiewicz to najważniejszy poeta romantyzmu.
+barok | барокко | Kościół zbudowano w stylu baroku.
+renesans | ренессанс, возрождение | Wawel przebudowano w stylu renesansu.
+styl | стиль | Ma charakterystyczny styl pisania.
+motyw | мотив | Motyw wędrówki powraca w całej jego twórczości.
+metafora | метафора | Ta metafora jest dość oklepana.
+satyra | сатира | Satyra polityczna kwitła w PRL-u mimo cenzury.
+kabaret | кабаре | Kabarety od lat bawią polską publiczność.
+inspiracja | вдохновение | Podróże są dla niej źródłem inspiracji.
+talent | талант | Ma talent do języków.
+wyobraźnia | воображение | Dzieci mają niezwykłą wyobraźnię.
+mecenas sztuki | меценат | Bogaty mecenas sztuki ufundował stypendia dla malarzy.
+instytucja kultury | учреждение культуры | Instytucje kultury cierpią na brak funduszy.
+dom kultury | дом культуры | W domu kultury działa chór seniorów.
+obyczaje | обычаи, нравы | Obyczaje weselne różnią się w zależności od regionu.
+zwyczaj | обычай | Mamy zwyczaj dzielić się opłatkiem.
+święto | праздник | Święto Niepodległości obchodzimy jedenastego listopada.
+Wigilia | сочельник | W Wigilię na stole stoi dwanaście potraw.
+Wszystkich Świętych | День всех святых | Na Wszystkich Świętych cmentarze rozświetlają znicze.
+andrzejki | андреевские гадания | Na andrzejki lejemy wosk przez klucz.
+tłusty czwartek | Жирный четверг | W tłusty czwartek zjada się pączki.
+śmigus-dyngus | обливальный понедельник | W śmigus-dyngus lepiej nie wychodzić w nowym płaszczu.
+dożynki | праздник урожая | Na dożynkach wieś plecie wieniec ze zboża.
+folklor | фольклор | Folklor góralski przyciąga turystów.
+strój ludowy | народный костюм | Tancerze wystąpili w strojach ludowych.
+rękodzieło | изделия ручной работы | Na jarmarku kupiłam rękodzieło z koronki.
+ceramika | керамика | Ceramika z Bolesławca jest znana na świecie.
+sztuka teatralna | пьеса | Napisał sztukę teatralną o swojej rodzinie.
+wystawić sztukę | поставить пьесу | Teatr wystawił sztukę Mrożka.
+dramat | драма (жанр) | Dramat romantyczny łamie zasady klasycyzmu.
+komedia | комедия | Ta komedia rozśmieszyła całą salę.
+tragedia | трагедия | Tragedia antyczna kończy się zwykle śmiercią bohatera.
+musical | мюзикл | Musical grany jest od dziesięciu lat przy pełnej sali.
+kryminał | детектив (жанр) | Skandynawskie kryminały podbiły rynek.
+fantastyka | фантастика | Lem to mistrz fantastyki naukowej.
+literatura piękna | художественная литература | W bibliotece literatura piękna stoi na pierwszym piętrze.
+wspomnienia | мемуары | Aktorka wydała wspomnienia z lat młodości.
+biografia | биография | Biografia Chopina czyta się jak powieść.
+debiut | дебют | Jej debiut literacki zebrał świetne recenzje.
+laureat | лауреат | Laureat konkursu dostanie stypendium.
+jury | жюри | Jury przyznało nagrodę jednogłośnie.
+statuetka | статуэтка (награда) | Odebrał statuetkę ze łzami w oczach.
+nagroda publiczności | приз зрительских симпатий | Film zdobył nagrodę publiczności.
+casting | кастинг | Na casting przyszło tysiąc osób.
+rola drugoplanowa | роль второго плана | Za rolę drugoplanową dostał Orła.
+statysta | статист, массовка | Jako statysta stał cały dzień w deszczu.
+operator filmowy | кинооператор | Operator filmowy nakręcił cały film w czerni i bieli.
+montaż | монтаж | Montaż trwał dłużej niż zdjęcia.
+efekty specjalne | спецэффекты | Efekty specjalne przyćmiły fabułę.
+ścieżka dźwiękowa | саундтрек | Ścieżkę dźwiękową skomponował Zbigniew Preisner.
+teledysk | музыкальный клип | Teledysk nakręcono w opuszczonej fabryce.
+przebój | хит (песня) | Ten przebój nucą wszyscy.
+lista przebojów | хит-парад | Piosenka od miesięcy jest na szczycie listy przebojów.
+refren | припев | Refren jest prosty i chwytliwy.
+zwrotka | куплет | Zapomniałam drugiej zwrotki.
+nagranie | запись | Nagranie z koncertu trafiło do sieci.
+studio nagraniowe | студия звукозаписи | Zespół spędził miesiąc w studiu nagraniowym.
+trasa koncertowa | концертный тур | Trasa koncertowa obejmie dwadzieścia miast.
+bis | бис | Publiczność wywołała zespół na bis.
+skrzypce | скрипка | Gra na skrzypcach od piątego roku życia.
+fortepian | фортепиано, рояль | Na Konkursie Chopinowskim gra się na fortepianie.
+perkusja | ударные | Sąsiad ćwiczy na perkusji wieczorami.

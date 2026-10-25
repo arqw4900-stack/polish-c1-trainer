@@ -1,0 +1,221 @@
+# Право и учреждения | Prawo i urzędy
+prawo | право (система норм) | Nieznajomość prawa nie zwalnia z odpowiedzialności.
+ustawa | закон (законодательный акт) | Ustawa wchodzi w życie po czternastu dniach od ogłoszenia.
+przepis | норма, положение закона | Ten przepis budzi wiele wątpliwości.
+rozporządzenie | постановление министра | Szczegóły określi rozporządzenie ministra.
+akt prawny | правовой акт | Konstytucja jest najważniejszym aktem prawnym.
+legislacja | законотворчество | Szybka legislacja prowadzi do bubli prawnych.
+kodeks cywilny | гражданский кодекс | Kodeks cywilny reguluje między innymi umowy i spadki.
+kodeks karny | уголовный кодекс | Kodeks karny przewiduje za to do pięciu lat więzienia.
+nowelizacja | поправка к закону | Nowelizacja ustawy zaostrza kary za jazdę po alkoholu.
+wejść w życie | вступить в силу | Nowe przepisy wejdą w życie od stycznia.
+obowiązywać | действовать (о норме) | Zakaz palenia obowiązuje na wszystkich przystankach.
+uchylić | отменить (норму, решение) | Sąd uchylił decyzję urzędu.
+luka prawna | лазейка в законе | Firma wykorzystała lukę prawną, żeby nie płacić podatku.
+interpretacja przepisów | толкование норм | Interpretacja przepisów zmienia się wraz z orzecznictwem.
+zgodnie z prawem | в соответствии с законом | Wszystko odbyło się zgodnie z prawem.
+niezgodny z prawem | противоречащий закону | Zwolnienie okazało się niezgodne z prawem.
+z mocy prawa | в силу закона | Umowa wygasa z mocy prawa.
+na mocy | на основании | Na mocy porozumienia strony wymienią się jeńcami.
+w świetle prawa | с точки зрения закона | W świetle prawa nie jesteście małżeństwem.
+łamać prawo | нарушать закон | Kto łamie prawo, musi liczyć się z konsekwencjami.
+przestrzegać | соблюдать | Należy przestrzegać regulaminu.
+naruszenie | нарушение | Naruszenie tajemnicy korespondencji jest przestępstwem.
+legalny | законный, легальный | Czy praca bez umowy jest legalna?
+nielegalny | незаконный | Nielegalne wysypisko odkryto w lesie.
+bezprawny | неправомерный | Zatrzymanie okazało się bezprawne.
+sąd | суд | Sprawa trafi do sądu.
+sąd rejonowy | районный суд | Sąd rejonowy rozpatruje drobne sprawy cywilne.
+sąd okręgowy | окружной суд | Apelację rozpatrzy sąd okręgowy.
+Sąd Najwyższy | Верховный суд | Sąd Najwyższy oddalił kasację.
+Trybunał Konstytucyjny | Конституционный трибунал | Trybunał Konstytucyjny orzekł o niezgodności przepisu z konstytucją.
+sąd administracyjny | административный суд | Na decyzję wojewody poskarżył się do sądu administracyjnego.
+sędzia | судья | Sędzia zarządził przerwę w rozprawie.
+ławnik | народный заседатель | Ławnicy orzekają razem z sędzią zawodowym.
+prokurator | прокурор | Prokurator zażądał surowej kary.
+prokuratura | прокуратура | Prokuratura wszczęła śledztwo w sprawie wypadku.
+adwokat | адвокат | Adwokat poradził mu, żeby milczał.
+obrońca z urzędu | адвокат по назначению | Sąd wyznaczył mu obrońcę z urzędu.
+radca prawny | юрисконсульт | Radca prawny przejrzał umowę przed podpisaniem.
+prawnik | юрист | Bez prawnika nie podpisuj takiego dokumentu.
+kancelaria prawna | юридическая фирма | Pracuje w dużej kancelarii prawnej.
+porada prawna | юридическая консультация | Darmową poradę prawną można uzyskać w starostwie.
+notariusz | нотариус | Umowę sprzedaży mieszkania podpisaliśmy u notariusza.
+akt notarialny | нотариальный акт | Akt notarialny potwierdza przeniesienie własności.
+pełnomocnik | представитель по доверенности | Na rozprawę przyszedł tylko jej pełnomocnik.
+pełnomocnictwo | доверенность | Udzieliłem żonie pełnomocnictwa do sprzedaży auta.
+oskarżony | обвиняемый, подсудимый | Oskarżony nie przyznał się do winy.
+podejrzany | подозреваемый | Podejrzany ukrywał się za granicą.
+świadek | свидетель | Świadek zmienił zeznania w trakcie procesu.
+zeznanie | показание | Jego zeznania były niespójne.
+zeznawać | давать показания | Musiała zeznawać przeciwko własnemu bratu.
+powód | истец | Powód domaga się zwrotu kosztów.
+pozwany | ответчик | Pozwany nie stawił się na rozprawie.
+pozew | исковое заявление | Złożyliśmy pozew przeciwko deweloperowi.
+pozwać | подать в суд на | Pozwała byłego pracodawcę o zaległe wynagrodzenie.
+rozprawa | судебное заседание | Rozprawę odroczono do marca.
+proces | судебный процесс | Proces trwał ponad trzy lata.
+wyrok | приговор, решение суда | Wyrok zapadnie w przyszłym tygodniu.
+uniewinnić | оправдать | Sąd uniewinnił oskarżonego z braku dowodów.
+skazać | осудить, приговорить | Skazano go na dwa lata więzienia.
+kara | наказание | Kara powinna być proporcjonalna do winy.
+grzywna | штраф по приговору суда | Sąd wymierzył mu grzywnę w wysokości dziesięciu tysięcy złotych.
+mandat karny | штраф, выписанный полицией | Za przejście na czerwonym świetle dostałem mandat karny.
+kara pozbawienia wolności | лишение свободы | Grozi mu kara pozbawienia wolności do lat ośmiu.
+wyrok w zawieszeniu | условный срок | Skończyło się na wyroku w zawieszeniu.
+więzienie | тюрьма | Spędził w więzieniu dziesięć lat.
+areszt | арест, следственный изолятор | Sąd zastosował wobec niego trzymiesięczny areszt.
+zwolnienie warunkowe | условно-досрочное освобождение | Po połowie kary wyszedł na zwolnienie warunkowe.
+apelacja | апелляция | Obrona zapowiedziała apelację.
+kasacja | кассация | Kasację wnosi się do Sądu Najwyższego.
+uprawomocnić się | вступить в законную силу | Wyrok uprawomocnił się po dwóch tygodniach.
+prawomocny | вступивший в законную силу | To prawomocny wyrok i nie można się od niego odwołać.
+ugoda | мировое соглашение | Strony zawarły ugodę przed sądem.
+mediacja | медиация | Mediacja pozwala uniknąć długiego procesu.
+arbitraż | арбитраж | Spór rozstrzygnie arbitraż w Wiedniu.
+dowód | доказательство | Nie ma żadnych dowodów jego winy.
+dowód rzeczowy | вещественное доказательство | Nóż zabezpieczono jako dowód rzeczowy.
+materiał dowodowy | доказательная база | Materiał dowodowy jest zbyt słaby.
+alibi | алиби | Podejrzany miał mocne alibi.
+domniemanie niewinności | презумпция невиновности | Media zapomniały o domniemaniu niewinności.
+okoliczności łagodzące | смягчающие обстоятельства | Sąd wziął pod uwagę okoliczności łagodzące.
+umyślny | умышленный | To było umyślne działanie, a nie wypadek.
+nieumyślny | неумышленный | Odpowiada za nieumyślne spowodowanie śmierci.
+przedawnienie | истечение срока давности | Sprawa uległa przedawnieniu.
+przestępstwo | преступление | Jazda po pijanemu jest w Polsce przestępstwem.
+wykroczenie | правонарушение, проступок | Przekroczenie prędkości to zwykle wykroczenie.
+przestępca | преступник | Przestępcę zatrzymano na lotnisku.
+recydywista | рецидивист | Sprawca okazał się recydywistą.
+przestępczość | преступность | Przestępczość w mieście spadła.
+kradzież | кража | Zgłosiłam kradzież roweru na policji.
+włamanie | кража со взломом | Podczas urlopu doszło do włamania do naszego mieszkania.
+rozbój | разбой | Za rozbój grozi surowa kara.
+napad | нападение с целью грабежа | Napad na bank trwał trzy minuty.
+oszustwo | мошенничество | Padła ofiarą oszustwa „na wnuczka”.
+zabójstwo | убийство | Policja prowadzi śledztwo w sprawie zabójstwa.
+pobicie | избиение | Do pobicia doszło przed klubem.
+przemoc domowa | домашнее насилие | Ofiary przemocy domowej mogą liczyć na pomoc.
+nękanie | преследование (сталкинг) | Uporczywe nękanie jest przestępstwem.
+zniesławienie | клевета, диффамация | Polityk pozwał dziennikarza o zniesławienie.
+fałszerstwo | подделка, фальсификация | Ekspert stwierdził fałszerstwo podpisu.
+podrobić | подделать | Ktoś podrobił mój podpis na umowie.
+policja | полиция | Policja zabezpieczyła miejsce zdarzenia.
+komisariat | полицейский участок | Złożyłem zawiadomienie na komisariacie.
+zawiadomienie o przestępstwie | заявление о преступлении | Bank złożył zawiadomienie o przestępstwie.
+zgłosić | сообщить, заявить (о чём-л.) | Zgłoś to od razu administratorowi.
+śledztwo | следствие, расследование | Śledztwo umorzono z powodu niewykrycia sprawcy.
+dochodzenie | дознание | Dochodzenie w sprawie kradzieży trwa.
+zatrzymać | задержать | Policja zatrzymała dwóch podejrzanych.
+przeszukanie | обыск | Podczas przeszukania znaleziono narkotyki.
+nakaz | ордер, предписание | Policja miała nakaz przeszukania.
+umorzyć | прекратить (дело) | Prokurator umorzył postępowanie.
+ofiara | жертва | Ofiarą wypadku był rowerzysta.
+poszkodowany | пострадавший | Poszkodowany domaga się odszkodowania.
+zadośćuczynienie | компенсация морального вреда | Sąd przyznał jej zadośćuczynienie za krzywdę.
+ekstradycja | экстрадиция | Polska wystąpiła o ekstradycję podejrzanego.
+immunitet | иммунитет (депутатский) | Sejm uchylił posłowi immunitet.
+amnestia | амнистия | Po zmianie ustroju ogłoszono amnestię.
+ułaskawienie | помилование | Prezydent odmówił ułaskawienia.
+kurator sądowy | судебный куратор | Kurator sądowy odwiedza rodzinę co miesiąc.
+komornik | судебный пристав | Komornik zajął mu samochód.
+egzekucja komornicza | принудительное взыскание | Egzekucja komornicza objęła część pensji.
+zająć konto | наложить арест на счёт | Urząd skarbowy zajął mi konto za zaległy podatek.
+nakaz zapłaty | судебный приказ об оплате | Dostałem nakaz zapłaty za nieopłacony abonament.
+umowa | договор | Przeczytaj umowę, zanim ją podpiszesz.
+strona umowy | сторона договора | Każda strona umowy otrzymuje jeden egzemplarz.
+klauzula | оговорка, пункт договора | Ta klauzula jest niekorzystna dla konsumenta.
+aneks | дополнительное соглашение | Podpisaliśmy aneks zmieniający wysokość czynszu.
+podpis | подпись | Brakuje twojego podpisu na drugiej stronie.
+pieczątka | печать, штамп | Bez pieczątki firmy dokument jest nieważny.
+zobowiązanie | обязательство | Firma nie wywiązała się ze zobowiązań.
+odpowiedzialność cywilna | гражданская ответственность | Ubezpieczenie odpowiedzialności cywilnej jest obowiązkowe dla kierowców.
+regulamin | правила, регламент | Regulamin konkursu jest dostępny na stronie.
+zakaz | запрет | Zakaz wjazdu obowiązuje od godziny siódmej.
+zezwolenie | официальное разрешение | Na budowę garażu potrzebne jest zezwolenie.
+licencja | лицензия | Taksówkarz musi mieć licencję.
+koncesja | концессия | Koncesję na wydobycie gazu przyznano zagranicznej firmie.
+patent | патент | Patent na ten lek wygasł po dwudziestu latach.
+prawa autorskie | авторские права | Kopiowanie zdjęć narusza prawa autorskie.
+znak towarowy | товарный знак | Nazwa została zastrzeżona jako znak towarowy.
+dane osobowe | персональные данные | Z firmy wyciekły dane osobowe tysięcy klientów.
+zgoda na przetwarzanie danych | согласие на обработку данных | Bez zgody na przetwarzanie danych nie zapiszesz się na kurs.
+spadek | наследство | Odziedziczyła spadek po ciotce.
+testament | завещание | Dziadek nie zostawił testamentu.
+spadkobierca | наследник | Spadkobiercy pokłócili się o dom.
+dziedziczyć | наследовать | Dzieci dziedziczą po rodzicach w równych częściach.
+zachowek | обязательная доля в наследстве | Pominięty w testamencie syn domaga się zachowku.
+alimenty | алименты | Ojciec od lat nie płaci alimentów.
+władza rodzicielska | родительские права | Sąd ograniczył mu władzę rodzicielską.
+opieka nad dzieckiem | опека над ребёнком | Po rozwodzie opiekę nad dzieckiem przyznano matce.
+prawo własności | право собственности | Prawo własności jest chronione konstytucyjnie.
+księga wieczysta | реестр прав на недвижимость | Przed zakupem sprawdź księgę wieczystą działki.
+hipoteka | ипотека (обременение) | Na mieszkaniu ciąży hipoteka banku.
+najem | наём, аренда | Najem krótkoterminowy przynosi większe zyski.
+umowa najmu | договор аренды | Umowa najmu jest zawarta na rok.
+wynajmujący | арендодатель | Wynajmujący nie zwrócił nam kaucji.
+najemca | арендатор, наниматель | Najemca odpowiada za drobne naprawy.
+kaucja | залоговый депозит (при аренде) | Kaucja wynosi równowartość dwóch czynszów.
+eksmisja | выселение | Sąd orzekł eksmisję lokatora.
+urząd | учреждение, ведомство | Jutro muszę iść do urzędu.
+urzędnik | чиновник, служащий | Urzędniczka cierpliwie wszystko mi wytłumaczyła.
+interesant | посетитель учреждения | Urząd obsługuje interesantów od ósmej.
+petent | проситель, заявитель | Petent ma prawo wglądu do akt sprawy.
+okienko | окошко (в учреждении) | Proszę podejść do okienka numer cztery.
+numerek | номерок (электронной очереди) | Pobierz numerek z automatu i czekaj na wezwanie.
+biurokracja | бюрократия | Biurokracja zniechęca do zakładania firm.
+formalności | формальности | Wszystkie formalności załatwimy w jeden dzień.
+załatwić sprawę | уладить дело | Sprawę można załatwić przez internet.
+wniosek | заявление, ходатайство | Wniosek należy złożyć osobiście.
+złożyć wniosek | подать заявление | Złożyłem wniosek o wydanie nowego dowodu.
+formularz | анкета, форма | Wypełnij formularz drukowanymi literami.
+druk | типовой бланк | Druk możesz pobrać ze strony urzędu.
+wypełnić | заполнить | Wypełniła wszystkie rubryki poza jedną.
+załącznik | приложение к документу | W załączniku przesyłam skan umowy.
+kserokopia | ксерокопия | Do wniosku dołącz kserokopię dyplomu.
+oryginał | оригинал | Proszę okazać oryginał do wglądu.
+poświadczony za zgodność z oryginałem | заверенный (копия) | Kopia musi być poświadczona za zgodność z oryginałem.
+tłumacz przysięgły | присяжный переводчик | Akt urodzenia przetłumaczył tłumacz przysięgły.
+zaświadczenie | справка | Potrzebuję zaświadczenia o zarobkach.
+decyzja administracyjna | административное решение | Od decyzji administracyjnej przysługuje odwołanie.
+odwołanie | обжалование (административного решения) | Odwołanie składa się w ciągu czternastu dni.
+postanowienie | постановление, определение | Postanowienie sądu doręczono pocztą.
+ponaglenie | жалоба на затягивание дела | Złożyłem ponaglenie, bo urząd milczy od pół roku.
+odmowa | отказ | Odmowa musi być uzasadniona na piśmie.
+rozpatrzyć | рассмотреть | Wniosek zostanie rozpatrzony w ciągu miesiąca.
+skarga | жалоба | Mieszkańcy złożyli skargę na hałas.
+wezwanie | вызов, повестка | Dostałem wezwanie do stawienia się w urzędzie.
+doręczenie | вручение (документа) | Termin liczy się od dnia doręczenia pisma.
+awizo | извещение о письме | W skrzynce czekało awizo z sądu.
+list polecony | заказное письмо | Wypowiedzenie wyślij listem poleconym.
+za potwierdzeniem odbioru | с уведомлением о вручении | Pismo wysłano za potwierdzeniem odbioru.
+opłata skarbowa | гербовый сбор | Od pełnomocnictwa pobiera się opłatę skarbową.
+meldunek | регистрация по месту жительства | Meldunek jest potrzebny do zapisania dziecka do szkoły.
+zameldować się | прописаться, зарегистрироваться по адресу | Po przeprowadzce musisz się zameldować.
+wymeldować się | выписаться (сняться с регистрации) | Przed wyjazdem za granicę wymeldowała się z mieszkania.
+pobyt stały | постоянное проживание | Złożył wniosek o zezwolenie na pobyt stały.
+pobyt czasowy | временное пребывание | Zezwolenie na pobyt czasowy wydaje się maksymalnie na trzy lata.
+karta pobytu | карта побыта, вид на жительство | Na kartę pobytu czekałem prawie rok.
+cudzoziemiec | иностранец | Cudzoziemiec musi mieć ważny dokument podróży.
+urząd wojewódzki | воеводское управление | Sprawy cudzoziemców prowadzi urząd wojewódzki.
+urząd stanu cywilnego | ЗАГС | Ślub cywilny wzięli w urzędzie stanu cywilnego.
+akt urodzenia | свидетельство о рождении | Odpis aktu urodzenia można zamówić online.
+akt małżeństwa | свидетельство о браке | Do wniosku dołączyłam akt małżeństwa.
+akt zgonu | свидетельство о смерти | Akt zgonu wystawia urząd stanu cywilnego.
+dowód osobisty | удостоверение личности | Proszę okazać dowód osobisty.
+PESEL | ПЕСЕЛЬ, личный идентификационный номер | Bez numeru PESEL trudno cokolwiek załatwić.
+NIP | налоговый номер (ИНН) | Na fakturze podaj NIP firmy.
+prawo jazdy | водительские права | Zdał egzamin na prawo jazdy za trzecim razem.
+rejestracja pojazdu | регистрация автомобиля | Rejestracja pojazdu sprowadzonego z Niemiec trwała tydzień.
+Zakład Ubezpieczeń Społecznych | Управление социального страхования (ЗУС) | Zakład Ubezpieczeń Społecznych wypłaca emerytury.
+profil zaufany | доверенный профиль (электронная подпись) | Dzięki profilowi zaufanemu złożyłem wniosek z domu.
+rzecznik praw obywatelskich | уполномоченный по правам человека | Rzecznik praw obywatelskich interweniował w sprawie więźniów.
+kontrola | проверка | Kontrola wykazała liczne uchybienia.
+inspekcja | инспекция | Inspekcja pracy nałożyła karę na pracodawcę.
+sanepid | санэпидемстанция | Sanepid zamknął restaurację.
+straż miejska | муниципальная стража | Straż miejska założyła blokadę na koło.
+straż pożarna | пожарная охрана | Straż pożarna przyjechała po pięciu minutach.
+uchybienie | упущение, нарушение (формальное) | Drobne uchybienie formalne opóźniło sprawę.
+wszcząć postępowanie | возбудить дело | Urząd wszczął postępowanie z urzędu.
+postępowanie | разбирательство, производство по делу | Postępowanie administracyjne trwa zbyt długo.
+akta sprawy | материалы дела | Adwokat zapoznał się z aktami sprawy.
+pouczenie | разъяснение прав (в документе) | Na końcu decyzji znajduje się pouczenie o prawie do odwołania.

@@ -1,0 +1,212 @@
+# Природа и экология | Przyroda i ekologia
+przyroda | природа | Kontakt z przyrodą obniża poziom stresu.
+środowisko naturalne | окружающая среда | Fabryka zanieczyszcza środowisko naturalne.
+ochrona środowiska | охрана окружающей среды | Na ochronę środowiska przeznaczono miliardy złotych.
+ekologia | экология | Ekologia stała się ważnym tematem kampanii.
+ekologiczny | экологичный | Kupujemy ekologiczne środki czystości.
+ekosystem | экосистема | Inwazyjne gatunki niszczą lokalny ekosystem.
+bioróżnorodność | биоразнообразие | Monokultury zmniejszają bioróżnorodność.
+gatunek | вид (биол.) | Odkryto nowy gatunek żaby.
+gatunek zagrożony wyginięciem | вид под угрозой исчезновения | Żółw błotny jest w Polsce gatunkiem zagrożonym wyginięciem.
+wyginąć | вымереть | Dinozaury wyginęły miliony lat temu.
+siedlisko | среда обитания | Osuszanie bagien niszczy siedliska ptaków.
+park narodowy | национальный парк | Białowieski Park Narodowy jest najstarszy w Polsce.
+rezerwat przyrody | заповедник | W rezerwacie przyrody nie wolno zbierać roślin.
+obszar chroniony | охраняемая территория | Budowa drogi przez obszar chroniony wywołała protesty.
+puszcza | пуща, первобытный лес | Puszcza Białowieska to jeden z ostatnich lasów pierwotnych w Europie.
+las | лес | Na grzyby chodzimy do lasu za wsią.
+las deszczowy | тропический лес | Lasy deszczowe produkują ogromne ilości tlenu.
+wycinka drzew | вырубка деревьев | Mieszkańcy protestują przeciwko wycince drzew w parku.
+wylesianie | обезлесение | Wylesianie przyspiesza zmiany klimatu.
+klimat | климат | Klimat w Polsce staje się coraz cieplejszy.
+zmiany klimatu | изменение климата | Zmiany klimatu dotykają najbiedniejszych.
+globalne ocieplenie | глобальное потепление | Globalne ocieplenie podnosi poziom mórz.
+efekt cieplarniany | парниковый эффект | Efekt cieplarniany sam w sobie jest naturalny.
+gazy cieplarniane | парниковые газы | Rolnictwo też emituje gazy cieplarniane.
+dwutlenek węgla | углекислый газ | Stężenie dwutlenku węgla w atmosferze bije rekordy.
+emisja | выбросы | Unia chce ograniczyć emisję o połowę.
+ślad węglowy | углеродный след | Loty samolotem zwiększają nasz ślad węglowy.
+neutralność klimatyczna | климатическая нейтральность | Miasto chce osiągnąć neutralność klimatyczną do 2050 roku.
+zanieczyszczenie | загрязнение | Zanieczyszczenie rzeki zabiło tysiące ryb.
+smog | смог | Zimą Kraków dusi się w smogu.
+jakość powietrza | качество воздуха | Aplikacja pokazuje jakość powietrza w czasie rzeczywistym.
+pył zawieszony | взвешенные частицы | Normy pyłu zawieszonego przekroczono trzykrotnie.
+kopciuch | дымящая угольная печь (разг.) | Gmina dopłaca do wymiany kopciuchów.
+spaliny | выхлопные газы | W centrum czuć spaliny.
+ścieki | сточные воды | Ścieki trafiły prosto do rzeki.
+odpady | отходы | Odpady niebezpieczne oddaje się do specjalnych punktów.
+śmieci | мусор | Wynieś śmieci, proszę.
+segregacja śmieci | сортировка мусора | Segregacja śmieci jest obowiązkowa.
+recykling | переработка вторсырья | Recykling szkła jest prosty i opłacalny.
+surowce wtórne | вторсырьё | Punkt skupu przyjmuje surowce wtórne.
+kompost | компост | Resztki warzyw wrzucamy na kompost.
+plastik | пластик | Plastik rozkłada się setki lat.
+jednorazowy | одноразовый | Unia zakazała jednorazowych słomek.
+opakowanie | упаковка | Opakowanie jest większe niż produkt.
+wysypisko | свалка | Wysypisko śmieci cuchnie na całą okolicę.
+spalarnia śmieci | мусоросжигательный завод | Spalarnia śmieci produkuje też ciepło dla miasta.
+energia odnawialna | возобновляемая энергия | Energia odnawialna staje się coraz tańsza.
+panele słoneczne | солнечные панели | Na dachu zamontowaliśmy panele słoneczne.
+fotowoltaika | солнечная энергетика (фотовольтаика) | Fotowoltaika to w Polsce prawdziwy boom.
+farma wiatrowa | ветряная электростанция | Farma wiatrowa na Bałtyku zasili milion domów.
+wiatrak | ветряк, ветряная мельница | Na horyzoncie kręcą się wiatraki.
+elektrownia węglowa | угольная электростанция | Elektrownia węglowa w Bełchatowie to największy emitent CO2 w Europie.
+węgiel | уголь | Polska wciąż opiera energetykę na węglu.
+górnictwo | горнодобывающая промышленность | Górnictwo na Śląsku przechodzi transformację.
+kopalnia | шахта | Kopalnię zamknięto po stu latach.
+paliwa kopalne | ископаемое топливо | Paliwa kopalne trzeba stopniowo wycofać.
+ropa naftowa | нефть | Ceny ropy naftowej wpływają na koszty transportu.
+gaz ziemny | природный газ | Gaz ziemny uważa się za paliwo przejściowe.
+pompa ciepła | тепловой насос | Pompa ciepła obniżyła nasze rachunki za ogrzewanie.
+termomodernizacja | утепление зданий | Termomodernizacja bloku zmniejszyła zużycie energii o jedną trzecią.
+efektywność energetyczna | энергоэффективность | Nowe przepisy podnoszą wymogi efektywności energetycznej.
+samochód elektryczny | электромобиль | Samochód elektryczny ładuję w nocy w garażu.
+zrównoważony rozwój | устойчивое развитие | Zrównoważony rozwój łączy ekonomię z ekologią.
+marnowanie żywności | выбрасывание еды | Marnowanie żywności to problem bogatych krajów.
+konsumpcjonizm | потребительство | Konsumpcjonizm napędza produkcję śmieci.
+ekościema | гринвошинг (разг.) | Ta reklama to klasyczna ekościema.
+ekoaktywista | экоактивист | Ekoaktywiści przykuli się do drzew.
+weganizm | веганство | Weganizm zyskuje popularność wśród młodych.
+wegetarianin | вегетарианец | Jako wegetarianin nie jem mięsa ani ryb.
+rolnictwo ekologiczne | органическое земледелие | Rolnictwo ekologiczne rezygnuje ze sztucznych nawozów.
+nawóz | удобрение | Nadmiar nawozu spływa do rzek.
+pestycydy | пестициды | Pestycydy szkodzą pszczołom.
+gleba | почва | Gleba na tym polu jest bardzo żyzna.
+erozja | эрозия | Erozja niszczy wybrzeże.
+hodowla | разведение животных | Przemysłowa hodowla zwierząt budzi sprzeciw.
+dobrostan zwierząt | благополучие животных | Nowe przepisy poprawiają dobrostan zwierząt.
+schronisko dla zwierząt | приют для животных | Psa adoptowaliśmy ze schroniska dla zwierząt.
+łowiectwo | охотничий промысел | Łowiectwo budzi w Polsce coraz więcej kontrowersji.
+kłusownictwo | браконьерство | Kłusownictwo zagraża żubrom.
+woda pitna | питьевая вода | W wielu krajach brakuje wody pitnej.
+niedobór wody | нехватка воды | Polska ma niedobór wody porównywalny z Egiptem.
+retencja | удержание воды (ретенция) | Mała retencja chroni przed suszą.
+deszczówka | дождевая вода | Deszczówką podlewamy ogród.
+zbiornik retencyjny | водохранилище | Zbiornik retencyjny uratował miasto przed powodzią.
+tama | плотина | Tama pękła po ulewnych deszczach.
+susza | засуха | Susza zniszczyła zbiory.
+powódź | наводнение | Powódź z 1997 roku nazwano powodzią tysiąclecia.
+ulewa | ливень | Ulewa zalała piwnice.
+burza | гроза | Burza przeszła nad miastem w nocy.
+piorun | удар молнии | Piorun uderzył w stare drzewo.
+grzmot | гром | Pies chowa się, gdy słyszy grzmoty.
+grad | град | Grad wielkości jajek zniszczył samochody.
+huragan | ураган | Huragan zerwał dachy z domów.
+trąba powietrzna | смерч | Trąba powietrzna przeszła przez wieś.
+trzęsienie ziemi | землетрясение | Trzęsienie ziemi zniszczyło pół miasta.
+erupcja wulkanu | извержение вулкана | Erupcja wulkanu sparaliżowała ruch lotniczy.
+lawina | лавина | Lawina zasypała szlak.
+osuwisko | оползень | Osuwisko zablokowało drogę.
+pożar lasu | лесной пожар | Pożar lasu gaszono przez trzy dni.
+klęska żywiołowa | стихийное бедствие | Rząd ogłosił stan klęski żywiołowej.
+upał | жара | Upał nie odpuszcza od tygodnia.
+fala upałów | волна жары | Fala upałów nawiedziła południe Europy.
+mróz | мороз | W nocy był dwudziestostopniowy mróz.
+przymrozek | заморозок | Majowe przymrozki zniszczyły kwiaty jabłoni.
+odwilż | оттепель | Odwilż zamieniła śnieg w błoto.
+mgła | туман | Gęsta mgła utrudnia jazdę.
+szron | иней | Rano trawa była pokryta szronem.
+gołoledź | гололёд | Gołoledź spowodowała wiele wypadków.
+śnieżyca | метель | Śnieżyca odcięła górskie schroniska.
+opady | осадки | Prognoza przewiduje obfite opady.
+prognoza pogody | прогноз погоды | Prognoza pogody na weekend jest kiepska.
+pora roku | время года | Jesień to moja ulubiona pora roku.
+przedwiośnie | ранняя весна (конец зимы) | Przedwiośnie to czas roztopów i błota.
+babie lato | бабье лето | Babie lato w tym roku było wyjątkowo ciepłe.
+świt | рассвет | Wyruszyliśmy o świcie.
+zmierzch | сумерки | O zmierzchu nad jeziorem latają nietoperze.
+wschód słońca | восход солнца | Wschód słońca nad Tatrami zapiera dech.
+zachód słońca | закат | Oglądaliśmy zachód słońca na plaży.
+tęcza | радуга | Po deszczu pojawiła się tęcza.
+krajobraz | пейзаж, ландшафт | Krajobraz Bieszczad jest dziki i surowy.
+góry | горы | Co roku jeździmy w góry.
+szczyt | вершина | Weszliśmy na szczyt przed południem.
+dolina | долина | Dolina Kościeliska jest pełna turystów.
+wąwóz | ущелье, овраг | Ścieżka prowadzi dnem wąwozu.
+jaskinia | пещера | W jaskini żyją nietoperze.
+skała | скала | Wspinacze trenują na skałach Jury.
+równina | равнина | Mazowsze to w większości równina.
+wyżyna | возвышенность | Wyżyna Krakowsko-Częstochowska słynie z zamków.
+pagórek | холм, пригорок | Dom stoi na łagodnym pagórku.
+rzeka | река | Wisła to najdłuższa polska rzeka.
+dorzecze | бассейн реки | Większość Polski leży w dorzeczu Wisły i Odry.
+źródło | источник, родник | Woda ze źródła jest lodowata.
+potok | ручей (горный) | Górski potok szumi za oknem.
+wodospad | водопад | Wielka Siklawa to jeden z najwyższych wodospadów w Polsce.
+jezioro | озеро | Mazury nazywa się krainą tysiąca jezior.
+staw | пруд | W stawie pływają karpie.
+bagno | болото | Krowa ugrzęzła w bagnie.
+torfowisko | торфяник | Torfowiska magazynują ogromne ilości węgla.
+morze | море | Nad morzem zawsze wieje.
+wybrzeże | побережье | Wybrzeże Bałtyku jest piaszczyste.
+klif | утёс, клиф | Klif w Orłowie powoli się osuwa.
+wydma | дюна | Ruchome wydmy w Łebie przypominają pustynię.
+mierzeja | песчаная коса | Przekop Mierzei Wiślanej otwarto w 2022 roku.
+zatoka | залив | Zatoka Gdańska jest płytka.
+wyspa | остров | Na wyspę dopłyniemy promem.
+półwysep | полуостров | Hel to półwysep, choć wygląda jak wyspa.
+ocean | океан | Oceany pochłaniają dużą część dwutlenku węgla.
+lodowiec | ледник | Lodowiec cofa się w zastraszającym tempie.
+topnienie lodowców | таяние ледников | Topnienie lodowców podnosi poziom mórz.
+poziom morza | уровень моря | Poziom morza rośnie o kilka milimetrów rocznie.
+sztorm | шторм | Sztorm zniszczył molo.
+fala | волна | Fale miały ponad trzy metry.
+przypływ | прилив | Podczas przypływu plaża znika pod wodą.
+odpływ | отлив | Przy odpływie można dojść do wyspy pieszo.
+fauna | фауна | Fauna Tatr jest bogata i unikalna.
+flora | флора | Flora łąk górskich zachwyca latem.
+ssak | млекопитающее | Wieloryb jest ssakiem, a nie rybą.
+ptak | птица | Ptaki odlatują na zimę do Afryki.
+gad | рептилия | Jaszczurki to gady.
+płaz | земноводное | Płazy są wrażliwe na zanieczyszczenia.
+owad | насекомое | Owady giną z powodu pestycydów.
+pszczoła | пчела | Pszczoły zapylają większość upraw.
+zapylacze | опылители | Bez zapylaczy nie będzie owoców.
+drapieżnik | хищник | Wilk jest drapieżnikiem szczytowym.
+żubr | зубр | Żubr to symbol Puszczy Białowieskiej.
+łoś | лось | Łoś wyszedł nagle na drogę.
+dzik | кабан | Dziki rozkopały trawnik w parku.
+jeleń | олень | Jesienią słychać rykowisko jeleni.
+sarna | косуля | Sarna przebiegła przez pole.
+lis | лиса | Lis ukradł kurę z podwórka.
+wilk | волк | Wilki wróciły do lasów zachodniej Polski.
+niedźwiedź | медведь | W Bieszczadach można spotkać niedźwiedzia.
+bóbr | бобр | Bobry zbudowały tamę na rzece.
+jeż | ёж | Jeż zapada w sen zimowy.
+wiewiórka | белка | Wiewiórka chowa orzechy na zimę.
+bocian | аист | Co czwarty bocian na świecie wykluwa się w Polsce.
+sowa | сова | Sowa poluje nocą.
+orzeł | орёл | Orzeł bielik jest w godle Polski.
+żaba | лягушка | Wiosną żaby wędrują do stawów.
+wąż | змея | Jedynym jadowitym wężem w Polsce jest żmija.
+kleszcz | клещ | Po spacerze w lesie sprawdź, czy nie masz kleszcza.
+komar | комар | Komary nie dały nam spać.
+roślina | растение | Ta roślina potrzebuje dużo światła.
+drzewo liściaste | лиственное дерево | Jesienią drzewa liściaste gubią liście.
+drzewo iglaste | хвойное дерево | Drzewa iglaste dominują w górach.
+dąb | дуб | Ten dąb ma ponad pięćset lat.
+brzoza | берёза | Brzozy pylą wiosną i męczą alergików.
+sosna | сосна | Bory sosnowe pachną żywicą.
+świerk | ель | Świerki w Beskidach zniszczył kornik.
+buk | бук | Buki tworzą gęsty cień.
+lipa | липа | Lipa kwitnie w lipcu.
+grzyb | гриб | Zbieranie grzybów to polski sport narodowy.
+mech | мох | Mech rośnie po północnej stronie drzew.
+paproć | папоротник | Kwiat paproci zakwita tylko w legendach.
+trawa | трава | Trawa jest mokra od rosy.
+kwiat | цветок | Na łące rosną polne kwiaty.
+krzew | куст | Przed domem posadziliśmy krzewy róż.
+korzeń | корень | Korzenie drzewa podniosły chodnik.
+pień | ствол | Pień był pusty w środku.
+gałąź | ветка | Wiatr złamał gałąź.
+liść | лист (растения) | Liście zmieniają kolor w październiku.
+nasiono | семя | Nasiona wysiewa się wczesną wiosną.
+kiełkować | прорастать | Fasola zaczęła kiełkować po trzech dniach.
+kwitnąć | цвести | Wiśnie kwitną w kwietniu.
+więdnąć | вянуть | Kwiaty więdną bez wody.
+nietoperz | летучая мышь | Nietoperze zimują na strychu kościoła.
+kornik | короед | Kornik zniszczył tysiące hektarów świerków.
+żmija | гадюка | Ukąszenie żmii wymaga pomocy lekarza.
+łąka | луг | Na łące pasą się krowy.
+pole | поле | Pole rzepaku kwitnie na żółto.
+zboże | зерновые, хлеба | Susza zmniejszyła plony zbóż.

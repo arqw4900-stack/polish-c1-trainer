@@ -1,0 +1,210 @@
+# Характер и эмоции | Charakter i emocje
+charakter | характер | Ma trudny charakter, ale złote serce.
+osobowość | личность | To osobowość, która przyciąga ludzi.
+temperament | темперамент | Ma południowy temperament i szybko się zapala.
+cecha | черта | Cierpliwość to jego najlepsza cecha.
+zaleta | достоинство | Do jej zalet należy punktualność.
+wada | недостаток | Każdy ma jakieś wady.
+nawyk | привычка | Zły nawyk trudno wykorzenić.
+życzliwy | доброжелательный | Sąsiedzi są wobec nas bardzo życzliwi.
+uprzejmy | вежливый, любезный | Recepcjonistka była uprzejma, ale stanowcza.
+grzeczny | послушный, воспитанный | Grzeczne dzieci dostają prezenty od Mikołaja.
+serdeczny | сердечный, радушный | Przywitali nas serdecznie jak starych przyjaciół.
+otwarty | открытый (о человеке) | Jest otwarta na nowe pomysły.
+towarzyski | общительный | Towarzyski człowiek szybko odnajdzie się w nowej pracy.
+nieśmiały | застенчивый | Nieśmiały chłopak nie odezwał się ani słowem.
+skryty | скрытный | Jest tak skryty, że nic o nim nie wiemy.
+introwertyk | интроверт | Jako introwertyk po imprezie potrzebuję ciszy.
+ekstrawertyk | экстраверт | Ekstrawertycy czerpią energię z kontaktu z ludźmi.
+pewny siebie | уверенный в себе | Na rozmowie był spokojny i pewny siebie.
+zarozumiały | самонадеянный, зазнавшийся | Po sukcesie zrobił się zarozumiały.
+wyniosły | надменный | Patrzyła na nas z wyniosłą miną.
+skromny | скромный | Mimo sławy pozostał skromnym człowiekiem.
+próżny | тщеславный | Jest próżny i uwielbia komplementy.
+egoista | эгоист | Egoista myśli tylko o sobie.
+hojny | щедрый | Dziadek był hojny dla wnuków.
+chciwy | алчный, жадный | Chciwy właściciel podnosił czynsz co roku.
+zazdrosny | ревнивый | Zazdrosny mąż sprawdzał jej telefon.
+zawistny | завистливый | Zawistni koledzy rozpuszczali o niej plotki.
+pracowity | трудолюбивый | Pracowici uczniowie nie zawsze są najzdolniejsi.
+leniwy | ленивый | Leniwy kot przespał cały dzień.
+uparty | упрямый | Jest uparty jak osioł.
+wytrwały | настойчивый, упорный | Tylko wytrwali dotrwają do mety.
+cierpliwy | терпеливый | Nauczyciel języka musi być cierpliwy.
+niecierpliwy | нетерпеливый | Niecierpliwy klient stukał palcami w ladę.
+porywczy | вспыльчивый | Porywczy kierowca wysiadł z auta i zaczął krzyczeć.
+opanowany | выдержанный, сдержанный | Pilot pozostał opanowany mimo awarii.
+zrównoważony | уравновешенный | To zrównoważona osoba, trudno ją wyprowadzić z równowagi.
+wrażliwy | чувствительный, ранимый | Wrażliwe dzieci mocno przeżywają krytykę.
+przewrażliwiony | обидчивый, сверхчувствительный | Nie bądź taki przewrażliwiony, to był żart.
+empatyczny | способный к сопереживанию | Empatyczny lekarz potrafi rozmawiać z pacjentem.
+bezduszny | бездушный | Bezduszny urzędnik odesłał ją z kwitkiem.
+okrutny | жестокий | Okrutne traktowanie zwierząt jest karalne.
+łagodny | мягкий, кроткий | Ma łagodne usposobienie.
+szczery | искренний | Powiem ci szczerze, co o tym myślę.
+fałszywy | неискренний, фальшивый | Jej uśmiech wydał mi się fałszywy.
+obłudny | лицемерный | Obłudny polityk mówi jedno, a robi drugie.
+uczciwy | честный | Uczciwy znalazca oddał portfel.
+prawdomówny | правдивый | Dzieci bywają aż do bólu prawdomówne.
+lojalny | лояльный | Lojalny pracownik nie obgaduje firmy.
+wierny | верный | Pies jest wiernym towarzyszem człowieka.
+oddany | преданный | Jest oddanym przyjacielem.
+godny zaufania | заслуживающий доверия | Szukamy opiekunki godnej zaufania.
+lekkomyślny | легкомысленный | Lekkomyślna decyzja kosztowała go oszczędności.
+rozważny | благоразумный, осмотрительный | Rozważny inwestor nie stawia wszystkiego na jedną kartę.
+ostrożny | осторожный | Bądź ostrożny na oblodzonej drodze.
+odważny | смелый | Odważna dziennikarka ujawniła aferę.
+tchórzliwy | трусливый | Tchórzliwy pies chowa się pod łóżkiem przy burzy.
+zuchwały | дерзкий | Zuchwały złodziej okradł sklep w biały dzień.
+bezczelny | наглый | Bezczelny typ wepchnął się do kolejki.
+taktowny | тактичный | Taktowny gość nie pyta o zarobki.
+nietaktowny | бестактный | To było bardzo nietaktowne pytanie.
+złośliwy | язвительный, злорадный | Złośliwy komentarz zepsuł jej humor.
+dowcipny | остроумный | Jego dowcipne przemówienie rozbawiło gości.
+zabawny | забавный | Opowiedział zabawną historię z wakacji.
+poważny | серьёзный | Z poważną miną oznajmił, że się żeni.
+ponury | мрачный, угрюмый | Ponury sąsiad nigdy nie odpowiada na dzień dobry.
+pogodny | жизнерадостный | Mimo choroby zachowała pogodne usposobienie.
+optymista | оптимист | Optymista widzi szklankę do połowy pełną.
+pesymista | пессимист | Pesymista zawsze spodziewa się najgorszego.
+marzyciel | мечтатель | Ten marzyciel planuje rejs dookoła świata.
+zaradny | находчивый, хваткий | Zaradna studentka utrzymuje się sama od pierwszego roku.
+bystry | сообразительный | Bystry chłopak od razu zrozumiał, o co chodzi.
+mądry | умный, мудрый | Mądra decyzja wymaga czasu.
+naiwny | наивный | Byłam naiwna, że mu uwierzyłam.
+łatwowierny | легковерный | Oszuści żerują na łatwowiernych seniorach.
+podejrzliwy | подозрительный (о человеке) | Podejrzliwy portier sprawdził moje dokumenty dwa razy.
+nieufny | недоверчивый | Kot jest nieufny wobec obcych.
+drażliwy | раздражительный | Kiedy jest głodny, robi się drażliwy.
+kłótliwy | склочный | Kłótliwa sąsiadka skarży się na wszystkich.
+ugodowy | сговорчивый, уступчивый | Ugodowy charakter pomaga mu w negocjacjach.
+asertywny | умеющий отстаивать себя | Asertywna osoba potrafi odmówić bez poczucia winy.
+uległy | покорный | Uległa żona nigdy się nie sprzeciwiała.
+apodyktyczny | властный | Apodyktyczny ojciec decydował o wszystkim.
+zaborczy | собственнический (в отношениях) | Zaborcza miłość niszczy związek.
+nadopiekuńczy | гиперопекающий | Nadopiekuńczy rodzice nie pozwalają dziecku samodzielnie wracać ze szkoły.
+roztargniony | рассеянный | Roztargniony profesor zostawił parasol w tramwaju.
+pedantyczny | педантичный | Jest pedantyczny i wszystko układa pod linijkę.
+perfekcjonista | перфекционист | Jako perfekcjonista nigdy nie jest zadowolony z efektu.
+spontaniczny | спонтанный | Spontaniczny wyjazd okazał się najlepszy.
+impulsywny | импульсивный | Impulsywne zakupy rujnują budżet.
+humorzasty | капризный, переменчивый в настроении | Humorzasty szef jednego dnia chwali, drugiego krzyczy.
+dojrzały | зрелый | Jak na swój wiek jest bardzo dojrzała.
+niedojrzały | незрелый, инфантильный | Niedojrzały partner unika odpowiedzialności.
+wyrozumiały | понимающий, терпимый к другим | Szefowa była wyrozumiała, gdy zachorowało mi dziecko.
+pobłażliwy | снисходительный, попустительский | Babcia jest zbyt pobłażliwa dla wnuków.
+surowy | строгий | Surowy ojciec nie tolerował spóźnień.
+skrupulatny | скрупулёзный | Skrupulatna księgowa wyłapała każdy błąd.
+uczucie | чувство | Trudno mi opisać to uczucie.
+emocje | эмоции | Emocje sięgnęły zenitu.
+nastrój | настроение | Pogoda wpływa na mój nastrój.
+mieć dobry humor | быть в хорошем расположении духа | Szef ma dziś dobry humor, więc zapytaj o urlop.
+radość | радость | Radość dzieci jest zaraźliwa.
+szczęście | счастье | Szczęście to umieć cieszyć się drobiazgami.
+smutek | грусть | W jej oczach widać było smutek.
+żal | сожаление, горечь | Żal mi straconego czasu.
+uraza | обида | Długo żywiła do niego urazę.
+gniew | гнев | W gniewie powiedział za dużo.
+złość | злость | Złość szybko mu przechodzi.
+wściekłość | ярость | Zbladł z wściekłości.
+irytacja | раздражение | Z irytacją odłożył słuchawkę.
+frustracja | досада, фрустрация | Frustracja kierowców rośnie w korkach.
+rozczarowanie | разочарование | Wyniki wyborów były dla niej rozczarowaniem.
+strach | страх | Strach ma wielkie oczy.
+lęk | тревога, боязнь | Lęk przed lataniem nie pozwala mu podróżować.
+niepokój | беспокойство | Z niepokojem czekała na telefon.
+przerażenie | ужас | Z przerażeniem patrzyła na płonący dom.
+panika | паника | W tłumie wybuchła panika.
+wstyd | стыд | Myślałam, że spalę się ze wstydu.
+zażenowanie | неловкость, смущение | Z zażenowaniem przyznał się do błędu.
+poczucie winy | чувство вины | Dręczy ją poczucie winy.
+duma | гордость | Rodzice patrzyli na córkę z dumą.
+zazdrość | ревность | Zazdrość zniszczyła ich małżeństwo.
+zawiść | зависть | Jego sukces wzbudził zawiść kolegów.
+tęsknota | тоска (по кому-л.) | Tęsknota za domem nie daje mi spać.
+nostalgia | ностальгия | Z nostalgią wspomina czasy studenckie.
+samotność | одиночество | Samotność w wielkim mieście bywa dotkliwa.
+wdzięczność | благодарность | Czuję ogromną wdzięczność za waszą pomoc.
+ulga | облегчение | Z ulgą przeczytał wyniki.
+zaskoczenie | удивление | Ku mojemu zaskoczeniu nikt się nie spóźnił.
+zachwyt | восторг | Dzieci krzyczały z zachwytu.
+podziw | восхищение | Patrzyłem z podziwem na jej grę.
+entuzjazm | энтузиазм | Z entuzjazmem przyjęli nowy pomysł.
+ciekawość | любопытство | Ciekawość to pierwszy stopień do piekła.
+obojętność | безразличие | Najbardziej boli obojętność.
+nuda | скука | Umieram z nudów na tym wykładzie.
+zniechęcenie | упадок мотивации | Po kolejnej porażce ogarnęło go zniechęcenie.
+przygnębienie | подавленность | Jesienią często dopada mnie przygnębienie.
+rozpacz | отчаяние | W rozpaczy dzwoniła do wszystkich szpitali.
+żałoba | траур | Kraj ogłosił trzydniową żałobę.
+współczucie | сочувствие | Przyjmij wyrazy współczucia.
+litość | жалость | Nie chcę twojej litości.
+pogarda | презрение | Mówił o biednych z pogardą.
+nienawiść | ненависть | Nienawiść niczego nie rozwiązuje.
+miłość | любовь | Miłość od pierwszego wejrzenia zdarza się naprawdę.
+czułość | нежность | Mówiła do dziecka z czułością.
+przywiązanie | привязанность | Przywiązanie do rzeczy utrudnia przeprowadzki.
+zaufanie | доверие | Zaufanie łatwo stracić, trudno odbudować.
+nadzieja | надежда | Nadzieja umiera ostatnia.
+spokój | спокойствие | Potrzebuję chwili spokoju.
+satysfakcja | удовлетворение | Ukończenie maratonu dało mi ogromną satysfakcję.
+spełnienie | самореализация, чувство исполненности | W pracy z dziećmi znalazła spełnienie.
+zauroczenie | увлечение, влюблённость | To było tylko wakacyjne zauroczenie.
+cieszyć się | радоваться | Cieszę się, że przyszliście.
+martwić się | беспокоиться | Nie martw się, wszystko będzie dobrze.
+denerwować się | нервничать | Denerwuję się przed każdym egzaminem.
+złościć się | злиться | Nie złość się na mnie, to nie moja wina.
+obrazić się | обидеться | Obraziła się, bo nie zaprosiłem jej na urodziny.
+wzruszyć się | растрогаться | Wzruszyłam się na ślubie siostry.
+wzruszający | трогательный | To był bardzo wzruszający film.
+rozczarować | разочаровать | Nowa płyta zespołu mnie rozczarowała.
+zawieść | подвести | Nie zawiedź mnie tym razem.
+zaskoczyć | удивить, застать врасплох | Zaskoczyła nas swoją decyzją.
+przestraszyć się | испугаться | Przestraszyłem się, gdy zgasło światło.
+bać się | бояться | Boi się pająków.
+wstydzić się | стыдиться | Wstydzę się swojego zachowania.
+żałować | жалеть о чём-л. | Niczego nie żałuję.
+tęsknić | скучать (по кому-л.) | Bardzo za tobą tęsknię.
+współczuć | сочувствовать | Współczuję ci, to musiało być straszne.
+podziwiać | восхищаться | Podziwiam jej odwagę.
+zazdrościć | завидовать | Zazdroszczę ci tych wakacji.
+ufać | доверять | Ufam mu jak bratu.
+wybaczyć | простить | Nie potrafię mu tego wybaczyć.
+przeprosić | извиниться | Przeprosił ją za spóźnienie.
+pocieszyć | утешить | Próbowałam ją pocieszyć, ale płakała dalej.
+uspokoić się | успокоиться | Usiądź i uspokój się.
+opanować się | взять себя в руки | Z trudem się opanował, żeby nie krzyknąć.
+wybuchnąć | вспылить | Wybuchnął i trzasnął drzwiami.
+płakać | плакать | Płakała ze śmiechu.
+śmiać się | смеяться | Śmialiśmy się do łez.
+uśmiechać się | улыбаться | Uśmiecha się do wszystkich.
+rumienić się | краснеть | Rumieni się, kiedy ktoś ją chwali.
+westchnąć | вздохнуть | Westchnęła ciężko i wróciła do pracy.
+dąsać się | дуться | Dąsa się od rana, bo nie dostał deseru.
+kłócić się | ссориться | Kłócą się o każdy drobiazg.
+pogodzić się | помириться | Po tygodniu milczenia pogodzili się.
+zerwać | порвать (отношения) | Zerwała z nim przez esemesa.
+zakochać się | влюбиться | Zakochał się na zabój.
+przyjaźń | дружба | Ich przyjaźń przetrwała pół wieku.
+znajomy | знакомый | To tylko znajomy z pracy.
+bliski | близкий | Straciła kogoś bliskiego.
+relacja | отношения, связь | Mamy dobrą relację mimo różnic.
+być w związku | быть в отношениях | Od roku jest w szczęśliwym związku.
+więź | связь, узы | Więź z rodzeństwem jest dla mnie bardzo ważna.
+inteligencja emocjonalna | эмоциональный интеллект | Inteligencja emocjonalna pomaga w pracy zespołowej.
+samoocena | самооценка | Krytyka rodziców obniżyła jej samoocenę.
+pewność siebie | уверенность в себе | Pewność siebie przychodzi z doświadczeniem.
+kompleks | комплекс | Ma kompleks niższości wobec starszego brata.
+poczucie humoru | чувство юмора | Bez poczucia humoru trudno przetrwać w tej pracy.
+dystans do siebie | самоирония | Dystans do siebie to oznaka dojrzałości.
+odporność psychiczna | психологическая устойчивость | Sportowcy trenują też odporność psychiczną.
+usposobienie | нрав | Ma spokojne usposobienie po ojcu.
+wyprowadzić z równowagi | вывести из себя | Jego spóźnienia wyprowadzają mnie z równowagi.
+przeżywać | переживать | Za bardzo przeżywasz cudze opinie.
+zrazić się | разочароваться (после неудачи), охладеть | Zraził się do tańca po pierwszej lekcji.
+zgorzkniały | желчный, озлобленный с годами | Z wiekiem stał się zgorzkniały i nieufny.
+rozdrażniony | раздражённый (в данный момент) | Po nieprzespanej nocy jest rozdrażniony.
+przygnębiony | удручённый | Wrócił z rozmowy przygnębiony.
+rozradowany | ликующий | Rozradowane dzieci wybiegły na śnieg.
+zawstydzony | пристыженный | Zawstydzony spuścił wzrok.
+bezradny | беспомощный | Czuła się bezradna wobec biurokracji.

@@ -1,0 +1,219 @@
+# Работа и карьера | Praca i kariera
+pracodawca | работодатель | Pracodawca ma obowiązek zapewnić bezpieczne warunki pracy.
+pracownik etatowy | штатный сотрудник | Jako pracownik etatowy mam prawo do płatnego urlopu.
+umowa o pracę | трудовой договор | Po okresie próbnym podpisałam umowę o pracę.
+umowa zlecenie | договор поручения (гражданско-правовой) | Na umowie zlecenie nie przysługuje ci urlop wypoczynkowy.
+umowa o dzieło | договор подряда (на конкретную работу) | Tłumaczenie książki rozliczyliśmy na podstawie umowy o dzieło.
+umowa na czas określony | срочный договор | Umowa na czas określony kończy się w marcu.
+umowa na czas nieokreślony | бессрочный договор | Wreszcie dostałem umowę na czas nieokreślony.
+okres próbny | испытательный срок | Okres próbny trwa zwykle trzy miesiące.
+okres wypowiedzenia | срок предупреждения об увольнении | Mój okres wypowiedzenia wynosi miesiąc.
+wypowiedzenie | заявление об увольнении, расторжение договора | Złożyłem wypowiedzenie, bo dostałem lepszą ofertę.
+zwolnienie dyscyplinarne | дисциплинарное увольнение | Za kradzież w firmie grozi zwolnienie dyscyplinarne.
+zwolnienie lekarskie | больничный лист | Jestem na zwolnieniu lekarskim do piątku.
+urlop wypoczynkowy | ежегодный оплачиваемый отпуск | Zaległy urlop wypoczynkowy trzeba wykorzystać do końca września.
+urlop macierzyński | декретный отпуск | Po urlopie macierzyńskim wróciła na to samo stanowisko.
+urlop bezpłatny | отпуск за свой счёт | Wziąłem miesiąc urlopu bezpłatnego, żeby pojechać w podróż.
+stanowisko | должность | Ubiegam się o stanowisko kierownika projektu.
+stanowisko pracy | рабочее место | Każde stanowisko pracy musi być dostosowane do potrzeb pracownika.
+etat | ставка, штатная единица | Pracuję na pół etatu w bibliotece.
+nadgodziny | сверхурочные часы | Za nadgodziny należy się dodatkowe wynagrodzenie.
+wynagrodzenie | вознаграждение, оплата труда | Wynagrodzenie wypłacane jest do dziesiątego dnia miesiąca.
+pensja | зарплата, оклад | Moja pensja ledwo wystarcza na czynsz i rachunki.
+wypłata | получка, выдача зарплаты | Wypłata przychodzi zawsze ostatniego dnia miesiąca.
+podwyżka | повышение зарплаты | Po roku pracy poprosiłam szefa o podwyżkę.
+premia | премия | Za wyniki w ostatnim kwartale dostaliśmy premię.
+awans | повышение по службе | Awans na kierownika oznaczał też więcej obowiązków.
+awansować | получить повышение | W ciągu dwóch lat awansowała z asystentki na dyrektorkę działu.
+zatrudnić | нанять, принять на работу | Firma zamierza zatrudnić pięćdziesiąt nowych osób.
+zwolnić z pracy | уволить | Z powodu kryzysu zwolniono z pracy połowę załogi.
+zatrudnienie | трудоустройство, занятость | Zatrudnienie w przemyśle systematycznie spada.
+załoga | персонал, коллектив предприятия | Dyrektor zwrócił się do całej załogi z podziękowaniami.
+kadra kierownicza | руководящий состав | Kadra kierownicza spotyka się w każdy poniedziałek.
+kierownictwo | руководство | Kierownictwo nie skomentowało plotek o sprzedaży firmy.
+dział kadr | отдел кадров | Zaświadczenie o zatrudnieniu wyda ci dział kadr.
+przełożony | непосредственный начальник | Mój przełożony rzadko chwali, ale zawsze jest sprawiedliwy.
+podwładny | подчинённый | Dobry szef ufa swoim podwładnym.
+współpracownik | коллега, сотрудник | Współpracownicy zorganizowali mi pożegnanie.
+kierownik | заведующий, менеджер | Kierownik zmiany sprawdza listę obecności.
+stażysta | стажёр | Stażysta szybko nauczył się obsługi systemu.
+staż | стажировка | Po studiach odbyłam półroczny staż w agencji reklamowej.
+praktyki | практика (учебная, производственная) | Praktyki studenckie są obowiązkowe na trzecim roku.
+rekrutacja | набор персонала, рекрутинг | Proces rekrutacji składa się z trzech etapów.
+rozmowa kwalifikacyjna | собеседование при приёме на работу | Na rozmowę kwalifikacyjną warto przyjść kilka minut wcześniej.
+życiorys | автобиография, резюме | W życiorysie wymień najważniejsze projekty, a nie wszystkie.
+list motywacyjny | мотивационное письмо | Do CV dołączyłem krótki list motywacyjny.
+kandydat | кандидат | Wybraliśmy kandydata z największym doświadczeniem.
+ubiegać się o | претендовать на | Od roku ubiega się o posadę w ministerstwie.
+posada | место, пост (о работе) | Dostał intratną posadę w banku.
+wakat | вакансия (свободная ставка) | W dziale sprzedaży są dwa wakaty.
+oferta pracy | предложение работы | Odrzuciła ofertę pracy, bo musiałaby się przeprowadzić.
+wymagania | требования | Spełniam wszystkie wymagania z ogłoszenia.
+mile widziany | приветствуется (в вакансии) | Znajomość języka niemieckiego będzie mile widziana.
+aplikować | подавать заявку, откликаться на вакансию | Aplikowałam na pięć stanowisk, odezwały się dwie firmy.
+odrzucić kandydaturę | отклонить кандидатуру | Odrzucono moją kandydaturę bez podania przyczyny.
+łowca głów | хедхантер | Zadzwonił do mnie łowca głów z propozycją z Londynu.
+kwalifikacje | квалификация | Ma wysokie kwalifikacje, ale brakuje mu doświadczenia.
+doświadczenie zawodowe | опыт работы | Wymagamy co najmniej trzech lat doświadczenia zawodowego.
+kompetencje miękkie | гибкие навыки (soft skills) | Pracodawcy coraz bardziej cenią kompetencje miękkie.
+kompetencje cyfrowe | цифровые навыки | Kursy rozwijają kompetencje cyfrowe seniorów.
+umiejętność | умение, навык | Umiejętność negocjacji przydaje się w każdej branży.
+predyspozycje | склонности, задатки | Masz predyspozycje do pracy z ludźmi.
+powołanie | призвание | Medycyna to dla niej prawdziwe powołanie.
+branża | отрасль, сфера | Pracuję w branży IT od dziesięciu lat.
+zawód | профессия | Zawód pielęgniarki wymaga ogromnej odporności psychicznej.
+przekwalifikować się | переквалифицироваться | W wieku czterdziestu lat postanowił przekwalifikować się na programistę.
+podnosić kwalifikacje | повышать квалификацию | Firma zachęca pracowników do podnoszenia kwalifikacji.
+szkolenie | обучение, тренинг | Nowi pracownicy przechodzą dwutygodniowe szkolenie.
+szkolenie BHP | инструктаж по технике безопасности | Przed rozpoczęciem pracy przeszliśmy szkolenie BHP.
+wdrożenie | адаптация нового сотрудника (онбординг) | Wdrożenie nowego pracownika trwa u nas około miesiąca.
+certyfikat | сертификат | Zdobył certyfikat kierownika projektów.
+bezrobocie | безработица | Bezrobocie w regionie spadło poniżej pięciu procent.
+bezrobotny | безработный | Jako bezrobotny zarejestrował się w urzędzie pracy.
+urząd pracy | центр занятости, биржа труда | Urząd pracy finansuje kursy dla osób bez zatrudnienia.
+zasiłek dla bezrobotnych | пособие по безработице | Zasiłek dla bezrobotnych przysługuje tylko przez określony czas.
+rynek pracy | рынок труда | Na rynku pracy brakuje specjalistów od cyberbezpieczeństwa.
+rynek pracownika | рынок кандидата (нехватка работников) | Na rynku pracownika to firmy walczą o kandydatów.
+luka kompetencyjna | дефицит навыков | Luka kompetencyjna to problem całej branży.
+targi pracy | ярмарка вакансий | Na targach pracy rozdałem kilkanaście CV.
+doradca zawodowy | профконсультант | Doradca zawodowy pomógł mi wybrać kierunek rozwoju.
+praca zdalna | удалённая работа | Od pandemii praca zdalna stała się w naszej firmie normą.
+praca hybrydowa | гибридный формат работы | W pracy hybrydowej przychodzimy do biura dwa razy w tygodniu.
+elastyczne godziny pracy | гибкий график | Elastyczne godziny pracy pozwalają mi odbierać dzieci ze szkoły.
+ruchomy czas pracy | скользящий график | Mamy ruchomy czas pracy: zaczynamy między siódmą a dziesiątą.
+grafik | график смен, расписание дежурств | Grafik na przyszły miesiąc wisi na tablicy.
+praca zmianowa | сменная работа | Praca zmianowa rozregulowuje sen.
+zmiana nocna | ночная смена | Po zmianie nocnej śpię do południa.
+praca na akord | сдельная работа | Przy zbiorze truskawek pracuje się na akord.
+dniówka | подённая оплата, дневной заработок | Na budowie płacą mu dniówkę do ręki.
+wymiar czasu pracy | норма рабочего времени | Wymiar czasu pracy wynosi czterdzieści godzin tygodniowo.
+dzień roboczy | рабочий день (в календаре) | Przelew dotrze w ciągu dwóch dni roboczych.
+przerwa obiadowa | обеденный перерыв | Przerwa obiadowa trwa u nas pół godziny.
+pokój socjalny | комната отдыха для сотрудников | W pokoju socjalnym stoi ekspres do kawy.
+identyfikator | бейдж, пропуск | Bez identyfikatora nie wejdziesz do budynku.
+samochód służbowy | служебный автомобиль | Razem z awansem dostał samochód służbowy.
+delegacja | командировка | W przyszłym tygodniu jadę w delegację do Gdańska.
+podróż służbowa | служебная поездка | Koszty podróży służbowej zwraca pracodawca.
+rozliczyć się | отчитаться о расходах, рассчитаться | Po delegacji muszę się rozliczyć z wydatków.
+obowiązki służbowe | служебные обязанности | Nie mogę zaniedbywać obowiązków służbowych.
+zakres obowiązków | круг обязанностей | Zakres obowiązków powinien być opisany w umowie.
+podział obowiązków | распределение обязанностей | Jasny podział obowiązków ułatwia współpracę.
+polecenie służbowe | служебное распоряжение | Odmowa wykonania polecenia służbowego może skończyć się naganą.
+nagana | выговор | Za ciągłe spóźnienia dostał naganę na piśmie.
+upomnienie | замечание (дисциплинарное) | Pierwsze upomnienie jest zwykle ustne.
+termin | срок, дедлайн | Termin oddania raportu mija w piątek.
+dotrzymać terminu | уложиться в срок | Mimo problemów technicznych udało nam się dotrzymać terminu.
+przekroczyć termin | просрочить, сорвать срок | Wykonawca przekroczył termin o dwa tygodnie.
+presja czasu | давление сроков | Pod presją czasu łatwo o błędy.
+obciążenie pracą | рабочая нагрузка | Obciążenie pracą w grudniu jest ogromne.
+zebranie | собрание | Zebranie zarządu przesunięto na czwartek.
+narada | совещание | Na naradzie omówiliśmy budżet na przyszły rok.
+protokół | протокол | Sekretarka sporządziła protokół z posiedzenia.
+sprawozdanie | отчёт | Co kwartał przygotowuję sprawozdanie z działalności działu.
+wydajność | производительность | Po wprowadzeniu nowego systemu wydajność wzrosła o jedną piątą.
+wskaźnik | показатель | Kluczowe wskaźniki efektywności omawiamy co miesiąc.
+ocena okresowa | периодическая аттестация | Ocena okresowa decyduje o wysokości premii.
+informacja zwrotna | обратная связь | Poprosiłem o szczerą informację zwrotną po prezentacji.
+motywacja | мотивация | Po kolejnej odmowie podwyżki straciłam motywację.
+zaangażowanie | вовлечённость, самоотдача | Doceniamy twoje zaangażowanie w projekt.
+wypalenie zawodowe | профессиональное выгорание | Wypalenie zawodowe często dotyka lekarzy i nauczycieli.
+pracoholik | трудоголик | Jest pracoholikiem i nawet na urlopie odpisuje na maile.
+przepracowany | переутомлённый работой | Jesteś przepracowany, weź kilka dni wolnego.
+harować | вкалывать, работать на износ | Haruje od rana do nocy, a pieniędzy wciąż brakuje.
+mobbing | травля на работе (моббинг) | Pracownica oskarżyła kierownika o mobbing.
+związek zawodowy | профсоюз | Związek zawodowy wynegocjował podwyżki dla wszystkich.
+strajk | забастовка | Nauczyciele zapowiedzieli strajk na początek roku szkolnego.
+układ zbiorowy | коллективный договор | Układ zbiorowy przewiduje dodatkowe dni wolne.
+odprawa | выходное пособие | Zwolnieni pracownicy otrzymali trzymiesięczną odprawę.
+emerytura | пенсия по старости | Na emeryturę przejdzie w przyszłym roku.
+renta | пенсия по инвалидности | Po wypadku przyznano mu rentę.
+świadczenie | пособие, социальная выплата | Świadczenie wypłacane jest co miesiąc.
+ubezpieczenie zdrowotne | медицинское страхование | Pracodawca opłaca składkę na ubezpieczenie zdrowotne.
+składka | взнос | Składki emerytalne odprowadza się co miesiąc.
+pakiet socjalny | социальный пакет | W pakiecie socjalnym mamy prywatną opiekę medyczną.
+benefity | льготы от работодателя | Firma kusi kandydatów benefitami, ale pensje są niskie.
+świadectwo pracy | трудовая справка при увольнении | Po rozwiązaniu umowy pracodawca musi wydać świadectwo pracy.
+referencje | рекомендации | Poprzedni szef chętnie wystawi mi referencje.
+zespół | команда | Nasz zespół składa się z sześciu osób.
+kierować zespołem | руководить командой | Od roku kieruje zespołem analityków.
+delegować zadania | делегировать задачи | Dobry menedżer umie delegować zadania.
+przydzielić | распределить, выделить (задание) | Szefowa przydzieliła mi nowego klienta.
+powierzyć | доверить | Powierzono mi kierowanie nowym oddziałem.
+wywiązać się z | выполнить (обязательство) | Wywiązał się ze wszystkich zobowiązań wobec klienta.
+sprostać | оказаться на высоте, соответствовать требованиям | Nie wszyscy potrafią sprostać takiej presji.
+zaniedbać | запустить, пренебречь | Zaniedbał swoje obowiązki i stracił ważnego klienta.
+sumienny | добросовестный | Jest sumienna i nigdy nie zostawia spraw niedokończonych.
+kompetentny | компетентный | Potrzebujemy kompetentnego księgowego.
+dyspozycyjny | готовый работать в любое время | Szukamy osoby dyspozycyjnej, gotowej do częstych wyjazdów.
+samodzielny | самостоятельный | Na tym stanowisku trzeba być samodzielnym.
+odpowiedzialny | ответственный | To odpowiedzialna praca, bo dotyczy bezpieczeństwa ludzi.
+punktualny | пунктуальный | Szef jest punktualny i tego samego oczekuje od nas.
+wymagający | требовательный | Mam bardzo wymagającą szefową.
+zawodowiec | профессионал | Widać, że to zawodowiec: wszystko zrobił szybko i porządnie.
+fachowiec | мастер своего дела | Do remontu łazienki potrzebujemy dobrego fachowca.
+mentor | наставник | Mój mentor pomógł mi przygotować się do awansu.
+następca | преемник | Zanim odejdę, muszę wdrożyć następcę.
+przejąć obowiązki | принять обязанности | Na czas mojego urlopu obowiązki przejmie Ania.
+zastępstwo | замещение (на время отсутствия) | Szukamy kogoś na zastępstwo za chorą nauczycielkę.
+kariera zawodowa | профессиональная карьера | Zrezygnowała z kariery zawodowej, żeby wychowywać dzieci.
+ścieżka kariery | карьерный путь | Firma oferuje jasno określoną ścieżkę kariery.
+szczebel | ступень иерархии | Pnie się po kolejnych szczeblach kariery.
+piąć się w górę | продвигаться по карьерной лестнице | Szybko piął się w górę dzięki znajomościom.
+dorobek zawodowy | профессиональные достижения | Ma imponujący dorobek zawodowy.
+osiągnięcie | достижение | Wśród swoich osiągnięć wymienił wdrożenie nowego systemu.
+dorabiać | подрабатывать | Wieczorami dorabia jako kelner.
+praca dorywcza | временная работа, подработка | W wakacje szukam pracy dorywczej.
+praca na czarno | работа без оформления | Pracował na czarno, więc nie miał ubezpieczenia.
+samozatrudnienie | самозанятость | Samozatrudnienie daje swobodę, ale i ryzyko.
+jednoosobowa działalność gospodarcza | индивидуальное предпринимательство | Założyłem jednoosobową działalność gospodarczą i wystawiam faktury.
+wolny strzelec | фрилансер | Jako wolny strzelec sama ustalam stawki.
+zleceniodawca | заказчик (по договору) | Zleceniodawca nie zapłacił w terminie.
+zleceniobiorca | исполнитель (по договору) | Zleceniobiorca sam odpowiada za organizację pracy.
+stawka godzinowa | почасовая ставка | Minimalna stawka godzinowa rośnie co roku.
+płaca minimalna | минимальная зарплата | Płaca minimalna wzrośnie od stycznia.
+brutto | брутто, до вычета налогов | Proponują osiem tysięcy złotych brutto.
+netto | нетто, на руки | Ile to będzie netto, po odliczeniu podatków?
+kontrakt | контракт | Podpisał dwuletni kontrakt z zagranicznym klubem.
+przedłużyć umowę | продлить договор | Szef obiecał przedłużyć mi umowę o rok.
+rozwiązać umowę | расторгнуть договор | Strony mogą rozwiązać umowę w każdej chwili.
+za porozumieniem stron | по соглашению сторон | Rozstaliśmy się za porozumieniem stron.
+kontroferta | встречное предложение | Gdy złożyłem wypowiedzenie, szef przedstawił mi kontrofertę.
+wynegocjować | добиться в переговорах | Wynegocjowałam wyższą stawkę i dodatkowy dzień wolny.
+zmienić pracę | сменить работу | Myślę o tym, żeby zmienić pracę na mniej stresującą.
+rzucić pracę | бросить работу | Rzuciła pracę w korporacji i otworzyła kawiarnię.
+odejść z firmy | уйти из компании | Po dziesięciu latach postanowił odejść z firmy.
+spóźnić się | опоздать | Spóźniłem się na zebranie przez korki.
+zwolnienia grupowe | массовые увольнения | Zakład zapowiedział zwolnienia grupowe.
+redukcja etatów | сокращение штата | Redukcja etatów dotknie głównie administrację.
+restrukturyzacja | реструктуризация | Restrukturyzacja oznacza likwidację kilku działów.
+dyrektor generalny | генеральный директор | Dyrektor generalny ogłosił nową strategię rozwoju.
+prezes zarządu | председатель правления | Prezes zarządu podał się do dymisji.
+zarząd | правление | Zarząd zatwierdził plan oszczędności.
+rada nadzorcza | наблюдательный совет | Rada nadzorcza odwołała dwóch członków zarządu.
+hierarchia | иерархия | W tej firmie hierarchia jest bardzo płaska.
+kultura organizacyjna | корпоративная культура | Kultura organizacyjna tej firmy stawia na otwartość.
+polityka firmy | политика компании | Zgodnie z polityką firmy nie udzielamy informacji telefonicznie.
+wyjazd integracyjny | корпоративный выезд, тимбилдинг | Na wyjeździe integracyjnym graliśmy w paintball.
+etyka zawodowa | профессиональная этика | Ujawnienie danych klienta narusza etykę zawodową.
+tajemnica służbowa | служебная тайна | Obowiązuje mnie tajemnica służbowa.
+zakaz konkurencji | запрет на конкуренцию | Umowa zawiera klauzulę o zakazie konkurencji przez rok.
+konflikt interesów | конфликт интересов | Wycofał się z przetargu z powodu konfliktu interesów.
+wypadek przy pracy | несчастный случай на производстве | Wypadek przy pracy trzeba natychmiast zgłosić.
+pozwolenie na pracę | разрешение на работу | Cudzoziemcy spoza Unii zwykle potrzebują pozwolenia na pracę.
+emigracja zarobkowa | трудовая эмиграция | Emigracja zarobkowa do Wielkiej Brytanii nasiliła się po 2004 roku.
+biuro | офис | Biuro mieści się na dziesiątym piętrze.
+wyrabiać normę | выполнять норму | Nowy pracownik jeszcze nie wyrabia normy.
+etatowiec | штатник, работник на ставке | Etatowcy mają stałą pensję, a my tylko zlecenia.
+pracować po godzinach | работать допоздна, задерживаться на работе | Przed premierą produktu cały zespół pracował po godzinach.
+wziąć wolne | взять выходной, отпроситься | Wezmę wolne w piątek i pojedziemy nad morze.
+dzień wolny od pracy | нерабочий день | Jedenasty listopada to w Polsce dzień wolny od pracy.
+urlop na żądanie | отпуск по требованию (без предупреждения) | Rano wzięłam urlop na żądanie, bo dziecko zachorowało.
+L4 | больничный (разг. название бланка) | Szef nie był zachwycony, gdy znowu przyniosłem L4.
+wychodne | выходной у прислуги, свободный вечер | Opiekunka ma wychodne w niedzielę.
+przestój | простой | Awaria maszyny spowodowała dwudniowy przestój.
+zakład pracy | место работы, предприятие | Zakład pracy zapewnia dowóz do fabryki.
+przedsiębiorczość | предприимчивость | Przedsiębiorczość młodych ludzi trzeba wspierać.
+ambitny | амбициозный | To ambitny projekt, ale realny.
+ambicje zawodowe | профессиональные амбиции | Jego ambicje zawodowe sięgają fotela prezesa.
+wygórowane oczekiwania | завышенные ожидания | Kandydat miał wygórowane oczekiwania finansowe.
+widełki płacowe | вилка зарплаты | Coraz więcej firm podaje w ogłoszeniach widełki płacowe.

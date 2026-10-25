@@ -1,0 +1,234 @@
+# Общество и политика | Społeczeństwo i polityka
+społeczeństwo | общество | Społeczeństwo coraz bardziej się starzeje.
+obywatel | гражданин | Każdy obywatel ma prawo do udziału w wyborach.
+obywatelstwo | гражданство | Po ośmiu latach dostała polskie obywatelstwo.
+społeczeństwo obywatelskie | гражданское общество | Silne społeczeństwo obywatelskie kontroluje władzę.
+państwo | государство | Państwo powinno chronić najsłabszych.
+władza | власть | Władza deprawuje, a władza absolutna deprawuje absolutnie.
+władze lokalne | местные власти | Władze lokalne zamknęły park na czas remontu.
+rząd | правительство | Rząd przyjął projekt budżetu.
+premier | премьер-министр | Premier zapowiedział rekonstrukcję rządu.
+minister | министр | Minister zdrowia zabrał głos w debacie.
+ministerstwo | министерство | Ministerstwo opublikowało nowe wytyczne.
+prezydent | президент | Prezydent podpisał ustawę w ostatniej chwili.
+parlament | парламент | Parlament zebrał się na nadzwyczajnym posiedzeniu.
+Sejm | Сейм (нижняя палата) | Sejm uchwalił nowelizację kodeksu pracy.
+Senat | Сенат | Senat wprowadził do ustawy kilka poprawek.
+poseł | депутат Сейма | Poseł złożył interpelację w sprawie szpitala.
+senator | сенатор | Senator głosował przeciwko projektowi.
+projekt ustawy | законопроект | Projekt ustawy trafił do komisji sejmowej.
+posiedzenie | заседание | Posiedzenie rządu przesunięto na środę.
+konstytucja | конституция | Konstytucja gwarantuje wolność sumienia.
+ustrój | государственный строй | Po 1989 roku zmienił się ustrój Polski.
+demokracja | демократия | Demokracja wymaga zaangażowania obywateli.
+dyktatura | диктатура | Kraj przez dekady żył pod dyktaturą.
+autorytaryzm | авторитаризм | Politolodzy ostrzegają przed powrotem autorytaryzmu.
+totalitaryzm | тоталитаризм | Orwell opisał mechanizmy totalitaryzmu.
+monarchia | монархия | Wielka Brytania to monarchia konstytucyjna.
+republika | республика | Polska jest republiką parlamentarną.
+trójpodział władzy | разделение властей | Trójpodział władzy chroni przed nadużyciami.
+władza ustawodawcza | законодательная власть | Władzę ustawodawczą sprawują Sejm i Senat.
+władza wykonawcza | исполнительная власть | Władza wykonawcza należy do prezydenta i rządu.
+władza sądownicza | судебная власть | Władza sądownicza musi być niezależna.
+praworządność | верховенство права | Komisja Europejska zarzuciła rządowi łamanie praworządności.
+transformacja ustrojowa | смена политического строя | Transformacja ustrojowa przyniosła wolność, ale i bezrobocie.
+obrady Okrągłego Stołu | переговоры Круглого стола (1989) | Obrady Okrągłego Stołu otworzyły drogę do wolnych wyborów.
+Solidarność | «Солидарность» (профсоюз и движение) | Solidarność powstała w sierpniu 1980 roku w Gdańsku.
+komunizm | коммунизм | Moi dziadkowie pamiętają kolejki z czasów komunizmu.
+lustracja | люстрация | Lustracja dotyczyła osób pełniących funkcje publiczne.
+reforma | реформа | Reforma emerytalna wywołała protesty.
+rewolucja | революция | Rewolucja cyfrowa zmieniła rynek pracy.
+przewrót | переворот | Wojsko dokonało przewrotu i przejęło władzę.
+obalić | свергнуть | Protestujący obalili skorumpowany reżim.
+przejąć władzę | захватить власть | Junta przejęła władzę w nocy.
+rządzić | править | Ta partia rządzi od ośmiu lat.
+sprawować władzę | осуществлять власть | Prezydent sprawuje władzę przez pięć lat.
+wybory | выборы | Wybory odbędą się jesienią.
+wybory parlamentarne | парламентские выборы | W wyborach parlamentarnych startuje dziesięć komitetów.
+wybory prezydenckie | президентские выборы | Wybory prezydenckie rozstrzygnęły się w drugiej turze.
+druga tura | второй тур | Do drugiej tury przechodzi dwóch kandydatów.
+kampania wyborcza | избирательная кампания | Kampania wyborcza była wyjątkowo brutalna.
+kandydować | баллотироваться | Zamierza kandydować na prezydenta miasta.
+program wyborczy | предвыборная программа | Program wyborczy partii zawiera obniżkę podatków.
+obietnica wyborcza | предвыборное обещание | Rząd nie spełnił obietnicy wyborczej.
+cisza wyborcza | день тишины перед выборами | W czasie ciszy wyborczej nie wolno publikować sondaży.
+głosowanie | голосование | Głosowanie odbyło się w trybie tajnym.
+głosować | голосовать | Głosuję zawsze, nawet jeśli nikt mi się nie podoba.
+oddać głos | отдать голос | Oddałem głos na kandydatkę niezależną.
+głos nieważny | недействительный голос | Postawiłem dwa krzyżyki i mój głos był nieważny.
+karta do głosowania | избирательный бюллетень | Karta do głosowania była długa jak prześcieradło.
+lokal wyborczy | избирательный участок | Lokal wyborczy mieści się w szkole podstawowej.
+urna wyborcza | избирательная урна | Komisja zapieczętowała urnę wyborczą.
+frekwencja | явка | Frekwencja przekroczyła siedemdziesiąt procent.
+wyborca | избиратель | Wyborcy ukarali partię za skandale.
+elektorat | электорат | Partia walczy o elektorat wiejski.
+sondaż | опрос общественного мнения | Według najnowszego sondażu opozycja prowadzi.
+partia | партия | Wstąpił do partii jeszcze na studiach.
+partia rządząca | правящая партия | Partia rządząca straciła większość w Sejmie.
+opozycja | оппозиция | Opozycja zażądała debaty.
+koalicja | коалиция | Koalicja rozpadła się po roku.
+większość | большинство | Ustawa przeszła niewielką większością głosów.
+mniejszość | меньшинство | Rząd mniejszościowy musi szukać poparcia.
+mandat | мандат | Po aferze poseł zrzekł się mandatu.
+kadencja | срок полномочий | Kadencja Sejmu trwa cztery lata.
+dymisja | отставка | Minister podał się do dymisji po aferze.
+odwołać | снять с должности, отозвать | Sejm odwołał ministra spraw wewnętrznych.
+wotum nieufności | вотум недоверия | Opozycja złożyła wniosek o wotum nieufności.
+weto | вето | Prezydent zapowiedział weto.
+zawetować | наложить вето | Prezydent zawetował ustawę o mediach.
+exposé premiera | программная речь премьера | W exposé premiera zabrakło konkretów.
+przemówienie | речь, выступление | Jej przemówienie poruszyło całą salę.
+oświadczenie | официальное заявление | Rzecznik wydał krótkie oświadczenie.
+konferencja prasowa | пресс-конференция | Na konferencji prasowej padło wiele trudnych pytań.
+rzecznik prasowy | пресс-секретарь | Rzecznik prasowy rządu zdementował plotki.
+deklaracja | декларация | Państwa podpisały wspólną deklarację.
+polityk | политик | Ten polityk zmienia poglądy zależnie od sondaży.
+politolog | политолог | Politolog przewiduje przedterminowe wybory.
+polityka społeczna | социальная политика | Polityka społeczna wymaga długofalowego myślenia.
+polityka zagraniczna | внешняя политика | Polityka zagraniczna opiera się na sojuszach.
+polityka prorodzinna | семейная политика | Polityka prorodzinna nie zatrzymała spadku urodzeń.
+korupcja | коррупция | Korupcja niszczy zaufanie do państwa.
+łapówka | взятка | Urzędnik przyjął łapówkę i trafił do więzienia.
+afera | скандал, афера | Afera podsłuchowa wstrząsnęła sceną polityczną.
+lobbing | лоббирование | Lobbing koncernów paliwowych jest bardzo skuteczny.
+nepotyzm | кумовство | Zatrudnianie rodziny w urzędzie to czysty nepotyzm.
+populizm | популизм | Populizm kwitnie w czasach kryzysu.
+nacjonalizm | национализм | Nacjonalizm często żywi się strachem.
+patriotyzm | патриотизм | Dla niego patriotyzm to płacenie podatków.
+lewica | левые силы | Lewica domaga się podniesienia płacy minimalnej.
+prawica | правые силы | Prawica wygrała w małych miastach.
+liberalny | либеральный | Ma liberalne poglądy na gospodarkę.
+konserwatywny | консервативный | Wyrosła w konserwatywnej rodzinie.
+skrajny | крайний, радикальный | Skrajne ugrupowania zyskują poparcie młodych.
+ideologia | идеология | Ideologia nie powinna przesłaniać faktów.
+poglądy | взгляды | Mamy z bratem zupełnie inne poglądy polityczne.
+światopogląd | мировоззрение | Studia zmieniły jej światopogląd.
+polaryzacja | поляризация | Polaryzacja społeczeństwa utrudnia dialog.
+podział społeczny | общественный раскол | Spór o aborcję pogłębił podział społeczny.
+nierówności społeczne | социальное неравенство | Nierówności społeczne rosną mimo wzrostu gospodarczego.
+ubóstwo | бедность | Ubóstwo dotyka szczególnie rodziny wielodzietne.
+wykluczenie społeczne | социальная изоляция | Brak internetu może prowadzić do wykluczenia społecznego.
+bezdomność | бездомность | Zimą bezdomność staje się kwestią życia i śmierci.
+bezdomny | бездомный | Bezdomni nocują na dworcu.
+pomoc społeczna | социальная помощь | Rodzina korzysta z pomocy społecznej.
+klasa średnia | средний класс | Klasa średnia najbardziej odczuwa wzrost podatków.
+elita | элита | Elity oderwały się od zwykłych ludzi.
+warstwa społeczna | социальный слой | Każda warstwa społeczna ma swoje rytuały.
+awans społeczny | социальный рост | Edukacja była dla niej drogą awansu społecznego.
+demografia | демография | Demografia to największe wyzwanie dla systemu emerytalnego.
+starzenie się społeczeństwa | старение общества | Starzenie się społeczeństwa zwiększa popyt na opiekunów.
+przyrost naturalny | естественный прирост | Przyrost naturalny jest ujemny od lat.
+wskaźnik dzietności | суммарный коэффициент рождаемости | Wskaźnik dzietności spadł poniżej półtora.
+pokolenie | поколение | Moje pokolenie dorastało bez smartfonów.
+młodzież | молодёжь | Młodzież coraz rzadziej czyta gazety.
+senior | пожилой человек | Dla seniorów miasto organizuje darmowe zajęcia.
+emeryt | пенсионер | Emeryci tworzą najliczniejszą grupę wyborców.
+rodzina wielodzietna | многодетная семья | Rodziny wielodzietne mają zniżki na komunikację.
+samotny rodzic | родитель-одиночка | Samotnym rodzicom trudno pogodzić pracę z opieką.
+małżeństwo | брак | Ich małżeństwo przetrwało czterdzieści lat.
+rozwód | развод | Rozwód był dla dzieci bardzo trudny.
+konkubinat | сожительство | Żyją w konkubinacie od dziesięciu lat.
+związek partnerski | гражданское партнёрство | Debata o związkach partnerskich wraca co kilka lat.
+migracja | миграция | Migracja ze wsi do miast trwa od dziesięcioleci.
+imigrant | иммигрант | Imigranci z Ukrainy znaleźli pracę w wielu branżach.
+emigracja | эмиграция | Emigracja młodych wyludnia małe miasteczka.
+uchodźca | беженец | Uchodźcy znaleźli schronienie w polskich domach.
+azyl | убежище (политическое) | Dziennikarz poprosił o azyl polityczny.
+integracja | интеграция | Integracja cudzoziemców zaczyna się od nauki języka.
+asymilacja | ассимиляция | Asymilacja drugiego pokolenia przebiegła szybko.
+tolerancja | терпимость | Tolerancja nie oznacza akceptacji wszystkiego.
+dyskryminacja | дискриминация | Dyskryminacja ze względu na wiek jest zakazana.
+uprzedzenia | предрассудки | Trudno walczyć z uprzedzeniami wyniesionymi z domu.
+stereotyp | стереотип | Ten film powiela krzywdzące stereotypy.
+rasizm | расизм | Na stadionie doszło do incydentu na tle rasizmu.
+ksenofobia | ксенофобия | Ksenofobia rośnie tam, gdzie ludzie nie znają obcych.
+mowa nienawiści | язык вражды | Portal usuwa komentarze zawierające mowę nienawiści.
+równouprawnienie | равноправие | Walka o równouprawnienie kobiet trwa do dziś.
+równość płci | гендерное равенство | Równość płci w zarządach firm jest wciąż daleka.
+feminizm | феминизм | Feminizm ma w Polsce długą tradycję.
+prawa człowieka | права человека | Organizacja monitoruje łamanie praw człowieka.
+wolność słowa | свобода слова | Wolność słowa nie obejmuje nawoływania do przemocy.
+wolność zgromadzeń | свобода собраний | Konstytucja gwarantuje wolność zgromadzeń.
+cenzura | цензура | W PRL-u działała cenzura prewencyjna.
+demonstracja | демонстрация | Demonstracja przeszła ulicami Warszawy.
+protest | протест | Protest rolników zablokował drogi.
+petycja | петиция | Petycję podpisało sto tysięcy osób.
+referendum | референдум | Referendum okazało się nieważne z powodu niskiej frekwencji.
+inicjatywa obywatelska | гражданская инициатива | Obywatelska inicjatywa ustawodawcza wymaga stu tysięcy podpisów.
+obywatelskie nieposłuszeństwo | гражданское неповиновение | Blokada ulicy była aktem obywatelskiego nieposłuszeństwa.
+apatia polityczna | политическая апатия | Apatia polityczna młodych niepokoi socjologów.
+organizacja pozarządowa | некоммерческая организация | Organizacja pozarządowa pomaga ofiarom przemocy.
+wolontariusz | волонтёр | Wolontariusze rozdawali posiłki potrzebującym.
+wolontariat | волонтёрство | Wolontariat nauczył mnie empatii.
+fundacja | благотворительный фонд | Fundacja finansuje leczenie dzieci.
+stowarzyszenie | ассоциация, объединение | Należę do stowarzyszenia miłośników kolei.
+działacz | активист, общественный деятель | Działacze związkowi spotkali się z ministrem.
+samorząd | местное самоуправление | Samorząd odpowiada za szkoły podstawowe.
+gmina | гмина (община) | Gmina wybudowała nową świetlicę.
+powiat | повят (район) | Szpital powiatowy ma kłopoty finansowe.
+województwo | воеводство | Polska dzieli się na szesnaście województw.
+wojewoda | воевода (представитель правительства в регионе) | Wojewoda ogłosił stan klęski żywiołowej.
+burmistrz | бургомистр | Burmistrz otworzył nowy most.
+prezydent miasta | мэр крупного города | Prezydent miasta zapowiedział budowę metra.
+wójt | войт (глава сельской гмины) | Wójt spotkał się z mieszkańcami w remizie.
+radny | депутат местного совета | Radni przegłosowali podwyżkę cen biletów.
+rada miasta | городской совет | Rada miasta zajmie się sprawą parkingów.
+budżet obywatelski | гражданский бюджет | Z budżetu obywatelskiego sfinansowano nowy plac zabaw.
+dyplomacja | дипломатия | Kryzys udało się rozwiązać drogą dyplomacji.
+ambasada | посольство | Przed ambasadą zebrał się tłum.
+ambasador | посол | Ambasador został wezwany do MSZ.
+konsulat | консульство | Paszport odebrałem w konsulacie.
+stosunki międzynarodowe | международные отношения | Studiuje stosunki międzynarodowe w Krakowie.
+sojusz | союз, альянс | Sojusz obronny gwarantuje pomoc w razie ataku.
+sojusznik | союзник | Stany Zjednoczone są kluczowym sojusznikiem Polski.
+Unia Europejska | Европейский союз | Polska wstąpiła do Unii Europejskiej w 2004 roku.
+państwo członkowskie | государство-член | Każde państwo członkowskie ma jednego komisarza.
+sankcje | санкции | Unia nałożyła nowe sankcje.
+traktat | международный договор | Traktat podpisano w Lizbonie.
+porozumienie | соглашение | Strony doszły do porozumienia po nocnych rozmowach.
+konflikt zbrojny | вооружённый конфликт | Konflikt zbrojny zmusił miliony ludzi do ucieczki.
+wojna | война | Wojna zmieniła mapę Europy.
+pokój | мир (не война) | Po latach walk wreszcie zapanował pokój.
+rozejm | перемирие | Rozejm złamano już po dwóch dniach.
+okupacja | оккупация | Podczas okupacji działało tajne nauczanie.
+niepodległość | независимость | Polska odzyskała niepodległość w 1918 roku.
+suwerenność | суверенитет | Suwerenność nie oznacza izolacji.
+terytorium | территория | Samolot naruszył terytorium powietrzne kraju.
+mocarstwo | держава | Chiny stały się światowym mocarstwem.
+obronność | обороноспособность | Rząd zwiększa wydatki na obronność.
+armia | армия | Armia prowadzi ćwiczenia przy granicy.
+bezpieczeństwo narodowe | национальная безопасность | Cyberataki zagrażają bezpieczeństwu narodowemu.
+terroryzm | терроризм | Walka z terroryzmem wymaga współpracy służb.
+zamach | покушение, теракт | Zamach na prezydenta udaremniono w ostatniej chwili.
+debata publiczna | публичная дискуссия | Debata publiczna o klimacie jest pełna emocji.
+opinia publiczna | общественное мнение | Opinia publiczna była oburzona.
+propaganda | пропаганда | Telewizja publiczna stała się narzędziem propagandy.
+dezinformacja | дезинформация | Dezinformacja szerzy się szybciej niż sprostowania.
+manipulacja | манипуляция | To zdjęcie to oczywista manipulacja.
+dyskurs | дискурс | Dyskurs polityczny stał się bardzo agresywny.
+poparcie | поддержка (политическая) | Partia cieszy się poparciem dwudziestu procent wyborców.
+popierać | поддерживать | Popieram ten projekt, choć mam zastrzeżenia.
+sprzeciw | возражение | Projekt spotkał się z ostrym sprzeciwem lekarzy.
+potępić | осудить | Rząd potępił atak na dziennikarzy.
+kompromis | компромисс | Kompromis wymaga ustępstw z obu stron.
+konsensus | консенсус | Nie udało się osiągnąć konsensusu.
+spór | спор | Spór o reformę sądów trwa latami.
+kontrowersyjny | спорный, неоднозначный | To kontrowersyjna decyzja.
+drażliwy temat | щекотливая тема | Imigracja to drażliwy temat w każdej kampanii.
+religia | религия | Religia odgrywa ważną rolę w życiu wsi.
+Kościół | Церковь | Kościół zabrał głos w sprawie uchodźców.
+wyznanie | вероисповедание | W ankiecie nie trzeba podawać wyznania.
+ateista | атеист | Jest ateistą, ale chodzi na pasterkę z rodziną.
+świecki | светский | Państwo powinno być świeckie.
+tradycja | традиция | Wigilia to najważniejsza polska tradycja świąteczna.
+wartości | ценности | Wspólne wartości łączą bardziej niż interesy.
+zaufanie społeczne | общественное доверие | Zaufanie społeczne w Polsce jest niskie.
+solidarność społeczna | общественная солидарность | Pandemia pokazała siłę solidarności społecznej.
+społeczność | сообщество | Społeczność internetowa szybko zebrała pieniądze.
+wspólnota | общность, община | Parafia to dla wielu wspólnota, a nie tylko miejsce modlitwy.
+mniejszość narodowa | национальное меньшинство | Mniejszość niemiecka ma swoich posłów.
+narodowość | национальность | W spisie można podać dwie narodowości.
+naród | народ, нация | Naród zjednoczył się w żałobie.
+tożsamość narodowa | национальная идентичность | Język jest podstawą tożsamości narodowej.
+globalizacja | глобализация | Globalizacja ma swoich zwycięzców i przegranych.
+urbanizacja | урбанизация | Urbanizacja postępuje w całym regionie.

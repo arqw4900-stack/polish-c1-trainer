@@ -1,0 +1,212 @@
+# Наука и технологии | Nauka i technologia
+nauka | наука | Nauka nie daje prostych odpowiedzi.
+naukowiec | учёный | Naukowcy z Wrocławia opracowali nowy materiał.
+badacz | исследователь | Badaczka spędziła rok na Antarktydzie.
+badanie naukowe | научное исследование | Badanie naukowe objęło tysiąc pacjentów.
+badania i rozwój | исследования и разработки | Firma przeznacza dziesięć procent przychodów na badania i rozwój.
+hipoteza | гипотеза | Eksperyment potwierdził naszą hipotezę.
+teoria | теория | Teoria względności zmieniła fizykę.
+obalić teorię | опровергнуть теорию | Nowe dane obaliły teorię sprzed pół wieku.
+dowieść | доказать | Udało się dowieść, że lek działa.
+eksperyment | эксперимент | Eksperyment trzeba było powtórzyć.
+laboratorium | лаборатория | W laboratorium obowiązują fartuchy i okulary.
+próbka | образец, проба | Próbki krwi wysłano do analizy.
+pomiar | измерение | Pomiary prowadzono co godzinę.
+dane | данные | Dane wskazują na wyraźny trend.
+wynik | результат | Wyniki badań opublikujemy jesienią.
+wnioski | выводы | Wnioski z raportu są niepokojące.
+metoda | метод | Ta metoda jest tańsza i szybsza.
+metodologia | методология | Recenzent zakwestionował metodologię badania.
+analiza | анализ | Analiza wykazała obecność metali ciężkich.
+odkrycie | открытие | Odkrycie penicyliny uratowało miliony ludzi.
+odkryć | открыть, обнаружить | Astronomowie odkryli nową planetę.
+wynalazek | изобретение | Żarówka to jeden z najważniejszych wynalazków.
+wynalazca | изобретатель | Wynalazca opatentował swoje urządzenie w trzech krajach.
+zjawisko | явление | Zorza polarna to zjawisko optyczne.
+prawidłowość | закономерность | Badacze zauważyli ciekawą prawidłowość.
+recenzent | рецензент | Recenzent zażądał dodatkowych analiz.
+publikacja | публикация | Ma na koncie ponad sto publikacji.
+czasopismo naukowe | научный журнал | Artykuł ukazał się w prestiżowym czasopiśmie naukowym.
+cytowanie | цитирование | Liczba cytowań świadczy o wpływie badacza.
+grant | грант | Zespół dostał grant na trzy lata badań.
+konferencja naukowa | научная конференция | Wygłosiłam referat na konferencji naukowej w Lizbonie.
+fizyka | физика | Fizyka kwantowa wciąż zaskakuje.
+chemia | химия | Chemia organiczna była moim koszmarem w liceum.
+biologia | биология | Biologia molekularna rozwija się błyskawicznie.
+astronomia | астрономия | Kopernik zrewolucjonizował astronomię.
+matematyka | математика | Matematyka to język nauki.
+genetyka | генетика | Genetyka pozwala przewidywać ryzyko chorób.
+gen | ген | Ten gen odpowiada za kolor oczu.
+materiał genetyczny | генетический материал | Z kości wyizolowano materiał genetyczny.
+komórka | клетка (биол.) | Komórki nowotworowe dzielą się bardzo szybko.
+cząsteczka | молекула | Cząsteczka wody składa się z trzech atomów.
+atom | атом | Jądro atomu jest naładowane dodatnio.
+pierwiastek | химический элемент | Maria Skłodowska-Curie odkryła dwa pierwiastki.
+związek chemiczny | химическое соединение | Ten związek chemiczny jest silnie toksyczny.
+reakcja | реакция | Reakcja zachodzi w wysokiej temperaturze.
+energia | энергия | Energia nie ginie, tylko zmienia postać.
+promieniowanie | излучение | Promieniowanie ultrafioletowe uszkadza skórę.
+grawitacja | гравитация | Grawitacja na Księżycu jest sześć razy słabsza.
+próżnia | вакуум | W próżni dźwięk się nie rozchodzi.
+prędkość światła | скорость света | Nic nie porusza się szybciej niż z prędkością światła.
+wszechświat | вселенная | Wszechświat wciąż się rozszerza.
+galaktyka | галактика | Nasza galaktyka to Droga Mleczna.
+planeta | планета | Mars to czwarta planeta od Słońca.
+orbita | орбита | Satelita wszedł na orbitę okołoziemską.
+satelita | спутник (искусственный) | Satelita meteorologiczny przesyła zdjęcia chmur.
+kosmos | космос | Pierwszy Polak poleciał w kosmos w 1978 roku.
+statek kosmiczny | космический корабль | Statek kosmiczny wylądował na Marsie.
+rakieta | ракета | Start rakiety przełożono z powodu wiatru.
+teleskop | телескоп | Teleskop sfotografował odległą galaktykę.
+mikroskop | микроскоп | Pod mikroskopem widać pojedyncze komórki.
+ewolucja | эволюция | Teoria ewolucji wyjaśnia różnorodność życia.
+klonowanie | клонирование | Klonowanie ludzi budzi poważne wątpliwości etyczne.
+modyfikacja genetyczna | генетическая модификация | Modyfikacja genetyczna zbóż jest w Unii ograniczona.
+statystyka | статистика | Statystyka bywa wykorzystywana do manipulacji.
+prawdopodobieństwo | вероятность | Prawdopodobieństwo wygranej jest minimalne.
+równanie | уравнение | Rozwiąż to równanie z dwiema niewiadomymi.
+wzór | формула | Zapomniałem wzoru na pole koła.
+obliczenia | вычисления | Obliczenia zajęły komputerowi kilka dni.
+symulacja | компьютерное моделирование | Symulacja pokazała, jak most zachowa się podczas burzy.
+empiryczny | эмпирический | Brakuje empirycznych dowodów na skuteczność tej terapii.
+pseudonauka | лженаука | Astrologia to pseudonauka.
+teoria spiskowa | теория заговора | Teorie spiskowe rozprzestrzeniają się w sieci.
+sceptycyzm | скептицизм | Zdrowy sceptycyzm to podstawa nauki.
+przełom | прорыв, поворотный момент | Ta szczepionka to przełom w medycynie.
+przełomowy | прорывной | Firma zaprezentowała przełomową technologię.
+technologia | технология | Technologia zmienia nasze życie szybciej niż kiedykolwiek.
+nowoczesny | современный | Szpital ma nowoczesny sprzęt diagnostyczny.
+innowacja | инновация | Innowacje wymagają odwagi i pieniędzy.
+innowacyjny | инновационный | To najbardziej innowacyjna firma w regionie.
+postęp technologiczny | технический прогресс | Postęp technologiczny eliminuje niektóre zawody.
+nowinka techniczna | техническая новинка | Mój tata uwielbia nowinki techniczne.
+gadżet | гаджет | Biurko zawalone jest gadżetami.
+urządzenie | устройство | Urządzenie wyłącza się samo po godzinie.
+sprzęt | техника, оборудование | Wypożyczyliśmy sprzęt do nagrań.
+instrukcja obsługi | инструкция по эксплуатации | Nikt nie czyta instrukcji obsługi.
+serwis | сервисный центр, ремонт | Laptop jest w serwisie od tygodnia.
+usterka | неисправность | Mechanik szybko znalazł usterkę.
+awaria | авария, поломка | Awaria serwera sparaliżowała bank.
+błąd | ошибка | Program wyrzuca błąd przy zapisie.
+zawiesić się | зависнуть | Komputer znowu się zawiesił.
+naprawić | починить, исправить | Informatyk naprawił drukarkę w pięć minut.
+inżynier | инженер | Inżynierowie zaprojektowali lżejszy most.
+inżynieria | инженерия | Inżynieria materiałowa to przyszłość.
+konstrukcja | конструкция | Konstrukcja budynku wytrzyma trzęsienie ziemi.
+prototyp | прототип | Prototyp przeszedł pierwsze testy.
+mechanizm | механизм | Mechanizm zegara jest bardzo precyzyjny.
+silnik | двигатель | Silnik elektryczny jest cichszy od spalinowego.
+czujnik | датчик | Czujnik dymu uratował im życie.
+przemysł | промышленность | Przemysł motoryzacyjny przechodzi rewolucję.
+automatyzacja | автоматизация | Automatyzacja fabryk zmniejsza zatrudnienie.
+robot | робот | Robot kuchenny sam wymiesza ciasto.
+cyfryzacja | цифровизация | Cyfryzacja urzędów skróciła kolejki.
+cyfrowy | цифровой | Żyjemy w świecie cyfrowym.
+analogowy | аналоговый | Wrócił do aparatu analogowego.
+wykluczenie cyfrowe | цифровое неравенство | Wykluczenie cyfrowe dotyka głównie starszych ludzi.
+sztuczna inteligencja | искусственный интеллект | Sztuczna inteligencja pisze już całkiem przyzwoite teksty.
+uczenie maszynowe | машинное обучение | Uczenie maszynowe pomaga wykrywać oszustwa.
+sieć neuronowa | нейронная сеть | Sieć neuronowa rozpoznaje twarze z dużą dokładnością.
+algorytm | алгоритм | Algorytm podsuwa nam treści, które lubimy.
+programista | программист | Programiści są poszukiwani na całym świecie.
+programować | программировать | Uczy się programować w Pythonie.
+kod źródłowy | исходный код | Kod źródłowy udostępniono publicznie.
+oprogramowanie | программное обеспечение | Oprogramowanie trzeba regularnie aktualizować.
+system operacyjny | операционная система | Zainstalowałem nowy system operacyjny.
+aplikacja | мобильное приложение | Bilet kupisz w aplikacji przewoźnika.
+aktualizacja | обновление | Po aktualizacji telefon działa wolniej.
+zaktualizować | обновить | Zaktualizuj przeglądarkę do najnowszej wersji.
+zainstalować | установить (программу) | Zainstaluj program antywirusowy.
+uruchomić | запустить | Nie mogę uruchomić tej gry.
+uruchomić ponownie | перезагрузить | Uruchom komputer ponownie i spróbuj jeszcze raz.
+pobrać | скачать | Pobrałem plik, ale się nie otwiera.
+wgrać | загрузить (на сайт, устройство) | Wgraj zdjęcia na dysk.
+plik | файл | Plik jest za duży, żeby go wysłać mailem.
+zapisać | сохранить (файл) | Zapisz dokument, zanim zamkniesz okno.
+usunąć | удалить | Przez przypadek usunęłam wszystkie zdjęcia.
+przywrócić | восстановить | Udało się przywrócić usunięte pliki.
+skopiować | скопировать | Skopiuj link i wyślij mi go.
+wkleić | вставить (текст) | Wklej tekst do formularza.
+kliknąć | кликнуть, щёлкнуть | Kliknij w niebieski przycisk.
+przewijać | прокручивать (экран) | Przewijam media społecznościowe przed snem.
+zrzut ekranu | скриншот | Zrób zrzut ekranu tego błędu.
+ustawienia | настройки | Zmień język w ustawieniach.
+powiadomienie | уведомление | Wyłączyłam powiadomienia na noc.
+funkcja | функция | Ta funkcja jest dostępna tylko w wersji płatnej.
+wersja | версия | Nowa wersja programu ma mniej błędów.
+model | модель | Ten model telefonu już się nie produkuje.
+interfejs | интерфейс | Interfejs aplikacji jest bardzo intuicyjny.
+użytkownik | пользователь | Użytkownicy skarżą się na reklamy.
+konto użytkownika | учётная запись | Załóż konto użytkownika, żeby zapisać postępy.
+hasło | пароль | Hasło musi mieć co najmniej dwanaście znaków.
+zalogować się | войти в систему | Nie mogę się zalogować do banku.
+wylogować się | выйти из аккаунта | Pamiętaj, żeby się wylogować na cudzym komputerze.
+sieć | сеть | Firma rozbudowuje sieć światłowodową.
+sieć bezprzewodowa | беспроводная сеть | Hasło do sieci bezprzewodowej jest na routerze.
+łącze | канал связи, подключение | Mamy szybkie łącze światłowodowe.
+przepustowość | пропускная способность | Przepustowość sieci spada wieczorem.
+internet | интернет | Bez internetu nie da się dziś pracować.
+przeglądarka | браузер | Otwórz stronę w innej przeglądarce.
+wyszukiwarka | поисковая система | Wpisz to hasło w wyszukiwarkę.
+strona internetowa | веб-сайт | Strona internetowa urzędu jest nieczytelna.
+odnośnik | ссылка (гиперссылка) | Odnośnik do formularza znajdziesz w wiadomości.
+serwer | сервер | Serwer nie odpowiada.
+chmura | облачное хранилище | Kopie zdjęć trzymam w chmurze.
+baza danych | база данных | Baza danych zawiera milion rekordów.
+kopia zapasowa | резервная копия | Rób regularnie kopię zapasową.
+poczta elektroniczna | электронная почта | Faktury wysyłamy pocztą elektroniczną.
+skrzynka odbiorcza | папка «Входящие» | Moja skrzynka odbiorcza pęka w szwach.
+spam | спам | Ta wiadomość trafiła do spamu.
+załączyć | прикрепить (файл) | Zapomniałem załączyć pliku.
+edytor tekstu | текстовый редактор | Napisała całą książkę w prostym edytorze tekstu.
+arkusz kalkulacyjny | электронная таблица | Wydatki zapisuję w arkuszu kalkulacyjnym.
+haker | хакер | Hakerzy włamali się na serwery ministerstwa.
+cyberbezpieczeństwo | кибербезопасность | Firma zatrudnia ekspertów od cyberbezpieczeństwa.
+cyberatak | кибератака | Cyberatak sparaliżował szpital.
+wirus komputerowy | компьютерный вирус | Wirus komputerowy zaszyfrował wszystkie dane.
+złośliwe oprogramowanie | вредоносное ПО | Złośliwe oprogramowanie kradło hasła.
+szyfrowanie | шифрование | Komunikator stosuje szyfrowanie end-to-end.
+wyciek danych | утечка данных | Po wycieku danych zmień hasła.
+prywatność | приватность | Aplikacja narusza prywatność użytkowników.
+inwigilacja | слежка | Opozycja oskarża rząd o inwigilację dziennikarzy.
+uzależnienie od technologii | технологическая зависимость | Uzależnienie od technologii dotyka już małe dzieci.
+czas przed ekranem | экранное время | Ograniczamy dzieciom czas przed ekranem.
+smartfon | смартфон | Dziś każdy nastolatek ma smartfon.
+ekran dotykowy | сенсорный экран | Ekran dotykowy nie reaguje w rękawiczkach.
+rozdzielczość | разрешение (экрана) | Zdjęcie ma za małą rozdzielczość.
+ładowarka | зарядное устройство | Zostawiłem ładowarkę w hotelu.
+bateria | аккумулятор, батарея | Bateria trzyma cały dzień.
+naładować | зарядить | Muszę naładować telefon.
+słuchawki | наушники | Słuchawki z redukcją szumów to zbawienie w pociągu.
+głośnik | колонка, динамик | Podłącz głośnik przez Bluetooth.
+drukarka | принтер | W drukarce skończył się toner.
+skaner | сканер | Zeskanuj dokumenty i wyślij je mailem.
+klawiatura | клавиатура | Na tej klawiaturze nie ma polskich znaków.
+myszka | компьютерная мышь | Myszka bezprzewodowa przestała działać.
+gniazdko | розетка | Przy łóżku brakuje gniazdka.
+wtyczka | вилка, штепсель | Wtyczka nie pasuje do brytyjskiego gniazdka.
+kabel | кабель | Kabel jest za krótki.
+przewód | провод | Pies przegryzł przewód od lampy.
+podłączyć | подключить | Podłącz drukarkę do komputera.
+odłączyć | отключить (от сети) | Odłącz urządzenie przed czyszczeniem.
+bezprzewodowy | беспроводной | Kupiłam bezprzewodowe słuchawki.
+pilot | пульт ДУ | Znowu zgubiliśmy pilota od telewizora.
+elektryczność | электричество | W chacie nie ma elektryczności.
+prąd | электрический ток | Uważaj, kabel jest pod prądem.
+napięcie | напряжение (электр.) | Skok napięcia spalił router.
+zasilanie | электропитание | Zasilanie awaryjne włączyło się automatycznie.
+elektrownia jądrowa | атомная электростанция | Pierwsza polska elektrownia jądrowa ma powstać na Pomorzu.
+energetyka jądrowa | атомная энергетика | Energetyka jądrowa budzi skrajne emocje.
+nanotechnologia | нанотехнология | Nanotechnologia znajduje zastosowanie w medycynie.
+biotechnologia | биотехнология | Biotechnologia pozwala produkować leki taniej.
+druk 3D | 3D-печать | Dzięki drukowi 3D zrobiono mu protezę dłoni.
+dron | дрон | Dron dostarczył paczkę w dziesięć minut.
+rzeczywistość wirtualna | виртуальная реальность | W rzeczywistości wirtualnej zwiedziłem Luwr.
+rozszerzona rzeczywistość | дополненная реальность | Gra wykorzystuje rozszerzoną rzeczywistość.
+nawigacja | навигация | Nawigacja poprowadziła nas przez pole.
+odkrywca | первооткрыватель | Odkrywca nowego gatunku nadał mu imię swojej córki.
+mikroorganizm | микроорганизм | Mikroorganizmy rozkładają resztki roślin.
+tlen | кислород | Bez tlenu mózg obumiera po kilku minutach.
+wodór | водород | Wodór może napędzać samochody przyszłości.
+azot | азот | Powietrze składa się głównie z azotu.
+akcelerator cząstek | ускоритель частиц | W akceleratorze cząstek zderza się protony.

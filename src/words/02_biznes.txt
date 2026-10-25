@@ -1,0 +1,265 @@
+# Деньги и бизнес | Pieniądze i biznes
+przedsiębiorstwo | предприятие | Przedsiębiorstwo zatrudnia ponad tysiąc osób.
+przedsiębiorca | предприниматель | Młody przedsiębiorca otworzył już trzeci sklep.
+spółka | компания, общество (юр.) | Założyliśmy spółkę z dwoma znajomymi.
+spółka z ograniczoną odpowiedzialnością | общество с ограниченной ответственностью | Najpopularniejszą formą prawną w Polsce jest spółka z ograniczoną odpowiedzialnością.
+spółka akcyjna | акционерное общество | Spółka akcyjna może wejść na giełdę.
+wspólnik | компаньон | Mój wspólnik odpowiada za finanse, a ja za marketing.
+udziałowiec | участник (ООО), пайщик | Każdy udziałowiec ma prawo głosu na zgromadzeniu.
+akcjonariusz | акционер | Akcjonariusze zgodzili się na wypłatę dywidendy.
+akcja | акция (ценная бумага) | Kupił akcje banku tuż przed spadkiem kursu.
+udział | доля в капитале | Sprzedała swój udział w firmie bratu.
+dywidenda | дивиденд | W tym roku spółka nie wypłaci dywidendy.
+giełda | биржа | Na giełdzie panuje dziś nerwowa atmosfera.
+notowania | котировки | Notowania złota osiągnęły rekordowy poziom.
+kurs akcji | курс акций | Kurs akcji spadł o dziesięć procent w jeden dzień.
+hossa | бычий рынок, подъём на бирже | W czasie hossy wszyscy czują się ekspertami.
+bessa | медвежий рынок, падение на бирже | Bessa trwała prawie dwa lata.
+obligacja | облигация | Obligacje skarbowe uchodzą za bezpieczną inwestycję.
+inwestor | инвестор | Inwestorzy wycofują kapitał z rynków wschodzących.
+inwestycja | инвестиция, вложение | Zakup mieszkania okazał się trafioną inwestycją.
+zainwestować | вложить деньги | Zainwestował wszystkie oszczędności w kryptowaluty.
+lokować pieniądze | размещать деньги | Wolę lokować pieniądze w bezpieczne aktywa.
+portfel inwestycyjny | инвестиционный портфель | Warto zróżnicować portfel inwestycyjny.
+fundusz inwestycyjny | инвестиционный фонд | Fundusz inwestycyjny przyniósł w tym roku stratę.
+spekulacja | спекуляция | Ceny mieszkań napędza spekulacja.
+bańka spekulacyjna | спекулятивный пузырь | Ekonomiści ostrzegają przed bańką spekulacyjną na rynku nieruchomości.
+kryptowaluta | криптовалюта | Kryptowaluty są bardzo zmienne.
+pomnożyć majątek | приумножить состояние | W ciągu dekady pomnożył majątek kilkakrotnie.
+roztrwonić | промотать, растранжирить | Roztrwonił spadek po ojcu w dwa lata.
+lokata | срочный вклад, депозит | Założyłam lokatę na sześć miesięcy.
+oprocentowanie | процент по вкладу или кредиту | Oprocentowanie lokat wzrosło po decyzji banku centralnego.
+stopy procentowe | ключевые процентные ставки | Rada podniosła stopy procentowe o pół punktu.
+odsetki | начисленные проценты | Za zwłokę w płatności naliczane są odsetki.
+kredyt | кредит | Bank odmówił mi kredytu.
+kredyt hipoteczny | ипотечный кредит | Kredyt hipoteczny spłacamy już dziesięć lat.
+zaciągnąć kredyt | взять кредит | Zaciągnęli kredyt na trzydzieści lat.
+pożyczka | заём | Pożyczka od rodziny pomogła nam przetrwać trudny okres.
+kredytobiorca | заёмщик | Kredytobiorca musi wykazać stałe dochody.
+zdolność kredytowa | кредитоспособность | Z umową o dzieło trudno uzyskać zdolność kredytową.
+rata | очередной платёж по кредиту | Rata kredytu pochłania połowę naszej pensji.
+na raty | в рассрочку | Kupiłem lodówkę na raty bez odsetek.
+zadłużenie | задолженность | Zadłużenie firmy przekroczyło jej roczne przychody.
+dług | долг | Spłacił dług co do grosza.
+dłużnik | должник | Dłużnik nie odbiera telefonów od banku.
+wierzyciel | кредитор | Wierzyciele zażądali natychmiastowej spłaty.
+spłacić | погасить, выплатить (долг) | Wreszcie spłaciliśmy ostatnią ratę.
+windykacja | взыскание долгов | Windykacją należności zajęła się zewnętrzna firma.
+zabezpieczenie kredytu | обеспечение кредита | Mieszkanie stanowi zabezpieczenie kredytu.
+zastaw | залог (имущество) | Oddał zegarek w zastaw.
+poręczyciel | поручитель | Bank zażądał dwóch poręczycieli.
+oszczędności | сбережения | Wydaliśmy wszystkie oszczędności na remont.
+oszczędzać | экономить, копить | Oszczędzam na wkład własny.
+wkład własny | первоначальный взнос | Bank wymaga dwudziestu procent wkładu własnego.
+fundusz awaryjny | финансовая подушка безопасности | Fundusz awaryjny powinien wystarczyć na pół roku życia.
+budżet domowy | семейный бюджет | Prowadzę tabelę, żeby kontrolować budżet domowy.
+wydatki | расходы | W grudniu wydatki zawsze rosną.
+koszty utrzymania | стоимость жизни | Koszty utrzymania w Warszawie są najwyższe w kraju.
+siła nabywcza | покупательная способность | Siła nabywcza emerytów wyraźnie spadła.
+rachunek bankowy | банковский счёт | Proszę podać numer rachunku bankowego.
+konto oszczędnościowe | сберегательный счёт | Nadwyżki przelewam na konto oszczędnościowe.
+saldo | остаток на счёте, сальдо | Sprawdziłem saldo i zdębiałem.
+debet | овердрафт, минус на счёте | Bank pozwala na debet do tysiąca złotych.
+być pod kreską | быть в минусе | Pod koniec miesiąca zawsze jestem pod kreską.
+wyciąg z konta | выписка со счёта | Do wniosku dołącz wyciąg z konta za trzy miesiące.
+przelew | банковский перевод | Przelew zaksięgowano dopiero po weekendzie.
+wpłata | поступление на счёт, взнос наличными | Wpłata pojawi się na koncie jutro.
+bankomat | банкомат | Najbliższy bankomat jest przy dworcu.
+gotówka | наличные | Ten sklep przyjmuje tylko gotówkę.
+płatność | платёж, оплата | Płatności dokonuje się z góry.
+płatność zbliżeniowa | бесконтактная оплата | Płatność zbliżeniowa w Polsce to codzienność.
+karta kredytowa | кредитная карта | Kartą kredytową łatwo wpaść w spiralę długów.
+prowizja | комиссия | Za przewalutowanie bank pobiera prowizję.
+opłata | плата, сбор | Opłata za prowadzenie konta wynosi pięć złotych.
+termin płatności | срок оплаты | Termin płatności faktury to czternaście dni.
+zaliczka | аванс, предоплата | Wpłaciliśmy zaliczkę na wesele.
+zadatek | задаток | Jeśli zrezygnujesz, zadatek przepada.
+należność | причитающаяся сумма | Należność proszę uregulować w terminie.
+uregulować | оплатить, погасить (счёт) | Wszystkie rachunki uregulowałem przed wyjazdem.
+waluta | валюта | Złoty jest walutą Polski.
+kurs walut | курс валют | Kurs walut zmienia się z minuty na minutę.
+kantor | обменный пункт | W kantorze dostaniesz lepszy kurs niż na lotnisku.
+dewaluacja | девальвация | Dewaluacja waluty podniosła ceny importu.
+inflacja | инфляция | Inflacja zjada nasze oszczędności.
+deflacja | дефляция | Deflacja może być równie groźna jak inflacja.
+recesja | рецессия | Kraj wszedł w recesję po dwóch kwartałach spadków.
+koniunktura | конъюнктура | Dobra koniunktura sprzyja inwestycjom.
+zastój | застой | W branży budowlanej panuje zastój.
+spowolnienie gospodarcze | замедление экономики | Spowolnienie gospodarcze odczuły najpierw małe firmy.
+ożywienie gospodarcze | оживление экономики | Po kryzysie nastąpiło szybkie ożywienie gospodarcze.
+kryzys finansowy | финансовый кризис | Kryzys finansowy z 2008 roku zmienił regulacje bankowe.
+wzrost gospodarczy | экономический рост | Wzrost gospodarczy wyniósł trzy procent.
+produkt krajowy brutto | валовой внутренний продукт | Produkt krajowy brutto rośnie szybciej niż płace.
+gospodarka | экономика, хозяйство | Turystyka napędza lokalną gospodarkę.
+gospodarka rynkowa | рыночная экономика | Po 1989 roku Polska przeszła do gospodarki rynkowej.
+szara strefa | теневая экономика | Szara strefa to ogromne straty dla budżetu.
+bank centralny | центральный банк | Bank centralny walczy z inflacją.
+budżet państwa | государственный бюджет | Wydatki na obronność obciążają budżet państwa.
+dług publiczny | государственный долг | Dług publiczny przekroczył połowę PKB.
+deficyt budżetowy | дефицит бюджета | Rząd obiecał zmniejszyć deficyt budżetowy.
+nadwyżka | излишек, профицит | Firma zamknęła rok z nadwyżką.
+stopa bezrobocia | уровень безработицы | Stopa bezrobocia jest najniższa od lat.
+popyt | спрос | Popyt na mieszkania wciąż przewyższa podaż.
+podaż | предложение (на рынке) | Mała podaż powoduje wzrost cen.
+konkurencja | конкуренция | Konkurencja w handlu internetowym jest bezlitosna.
+konkurent | конкурент | Nasz główny konkurent obniżył ceny.
+monopol | монополия | Firma przez lata miała monopol na rynku.
+rynek | рынок | Rynek nieruchomości się ochładza.
+rynek zbytu | рынок сбыта | Szukamy nowych rynków zbytu w Azji.
+udział w rynku | доля рынка | Udział w rynku wzrósł nam do dwudziestu procent.
+nisza rynkowa | рыночная ниша | Znalazł niszę rynkową: wegańskie słodycze dla dzieci.
+przewaga konkurencyjna | конкурентное преимущество | Naszą przewagą konkurencyjną jest szybka dostawa.
+strategia | стратегия | Nowa strategia zakłada ekspansję za granicę.
+biznesplan | бизнес-план | Bez biznesplanu nie dostaniesz dotacji.
+kapitał | капитал | Brakuje nam kapitału na rozwój.
+kapitał zakładowy | уставный капитал | Minimalny kapitał zakładowy spółki z o.o. to pięć tysięcy złotych.
+siedziba firmy | юридический адрес, головной офис | Siedziba firmy mieści się w Poznaniu.
+oddział | филиал, отделение | Bank zamyka kilka oddziałów w małych miastach.
+właściciel | владелец | Właściciel restauracji sam stoi przy kuchni.
+współwłaściciel | совладелец | Jest współwłaścicielem sieci piekarni.
+holding | холдинг | Holding kontroluje kilkanaście spółek.
+korporacja | корпорация | Korporacje przenoszą centra usług do Polski.
+mikroprzedsiębiorstwo | микропредприятие | Mikroprzedsiębiorstwo zatrudnia mniej niż dziesięć osób.
+małe i średnie przedsiębiorstwa | малый и средний бизнес | Małe i średnie przedsiębiorstwa tworzą większość miejsc pracy.
+start-up | стартап | Ich start-up pozyskał inwestora z Doliny Krzemowej.
+inkubator przedsiębiorczości | бизнес-инкубатор | Inkubator przedsiębiorczości oferuje tanie biura dla studentów.
+franczyza | франшиза | Otworzył kawiarnię na zasadzie franczyzy.
+fuzja | слияние | Fuzja dwóch banków wymaga zgody urzędu antymonopolowego.
+przejęcie | поглощение | Po przejęciu przez Niemców firma zmieniła nazwę.
+upadłość | банкротство | Spółka złożyła wniosek o ogłoszenie upadłości.
+zbankrutować | обанкротиться | Biuro podróży zbankrutowało w środku sezonu.
+likwidacja | ликвидация | Likwidacja zakładu oznacza utratę pracy dla trzystu osób.
+płynność finansowa | ликвидность | Opóźnione płatności zagrażają płynności finansowej firmy.
+przychód | выручка | Przychód wzrósł, ale zysk spadł.
+dochód | доход | Dochód na osobę w rodzinie nie przekracza progu.
+zysk | прибыль | Zysk przeznaczymy na nowe maszyny.
+strata | убыток | Pierwszy rok zamknęliśmy stratą.
+obrót | оборот | Roczny obrót sklepu to dwa miliony złotych.
+rentowny | рентабельный | Sklep stał się rentowny po roku.
+opłacalny | выгодный, окупаемый | Hodowla kur przestała być opłacalna.
+próg rentowności | точка безубыточности | Osiągnęliśmy próg rentowności w trzecim kwartale.
+zwrot z inwestycji | окупаемость инвестиций | Zwrot z inwestycji nastąpi po pięciu latach.
+wyjść na swoje | остаться при своих, окупиться | Po roku handlu wreszcie wyszliśmy na swoje.
+koszty | затраты, издержки | Musimy obniżyć koszty o dziesięć procent.
+koszty stałe | постоянные издержки | Czynsz i pensje to nasze główne koszty stałe.
+nakłady | вложения, ассигнования | Nakłady na badania wciąż są za niskie.
+przepływy pieniężne | денежные потоки | Analiza przepływów pieniężnych pokazała problem z płynnością.
+budżet | бюджет | Przekroczyliśmy budżet projektu.
+prognoza | прогноз | Prognozy na przyszły rok są ostrożne.
+ryzyko | риск | Każda inwestycja wiąże się z ryzykiem.
+aktywa | активы | Aktywa spółki wycenia się na miliard złotych.
+pasywa | пассивы | Pasywa obejmują między innymi zobowiązania wobec banków.
+bilans | баланс | Bilans na koniec roku wygląda dobrze.
+sprawozdanie finansowe | финансовая отчётность | Spółka musi opublikować sprawozdanie finansowe.
+biegły rewident | аудитор (сертифицированный) | Biegły rewident nie miał zastrzeżeń.
+audyt | аудит | Audyt wykazał nieprawidłowości w księgach.
+rok obrotowy | финансовый год | U nas rok obrotowy zaczyna się w lipcu.
+kwartał | квартал | W pierwszym kwartale sprzedaż spadła.
+księgowość | бухгалтерия, бухучёт | Księgowość prowadzi zewnętrzne biuro.
+księgowy | бухгалтер | Księgowa przypomniała mi o terminie rozliczenia.
+podatek | налог | Podatek płacimy do dwudziestego dnia miesiąca.
+podatek dochodowy | подоходный налог | Podatek dochodowy rozliczam w kwietniu.
+podatek VAT | НДС | Na książki obowiązuje obniżona stawka podatku VAT.
+zeznanie podatkowe | налоговая декларация | Zeznanie podatkowe można złożyć przez internet.
+ulga podatkowa | налоговая льгота | Przysługuje nam ulga podatkowa na dzieci.
+urząd skarbowy | налоговая инспекция | Urząd skarbowy wezwał mnie do złożenia wyjaśnień.
+faktura | счёт-фактура | Faktura musi zawierać numer NIP nabywcy.
+wystawić fakturę | выставить счёт | Wystawię fakturę po zakończeniu zlecenia.
+paragon | кассовый чек | Zachowaj paragon, bo bez niego nie oddasz butów.
+rachunek | счёт к оплате | Kelner przyniósł rachunek na srebrnej tacce.
+cena | цена | Cena obejmuje dostawę i montaż.
+cennik | прейскурант | Nowy cennik obowiązuje od marca.
+kosztorys | смета | Kosztorys remontu wyniósł dwa razy więcej, niż zakładaliśmy.
+wycena | оценка стоимости | Rzeczoznawca przygotował wycenę mieszkania.
+rabat | скидка (торговая) | Stałym klientom dajemy dziesięć procent rabatu.
+promocja | промоакция | W promocji drugi produkt kupisz za złotówkę.
+wyprzedaż | распродажа | Na wyprzedaży kupiłam płaszcz za pół ceny.
+przecena | уценка | Przecena dotyczy tylko kolekcji zimowej.
+okazja | выгодная покупка | Ten rower to prawdziwa okazja.
+marża | наценка, маржа | Marża w handlu żywnością jest niewielka.
+targować się | торговаться | Na bazarze warto się targować.
+drożyzna | дороговизна | Wszyscy narzekają na drożyznę w sklepach.
+drożeć | дорожать | Paliwo drożeje z tygodnia na tydzień.
+tanieć | дешеветь | Elektronika z roku na rok tanieje.
+dobrobyt | благосостояние | Dobrobyt społeczeństwa rośnie, ale nierówno.
+zamożny | состоятельный | Pochodzi z zamożnej rodziny kupieckiej.
+oszczędny | бережливый | Jest bardzo oszczędna i niczego nie marnuje.
+rozrzutny | расточительный | Rozrzutny syn wydał wszystko na samochody.
+skąpy | скупой | Jest tak skąpy, że żałuje na prezenty dla dzieci.
+majątek | имущество, состояние | Cały majątek zapisał fundacji.
+nieruchomość | недвижимость | Inwestowanie w nieruchomości uchodzi za bezpieczne.
+agent nieruchomości | агент по недвижимости | Agent nieruchomości pokazał nam pięć mieszkań.
+ubezpieczenie | страховка | Ubezpieczenie domu obejmuje też powódź.
+polisa | страховой полис | Polisa wygasa z końcem roku.
+odszkodowanie | возмещение ущерба | Ubezpieczyciel wypłacił odszkodowanie po miesiącu.
+gwarancja | гарантия | Na pralkę mamy dwa lata gwarancji.
+rękojmia | ответственность продавца за дефекты | Z tytułu rękojmi sprzedawca musi naprawić wadliwy towar.
+reklamacja | рекламация, жалоба на товар | Złożyłem reklamację, bo telefon przestał działać.
+zwrot towaru | возврат товара | Zwrot towaru jest możliwy w ciągu czternastu dni.
+konsument | потребитель | Konsument ma prawo odstąpić od umowy zawartej przez internet.
+ochrona konsumentów | защита прав потребителей | Urząd Ochrony Konkurencji i Konsumentów nałożył karę na bank.
+konsumpcja | потребление | Konsumpcja prywatna napędza wzrost.
+artykuły pierwszej potrzeby | товары первой необходимости | Ceny artykułów pierwszej potrzeby rosną najszybciej.
+dobra luksusowe | предметы роскоши | Popyt na dobra luksusowe nie słabnie.
+obsługa klienta | обслуживание клиентов | Obsługa klienta działa całą dobę.
+lojalność klientów | лояльность клиентов | Program punktowy ma zwiększyć lojalność klientów.
+klient | клиент | Klient nasz pan, jak mówi stare przysłowie.
+kontrahent | контрагент | Zagraniczny kontrahent zerwał umowę.
+dostawca | поставщик | Zmieniliśmy dostawcę prądu na tańszego.
+hurt | оптовая торговля | W hurcie płacimy znacznie mniej.
+detal | розничная торговля | Ceny w detalu są o połowę wyższe.
+hurtownia | оптовый склад | Kupujemy papier w hurtowni.
+sprzedaż | продажа, сбыт | Sprzedaż w grudniu przekroczyła oczekiwania.
+sprzedawca | продавец | Sprzedawca doradził mi tańszy model.
+handlowiec | торговый представитель | Handlowiec odwiedza klientów w całym województwie.
+pośrednik | посредник | Kupiliśmy działkę bez pośrednika.
+nabywca | покупатель, приобретатель | Nabywca przejmuje wszystkie zobowiązania.
+licytacja | аукцион, продажа с молотка | Obraz sprzedano na licytacji za milion złotych.
+przetarg | тендер | Firma wygrała przetarg na budowę mostu.
+zamówienie publiczne | государственный заказ | Zamówienia publiczne muszą być przejrzyste.
+zamówienie | заказ | Twoje zamówienie wysłaliśmy dziś rano.
+dostawa | поставка, доставка | Dostawa towaru opóźni się o tydzień.
+koszty wysyłki | стоимость пересылки | Przy zamówieniu powyżej stu złotych nie płacisz kosztów wysyłki.
+magazyn | склад | Magazyn jest pełny przed świętami.
+towar | товар | Towar dotarł uszkodzony.
+usługa | услуга | Firma świadczy usługi sprzątania biur.
+produkcja | производство | Produkcję przeniesiono do Wietnamu.
+producent | производитель | Producent wycofał wadliwą partię z rynku.
+eksport | экспорт | Eksport mebli to polska specjalność.
+import | импорт | Uzależnienie od importu gazu jest problemem.
+cło | пошлина | Na samochody spoza Unii nałożono wysokie cło.
+handel zagraniczny | внешняя торговля | Handel zagraniczny ucierpiał przez wojnę celną.
+łańcuch dostaw | цепочка поставок | Pandemia przerwała łańcuchy dostaw.
+logistyka | логистика | Logistyka to dziś jedna z najszybciej rosnących branż.
+outsourcing | аутсорсинг | Outsourcing księgowości obniżył nasze koszty.
+dotacja | дотация, субсидия | Dostaliśmy dotację na zakup maszyn.
+fundusze unijne | фонды Евросоюза | Remont dworca sfinansowano z funduszy unijnych.
+negocjacje | переговоры | Negocjacje z dostawcą trwały trzy miesiące.
+negocjować | вести переговоры | Negocjujemy warunki nowego kontraktu.
+zawrzeć umowę | заключить договор | Zawarliśmy umowę z nowym dystrybutorem.
+umowa handlowa | торговое соглашение | Umowa handlowa z Kanadą obniżyła cła.
+oferta handlowa | коммерческое предложение | Wysłaliśmy ofertę handlową do pięciu sieci sklepów.
+spotkanie biznesowe | деловая встреча | Spotkanie biznesowe przeciągnęło się do wieczora.
+wizytówka | визитная карточка | Na pożegnanie wymieniliśmy się wizytówkami.
+marka | бренд | Marka kojarzy się z jakością.
+wizerunek firmy | имидж компании | Afera zaszkodziła wizerunkowi firmy.
+reklama | реклама | Reklama w telewizji jest bardzo droga.
+kampania reklamowa | рекламная кампания | Kampania reklamowa ruszy przed Bożym Narodzeniem.
+grupa docelowa | целевая аудитория | Naszą grupą docelową są rodzice małych dzieci.
+badanie rynku | исследование рынка | Badanie rynku pokazało, że produkt jest za drogi.
+pranie pieniędzy | отмывание денег | Bank podejrzewał pranie pieniędzy.
+oszustwo finansowe | финансовое мошенничество | Ofiarami oszustwa finansowego padli głównie seniorzy.
+wyłudzić | выманить, получить обманом | Oszust wyłudził od niej pięćdziesiąt tysięcy.
+sprzeniewierzenie | растрата (присвоение) | Księgową oskarżono o sprzeniewierzenie funduszy.
+darowizna | пожертвование, дарение | Przekazał darowiznę na schronisko dla zwierząt.
+zbiórka pieniędzy | сбор средств | Zbiórka pieniędzy na leczenie chłopca zakończyła się sukcesem.
+sponsor | спонсор | Sponsor wycofał się tuż przed festiwalem.
+złoty | злотый | Kurs złotego wobec euro jest stabilny.
+grosz | грош (1/100 злотого) | Nie mam przy sobie ani grosza.
+banknot | банкнота | Bankomat wydał mi same banknoty dwustuzłotowe.
+moneta | монета | Zbiera stare monety.
+reszta | сдача | Proszę zatrzymać resztę.
+drobne | мелочь (деньги) | Masz drobne na parking?
+napiwek | чаевые | W Polsce zwykle zostawia się dziesięć procent napiwku.
+skarbonka | копилка | Dzieci wrzucają monety do skarbonki.
+kieszonkowe | карманные деньги | Dostaje kieszonkowe co tydzień.

@@ -1,0 +1,215 @@
+# Образование | Edukacja
+edukacja | система образования | Edukacja jest kluczem do rozwoju kraju.
+wykształcenie | уровень образования | Jakie ma pan wykształcenie?
+wykształcenie wyższe | высшее образование | Połowa młodych Polaków ma wykształcenie wyższe.
+oświata | школьное образование, просвещение | Na oświatę przeznacza się zbyt mało pieniędzy.
+żłobek | ясли | W żłobku brakuje miejsc.
+przedszkole | детский сад | Przedszkole jest czynne do siedemnastej.
+szkoła podstawowa | начальная школа (восьмилетка) | Szkoła podstawowa trwa w Polsce osiem lat.
+liceum | лицей (общеобразовательная старшая школа) | Poszedł do liceum o profilu matematycznym.
+technikum | техникум | Technikum daje zawód i maturę.
+szkoła branżowa | профессиональное училище | Po szkole branżowej od razu znalazł pracę jako elektryk.
+szkoła publiczna | государственная школа | Szkoła publiczna jest bezpłatna.
+szkoła prywatna | частная школа | Czesne w szkole prywatnej jest wysokie.
+edukacja domowa | домашнее обучение | Edukacja domowa zyskuje w Polsce popularność.
+uczeń | ученик | Uczniowie wybiegli na przerwę.
+pierwszak | первоклассник | Pierwszaki dostały rożki ze słodyczami.
+prymus | лучший ученик, отличник | Prymus klasy dostał nagrodę od dyrektora.
+kujon | зубрила | W szkole wołali na niego „kujon”.
+nauczyciel | учитель | Nauczyciel historii opowiadał fascynująco.
+wychowawca | классный руководитель | Wychowawczyni zadzwoniła do rodziców.
+dyrektor szkoły | директор школы | Dyrektor szkoły wezwał mnie na rozmowę.
+pedagog szkolny | школьный педагог | Pedagog szkolny pomógł chłopcu w konflikcie z kolegami.
+kurator oświaty | региональный куратор образования | Kurator oświaty zablokował likwidację szkoły.
+klasa | класс | W klasie jest dwadzieścia osiem osób.
+lekcja | урок | Lekcja trwa czterdzieści pięć minut.
+przedmiot | предмет | Moim ulubionym przedmiotem była biologia.
+plan lekcji | расписание уроков | Plan lekcji wisi na lodówce.
+przerwa | перемена | Na przerwie zjadłem kanapkę.
+dzwonek | звонок | Dzwonek jest dla nauczyciela, nie dla uczniów.
+zadanie domowe | домашнее задание | Zadanie domowe zajmuje mu dwie godziny dziennie.
+ocena | отметка, оценка | Dostała dobrą ocenę z polskiego.
+szóstka | шестёрка (высшая оценка) | Za konkurs dostał szóstkę z matematyki.
+jedynka | единица (неудовлетворительно) | Za brak zadania dostałem jedynkę.
+ocena z zachowania | оценка за поведение | Ma naganną ocenę z zachowania.
+świadectwo | школьный табель, аттестат | Świadectwo dostaniemy w ostatni piątek czerwca.
+świadectwo z paskiem | аттестат с отличием | Skończyła szkołę ze świadectwem z paskiem.
+sprawdzian | контрольная работа | Jutro mamy sprawdzian z chemii.
+kartkówka | летучка, короткая проверочная | Nauczycielka zrobiła niezapowiedzianą kartkówkę.
+klasówka | классная контрольная (разг.) | Klasówkę z fizyki pisaliśmy całą lekcję.
+odpytywać | вызывать к доске, опрашивать | Dziś odpytywała z wierszy.
+ściągać | списывать | Złapano go na ściąganiu.
+ściąga | шпаргалка | Miała ściągę w piórniku.
+wagarować | прогуливать уроки | W liceum często wagarował.
+egzamin | экзамен | Egzamin trwał trzy godziny.
+egzamin ósmoklasisty | экзамен после восьмого класса | Wyniki egzaminu ósmoklasisty decydują o wyborze liceum.
+matura | матура (выпускной экзамен) | Zdał maturę z rozszerzonej matematyki.
+maturzysta | выпускник, сдающий матуру | Maturzyści piszą dziś polski.
+studniówka | бал за сто дней до матуры | Na studniówce tańczyliśmy poloneza.
+zdać | сдать (экзамен) | Zdałam wszystkie egzaminy w pierwszym terminie.
+oblać | провалить (экзамен, разг.) | Oblał egzamin na prawo jazdy po raz drugi.
+poprawka | пересдача | Mam poprawkę we wrześniu.
+powtarzać klasę | остаться на второй год | Przez choroby musiał powtarzać klasę.
+olimpiada przedmiotowa | предметная олимпиада | Laureaci olimpiady przedmiotowej idą na studia bez egzaminów.
+konkurs | конкурс | Wygrała konkurs recytatorski.
+dyplom uznania | почётная грамота | Za wolontariat dostał dyplom uznania.
+pochwała | похвала | Pochwała nauczyciela dodała jej skrzydeł.
+nagroda | награда | Nagrodą była wycieczka do Paryża.
+korepetycje | частные уроки, репетиторство | Na korepetycje z matematyki wydajemy fortunę.
+korepetytor | репетитор | Korepetytor przygotował go do matury.
+zajęcia pozalekcyjne | внеклассные занятия | Zajęcia pozalekcyjne kończą się o szesnastej.
+świetlica | группа продлённого дня | Dzieci czekają na rodziców w świetlicy.
+wycieczka szkolna | школьная экскурсия | Wycieczka szkolna do Krakowa trwała trzy dni.
+wywiadówka | родительское собрание | Na wywiadówce dowiedziałam się o jego wagarach.
+rada pedagogiczna | педсовет | Rada pedagogiczna zdecydowała o promocji ucznia.
+dziennik elektroniczny | электронный журнал | Rodzice sprawdzają oceny w dzienniku elektronicznym.
+podręcznik | учебник | Podręczniki są w szkołach podstawowych darmowe.
+zeszyt | тетрадь | Zapisz to w zeszycie.
+piórnik | пенал | W piórniku ma kredki i gumkę.
+tornister | ранец | Tornister pierwszaka waży za dużo.
+tablica | доска (классная) | Napisz rozwiązanie na tablicy.
+program nauczania | учебная программа | Program nauczania jest przeładowany.
+podstawa programowa | образовательный стандарт | Ministerstwo zmieniło podstawę programową z historii.
+reforma edukacji | реформа образования | Reforma edukacji zlikwidowała gimnazja.
+rok szkolny | учебный год (в школе) | Rok szkolny zaczyna się we wrześniu.
+wakacje | летние каникулы | Wakacje spędzamy u dziadków.
+ferie zimowe | зимние каникулы | Na ferie zimowe jedziemy w góry.
+czesne | плата за обучение | Czesne na prywatnej uczelni rośnie co roku.
+stypendium | стипендия | Dostała stypendium naukowe.
+uczelnia | вуз | Uczelnia znajduje się w rankingu najlepszych.
+uniwersytet | университет | Uniwersytet Jagielloński to najstarsza polska uczelnia.
+politechnika | политехнический университет | Studiuje budownictwo na politechnice.
+wydział | факультет | Wydział prawa mieści się w zabytkowym budynku.
+kierunek studiów | специальность, направление обучения | Jaki kierunek studiów wybrałaś?
+specjalizacja | специализация | Na trzecim roku wybiera się specjalizację.
+studia stacjonarne | очное обучение | Studia stacjonarne na uczelniach publicznych są bezpłatne.
+studia niestacjonarne | заочное обучение | Studia niestacjonarne odbywają się w weekendy.
+studia podyplomowe | последипломное обучение | Zrobiłam studia podyplomowe z zarządzania.
+student | студент | Studenci protestowali przeciwko podwyżce opłat.
+rekrutacja na studia | приём в вуз | Rekrutacja na studia odbywa się w lipcu.
+próg punktowy | проходной балл | Próg punktowy na medycynę był bardzo wysoki.
+limit miejsc | количество мест (для приёма) | Limit miejsc na psychologii wynosi sto osób.
+egzamin wstępny | вступительный экзамен | Na architekturze jest egzamin wstępny z rysunku.
+wolny słuchacz | вольный слушатель | Chodzi na wykłady jako wolny słuchacz.
+rok akademicki | академический год | Rok akademicki rozpoczyna się w październiku.
+semestr | семестр | W tym semestrze mam dużo zajęć.
+sesja egzaminacyjna | сессия | Sesja egzaminacyjna zaczyna się w styczniu.
+zaliczenie | зачёт | Zaliczenie z ćwiczeń jest warunkiem dopuszczenia do egzaminu.
+zaliczyć | получить зачёт, сдать | Zaliczyłem wszystkie przedmioty.
+punkty ECTS | кредиты ECTS | Za ten kurs dostaniesz pięć punktów ECTS.
+legitymacja studencka | студенческий билет | Z legitymacją studencką masz zniżkę na pociąg.
+dziekan | декан | Dziekan zgodził się na przedłużenie sesji.
+dziekanat | деканат | Dziekanat jest czynny tylko do trzynastej.
+rektor | ректор | Rektor otworzył nowy rok akademicki.
+promotor | научный руководитель | Promotor zaakceptował temat pracy.
+praca dyplomowa | дипломная работа | Pracę dyplomową trzeba złożyć do końca czerwca.
+praca magisterska | магистерская работа | Piszę pracę magisterską o polskiej poezji.
+licencjat | степень бакалавра | Po licencjacie poszła do pracy.
+magister | магистр | Ma tytuł magistra ekonomii.
+doktorat | докторская степень (PhD) | Doktorat obroniła w wieku dwudziestu ośmiu lat.
+doktorant | аспирант | Doktoranci prowadzą zajęcia z pierwszym rokiem.
+habilitacja | хабилитация (вторая учёная степень) | Po habilitacji może zostać profesorem uczelni.
+profesor | профессор | Profesor spóźnił się na własny wykład.
+wykładowca | преподаватель вуза | Wykładowca udostępnił slajdy po zajęciach.
+wykład | лекция | Wykład z filozofii zaczyna się o ósmej.
+zajęcia | занятия | Zajęcia z angielskiego mamy dwa razy w tygodniu.
+seminarium | семинар | Na seminarium omawiamy postępy w pisaniu prac.
+konsultacje | часы консультаций (преподавателя) | Przyjdź na konsultacje w czwartek.
+obrona pracy | защита диплома | Obrona pracy poszła mi świetnie.
+absolwent | выпускник | Absolwenci prawa szukają aplikacji.
+dyplom | диплом | Dyplom odbiorę w dziekanacie.
+akademik | студенческое общежитие | Mieszkam w akademiku z trzema osobami.
+stołówka | столовая | Obiady w stołówce są tanie.
+biblioteka | библиотека | Biblioteka jest otwarta do dwudziestej.
+czytelnia | читальный зал | W czytelni panuje absolutna cisza.
+bibliografia | библиография | Bibliografia liczy sto pozycji.
+przypis | сноска | Źródła podaj w przypisach.
+plagiat | плагиат | Program antyplagiatowy wykrył plagiat.
+cytat | цитата | Zacznij esej od mocnego cytatu.
+streszczenie | краткое изложение, аннотация | Do artykułu dołącz streszczenie po angielsku.
+referat | доклад | Wygłosiłem referat o reformie rolnej.
+esej | эссе | Esej ma liczyć dwa tysiące słów.
+prezentacja | презентация | Prezentacja była zbyt długa.
+notatki | конспект, заметки | Pożycz mi notatki z wykładu.
+notować | конспектировать | Notuje wszystko, co mówi wykładowca.
+wkuwać | зубрить | Całą noc wkuwała daty.
+uczyć się na pamięć | учить наизусть | Uczyliśmy się na pamięć „Pana Tadeusza”.
+powtórka | повторение материала | Przed egzaminem zrobiłam powtórkę z całego roku.
+wiedza | знания | Wiedza to potęga.
+myślenie krytyczne | критическое мышление | Szkoła powinna uczyć myślenia krytycznego.
+ciekawość poznawcza | познавательный интерес | Dobre pytania rozbudzają ciekawość poznawczą.
+samokształcenie | самообразование | Języka nauczył się przez samokształcenie.
+kształcenie ustawiczne | непрерывное образование | Kształcenie ustawiczne to konieczność na zmieniającym się rynku.
+nauczanie zdalne | дистанционное обучение | Nauczanie zdalne pogłębiło nierówności.
+platforma edukacyjna | образовательная платформа | Zadania wrzucamy na platformę edukacyjną.
+wymiana studencka | студенческий обмен | Semestr na wymianie studenckiej spędziłem w Lizbonie.
+program Erasmus | программа Erasmus | Program Erasmus zmienił życie milionów studentów.
+nostryfikacja dyplomu | нострификация диплома | Nostryfikacja dyplomu z Ukrainy trwała pół roku.
+certyfikat językowy | языковой сертификат | Certyfikat językowy na poziomie C1 jest wymagany na studia.
+poziom zaawansowania | уровень владения | Test określi twój poziom zaawansowania.
+biegle | свободно (о владении языком) | Mówi biegle po polsku i po niemiecku.
+władać językiem | владеть языком | Władam trzema językami obcymi.
+język ojczysty | родной язык | Jej językiem ojczystym jest rosyjski.
+język obcy | иностранный язык | Nauka języka obcego rozwija mózg.
+dwujęzyczny | двуязычный | Dzieci wychowują się w dwujęzycznym domu.
+gramatyka | грамматика | Gramatyka polska słynie z trudności.
+słownictwo | лексика, словарный запас | Czytanie poszerza słownictwo.
+wymowa | произношение | Wymowa „szcz” sprawia cudzoziemcom kłopot.
+pisownia | правописание | Pisownia „nie” z przymiotnikami bywa podchwytliwa.
+błąd ortograficzny | орфографическая ошибка | W wypracowaniu zrobił trzy błędy ortograficzne.
+interpunkcja | пунктуация | Polska interpunkcja wymaga przecinka przed „że”.
+dyktando | диктант | Ogólnopolskie dyktando to prawdziwe wyzwanie.
+wypracowanie | сочинение | Wypracowanie na maturze musi mieć co najmniej trzysta słów.
+lektura | книга из школьной программы | Lekturą na ten miesiąc są „Chłopi”.
+oczytany | начитанный | Jest bardzo oczytana jak na swój wiek.
+analfabeta | неграмотный человек | Jego dziadek był analfabetą.
+analfabetyzm funkcjonalny | функциональная неграмотность | Analfabetyzm funkcjonalny dotyczy wielu dorosłych.
+uzdolniony | одарённый | Uzdolnione dzieci potrzebują wyzwań.
+zdolny | способный | Jest zdolny, ale leniwy.
+dysleksja | дислексия | Dysleksja nie oznacza niższej inteligencji.
+specjalne potrzeby edukacyjne | особые образовательные потребности | Uczniowie ze specjalnymi potrzebami edukacyjnymi mają asystenta.
+dyscyplina | дисциплина | W tej szkole panuje żelazna dyscyplina.
+pedagogika | педагогика | Studiuje pedagogikę wczesnoszkolną.
+dydaktyka | дидактика | Dydaktyka języków obcych to jej specjalność.
+nauczanie | преподавание | Nauczanie języków wymaga dużej kreatywności.
+nauczanie początkowe | начальное обучение (1–3 классы) | W nauczaniu początkowym dzieci mają jedną nauczycielkę.
+kształcić się | получать образование | Kształciła się w Paryżu i w Wiedniu.
+przyswajać wiedzę | усваивать знания | Dzieci przyswajają wiedzę przez zabawę.
+przedmioty ścisłe | точные науки (школьные предметы) | Zawsze lepiej szły mi przedmioty ścisłe.
+przedmioty humanistyczne | гуманитарные предметы | Przedmioty humanistyczne uczą myślenia o człowieku.
+klasa o profilu matematycznym | класс с математическим уклоном | Dostała się do klasy o profilu matematycznym.
+poziom rozszerzony | профильный уровень (экзамена) | Biologię zdaje na poziomie rozszerzonym.
+poziom podstawowy | базовый уровень | Matematykę na poziomie podstawowym zdają wszyscy.
+arkusz egzaminacyjny | экзаменационный лист | Arkusz egzaminacyjny liczył dwadzieścia stron.
+komisja egzaminacyjna | экзаменационная комиссия | Komisja egzaminacyjna unieważniła jego pracę.
+średnia ocen | средний балл | Ze średnią ocen powyżej pięciu dostaniesz stypendium.
+świadectwo dojrzałości | аттестат зрелости | Świadectwo dojrzałości odbiera się w lipcu.
+wychowanie fizyczne | физкультура | Na wychowaniu fizycznym gramy w siatkówkę.
+zwolnienie z WF-u | освобождение от физкультуры | Przyniósł zwolnienie z WF-u od lekarza.
+godzina wychowawcza | классный час | Na godzinie wychowawczej rozmawialiśmy o hejcie.
+samorząd uczniowski | школьное самоуправление | Samorząd uczniowski zorganizował dyskotekę.
+apel szkolny | школьная линейка | Na apelu szkolnym dyrektor wręczył nagrody.
+mundurek | школьная форма | W tej szkole obowiązują mundurki.
+szatnia | раздевалка | Kurtki zostawiamy w szatni.
+sala gimnastyczna | спортзал | Sala gimnastyczna jest w remoncie.
+pracownia komputerowa | компьютерный класс | Lekcje informatyki odbywają się w pracowni komputerowej.
+boisko | спортивная площадка | Po lekcjach gramy w piłkę na boisku.
+sklepik szkolny | школьный ларёк | W sklepiku szkolnym nie sprzedaje się już słodyczy.
+ławka szkolna | школьная парта | Siedzieliśmy w jednej ławce przez osiem lat.
+kadra nauczycielska | педагогический коллектив | Kadra nauczycielska szybko się starzeje.
+Karta Nauczyciela | закон о статусе учителя | Karta Nauczyciela gwarantuje nauczycielom długi urlop.
+Dzień Edukacji Narodowej | День учителя (14 октября) | Na Dzień Edukacji Narodowej uczniowie przynoszą kwiaty.
+ranking uczelni | рейтинг вузов | W rankingu uczelni prowadzi Uniwersytet Warszawski.
+stopień naukowy | учёная степень | Stopień naukowy doktora uzyskał w Krakowie.
+tytuł zawodowy | профессиональная квалификация (диплом) | Tytuł zawodowy magistra otrzymał po pięciu latach.
+obronić się | защититься (о дипломе) | Obroniłam się na piątkę.
+opiekun roku | куратор курса | Opiekun roku pomógł nam ułożyć plan.
+starosta roku | староста курса | Starosta roku zbiera pieniądze na kserówki.
+samorząd studencki | студенческое самоуправление | Samorząd studencki negocjuje z rektorem.
+juwenalia | весенний студенческий праздник | Na juwenalia studenci przebierają się i paradują ulicami.
+otrzęsiny | посвящение в студенты | Na otrzęsinach pierwszoroczni muszą zaśpiewać hymn wydziału.
+warunek | условный перевод на следующий курс | Przeszedł na drugi rok z warunkiem z matematyki.
+urlop dziekański | академический отпуск | Wzięła urlop dziekański z powodu choroby.
+skreślić z listy studentów | отчислить | Za niezaliczenie sesji skreślono go z listy studentów.
+przenieść się na inną uczelnię | перевестись в другой вуз | Po pierwszym roku przeniósł się na inną uczelnię.
+przygotowywać się do egzaminu | готовиться к экзамену | Przygotowuję się do egzaminu w bibliotece.

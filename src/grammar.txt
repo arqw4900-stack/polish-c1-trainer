@@ -1,0 +1,426 @@
+// @ id | группа | значок | название | по-польски
+// rule: / table: / row: / e: pl ;; ru / tip: / q: предложение|ответ|неверный|неверный|неверный##почему
+
+@ aspekt | Глагол | ВИД | Вид глагола | Aspekt czasownika
+rule: **Niedokonany (ndk.)** — процесс, повторение, длительность: robić, pisać, czytać. Только у него есть настоящее время.
+rule: **Dokonany (dk.)** — однократное действие с результатом: zrobić, napisać, przeczytać. Форма «napiszę» — это уже **будущее** время.
+rule: Будущее несовершенного вида — составное: **będę pisać / będę pisał(a)**. Совершенного — простое: **napiszę**.
+rule: После **zaczynać, kończyć, przestać, przestawać** — только инфинитив несовершенного вида: **Przestał palić.**
+rule: Запрет обычно строится от несовершенного вида: **Nie otwieraj okna!** А просьба о действии — от совершенного: **Otwórz okno.**
+rule: Подсказки: ndk. — codziennie, często, zawsze, przez godzinę; dk. — nagle, w końcu, wreszcie, już, w ciągu godziny.
+table: Niedokonany | Dokonany | Как образуется пара
+row: pisać | napisać | приставка
+row: kupować | kupić | суффикс
+row: dawać | dać | основа
+row: brać | wziąć | разные корни
+row: mówić | powiedzieć | разные корни
+row: oglądać | obejrzeć | чередование
+e: Codziennie **czytam** gazetę. ;; Я каждый день читаю газету.
+e: Wczoraj **przeczytałem** całą książkę. ;; Вчера я прочитал всю книгу.
+e: Jutro **będę pisać** raport cały dzień. ;; Завтра весь день буду писать отчёт.
+e: Jutro **napiszę** raport i wyślę go szefowi. ;; Завтра напишу отчёт и отправлю его начальнику.
+e: **Nie otwieraj** tego listu! ;; Не открывай это письмо!
+tip: Настоящее время совершенного вида означает будущее: **Zrobię to** = сделаю. «Сейчас делаю» — только **robię**.
+q: Wczoraj ___ (pisać/napisać) list przez dwie godziny, ale go nie skończyłem.|pisałem|napisałem|piszę|napiszę##«Przez dwie godziny» и «не закончил» — процесс без результата, поэтому несовершенный вид: **pisałem**.
+q: Wreszcie ___ ten raport! Możemy iść na kawę.|skończyłam|kończyłam|kończę|będę kończyć##«Wreszcie» и результат (можно идти на кофе) — завершённое действие: **skończyłam** (dk.).
+q: Kiedy byłem dzieckiem, ___ do babci co niedzielę.|jeździłem|pojechałem|jechałem|przyjadę##Регулярное повторение в прошлом («co niedzielę») — несовершенный вид, многократный глагол движения: **jeździłem**.
+q: Przestań ___, to cię zabije!|palić|zapalić|wypalić|spalić##После **przestać, zaczynać, kończyć** всегда инфинитив несовершенного вида: przestań **palić**.
+q: Nie ___ okna, jest zimno!|otwieraj|otwórz|otworzysz|otworzyłeś##Запрет строится от несовершенного вида: **Nie otwieraj!** Форма «nie otwórz» в польском практически не употребляется.
+q: Jutro ___ do ciebie zaraz po pracy, obiecuję.|zadzwonię|dzwonię|dzwoniłem|dzwoniłbym##Однократное действие в будущем с результатом — совершенный вид. Форма **zadzwonię** уже означает будущее время.
+q: Co wieczór ___ dzieciom bajki.|czytam|przeczytam|przeczytałem|poczytam##«Co wieczór» — повторяющееся действие в настоящем, только несовершенный вид: **czytam**. «Przeczytam» — это будущее.
+q: Gdy ___ obiad, zadzwonił telefon.|jadłem|zjadłem|zjem|jem##Фоновое действие в процессе, которое прервало другое событие, — несовершенный вид: **jadłem** (когда я ел…).
+q: Najpierw ___ obiad, a potem poszedłem na spacer.|zjadłem|jadłem|jem|zjem##Цепочка завершённых действий: сначала **zjadłem** (съел), потом пошёл — совершенный вид.
+q: Ile razy ci mówiłem, żebyś nie ___ drzwi od środka!|zamykał|zamknął|zamknie|zamyka##После **żebyś** — форма прошедшего времени. «Сколько раз говорил» — это общий, многократный запрет, поэтому несовершенный вид: **zamykał**.
+q: Za tydzień ___ już wszystkie egzaminy i pojadę nad morze.|zdam|zdaję|zdawałem|będę zdawać##Результат к моменту в будущем — совершенный вид **zdam**. **Zdawać** — сдавать (процесс), **zdać** — сдать успешно.
+q: Przez całe wakacje ___ do egzaminu, ale i tak go nie zdał.|uczył się|nauczył się|uczy się|nauczy się##«Przez całe wakacje» — длительный процесс, результат не достигнут — несовершенный вид: **uczył się**.
+q: Proszę, ___ mi sól.|podaj|podawaj|podałeś|podasz##Просьба о конкретном однократном действии — повелительное наклонение совершенного вида: **podaj**.
+
+@ ruch | Глагол | ДВ | Глаголы движения с приставками | Czasowniki ruchu
+rule: Пары «однонаправленный / разнонаправленный»: **iść / chodzić** (пешком), **jechać / jeździć** (на транспорте), **lecieć / latać**, **płynąć / pływać**, **biec / biegać**, **nieść / nosić**, **wieźć / wozić**.
+rule: **iść, jechać** — движение в одну сторону, сейчас или в конкретный раз. **chodzić, jeździć** — регулярно, туда и обратно, в целом.
+rule: «Ехать» на любом транспорте — **jechać**: jadę autobusem, pociągiem, rowerem. **Iść** — только пешком.
+rule: Приставки дают совершенный вид и новое значение: **przyjść, wyjść, wejść, przejść, dojść, odejść, zejść, podejść, obejść, rozejść się**. Несовершенная пара: **przychodzić, wychodzić, wchodzić…**, **przyjeżdżać, wyjeżdżać…**
+rule: Куда: **do** + Р.п. (do domu, do Krakowa), **na** + В.п. (na pocztę, na koncert). Откуда: **z** + Р.п. (z pracy), **od** + Р.п. — от человека (od lekarza).
+table: Приставка | от iść | от jechać | Значение
+row: przy- | przyjść | przyjechać | прибытие
+row: wy- | wyjść | wyjechać | выход наружу, отъезд
+row: w- / we- | wejść | wjechać | вход внутрь
+row: prze- | przejść | przejechać | через, мимо
+row: do- | dojść | dojechać | достижение цели
+row: od- | odejść | odjechać | удаление
+row: z- / ze- | zejść | zjechać | вниз
+row: pod- | podejść | podjechać | приближение
+row: ob- | obejść | objechać | вокруг
+e: Codziennie **chodzę** do pracy pieszo, ale dziś **jadę** tramwajem. ;; Каждый день хожу на работу пешком, но сегодня еду на трамвае.
+e: Pociąg **odjechał**, zanim **doszedłem** na peron. ;; Поезд ушёл, прежде чем я дошёл до перрона.
+e: **Wyszła** z domu o siódmej i **weszła** do biura o ósmej. ;; Она вышла из дома в семь и вошла в офис в восемь.
+e: Musimy **objechać** centrum, bo jest korek. ;; Нужно объехать центр, потому что пробка.
+tip: «Idę do Warszawy» звучит так, будто вы идёте пешком. На поезде или машине — **jadę do Warszawy**.
+q: Codziennie ___ na uczelnię rowerem.|jeżdżę|jadę|chodzę|idę##Регулярное действие («codziennie») и транспорт (rower) — многократный глагол **jeździć**: jeżdżę.
+q: Gdzie teraz ___? – Do apteki, zaraz wracam.|idziesz|chodzisz|jeździsz|przychodzisz##Движение в одном направлении прямо сейчас — **iść**: idziesz. «Chodzisz» значило бы «ходишь (обычно)».
+q: W przyszłym tygodniu ___ do Berlina na konferencję.|jadę|chodzę|idę|jeżdżę##Конкретная поездка на транспорте — **jechać**. Настоящее время часто обозначает запланированное будущее: jadę.
+q: Ktoś ___ do pokoju bez pukania.|wszedł|wyszedł|przeszedł|zszedł##**Wejść** (w-) — войти внутрь. **Wyjść** — выйти, **przejść** — перейти, **zejść** — спуститься.
+q: Ostrożnie ___ przez ulicę, tu nie ma świateł.|przejdź|wejdź|dojdź|odejdź##Пересечь улицу — **przejść przez ulicę** (приставка prze- = «через»).
+q: Autobus ___ z przystanku dwie minuty temu.|odjechał|przyjechał|wjechał|objechał##Удаление от точки — приставка **od-**: odjechać z przystanku.
+q: Goście ___ o siódmej, więc mamy jeszcze godzinę.|przyjdą|wyjdą|przejdą|zejdą##Прибытие — **przy-**: przyjść. Будущее время совершенного вида: przyjdą.
+q: Zgubiliśmy się, ale w końcu ___ do schroniska przed zmrokiem.|doszliśmy|weszliśmy|odeszliśmy|rozeszliśmy się##Достичь цели — приставка **do-**: dojść do schroniska.
+q: Dziadek ___ na spacer co rano, nawet zimą.|chodzi|idzie|jedzie|przychodzi##Привычка («co rano») — многократный **chodzić**: chodzi na spacer.
+q: Po koncercie wszyscy ___ do domów.|rozeszli się|zeszli się|przeszli się|weszli##**Rozejść się** — разойтись в разные стороны. «Zejść się» — наоборот, сойтись вместе.
+q: Musimy ___ jezioro dookoła, bo most jest zamknięty.|obejść|przejść|wyjść|dojść##Обойти вокруг — приставка **ob-**: obejść jezioro dookoła.
+q: Mama ___ śpiące dziecko do łóżka.|niesie|nosi|wiezie|wozi##Конкретный раз, в одном направлении, на руках — **nieść**: niesie. **Nosić** — носить регулярно, **wieźć** — везти на транспорте.
+q: Ten prom ___ między Gdańskiem a Szwecją od lat.|pływa|płynie|leci|lata##Регулярные рейсы туда и обратно — многократный **pływać**.
+
+@ przypuszczajacy | Глагол | BY | Условное наклонение | Tryb przypuszczający
+rule: Форма: основа прошедшего времени + **-bym, -byś, -by, -byśmy, -byście, -by**: zrobiłbym, zrobiłabyś, zrobiliby.
+rule: Частица подвижна: **Chętnie bym pojechał = Chętnie pojechałbym.** С глаголом пишется слитно, с другими словами — раздельно (ja bym, gdzie byś).
+rule: Нереальное условие: **Gdybym miał czas, pojechałbym z tobą.** После **gdyby** — прошедшее время без второй частицы.
+rule: Реальное условие — **jeśli / jeżeli** + будущее или настоящее: **Jeśli będzie padać, zostaniemy w domu.**
+rule: Цель и желание: **żeby / aby** + прошедшее время: **Chcę, żebyś przyszedł.** (не «żebyś przyjdziesz»)
+rule: Вежливая просьба: **Czy mógłby Pan…? Chciałabym zapytać…**
+table: Лицо | Мужской род | Женский род
+row: ja | zrobiłbym | zrobiłabym
+row: ty | zrobiłbyś | zrobiłabyś
+row: on / ona | zrobiłby | zrobiłaby
+row: my | zrobilibyśmy | zrobiłybyśmy
+row: wy | zrobilibyście | zrobiłybyście
+row: oni / one | zrobiliby | zrobiłyby
+e: **Gdybym wiedział**, **przyszedłbym** wcześniej. ;; Если бы я знал, пришёл бы раньше.
+e: **Czy mógłby Pan** zamknąć okno? ;; Не могли бы вы закрыть окно?
+e: Szef chce, **żebyśmy skończyli** do piątku. ;; Начальник хочет, чтобы мы закончили к пятнице.
+e: Na twoim miejscu **nie robiłbym** tego. ;; На твоём месте я бы этого не делал.
+e: **Gdyby nie** deszcz, **poszlibyśmy** na spacer. ;; Если бы не дождь, мы бы пошли гулять.
+tip: «Gdybym **był**» — правильно, «gdybym byłbym» — ошибка: частица уже есть в слове gdybym.
+q: Gdybym ___ więcej czasu, nauczyłbym się grać na gitarze.|miał|mam|miałbym|będę miał##После **gdyby** — форма прошедшего времени без «by»: gdybym **miał**.
+q: Gdybyś mnie poprosił, ___ ci.|pomógłbym|pomogę|pomagam|pomógłem##Нереальное условие — в главной части тоже условное наклонение: **pomógłbym**.
+q: Jeśli jutro ___ ładna pogoda, pojedziemy nad jezioro.|będzie|byłaby|była|jest##Реальное условие в будущем: **jeśli + будущее время** — będzie.
+q: Mama chce, żebym ___ wcześniej do domu.|wrócił|wrócę|wracam|wróciłbym##После **żeby** — форма прошедшего времени: żebym **wrócił**.
+q: ___ Pani powtórzyć ostatnie zdanie?|Czy mogłaby|Czy mogła|Czy mogłabym|Czy mogłyby##Вежливая просьба к женщине: **Czy mogłaby Pani…?** (3-е лицо ед.ч. ж.р.).
+q: Na twoim miejscu nie ___ tak szybko.|jechałbym|jadę|jechałem|będę jechał##«На твоём месте» — гипотетическая ситуация, нужно условное наклонение: **nie jechałbym**.
+q: Mówię wolno, ___ wszyscy mnie zrozumieli.|żeby|że|jeśli|gdyby##Цель («чтобы») — **żeby** + прошедшее время (zrozumieli).
+q: Gdyby nie twoja pomoc, nie ___ tego projektu na czas.|skończylibyśmy|skończymy|kończyliśmy|skończyliśmy##«Если бы не…» — нереальное условие, в главной части условное наклонение: **skończylibyśmy**.
+q: Chciałabym, żebyście ___ na mój ślub.|przyjechali|przyjedziecie|przyjechaliście|przyjeżdżacie##**Żebyście** + прошедшее время: żebyście **przyjechali**.
+q: Co ___ zrobiła, gdybyś wygrała milion?|byś|by|bym|będziesz##Подвижная частица с окончанием 2-го лица: co **byś** zrobiła (= co zrobiłabyś).
+q: Wyglądał, ___ nie spał całą noc.|jakby|jakoby|jak|jakbym##**Jakby** («как будто») + прошедшее время: wyglądał, jakby nie spał. «Jakoby» значит «якобы, будто бы (по слухам)».
+q: Gdybyśmy wyjechali wcześniej, nie ___ w korku.|utknęlibyśmy|utkniemy|utknęliśmy|utykamy##Нереальное условие в прошлом — условное наклонение в обеих частях: **nie utknęlibyśmy**.
+
+@ bierna | Глагол | ПАС | Страдательный залог | Strona bierna
+rule: **być + причастие** — процесс или состояние: **Dom jest budowany** (строится). **Sklep jest otwarty** (открыт).
+rule: **zostać + причастие совершенного вида** — однократное завершённое событие: **Dom został zbudowany w 1920 roku.**
+rule: Исполнитель — **przez + В.п.**: **List został napisany przez dyrektora.**
+rule: Причастие согласуется с подлежащим: książka została wydana, bilety zostały sprzedane, ministrowie zostali odwołani (мужско-личный род на **-i**).
+rule: Безличные формы на **-no / -to**: **Zbudowano most. Otwarto sklep.** Подлежащего нет, исполнитель не называется, «przez» с ними не употребляют.
+rule: Общие правила и факты — через **się**: **Tu się nie pali. Jak się to pisze?**
+table: Действие | być (процесс/состояние) | zostać (результат) | -no / -to
+row: budować / zbudować most | Most jest budowany. | Most został zbudowany. | Zbudowano most.
+row: otwierać / otworzyć sklep | Sklep jest otwierany o 8. | Sklep został otwarty. | Otwarto sklep.
+row: sprzedawać / sprzedać bilety | Bilety są sprzedawane online. | Bilety zostały sprzedane. | Sprzedano bilety.
+e: Most **został otwarty** w zeszłym roku. ;; Мост был открыт в прошлом году.
+e: Projekt **jest** właśnie **realizowany**. ;; Проект как раз реализуется.
+e: Wyniki **zostaną ogłoszone** jutro. ;; Результаты будут объявлены завтра.
+e: **Odwołano** wszystkie loty. ;; Все рейсы отменили.
+e: Obraz **został namalowany przez** Matejkę. ;; Картина написана Матейко.
+tip: По-русски «написана Матейко» (творительный), по-польски — **przez Matejkę** (przez + винительный).
+q: Ten zamek ___ w XIV wieku.|został zbudowany|jest budowany|zbudował|zostanie zbudowany##Завершённое событие в прошлом — **zostać + причастие dk.**: został zbudowany.
+q: Nowa droga ___ od dwóch lat i wciąż nie jest gotowa.|jest budowana|została zbudowana|zbudowano|zostanie zbudowana##Процесс ещё идёт («od dwóch lat», «не готова») — **być + причастие ndk.**: jest budowana.
+q: Wyniki konkursu ___ jutro rano.|zostaną ogłoszone|zostały ogłoszone|są ogłaszane|ogłoszono##Однократное событие в будущем — **zostaną ogłoszone**.
+q: Książka została przetłumaczona ___ znaną tłumaczkę.|przez|od|z|dla##Исполнитель в пассиве — **przez + В.п.**: przez znaną tłumaczkę.
+q: Wczoraj ___ nowe muzeum w centrum miasta.|otwarto|otwarte|został otwarty|otwarli się##Безличная форма на **-to**: **otwarto** muzeum (= открыли музей). «Został otwarty» требует подлежащего мужского рода, а muzeum — среднего: zostało otwarte.
+q: Dwaj ministrowie zostali ___.|odwołani|odwołane|odwołany|odwołano##Подлежащее мужско-личное (ministrowie) — причастие на **-i**: zostali **odwołani**.
+q: Wszystkie bilety zostały ___.|sprzedane|sprzedani|sprzedany|sprzedano##Bilety — не мужско-личный род, причастие на **-e**: zostały **sprzedane**.
+q: Złodziej został ___ przez policję po tygodniu.|złapany|złapana|złapane|złapano##Złodziej — мужской род, единственное число: **złapany**.
+q: Jak ___ twoje nazwisko?|się pisze|jest pisane|zostaje napisane|pisano##Общий вопрос о правиле — безличная конструкция с **się**: jak **się pisze** (как пишется).
+q: Umowa ___ przez obie strony w zeszły piątek.|została podpisana|jest podpisywana|podpisano|zostanie podpisana##Названы исполнители («przez obie strony»), событие в прошлом — **została podpisana**. Безличное «podpisano» с «przez» не сочетается.
+q: Sklep ___ od dziewiątej do osiemnastej.|jest otwarty|został otwarty|otwarto|zostanie otwarty##Состояние (режим работы) — **być**: jest otwarty (открыт).
+q: Wszystkie loty do Londynu ___ z powodu mgły.|odwołano|odwołało się|zostało odwołane|odwołali się##Безличная форма на **-no**: **odwołano** loty (рейсы отменили). «Zostało odwołane» не согласуется с loty (нужно zostały odwołane).
+
+@ imieslowy | Глагол | -ĄC | Причастия и деепричастия | Imiesłowy
+rule: **-ący** — действительное причастие (только несов. вид) = «-ющий»: czytający, pracujący. Склоняется как прилагательное.
+rule: **-ąc** — деепричастие одновременности (несов. вид) = «-я»: **Czytając, słucham muzyki.** Не изменяется.
+rule: **-wszy / -łszy** — деепричастие предшествования (сов. вид) = «-в»: **Zjadłszy obiad, wyszedł.** Звучит книжно.
+rule: **-ny / -ony / -ty** — страдательное причастие: przeczytana książka, umyte okno.
+rule: Деепричастие относится к подлежащему главного предложения. Ошибка: «Wchodząc do sklepu, zaczął padać deszcz» (дождь не входил в магазин!).
+rule: **Nie** с причастиями (-ący, -ny, -ty) пишется **слитно**: niepalący, nieprzeczytany. С деепричастиями (-ąc, -wszy) — **раздельно**: nie wiedząc.
+table: Тип | Как образуется | Пример
+row: причастие -ący | 3 л. мн.ч. несов. + -cy | czytają → czytający
+row: деепричастие -ąc | 3 л. мн.ч. несов. + -c | czytają → czytając
+row: деепричастие -wszy | основа прош. сов. + -wszy / -łszy | przeczytał → przeczytawszy, przyniósł → przyniósłszy
+row: страдательное -ny/-ty | основа + -ny, -ony, -ty | przeczytany, zrobiony, umyty
+e: **Pracując** w domu, oszczędzam dwie godziny dziennie. ;; Работая дома, я экономлю два часа в день.
+e: **Skończywszy** studia, wyjechała za granicę. ;; Окончив университет, она уехала за границу.
+e: Pasażerów **oczekujących** na pociąg prosimy o cierpliwość. ;; Пассажиров, ожидающих поезд, просим набраться терпения.
+e: Na stole leżał **nieprzeczytany** list. ;; На столе лежало непрочитанное письмо.
+e: **Nie wiedząc**, co powiedzieć, milczał. ;; Не зная, что сказать, он молчал.
+tip: Деепричастие на -wszy — книжное. В разговоре скажут проще: **Kiedy skończyła studia, wyjechała.**
+q: ___ do pracy, słucham podcastów.|Jadąc|Jadący|Pojechawszy|Jechany##Одновременное действие того же лица — деепричастие на **-ąc**: jadąc.
+q: ___ list, od razu go wysłała.|Napisawszy|Pisząc|Napisany|Piszący##Действие закончилось **до** главного — деепричастие на **-wszy** от совершенного вида: napisawszy.
+q: Uważaj na ___ dzieci!|bawiące się|bawiąc się|bawione|pobawiwszy się##Определение к существительному — причастие на **-ący** (склоняется): bawiące się dzieci.
+q: Na stole leżały ___ naczynia.|niepozmywane|nie pozmywane|nie zmywając|niezmywając##С причастиями на -ny/-ty **nie** пишется слитно: **niepozmywane**.
+q: ___ odpowiedzi, wyszedł z sali.|Nie czekając|Nieczekając|Nie czekający|Nieczekający##С деепричастиями на -ąc **nie** пишется раздельно: **nie czekając**.
+q: Pociąg ___ z Krakowa wjedzie na tor drugi.|przyjeżdżający|przyjeżdżając|przyjechawszy|przyjechany##Определение к «pociąg» — причастие на **-ący**: przyjeżdżający (прибывающий).
+q: To jest ___ przez wszystkich film.|lubiany|lubiący|lubiąc|polubiwszy##Действие направлено на предмет («который все любят») — страдательное причастие **lubiany**.
+q: Wróciwszy do domu, ___.|od razu zasnął|zaczęło padać|zadzwonił telefon|obiad był gotowy##Деепричастие относится к подлежащему главного предложения. Вернулся домой **он** — значит, и уснул он: **od razu zasnął**.
+q: ___ na egzamin, zapomniałem dowodu osobistego.|Wychodząc|Wychodzący|Wychodzony|Wyszły##Два одновременных действия одного лица («выходя, забыл») — **-ąc**: wychodząc.
+q: Firma szuka osób ___ językiem niemieckim.|władających|władając|władany|zawładnąwszy##Определение к «osób» (Р.п. мн.ч.) — причастие склоняется: **władających** (владеющих).
+q: Zmęczona długą podróżą, ___ od razu położyła się spać.|Anna|Annie|Annę|Anną##Обособленное причастие («zmęczona») относится к подлежащему в именительном падеже: **Anna** położyła się.
+q: Siedzący obok mnie mężczyzna ___ przez cały film.|chrapał|chrapiąc|chrapiący|chrapany##«Siedzący» — только определение; сказуемому нужна личная форма глагола: **chrapał**.
+
+@ dopelniacz | Падежи | Р.П | Родительный падеж: трудные случаи | Dopełniacz
+rule: При отрицании прямое дополнение из винительного переходит в **родительный**: Mam samochód → **Nie mam samochodu.** Lubię kawę → **Nie lubię kawy.**
+rule: Исключение — глагол **być**: To jest Adam → To **nie** jest Adam (именительный).
+rule: Глаголы с родительным (часто не как в русском): **szukać, potrzebować, bać się, unikać, używać, słuchać, uczyć się, życzyć, pilnować, dotyczyć, wymagać, brakować**.
+rule: После **dużo, mało, wiele, kilka, trochę, ile** и после числительных от 5 — родительный: dużo pracy, pięć lat.
+rule: Мужской род ед.ч.: **-a** (живые, многие предметы: kota, komputera, chleba) или **-u** (абстрактное, вещества, многие неодушевлённые: domu, czasu, cukru, sukcesu).
+table: Существительное | Утверждение (В.п.) | Отрицание (Р.п.)
+row: kawa | Piję kawę. | Nie piję kawy.
+row: czas | Mam czas. | Nie mam czasu.
+row: pieniądze | Mam pieniądze. | Nie mam pieniędzy.
+row: okno | Otwieram okno. | Nie otwieram okna.
+row: brat | Znam jego brata. | Nie znam jego brata.
+e: **Szukam pracy** od trzech miesięcy. ;; Я ищу работу уже три месяца.
+e: Dzieci **boją się ciemności**. ;; Дети боятся темноты.
+e: **Nie mam czasu** na głupoty. ;; У меня нет времени на глупости.
+e: **Brakuje** mi **pieniędzy** na czynsz. ;; Мне не хватает денег на квартплату.
+e: W sali było **kilkanaście osób**. ;; В зале было человек пятнадцать.
+tip: Русское «слушать музыку» (винительный) — по-польски **słuchać muzyki** (родительный). Так же: **uczyć się polskiego, używać telefonu, szukać klucza**.
+q: Niestety nie mam ___ na kino.|pieniędzy|pieniądze|pieniądzach|pieniądzom##Отрицание + прямое дополнение — родительный падеж: nie mam **pieniędzy**.
+q: Od rana szukam ___.|kluczy|klucze|kluczami|kluczom##**Szukać** всегда требует родительного падежа: szukam **kluczy**.
+q: Wieczorem lubię słuchać ___.|muzyki|muzykę|muzyką|muzyce##**Słuchać + Р.п.**: słuchać muzyki (в русском — «слушать музыку», винительный).
+q: Nie piję ___, tylko herbatę.|kawy|kawę|kawa|kawą##Отрицание («nie piję») меняет винительный на родительный: **kawy**. Во второй части отрицания нет, поэтому herbatę.
+q: To nie jest mój ___.|telefon|telefonu|telefonem|telefonie##Исключение: при **być** отрицание не требует родительного. To jest telefon → To nie jest telefon.
+q: Uczę się ___ od roku.|polskiego|polski|polskim|polskiemu##**Uczyć się + Р.п.**: uczę się polskiego.
+q: Unikam ___ z szefem, jak tylko mogę.|konfliktów|konflikty|konfliktami|konfliktom##**Unikać + Р.п.**: unikam konfliktów.
+q: Nie widziałem twojej ___ od lat.|siostry|siostrę|siostrą|siostrze##Отрицание — родительный падеж: nie widziałem **siostry** (утверждение: widziałem siostrę).
+q: Ten problem nie dotyczy ___.|nas|nami|nam|my##**Dotyczyć + Р.п.**: dotyczy **nas** (касается нас).
+q: Życzę ci dużo ___ w nowym roku!|zdrowia|zdrowie|zdrowiem|zdrowiu##**Życzyć komuś czegoś** и **dużo** — родительный: dużo **zdrowia**.
+q: W lodówce zabrakło ___.|mleka|mleko|mlekiem|mleku##**Zabraknąć / brakować + Р.п.**: zabrakło mleka.
+q: Ta praca wymaga dużej ___.|cierpliwości|cierpliwość|cierpliwością|cierpliwościom##**Wymagać + Р.п.**: wymaga dużej **cierpliwości**.
+q: Nie znam tego ___.|pana|pan|panu|panem##Отрицание + прямое дополнение — родительный: nie znam tego **pana**.
+
+@ narzednik | Падежи | Т.П | Творительный падеж | Narzędnik
+rule: Профессия, роль, национальность после **być** — творительный: **Jestem lekarzem. Ona jest Polką.** Но после **to** — именительный: **To jest lekarz.**
+rule: Одно прилагательное после być — именительный: **Jest zmęczony.** **Zostać** + существительное — творительный: **Został dyrektorem.**
+rule: Инструмент и транспорт — творительный без предлога: **piszę długopisem, jadę autobusem**.
+rule: Глаголы: **interesować się, zajmować się, opiekować się, kierować, rządzić, cieszyć się, zachwycać się, posługiwać się** + Т.п.
+rule: **nad, pod, przed, za, między** + Т.п. — где (место): **pod stołem**. С движением «куда» — винительный: **pod stół**.
+rule: **z** + Т.п. = «с»: kawa **z mlekiem**, idę **z bratem**.
+table: Род | Окончание | Пример
+row: мужской | -em | lekarz → lekarzem, student → studentem
+row: женский | -ą | nauczycielka → nauczycielką
+row: средний | -em | dziecko → dzieckiem
+row: мн. число | -ami (иногда -mi) | koleżankami, ludźmi, dziećmi
+e: Mój brat **jest programistą**, a siostra **pielęgniarką**. ;; Мой брат — программист, а сестра — медсестра.
+e: Po studiach **została tłumaczką**. ;; После учёбы она стала переводчицей.
+e: **Interesuję się historią** i **zajmuję się** fotografią. ;; Я интересуюсь историей и занимаюсь фотографией.
+e: Kot śpi **pod łóżkiem**. ;; Кот спит под кроватью.
+e: Kot wszedł **pod łóżko**. ;; Кот залез под кровать.
+tip: **Jestem Rosjaninem** (творительный), но **To jest Rosjanin** (именительный). После «to jest» — всегда именительный.
+q: Mój ojciec jest ___.|inżynierem|inżynier|inżyniera|inżynierowi##Профессия после **być** — творительный падеж: jest **inżynierem**.
+q: To jest mój ___, Marek.|kolega|kolegą|kolegi|kolegę##После **to jest** — именительный падеж: to jest mój **kolega**.
+q: Po wyborach ___ prezydentem miasta.|został|stał|zrobił|był się##**Zostać + Т.п.** = стать кем-то: **został** prezydentem.
+q: Od lat interesuje się ___.|astronomią|astronomii|astronomię|astronomia##**Interesować się + Т.п.**: interesuje się **astronomią**.
+q: Kto będzie się opiekował ___ podczas wyjazdu?|psem|psa|psu|pies##**Opiekować się + Т.п.**: opiekować się **psem**.
+q: Do pracy jeżdżę ___.|tramwajem|tramwaj|tramwaju|tramwajowi##Транспорт как средство передвижения — творительный без предлога: jeżdżę **tramwajem**.
+q: Klucze leżą ___ szafką.|pod|na|w|do##**Pod + Т.п.** (szafką) — место «под». **Na, w** здесь потребовали бы предложного падежа, **do** — родительного.
+q: Pies wszedł pod ___.|stół|stołem|stołu|stole##Движение «куда» — **pod + В.п.**: wszedł pod **stół**. Местоположение: leży pod stołem.
+q: Poproszę kawę z ___.|mlekiem|mleko|mleka|mleku##**Z + Т.п.** в значении «с»: kawa z **mlekiem**. (Z + Р.п. — «из»: z mleka.)
+q: Ona jest bardzo ___.|zdolna|zdolną|zdolnej|zdolny##Одно прилагательное после **być** — именительный: jest **zdolna**. Творительный — с существительным: jest zdolną studentką.
+q: Firma zajmuje się ___ mebli.|produkcją|produkcji|produkcję|produkcja##**Zajmować się + Т.п.**: zajmuje się **produkcją**.
+q: Rozmawiałam wczoraj z ___ nauczycielami.|nowymi|nowi|nowych|nowym##**Z + Т.п.** мн.ч.: z **nowymi** nauczycielami.
+q: Spotkajmy się przed ___.|teatrem|teatr|teatru|teatrze##**Przed + Т.п.** (место): przed **teatrem**.
+
+@ celownik | Падежи | Д.П | Дательный падеж и управление | Celownik i rekcja
+rule: Адресат действия: **dać, pokazać, wysłać, powiedzieć, kupić** komuś coś.
+rule: Глаголы с дательным (часто не как в русском): **dziękować, pomagać, ufać, wierzyć, przeszkadzać, współczuć, zazdrościć, kibicować, przyglądać się, zawdzięczać**.
+rule: Безличные конструкции: **Jest mi zimno. Podoba mi się. Chce mi się pić. Wydaje mi się. Udało mi się.**
+rule: Отрицание дательный не меняет: **Nie ufam mu. Nie wierzę ani jednemu słowu.**
+rule: Окончания: м.р. **-owi** (studentowi), но **bratu, ojcu, panu, psu, kotu, chłopcu, światu**; ж.р. **-e / -i / -y** (mamie, pani, Kasi); ср.р. **-u** (dziecku); мн.ч. **-om** (kolegom).
+table: Именительный | Дательный
+row: student | studentowi
+row: brat / ojciec / pan | bratu / ojcu / panu
+row: mama / siostra | mamie / siostrze
+row: pani / Kasia | pani / Kasi
+row: dziecko | dziecku
+row: koledzy | kolegom
+e: **Dziękuję panu** za pomoc. ;; Благодарю вас за помощь.
+e: Czy mogę **ci** w czymś **pomóc**? ;; Могу я тебе чем-нибудь помочь?
+e: **Podoba mi się** to miasto. ;; Мне нравится этот город.
+e: **Nie chce mi się** dziś gotować. ;; Мне сегодня неохота готовить.
+e: Wszystko **zawdzięczam rodzicom**. ;; Всем я обязан родителям.
+tip: «Благодарить кого» — **dziękować komu**: dziękuję **ci**, dziękuję **pani**, dziękujemy **wszystkim**.
+q: Dziękuję ___ za zaproszenie.|ci|cię|tobą|ciebie##**Dziękować + Д.п.** (в русском — «благодарить тебя»): dziękuję **ci**.
+q: Czy możesz pomóc ___ z walizką?|babci|babcię|babcią|babcia##**Pomagać / pomóc + Д.п.**: pomóc **babci**.
+q: Ufam ___ jak bratu.|mu|go|nim|on##**Ufać + Д.п.**: ufam **mu** (ему).
+q: Nie przeszkadzaj ___, on się uczy!|bratu|brata|bratem|bracie##**Przeszkadzać + Д.п.**: przeszkadzać **bratu**. Brat — исключение: bratu, а не bratowi.
+q: Kupiłem ___ kwiaty na urodziny.|mamie|mamę|mamy|mamą##Адресат подарка — дательный падеж: kupiłem **mamie** kwiaty.
+q: Ta książka bardzo się podobała ___.|mojemu ojcu|mojego ojca|moim ojcem|mój ojciec##**Podobać się + Д.п.**: podobała się **mojemu ojcu** (ojciec → ojcu).
+q: Zawsze kibicuję polskiej ___.|reprezentacji|reprezentację|reprezentacją|reprezentacja##**Kibicować + Д.п.**: kibicuję **reprezentacji**.
+q: Przyglądał się ___ z ciekawością.|nieznajomej|nieznajomą|nieznajomego|nieznajomą osobę##**Przyglądać się + Д.п.**: przyglądał się **nieznajomej** (незнакомке).
+q: Nie wierzę ___ słowu.|ani jednemu|ani jednego|ani jednym|ani jedno##**Wierzyć + Д.п.**, и отрицание дательный не меняет: nie wierzę **ani jednemu** słowu.
+q: ___ się nie chce iść do pracy w poniedziałek.|Nikomu|Nikogo|Nikim|Nikt##Безличная конструкция **chcieć się komuś**: nikomu się nie chce (никому неохота).
+q: Swój sukces zawdzięcza ___.|ciężkiej pracy|ciężką pracę|ciężką pracą|ciężka praca##**Zawdzięczać coś czemuś** (Д.п.): zawdzięcza **ciężkiej pracy**.
+q: Opowiedz ___ o swojej podróży.|nam|nas|nami|my##Адресат рассказа — дательный: opowiedz **nam**.
+q: Współczuję ___ z całego serca.|wam|was|wami|wy##**Współczuć + Д.п.**: współczuję **wam**.
+
+@ wolacz | Падежи | ЗВ | Звательный падеж и вежливые формы | Wołacz i formy grzecznościowe
+rule: Wołacz — форма обращения: **Panie Profesorze, Pani Doktor, Szanowny Panie Dyrektorze, Droga Aniu, Kochana Mamo, Tomku**.
+rule: Вежливое «вы» — **Pan / Pani / Państwo** + глагол в 3-м лице: **Czy Pan wie…? Czy Państwo mogliby…?**
+rule: Ж.р. на -a → **-o** (mama → mamo, Anna → Anno); ласковые на -ia → **-u** (Ania → Aniu, Kasia → Kasiu); м.р. → **-e** или **-u** (pan → panie, profesor → profesorze, Tomek → Tomku, syn → synu).
+rule: Женские титулы не склоняются: **Pani Profesor, Pani Doktor, Pani Dyrektor**.
+rule: В разговоре вместо звательного иногда звучит именительный (Tomek!), но в письмах и вежливом обращении — только wołacz: **Pani Ewo**, а не «Pani Ewa».
+table: Именительный | Звательный
+row: pan profesor | Panie Profesorze
+row: pan dyrektor | Panie Dyrektorze
+row: pan doktor | Panie Doktorze
+row: pani profesor | Pani Profesor
+row: Anna / Ania | Anno / Aniu
+row: Tomasz / Tomek | Tomaszu / Tomku
+row: kolega | kolego
+e: **Szanowny Panie Profesorze**, uprzejmie proszę o konsultację. ;; Уважаемый господин профессор, прошу о консультации.
+e: **Droga Kasiu**, dziękuję za list! ;; Дорогая Кася, спасибо за письмо!
+e: **Czy mógłby Pan** podać mi długopis? ;; Не могли бы вы подать мне ручку?
+e: **Proszę Państwa**, zaczynamy. ;; Дамы и господа, начинаем.
+e: **Synu**, chodź tu na chwilę! ;; Сынок, иди-ка сюда!
+tip: Обращение **Pani Ewo** — вежливое и тёплое (имя в звательном падеже). «Pani Ewa» в обращении звучит небрежно, а в письме недопустимо.
+q: Szanowny Panie ___, przesyłam w załączniku moją pracę.|Profesorze|Profesor|Profesora|Profesorowi##Обращение к мужчине-профессору — звательный падеж: **Panie Profesorze**.
+q: Szanowna Pani ___, dziękuję za szybką odpowiedź.|Profesor|Profesorko|Profesorze|Profesora##Женские титулы в обращении **не склоняются**: Pani **Profesor**.
+q: Droga ___, wszystkiego najlepszego z okazji urodzin!|Aniu|Ania|Anię|Ani##Ласковое имя на -ia — звательный на **-u**: Aniu.
+q: Kochana ___, bardzo za tobą tęsknię!|Mamo|Mama|Mamę|Mamy##Существительные ж.р. на -a — звательный на **-o**: Mamo.
+q: Drogi ___, dziękuję za pamięć o moich urodzinach.|Tomku|Tomek|Tomka|Tomkowi##В письме обращение — только звательный: Drogi **Tomku**.
+q: Czy ___ Pan mi powiedzieć, która jest godzina?|mógłby|mógłbyś|mogłeś|możesz##С **Pan** — глагол в 3-м лице: Czy **mógłby** Pan…
+q: Proszę ___, zaczynamy zebranie.|Państwa|Państwo|Państwu|Państwem##Устойчивая формула обращения к группе: **Proszę Państwa**.
+q: Czy ___ już Państwo menu?|znają|znacie|znasz|zna##**Państwo** — глагол в 3-м лице мн.ч.: Czy **znają** Państwo…
+q: Szanowny Panie ___, zwracam się z prośbą o urlop.|Dyrektorze|Dyrektor|Dyrektora|Dyrektorowi##Мужчина-директор — **Panie Dyrektorze** (-or → -orze).
+q: Pani ___, czy mogę zadać pytanie?|Ewo|Ewa|Ewę|Ewy##Вежливое обращение по имени — звательный: **Pani Ewo**.
+q: Co ___ sądzi o tej propozycji, panie prezesie?|pan|pani|ty|wy##Обращаемся к мужчине на «вы» — **pan** + глагол в 3-м лице (sądzi).
+q: Panie ___, czy mógłby pan obejrzeć moje gardło?|doktorze|doktor|doktora|doktorem##Мужчина-врач — **panie doktorze**.
+
+@ liczebniki | Числа, род и союзы | 2·5 | Числительные | Liczebniki
+rule: **jeden** согласуется как прилагательное: jeden kot, jedna kobieta, jedno dziecko.
+rule: **2, 3, 4** и составные на 2–4 (22, 33, 104) + **именительный мн.ч.**, глагол во мн.ч.: **Dwa koty śpią.**
+rule: **5 и больше**, а также **12, 13, 14** + **родительный мн.ч.**, глагол в ед.ч. ср.р.: **Pięć kotów spało. Dwanaście osób przyszło.**
+rule: Мужчины (мужско-личный род): **dwaj panowie** или **dwóch panów**, **trzech studentów**, **pięciu kolegów** (+ глагол в ед.ч.: **Przyszło pięciu studentów**).
+rule: Собирательные **dwoje, troje, pięcioro** — с детьми и молодняком: **dwoje dzieci, troje wnucząt**, а также для пары «мужчина и женщина».
+rule: Порядковые склоняются как прилагательные: дата — **piątego maja** (Р.п.), время — **o piątej** (Пр.п.).
+table: Число | Неличный род | Мужско-личный
+row: 2 | dwa koty, dwie kobiety | dwaj panowie / dwóch panów
+row: 3 | trzy koty | trzej panowie / trzech panów
+row: 5 | pięć kotów | pięciu panów
+row: 12 | dwanaście kotów | dwunastu panów
+row: 22 | dwadzieścia dwa koty | dwudziestu dwóch panów
+e: **Pięciu** kolegów **przyszło** na urodziny. ;; На день рождения пришли пятеро друзей.
+e: Mamy **dwoje** dzieci. ;; У нас двое детей.
+e: Spotkajmy się **o wpół do ósmej**. ;; Встретимся в половине восьмого.
+e: Urodziłam się **trzeciego maja**. ;; Я родилась третьего мая.
+e: W klasie są **dwadzieścia cztery** osoby. ;; В классе двадцать четыре человека.
+tip: 12, 13, 14 — это не «2, 3, 4»: **dwanaście kotów** (родительный), но **dwadzieścia dwa koty** (именительный).
+q: Na stole leżą trzy ___.|książki|książek|książkami|książka##После **2, 3, 4** — именительный мн.ч.: trzy **książki** (и глагол во мн.ч.: leżą).
+q: Na stole leży pięć ___.|książek|książki|książkach|książka##После **5+** — родительный мн.ч.: pięć **książek**, глагол в ед.ч. (leży).
+q: W sali siedziało dwanaście ___.|osób|osoby|osobom|osoba##**12** ведёт себя как 5+, а не как 2: dwanaście **osób**.
+q: W sali siedziały dwadzieścia dwie ___.|osoby|osób|osobach|osobami##Составные на **2, 3, 4** (22, 23, 24) — именительный мн.ч.: dwadzieścia dwie **osoby**.
+q: Na przystanku czekało ___ mężczyzn.|trzech|trzy|trzej|troje##Мужчины + родительный падеж: **trzech** mężczyzn (и глагол в ед.ч. ср.р.: czekało).
+q: ___ studenci zdali egzamin na piątkę.|Dwaj|Dwa|Dwie|Dwoje##С именительным мужско-личным (studenci) — **dwaj**: dwaj studenci zdali. (Иначе: dwóch studentów zdało.)
+q: Mają ___ dzieci: syna i córkę.|dwoje|dwa|dwóch|dwie##Со словом **dzieci** — собирательное числительное: **dwoje** dzieci.
+q: Spotkanie zaczyna się o ___.|piątej|pięć|piątą|piąta##Время «в пять» — **o + Пр.п. порядкового**: o piątej.
+q: Urodził się ___ marca.|dwunastego|dwunasty|dwanaście|dwunastym##Дата «какого числа» — **родительный падеж порядкового**: dwunastego marca.
+q: Na zebraniu było ___ panów.|siedmiu|siedem|siedmioro|siedmiorga##Мужчины — мужско-личная форма: **siedmiu** panów. Собирательное «siedmioro» — для детей или смешанных пар.
+q: Za ten bilet zapłaciłem dwadzieścia dwa ___.|złote|złotych|złoty|złotymi##22 оканчивается на 2 — именительный мн.ч.: dwadzieścia dwa **złote**. Но dwadzieścia pięć złotych.
+q: Za parking zapłaciłem ___ złotych.|piętnaście|piętnastu|piętnasty|piętnastą##**Piętnaście** + родительный мн.ч. (złotych). Złote — не мужчины, поэтому не «piętnastu».
+q: W tym roku obchodzimy ___ rocznicę ślubu.|dziesiątą|dziesięć|dziesiąta|dziesiątej##Порядковое числительное как прилагательное, В.п. ж.р. (rocznicę): **dziesiątą**.
+
+@ zaimki | Числа, род и союзы | GO | Местоимения | Zaimki
+rule: Краткие формы **mi, ci, go, mu** — без ударения, не в начале фразы и не после предлога: **Daj mi to. Widzę go.**
+rule: Полные формы **mnie, tobie, jego, jemu** — под ударом, в начале фразы, при противопоставлении: **Mnie to nie przeszkadza. Jemu dałem, a tobie nie.**
+rule: После предлогов местоимения 3-го лица начинаются на **n-**: **do niego, z nią, dla nich, o nim**.
+rule: Притяжательные **jego / jej / ich** не склоняются: z jego bratem, o jej mamie.
+rule: **swój** — если вещь принадлежит подлежащему: **Marek kocha swoją żonę.** «Marek kocha jego żonę» — жену другого мужчины!
+rule: Возвратное: **się / siebie / sobie / sobą**: Myję się. Mówi o sobie. Jest pewna siebie.
+table: Местоимение | Винительный | Дательный | После предлога
+row: on | go / jego | mu / jemu | niego, nim
+row: ona | ją | jej | nią, niej
+row: ono | je | mu / jemu | nie, nim
+row: oni | ich | im | nich, nimi
+e: Znasz Adama? – Tak, znam **go** od lat. ;; Знаешь Адама? — Да, знаю его много лет.
+e: Idę **do niego** na kolację. ;; Иду к нему на ужин.
+e: Ewa rozmawiała ze **swoją** siostrą. ;; Эва разговаривала со своей сестрой.
+e: Ewa rozmawiała z **jej** siostrą. ;; Эва разговаривала с её сестрой (сестрой другой женщины).
+e: **Jemu** nie wierzę, ale **tobie** tak. ;; Ему я не верю, а тебе — да.
+tip: Русское «свой» почти всегда = **swój**. Если вместо swój сказать jego / jej, речь пойдёт о чужом.
+q: Kupiłem nową książkę, ale jeszcze ___ nie przeczytałem.|jej|ją|niej|nią##Отрицание — родительный падеж: nie przeczytałem **jej** (Р.п. от ona).
+q: Wczoraj widziałem Tomka i rozmawiałem z ___.|nim|mu|jego|nią##После предлога — форма на **n-**: z **nim** (творительный от on).
+q: Basia pojechała na wakacje ze ___ chłopakiem.|swoim|jej|jego|moim##Парень принадлежит подлежащему (Basia) — **swój**: ze swoim chłopakiem. «Z jej chłopakiem» — с парнем другой девушки.
+q: To prezent dla ___.|niego|jego|go|mu##После предлога — **niego**: dla niego.
+q: Daj ___ spokój, on jest zmęczony.|mu|jemu|go|niemu##Без ударения и не после предлога — краткая форма дательного: daj **mu** spokój.
+q: ___ to nie przeszkadza, ale mojej żonie tak.|Mnie|Mi|Mną|Ja##В начале фразы и при противопоставлении — полная форма: **Mnie** to nie przeszkadza.
+q: Znasz moją siostrę? – Tak, znam ___.|ją|jej|nią|niej##**Znać + В.п.**: znam **ją**.
+q: Jest bardzo pewna ___.|siebie|sobie|sobą|się##**Pewny siebie** — родительный возвратного местоимения: pewna **siebie**.
+q: Opowiadał nam o ___ przez całą kolację.|sobie|siebie|sobą|się##**O + Пр.п.**: o **sobie**.
+q: Nie mogę bez ___ żyć.|ciebie|cię|ci|tobą##**Bez + Р.п.**, после предлога — полная форма: bez **ciebie**.
+q: Pomóż mi, proszę – sam ___ nie poradzę.|sobie|siebie|się|sobą##**Poradzić sobie** (справиться) — дательный возвратного: nie poradzę **sobie**.
+q: Rodzice Kasi bardzo ją kochają i dużo myślą o ___ przyszłości.|jej|swojej|niej|jego##Подлежащее — rodzice, а будущее — Каси: **jej** przyszłości. «Swojej» означало бы их собственное будущее.
+
+@ meskoosobowy | Числа, род и союзы | М-Л | Мужско-личный род | Rodzaj męskoosobowy
+rule: Во мн.ч. польский различает **мужско-личный** род (мужчины или смешанная группа) и **немужско-личный** (женщины, животные, предметы).
+rule: Глагол в прошедшем: **oni byli, poszli** — **one były, poszły**.
+rule: Местоимения и прилагательные: **ci mili panowie** — **te miłe panie**, **te psy**; **którzy / które**; **wszyscy / wszystkie**.
+rule: Существительные: student → **studenci**, Polak → **Polacy**, kolega → **koledzy**, pracownik → **pracownicy**, profesor → **profesorowie**, chłopiec → **chłopcy**.
+rule: Смешанная группа (хотя бы один мужчина) — мужско-личная форма: **Anna i Marek poszli** do kina.
+rule: Прилагательные с чередованием: młody → **młodzi**, dobry → **dobrzy**, wysoki → **wysocy**, polski → **polscy**.
+table: Мужско-личный | Немужско-личный
+row: byli, poszli | były, poszły
+row: ci | te
+row: którzy | które
+row: wszyscy | wszystkie
+row: dobrzy studenci | dobre studentki, dobre psy
+row: dwaj / dwóch panów | dwa psy, dwie panie
+e: Moi **koledzy byli** zachwyceni. ;; Мои коллеги были в восторге.
+e: **Te** koleżanki **były** zachwycone. ;; Эти коллеги (женщины) были в восторге.
+e: Ola i Piotr **pojechali** nad morze. ;; Оля и Пётр поехали на море.
+e: **Polacy** lubią narzekać na pogodę. ;; Поляки любят жаловаться на погоду.
+e: **Wszyscy** goście **przyszli** punktualnie. ;; Все гости пришли вовремя.
+tip: Животные — не «лица»: **psy biegały**, **koty spały** — как и у женщин.
+q: Studenci ___ bardzo zmęczeni po egzaminie.|byli|były|był|było##Studenci — мужско-личный род: **byli**.
+q: Studentki ___ bardzo zmęczone po egzaminie.|były|byli|była|było##Женская группа — немужско-личная форма: **były**.
+q: Kasia i Tomek ___ do kina.|poszli|poszły|poszła|poszedł##Смешанная группа (есть мужчина) — мужско-личная форма: **poszli**.
+q: ___ panowie czekają na pana dyrektora.|Ci|Te|Ta|Tych##Мужско-личный род мн.ч. — указательное **ci**.
+q: Psy ___ całą noc.|szczekały|szczekali|szczekało|szczekał##Животные — немужско-личный род: psy **szczekały**.
+q: W Krakowie mieszka wielu ___.|Ukraińców|Ukraińcy|Ukraińcach|Ukraińcom##**Wielu** (мужско-личное) + родительный мн.ч.: wielu **Ukraińców**.
+q: To są moi najlepsi ___.|przyjaciele|przyjaciółmi|przyjaciół|przyjacielowie##Именительный мн.ч. от przyjaciel — **przyjaciele**.
+q: Wszyscy ___ dostali podwyżkę.|pracownicy|pracowniki|pracowników|pracownikami##Мужско-личный род: pracownik → **pracownicy** (k → c).
+q: Nasi ___ wygrali mecz!|chłopcy|chłopacy|chłopców|chłopakowie##Литературная форма мн.ч. — **chłopcy**.
+q: Goście, ___ przyszli wcześniej, czekali w ogrodzie.|którzy|które|który|której##Goście — мужско-личный род (или смешанная группа): **którzy**.
+q: Te ___ kobiety pracują w szpitalu.|młode|młodzi|młodych|młody##Женщины — немужско-личное окончание прилагательного: **młode** kobiety.
+q: Ci ___ lekarze pracują w szpitalu od roku.|młodzi|młode|młodych|młodzy##Мужско-личное прилагательное: młody → **młodzi**.
+q: Wszyscy ___ podpisali już listę obecności.|uczestnicy|uczestniki|uczestnicze|uczestnikowie##uczestnik → **uczestnicy** (k → c).
+
+@ spojniki | Числа, род и союзы | ŻE | Союзы и сложные предложения | Spójniki
+rule: **że** — «что»: Wiem, **że** masz rację.
+rule: **żeby / aby** — «чтобы»: с инфинитивом (Przyszedłem, **żeby** pomóc) или с прошедшим временем (Chcę, **żebyś** został).
+rule: **czy** — «ли» в косвенном вопросе и частица общего вопроса: Nie wiem, **czy** przyjdzie. **Czy** masz czas?
+rule: **chociaż / choć / mimo że** — «хотя»; **mimo + Р.п.** — «несмотря на»: **mimo deszczu**.
+rule: **zanim** — «прежде чем»; **dopóki nie** — «пока не»: Nie wyjdę, **dopóki nie** skończę. **Odkąd** — «с тех пор как».
+rule: Перед **że, żeby, czy, który, bo, ponieważ, chociaż, jeśli, kiedy, zanim** ставится запятая — почти всегда, как и в русском.
+table: Союз | Значение | Пример
+row: że | что | Myślę, że to dobry pomysł.
+row: żeby | чтобы | Uczę się, żeby zdać egzamin.
+row: czy | ли | Zapytaj, czy jest wolny.
+row: mimo że | хотя | Poszedł, mimo że padało.
+row: zanim | прежде чем | Zadzwoń, zanim przyjedziesz.
+row: dopóki nie | пока не | Czekaj, dopóki nie wrócę.
+e: Nie wiem, **czy** zdążę na pociąg. ;; Не знаю, успею ли я на поезд.
+e: **Mimo że** był zmęczony, skończył pracę. ;; Хотя он устал, он закончил работу.
+e: **Mimo** zmęczenia skończył pracę. ;; Несмотря на усталость, он закончил работу.
+e: Zadzwoń, **zanim** wyjdziesz z domu. ;; Позвони, прежде чем выйдешь из дома.
+e: Poprosił, **żebym** mu pomógł. ;; Он попросил, чтобы я ему помог.
+tip: Русское «ли» → **czy** в начале придаточного: «Не знаю, придёт ли он» = **Nie wiem, czy on przyjdzie.**
+q: Nie wiem, ___ jutro będzie padać.|czy|że|żeby|jeśli##Косвенный вопрос («будет ли») — **czy**.
+q: Myślę, ___ masz rację.|że|żeby|czy|aby##Изъяснительное «что» — **że**.
+q: Przyszedłem, ___ ci pomóc.|żeby|że|czy|bo##Цель («чтобы») — **żeby**, здесь с инфинитивом: żeby ci pomóc.
+q: Poszedł na spacer, ___ padało.|mimo że|mimo|zanim|dopóki##«Хотя шёл дождь» — **mimo że** + глагол. Просто **mimo** требует существительного: mimo deszczu.
+q: Poszedł na spacer mimo ___.|deszczu|deszcz|deszczem|że pada##**Mimo + Р.п.**: mimo **deszczu**.
+q: Umyj ręce, ___ usiądziesz do stołu.|zanim|dopóki|odkąd|ponieważ##«Прежде чем» — **zanim**.
+q: Nie wyjdę z biura, ___ nie skończę raportu.|dopóki|zanim|odkąd|skoro##«Пока не» — **dopóki nie** (отрицание обязательно).
+q: Szef poprosił, ___ przyszedł jutro wcześniej.|żebym|że|czy|jeśli##«Попросил, чтобы я пришёл» — **żebym** + прошедшее время.
+q: Zadzwoń do mnie, ___ będziesz w Warszawie.|kiedy|zanim|chociaż|czy##«Когда будешь в Варшаве» — **kiedy** (+ будущее время, как в русском).
+q: Zostałam w domu, ___ byłam chora.|ponieważ|chociaż|żeby|mimo##Причина — **ponieważ** («потому что»).
+q: Nie pojadę z wami, ___ bardzo bym chciał.|chociaż|ponieważ|żeby|czy##Уступка («хотя очень хотел бы») — **chociaż**.
+q: ___ mieszkam w Krakowie, codziennie jeżdżę rowerem.|Odkąd|Zanim|Dopóki nie|Żeby##«С тех пор как» — **odkąd**.

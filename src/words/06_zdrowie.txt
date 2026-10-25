@@ -1,0 +1,234 @@
+# Здоровье и медицина | Zdrowie i medycyna
+zdrowie | здоровье | Zdrowie jest ważniejsze niż kariera.
+stan zdrowia | состояние здоровья | Stan zdrowia pacjenta jest stabilny.
+samopoczucie | самочувствие | Jak twoje samopoczucie po zabiegu?
+dolegliwości | недомогания, жалобы на здоровье | Z jakimi dolegliwościami pan przychodzi?
+choroba | болезнь | Ta choroba rozwija się powoli i bezobjawowo.
+chory | больной | Chory wymaga stałej opieki.
+pacjent | пациент | Pacjent czeka na wyniki od tygodnia.
+lekarz | врач | Lekarz zalecił mi odpoczynek.
+lekarz rodzinny | семейный врач | Najpierw idź do lekarza rodzinnego po skierowanie.
+specjalista | врач-специалист | Do specjalisty czeka się miesiącami.
+kolejka do specjalisty | очередь к специалисту | Kolejka do specjalisty w ramach NFZ to pół roku.
+skierowanie | направление (к врачу) | Na rezonans potrzebne jest skierowanie.
+wizyta | приём у врача | Wizyta trwała niecałe dziesięć minut.
+umówić się na wizytę | записаться на приём | Umówiłam się na wizytę u dermatologa.
+rejestracja | регистратура | Rejestracja w przychodni czynna jest od siódmej.
+przychodnia | поликлиника | Przychodnia jest zamknięta w weekendy.
+szpital | больница | Po wypadku trafił do szpitala.
+oddział szpitalny | больничное отделение | Oddział szpitalny jest przepełniony.
+izba przyjęć | приёмное отделение | W izbie przyjęć czekaliśmy pięć godzin.
+szpitalny oddział ratunkowy | отделение неотложной помощи | Szpitalny oddział ratunkowy przyjmuje pacjentów całą dobę.
+pogotowie ratunkowe | скорая помощь | Zadzwoń natychmiast na pogotowie ratunkowe.
+karetka | машина скорой помощи | Karetka przyjechała po kwadransie.
+ratownik medyczny | фельдшер скорой помощи | Ratownicy medyczni przywrócili mu oddech.
+pielęgniarka | медсестра | Pielęgniarka zmieniła mi opatrunek.
+internista | терапевт | Internista skierował mnie do kardiologa.
+chirurg | хирург | Chirurg operował przez sześć godzin.
+pediatra | педиатр | Pediatra zbadał dziecko i uspokoił rodziców.
+ginekolog | гинеколог | Do ginekologa nie potrzeba skierowania.
+okulista | окулист | Okulista przepisał mi nowe okulary.
+dentysta | стоматолог | Boję się dentysty od dzieciństwa.
+dermatolog | дерматолог | Dermatolog obejrzał znamię na plecach.
+kardiolog | кардиолог | Kardiolog zalecił mi więcej ruchu.
+psychiatra | психиатр | Psychiatra przepisał leki przeciwdepresyjne.
+psycholog | психолог | Rozmowa z psychologiem bardzo mi pomogła.
+psychoterapia | психотерапия | Psychoterapia trwała dwa lata.
+fizjoterapeuta | физиотерапевт | Fizjoterapeuta pokazał mi ćwiczenia na kręgosłup.
+farmaceuta | фармацевт | Farmaceuta doradził mi tańszy zamiennik.
+apteka | аптека | Apteka dyżurna jest otwarta w nocy.
+recepta | рецепт | Ten lek wydaje się tylko na receptę.
+e-recepta | электронный рецепт | Kod e-recepty dostałem esemesem.
+lek | лекарство | Lek trzeba przyjmować po jedzeniu.
+lek bez recepty | безрецептурный препарат | Leki bez recepty też mogą szkodzić.
+tabletka | таблетка | Biorę jedną tabletkę dziennie.
+syrop | сироп | Syrop na kaszel jest okropny w smaku.
+maść | мазь | Posmaruj kolano maścią.
+zastrzyk | укол | Zastrzyk wcale nie bolał.
+kroplówka | капельница | Podano mu kroplówkę.
+szczepionka | вакцина | Szczepionka chroni przed ciężkim przebiegiem choroby.
+szczepienie | прививка | Szczepienia dzieci są w Polsce obowiązkowe.
+dawka | доза | Nie przekraczaj zalecanej dawki.
+skutki uboczne | побочные эффекты | Skutki uboczne zwykle mijają po kilku dniach.
+przeciwwskazania | противопоказания | Przed użyciem sprawdź przeciwwskazania.
+ulotka | вкладыш-инструкция к лекарству | Przeczytaj ulotkę, zanim weźmiesz lek.
+antybiotyk | антибиотик | Antybiotyk nie działa na wirusy.
+środek przeciwbólowy | обезболивающее | Po zabiegu dostałem środek przeciwbólowy.
+diagnoza | диагноз | Diagnoza była dla niej szokiem.
+postawić diagnozę | поставить диагноз | Trudno postawić diagnozę bez badań.
+objaw | симптом | Pierwszym objawem jest suchy kaszel.
+badanie | медицинское обследование | Badanie trwało kilka minut.
+badanie krwi | анализ крови | Na badanie krwi trzeba przyjść na czczo.
+morfologia | общий анализ крови | Morfologia wyszła w normie.
+wyniki badań | результаты анализов | Wyniki badań odbiorę przez internet.
+prześwietlenie | рентгеновский снимок | Prześwietlenie wykazało pęknięcie kości.
+rezonans magnetyczny | МРТ | Na rezonans magnetyczny czekam trzy miesiące.
+tomografia komputerowa | компьютерная томография | Tomografia komputerowa wykluczyła krwiaka.
+USG | УЗИ | USG brzucha nie wykazało zmian.
+ciśnienie krwi | кровяное давление | Ciśnienie krwi rośnie z wiekiem.
+zmierzyć ciśnienie | измерить давление | Pielęgniarka zmierzyła mi ciśnienie.
+nadciśnienie | гипертония | Nadciśnienie nazywa się cichym zabójcą.
+puls | пульс | Puls był słaby i nieregularny.
+osłuchać | прослушать (стетоскопом) | Lekarz osłuchał płuca dziecka.
+gorączka | жар, высокая температура | Mała ma od rana gorączkę.
+kaszel | кашель | Suchy kaszel męczy mnie od tygodnia.
+katar | насморк | Katar zwykle mija po siedmiu dniach.
+ból gardła | боль в горле | Na ból gardła pomaga ciepła herbata z miodem.
+ból głowy | головная боль | Od rana mam ból głowy.
+migrena | мигрень | Migrena wyłącza mnie z życia na cały dzień.
+zawroty głowy | головокружение | Zawroty głowy mogą świadczyć o niskim ciśnieniu.
+nudności | тошнота | Lek może powodować nudności.
+wymioty | рвота | Dziecko ma wymioty i biegunkę.
+biegunka | диарея | Biegunka podróżnych to częsty problem w tropikach.
+zaparcie | запор | Błonnik zapobiega zaparciom.
+duszności | одышка | Duszności pojawiają się przy wysiłku.
+zmęczenie | усталость | Przewlekłe zmęczenie warto zbadać.
+osłabienie | упадок сил, слабость | Po grypie długo czułam osłabienie.
+bezsenność | бессонница | Bezsenność dokucza mi od miesięcy.
+kichać | чихать | Kicham bez przerwy, bo pylą trawy.
+swędzieć | чесаться | Ukąszenie komara strasznie swędzi.
+puchnąć | опухать | Nogi puchną mi w upały.
+wysypka | сыпь | Na ciele pojawiła się czerwona wysypka.
+obrzęk | отёк | Obrzęk zszedł po dwóch dniach.
+przeziębienie | простуда | Przeziębienie złapałem w pociągu.
+grypa | грипп | Grypa położyła do łóżka połowę biura.
+zapalenie płuc | воспаление лёгких | Zapalenie płuc u seniorów bywa groźne.
+angina | ангина | Angina wymaga zwykle antybiotyku.
+infekcja | инфекция | Infekcja przeszła w zapalenie oskrzeli.
+zakażenie | заражение | Rana uległa zakażeniu.
+wirus | вирус | Wirus łatwo przenosi się drogą kropelkową.
+bakteria | бактерия | Nie wszystkie bakterie są szkodliwe.
+zarazić się | заразиться | Zaraziłem się od syna.
+zaraźliwy | заразный | Ospa jest bardzo zaraźliwa.
+epidemia | эпидемия | Epidemia grypy sparaliżowała szkoły.
+pandemia | пандемия | Pandemia zmieniła nasze nawyki.
+kwarantanna | карантин | Musieliśmy przejść dziesięciodniową kwarantannę.
+odporność | сопротивляемость организма | Sen i ruch wzmacniają odporność.
+układ odpornościowy | иммунная система | Układ odpornościowy dzieci dopiero się kształtuje.
+alergia | аллергия | Alergia na orzechy może być śmiertelna.
+być uczulonym na | иметь аллергию на | Jestem uczulona na sierść kota.
+astma | астма | Astma utrudnia mu bieganie.
+cukrzyca | диабет | Cukrzyca typu drugiego to choroba cywilizacyjna.
+nowotwór | новообразование, опухоль | Nowotwór wykryto we wczesnym stadium.
+rak | рак (болезнь) | Rak płuc to najczęstsza przyczyna zgonów nowotworowych.
+przerzuty | метастазы | Na szczęście nie ma przerzutów.
+chemioterapia | химиотерапия | Chemioterapia bardzo ją osłabiła.
+zawał serca | инфаркт | Zawał serca przeszedł w wieku pięćdziesięciu lat.
+udar mózgu | инсульт | Po udarze mózgu uczy się na nowo mówić.
+choroba przewlekła | хроническое заболевание | Choroba przewlekła wymaga stałego leczenia.
+depresja | депрессия | Depresja to choroba, a nie lenistwo.
+zaburzenia lękowe | тревожное расстройство | Zaburzenia lękowe można skutecznie leczyć.
+nerwica | невроз | Nerwica objawia się też bólem brzucha.
+stres | стресс | Przewlekły stres osłabia organizm.
+zdrowie psychiczne | психическое здоровье | O zdrowie psychiczne trzeba dbać tak samo jak o fizyczne.
+uzależnienie | зависимость | Uzależnienie od hazardu zniszczyło mu rodzinę.
+nałóg | пагубная привычка | Palenie to trudny do zerwania nałóg.
+alkoholizm | алкоголизм | Alkoholizm jest chorobą całej rodziny.
+odwyk | лечение от зависимости | Po latach picia poszedł na odwyk.
+rzucić palenie | бросить курить | Rzuciłem palenie dziesięć lat temu.
+uraz | травма | Uraz kręgosłupa wykluczył go z gry.
+kontuzja | спортивная травма | Kontuzja kolana zakończyła jej karierę.
+złamanie | перелом | Złamanie zrosło się krzywo.
+złamać nogę | сломать ногу | Złamał nogę na nartach.
+skręcić kostkę | подвернуть лодыжку | Skręciłam kostkę na schodach.
+zwichnięcie | вывих | Zwichnięcie barku bardzo boli.
+oparzenie | ожог | Oparzenie schłódź zimną wodą.
+rana | рана | Rana goi się powoli.
+krwawienie | кровотечение | Krwawienie udało się zatamować.
+siniak | синяк | Mam siniaka na całym udzie.
+blizna | шрам | Po operacji została mu blizna.
+gips | гипс | Noga będzie w gipsie przez sześć tygodni.
+bandaż | бинт | Owiń nadgarstek bandażem.
+plaster | пластырь | Przyklej plaster na otarcie.
+opatrunek | повязка | Opatrunek trzeba zmieniać codziennie.
+szwy | швы | Szwy zdejmą mi po tygodniu.
+operacja | операция | Operacja przebiegła bez komplikacji.
+zabieg | процедура, небольшая операция | Zabieg wykonuje się w znieczuleniu miejscowym.
+narkoza | наркоз | Po narkozie długo nie mogłem się obudzić.
+znieczulenie | анестезия, обезболивание | Dentysta podał znieczulenie.
+reanimacja | реанимация | Reanimacja trwała czterdzieści minut.
+pierwsza pomoc | первая помощь | Każdy kierowca powinien umieć udzielić pierwszej pomocy.
+przytomność | сознание | Odzyskał przytomność dopiero w karetce.
+stracić przytomność | потерять сознание | W upale straciła przytomność.
+zemdleć | упасть в обморок | Na widok krwi zemdlał.
+oddychać | дышать | Proszę głęboko oddychać.
+rekonwalescencja | период восстановления после болезни | Rekonwalescencja po operacji trwa miesiąc.
+rehabilitacja | реабилитация | Rehabilitacja przywróciła mu sprawność.
+wyzdrowieć | выздороветь | Wyzdrowiała szybciej, niż się spodziewano.
+dojść do siebie | прийти в себя | Długo dochodził do siebie po chorobie.
+pogorszenie | ухудшение | Nastąpiło nagłe pogorszenie stanu pacjenta.
+poprawa | улучшение | Widać wyraźną poprawę.
+nawrót | рецидив | Nawrót choroby nastąpił po roku.
+powikłania | осложнения | Grypa może prowadzić do groźnych powikłań.
+rokowania | прогноз течения болезни | Rokowania są dobre.
+kuracja | курс лечения | Kuracja antybiotykowa trwa tydzień.
+leczyć | лечить | Leczę się na nadciśnienie.
+uleczalny | излечимый | Wcześnie wykryty rak jest uleczalny.
+nieuleczalny | неизлечимый | Usłyszał, że choroba jest nieuleczalna.
+przeszczep | пересадка органа | Czeka na przeszczep nerki.
+dawca | донор | Został dawcą szpiku.
+oddać krew | сдать кровь | Oddaję krew co trzy miesiące.
+ciąża | беременность | Ciąża przebiega prawidłowo.
+być w ciąży | быть беременной | Kiedy dowiedziała się, że jest w ciąży, rozpłakała się ze szczęścia.
+poród | роды | Poród trwał dwanaście godzin.
+cesarskie cięcie | кесарево сечение | Dziecko urodziło się przez cesarskie cięcie.
+noworodek | новорождённый | Noworodek ważył trzy kilogramy.
+karmienie piersią | грудное вскармливание | Karmienie piersią wzmacnia odporność dziecka.
+niepłodność | бесплодие | Niepłodność dotyka co piątą parę.
+in vitro | ЭКО | Dzięki in vitro doczekali się córki.
+antykoncepcja | контрацепция | Antykoncepcja awaryjna jest dostępna na receptę.
+profilaktyka | профилактика | Profilaktyka jest tańsza niż leczenie.
+badania profilaktyczne | профилактические обследования | Po czterdziestce rób regularnie badania profilaktyczne.
+zdrowy tryb życia | здоровый образ жизни | Zdrowy tryb życia to nie tylko dieta.
+odżywianie | питание | Prawidłowe odżywianie wpływa na koncentrację.
+dieta | диета | Lekarz zalecił mu dietę bez soli.
+witaminy | витамины | Zimą łykam witaminy.
+suplement diety | пищевая добавка (БАД) | Suplement diety to nie lek.
+nadwaga | лишний вес | Nadwaga obciąża stawy.
+otyłość | ожирение | Otyłość wśród dzieci rośnie.
+niedowaga | недостаточный вес | Modelki często mają niedowagę.
+schudnąć | похудеть | Schudłam pięć kilo w dwa miesiące.
+przytyć | поправиться, набрать вес | Przez święta przytyłem trzy kilo.
+aktywność fizyczna | физическая активность | Aktywność fizyczna poprawia nastrój.
+ćwiczenia | упражнения | Ćwiczenia rozciągające robię co rano.
+kondycja | физическая форма | Po zimie mam fatalną kondycję.
+siłownia | тренажёрный зал | Chodzę na siłownię trzy razy w tygodniu.
+rozgrzewka | разминка | Bez rozgrzewki łatwo o kontuzję.
+zakwasy | боль в мышцах после тренировки | Po pierwszym treningu miałam zakwasy przez trzy dni.
+higiena | гигиена | Higiena rąk ogranicza infekcje.
+mięśnie | мышцы | Mięśnie brzucha stabilizują kręgosłup.
+kości | кости | Wapń wzmacnia kości.
+stawy | суставы | Bolą mnie stawy przy zmianie pogody.
+kręgosłup | позвоночник | Siedzący tryb życia niszczy kręgosłup.
+serce | сердце | Serce bije mu za szybko.
+płuca | лёгкие | Smog niszczy płuca.
+wątroba | печень | Alkohol uszkadza wątrobę.
+nerki | почки | Pij dużo wody, żeby wspomóc nerki.
+żołądek | желудок | Boli mnie żołądek po tłustym jedzeniu.
+jelita | кишечник | Probiotyki wspierają pracę jelit.
+mózg | мозг | Mózg potrzebuje snu, żeby się regenerować.
+skóra | кожа | Słońce przyspiesza starzenie się skóry.
+krew | кровь | Stracił dużo krwi.
+naczynia krwionośne | кровеносные сосуды | Palenie uszkadza naczynia krwionośne.
+układ nerwowy | нервная система | Kofeina pobudza układ nerwowy.
+hormon | гормон | Kortyzol to hormon stresu.
+tarczyca | щитовидная железа | Mam niedoczynność tarczycy.
+słuch | слух | Głośna muzyka niszczy słuch.
+wzrok | зрение | Wzrok pogarsza mi się z roku na rok.
+okulary | очки | Bez okularów nic nie widzę.
+soczewki kontaktowe | контактные линзы | Soczewki kontaktowe noszę tylko na basen.
+aparat słuchowy | слуховой аппарат | Babcia wreszcie zgodziła się nosić aparat słuchowy.
+wózek inwalidzki | инвалидная коляска | Po wypadku porusza się na wózku inwalidzkim.
+niepełnosprawność | инвалидность | Niepełnosprawność nie przeszkodziła jej w karierze.
+osoba z niepełnosprawnością | человек с инвалидностью | Budynek jest przystosowany dla osób z niepełnosprawnościami.
+służba zdrowia | здравоохранение | Służba zdrowia cierpi na brak lekarzy.
+Narodowy Fundusz Zdrowia | Национальный фонд здоровья (ОМС) | Narodowy Fundusz Zdrowia refunduje część leków.
+prywatna opieka medyczna | частная медицина | Prywatna opieka medyczna to popularny benefit.
+błąd lekarski | врачебная ошибка | Rodzina oskarża szpital o błąd lekarski.
+zgoda pacjenta | согласие пациента | Bez zgody pacjenta nie można przeprowadzić operacji.
+dokumentacja medyczna | медицинская документация | Pacjent ma prawo wglądu do dokumentacji medycznej.
+hospicjum | хоспис | Ostatnie tygodnie spędził w hospicjum.
+opieka paliatywna | паллиативная помощь | Opieka paliatywna łagodzi cierpienie.
+eutanazja | эвтаназия | Eutanazja jest w Polsce zakazana.
+sanatorium | санаторий | Babcia pojechała do sanatorium na trzy tygodnie.
+uzdrowisko | бальнеологический курорт | Ciechocinek to znane uzdrowisko.
