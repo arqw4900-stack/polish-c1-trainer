@@ -16,15 +16,15 @@
   --display:"Unbounded",system-ui,sans-serif; --body:"Manrope",system-ui,-apple-system,sans-serif;
   --read:"Literata",Georgia,"Times New Roman",serif; --mono:"JetBrains Mono",ui-monospace,monospace;
   --r:18px; --ease:cubic-bezier(.2,.8,.2,1);
-  /* Kluska the panda keeps her colours in both themes */
-  --fur:#ffffff; --fur-dark:#2b2426; --fur-edge:transparent; --blush:#ff9fb2; --tear:#5fb2f5; --sparkle:#ffc93c; --cloud:#aeb8c4;
+  /* Pyś keeps his colours in both themes: white with a dark outline */
+  --doodle:#ffffff; --doodle-ink:#241c20; --blush:#ff9fb2; --tear:#5fb2f5; --sparkle:#ffc93c; --cloud:#aeb8c4;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#151113; --surface:#1f191b; --raise:#2a2225; --ink:#f2e9eb; --muted:#ad9fa3; --line:#3a2f33; --rule:#272a33; --margin:rgba(255,125,140,.34);
   --primary:#f2858f; --on-primary:#1a0f12; --accent-soft:#3b1e25;
   --hl:rgba(255,214,90,.34); --hl-soft:rgba(255,214,90,.12); --hl-good:rgba(84,206,143,.32); --learning:#e3b13c;
   --good:#58cf91; --good-soft:#15322a; --bad:#ffa36b; --bad-soft:#3a2418;
-  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55); --fur-edge:rgba(255,255,255,.5);
+  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55);
   --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 24px -10px rgba(0,0,0,.6);
   --bs:36%; --bl:23%; --ts:80%; --tl:80%; color-scheme:dark}}
 :root[data-theme="dark"]{
@@ -32,7 +32,7 @@
   --primary:#f2858f; --on-primary:#1a0f12; --accent-soft:#3b1e25;
   --hl:rgba(255,214,90,.34); --hl-soft:rgba(255,214,90,.12); --hl-good:rgba(84,206,143,.32); --learning:#e3b13c;
   --good:#58cf91; --good-soft:#15322a; --bad:#ffa36b; --bad-soft:#3a2418;
-  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55); --fur-edge:rgba(255,255,255,.5);
+  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55);
   --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 24px -10px rgba(0,0,0,.6);
   --bs:36%; --bl:23%; --ts:80%; --tl:80%; color-scheme:dark}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -210,22 +210,20 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 .phr{display:grid;gap:2px;padding:9px 0;border-top:1px solid var(--line)}
 .phr:first-child{border-top:0}
 .phr .p{font-family:var(--read);font-weight:600}
-/* buddy: Kluska the panda — happy after today's lesson, sad when days are skipped */
+/* buddy: Pyś the doodle — grins after today's lesson, cries when days are skipped */
 .buddy{display:grid;grid-template-columns:92px 1fr;gap:10px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:12px 14px 14px;box-shadow:var(--shadow)}
-.panda{width:92px;height:auto;display:block;overflow:visible;cursor:pointer}
-/* every moving part pivots where a real joint would be: feet, neck, ear base, shoulder */
-.panda g{transform-box:view-box}
-.panda .pb{transform-origin:60px 122px}
-.panda .head{transform-origin:60px 90px}
-.panda .el{transform-origin:38px 40px} .panda .er{transform-origin:82px 40px}
-.panda .al{transform-origin:42px 92px} .panda .ar{transform-origin:78px 92px}
-.panda .eyes{transform-origin:60px 57px}
-.panda .heart,.panda .spark,.panda .dot{transform-box:fill-box;transform-origin:center}
-.panda .tear{transform-box:fill-box;transform-origin:50% 0}
-.panda .heart{opacity:0}
-.panda.sad .head,.panda.sad2 .head{transform:translateY(3px)}
-.panda.sad .el,.panda.sad2 .el{transform:rotate(-14deg)}
-.panda.sad .er,.panda.sad2 .er{transform:rotate(14deg)}
+.mascot{width:92px;height:auto;display:block;overflow:visible;cursor:pointer}
+/* every moving part pivots where a real joint would be: feet, neck, shoulders, the sprout's root */
+.mascot g{transform-box:view-box}
+.mascot .mb{transform-origin:60px 122px}
+.mascot .mh{transform-origin:60px 80px}
+.mascot .eyes{transform-origin:60px 48px}
+.mascot .al{transform-origin:47px 91px} .mascot .ar{transform-origin:73px 91px}
+.mascot .fl{transform-origin:50px 120px} .mascot .fr{transform-origin:70px 120px}
+.mascot .sprout{transform-origin:60px 19px}
+.mascot .shine,.mascot .heart,.mascot .spark,.mascot .dot,.mascot .puddle{transform-box:fill-box;transform-origin:center}
+.mascot .tear{transform-box:fill-box;transform-origin:50% 0}
+.mascot .heart{opacity:0}
 .bubble{position:relative;background:var(--raise);border-radius:16px;padding:10px 12px;display:grid;gap:2px;min-width:0}
 .bubble::before{content:"";position:absolute;left:-8px;top:50%;margin-top:-8px;border:8px solid transparent;border-left:0;border-right-color:var(--raise)}
 .bubble b{font-family:var(--read);font-size:1rem;font-weight:600;line-height:1.35}
@@ -237,7 +235,7 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 .day.on i{background:var(--good-soft);border-color:var(--good)}
 .day.today:not(.on) i{border:2px dashed var(--muted);background:transparent}
 .buddy-done{display:grid;justify-items:center;gap:8px}
-.buddy-done .panda{width:110px}
+.buddy-done .mascot{width:110px}
 .bubble.up::before{left:50%;top:-8px;margin:0 0 0 -8px;border:8px solid transparent;border-top:0;border-bottom-color:var(--raise)}
 /* sheet */
 .sheet-bg{position:fixed;inset:0;background:var(--scrim);z-index:40;display:flex;align-items:flex-end;justify-content:center}
@@ -273,40 +271,47 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
   .sheet-bg{animation:fade .2s}
   .sheet{animation:sheetUp .32s var(--ease)}
   .toast,.glpop{animation:floatIn .28s var(--ease)}
-  /* Kluska: always breathing, swaying, blinking (sometimes twice), glancing around and twitching an ear */
-  .panda .pb{animation:p-breathe 3.6s ease-in-out infinite}
-  .panda .head{animation:p-sway 6s ease-in-out infinite}
-  .panda .eyes{animation:p-blink 6s infinite}
-  .panda .pupils{animation:p-look 8s ease-in-out infinite}
-  .panda .el{animation:p-earL 5s ease-in-out infinite}
-  .panda .er{animation:p-earR 5s ease-in-out 1.3s infinite}
-  .panda .blush{animation:p-blush 3s ease-in-out infinite}
-  .panda .spark{animation:p-twinkle 1.8s ease-in-out infinite}
-  /* happy: hops with squash and stretch, cheers with both paws, hearts float up */
-  .panda.happy .pb{animation:p-hop 1.8s cubic-bezier(.3,.7,.4,1) infinite}
-  .panda.happy .al{animation:p-cheerL 1.8s ease-in-out infinite}
-  .panda.happy .ar{animation:p-cheerR 1.8s ease-in-out infinite}
-  .panda.happy .heart{animation:p-heart 3.2s ease-out infinite}
-  .panda.happy .h2{animation-delay:1.6s}
-  /* waiting: tilts her head and thinks */
-  .panda.wait .head{animation:p-tilt 5s ease-in-out infinite}
-  .panda.wait .dot{animation:p-dot 1.4s ease-in-out infinite}
-  .panda.wait .d2{animation-delay:.2s} .panda.wait .d3{animation-delay:.4s}
-  /* first visit: waves hello */
-  .panda.new .ar{animation:p-wave 1.6s ease-in-out infinite}
-  /* sad: head down, ears drooping, sniffing, tears; very sad: a little rain cloud */
-  .panda.sad .head,.panda.sad2 .head{animation:p-sadhead 5s ease-in-out infinite}
-  .panda.sad .el,.panda.sad2 .el,.panda.sad .er,.panda.sad2 .er{animation:none}
-  .panda.sad .pb,.panda.sad2 .pb{animation:p-sniff 4.5s ease-in-out infinite}
-  .panda .tear{animation:p-tear 2.6s ease-in infinite}
-  .panda .t2{animation-delay:1.3s}
-  .panda .cloud{animation:p-drift 4s ease-in-out infinite}
-  .panda .drop{animation:p-rain 1s linear infinite}
-  .panda .r2{animation-delay:.33s} .panda .r3{animation-delay:.66s}
-  /* a tap: squish and a burst of hearts */
-  .panda.poke .pb{animation:p-squish .7s cubic-bezier(.3,1.6,.5,1)}
-  .panda.poke .heart{animation:p-burst .9s ease-out}
-  .panda.poke .h2{animation-delay:.12s}
+  /* Pyś: always breathing, blinking (sometimes twice), eyes glinting; the sprout on his head sways */
+  .mascot .mb{animation:m-breathe 3.4s ease-in-out infinite}
+  .mascot .eyes{animation:m-blink 5.5s infinite}
+  .mascot .sprout{animation:m-sprout 3s ease-in-out infinite}
+  .mascot .shine{animation:m-shine 2.4s ease-in-out infinite}
+  .mascot .blush{animation:m-blush 3s ease-in-out infinite}
+  .mascot .spark{animation:m-twinkle 1.8s ease-in-out infinite}
+  /* happy: jumps with arms up and feet kicking, nods, hearts float away */
+  .mascot.happy .mb{animation:m-jump 1.6s cubic-bezier(.3,.7,.4,1) infinite}
+  .mascot.happy .mh{animation:m-bob 1.6s ease-in-out infinite}
+  .mascot.happy .al{animation:m-flapL 1.6s ease-in-out infinite}
+  .mascot.happy .ar{animation:m-flapR 1.6s ease-in-out infinite}
+  .mascot.happy .fl{animation:m-kickL 1.6s ease-in-out infinite}
+  .mascot.happy .fr{animation:m-kickR 1.6s ease-in-out infinite}
+  .mascot.happy .heart{animation:m-heart 3.2s ease-out infinite}
+  .mascot.happy .h2{animation-delay:1.6s}
+  /* waiting: tilts his head, glances around, taps a foot, thinks */
+  .mascot.wait .mh{animation:m-tilt 5s ease-in-out infinite}
+  .mascot.wait .look{animation:m-look 7s ease-in-out infinite}
+  .mascot.wait .fr{animation:m-tap 1.2s ease-in-out infinite}
+  .mascot.wait .dot{animation:m-dot 1.4s ease-in-out infinite}
+  .mascot.wait .d2{animation-delay:.2s} .mascot.wait .d3{animation-delay:.4s}
+  /* hello: waves */
+  .mascot.new .ar{animation:m-wave 1.3s ease-in-out infinite}
+  .mascot.new .mh{animation:m-tilt 5s ease-in-out infinite}
+  /* sad: head down, glossy eyes tremble, a tear rolls down */
+  .mascot.sad .mh{animation:m-droop 5s ease-in-out infinite}
+  .mascot.sad .shine,.mascot.sad2 .shine{animation:m-wobble 1.1s ease-in-out infinite}
+  .mascot .tear{animation:m-tear 2.4s ease-in infinite}
+  /* very sad: sobs, two streams of tears run into a puddle, a rain cloud above */
+  .mascot.sad2 .mb{animation:m-sob .9s ease-in-out infinite}
+  .mascot.sad2 .mh{animation:m-sobhead .9s ease-in-out infinite}
+  .mascot .flow{animation:m-flow .7s linear infinite}
+  .mascot .puddle{animation:m-puddle 2.4s ease-in-out infinite}
+  .mascot .cloud{animation:m-drift 4s ease-in-out infinite}
+  .mascot .drop{animation:m-rain 1s linear infinite}
+  .mascot .r2{animation-delay:.33s} .mascot .r3{animation-delay:.66s}
+  /* a tap: squish, a little jump and a burst of hearts */
+  .mascot.poke .mb{animation:m-squish .75s cubic-bezier(.3,1.6,.5,1)}
+  .mascot.poke .heart{animation:m-burst .9s ease-out}
+  .mascot.poke .h2{animation-delay:.12s}
 }
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @keyframes cardIn{from{opacity:0;transform:translateX(24px) rotate(1deg)}to{opacity:1;transform:none}}
@@ -319,28 +324,35 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 @keyframes sheetUp{from{transform:translateY(100%)}}
 @keyframes floatIn{from{opacity:0;transform:translate(-50%,12px)}}
 @keyframes fall{to{transform:translate(var(--dx),110vh) rotate(var(--r))}}
-@keyframes p-breathe{50%{transform:scale(1.022,.978)}}
-@keyframes p-sway{0%,100%{transform:rotate(0)}30%{transform:rotate(-2.5deg)}70%{transform:rotate(2.5deg)}}
-@keyframes p-blink{0%,44%,48%,90%,93%,96%,100%{transform:none}46%,91.5%,94.5%{transform:scaleY(.08)}}
-@keyframes p-look{0%,18%,72%,100%{transform:none}24%,40%{transform:translateX(-1.6px)}48%,64%{transform:translateX(1.6px)}}
-@keyframes p-earL{0%,64%,76%,100%{transform:none}68%{transform:rotate(-12deg)}72%{transform:rotate(4deg)}}
-@keyframes p-earR{0%,64%,76%,100%{transform:none}68%{transform:rotate(12deg)}72%{transform:rotate(-4deg)}}
-@keyframes p-blush{50%{opacity:.55}}
-@keyframes p-twinkle{50%{opacity:.2;transform:scale(.5) rotate(45deg)}}
-@keyframes p-hop{0%,100%{transform:none}12%{transform:scale(1.07,.92)}34%{transform:translateY(-10px) scale(.95,1.06)}50%{transform:translateY(0) scale(1.08,.91)}62%{transform:scale(.97,1.03)}74%{transform:none}}
-@keyframes p-cheerL{0%,10%,74%,100%{transform:none}34%,50%{transform:rotate(52deg)}}
-@keyframes p-cheerR{0%,10%,74%,100%{transform:none}34%,50%{transform:rotate(-52deg)}}
-@keyframes p-heart{0%{opacity:0;transform:translateY(6px) scale(.4)}15%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-26px) scale(.8) rotate(12deg)}}
-@keyframes p-tilt{0%,100%{transform:rotate(0)}20%,40%{transform:rotate(-9deg)}60%,80%{transform:rotate(7deg)}}
-@keyframes p-dot{0%,100%{opacity:.25;transform:none}40%{opacity:1;transform:translateY(-3px)}}
-@keyframes p-wave{0%,100%{transform:rotate(-48deg)}50%{transform:rotate(-78deg)}}
-@keyframes p-sadhead{0%,100%{transform:translateY(3px)}50%{transform:translateY(4.5px) rotate(-2deg)}}
-@keyframes p-sniff{0%,70%,100%{transform:none}74%,82%{transform:scale(1.012,.98)}78%{transform:scale(.99,1.012)}}
-@keyframes p-tear{0%{opacity:0;transform:translateY(-2px) scale(.3)}18%{opacity:1;transform:none}70%{opacity:1;transform:translateY(15px)}100%{opacity:0;transform:translateY(22px) scale(.8)}}
-@keyframes p-drift{0%,100%{transform:translateX(-3px)}50%{transform:translateX(3px)}}
-@keyframes p-rain{0%{opacity:0;transform:none}20%{opacity:1}100%{opacity:0;transform:translateY(12px)}}
-@keyframes p-squish{0%,100%{transform:none}25%{transform:scale(1.12,.86)}55%{transform:scale(.94,1.08)}80%{transform:scale(1.03,.97)}}
-@keyframes p-burst{0%{opacity:0;transform:scale(.3)}30%{opacity:1;transform:translateY(-6px) scale(1.15)}100%{opacity:0;transform:translateY(-22px) scale(.9)}}
+@keyframes m-breathe{50%{transform:scale(1.025,.975)}}
+@keyframes m-blink{0%,42%,46%,88%,91%,94%,100%{transform:none}44%,89.5%,92.5%{transform:scaleY(.08)}}
+@keyframes m-sprout{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(14deg)}}
+@keyframes m-shine{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.82);opacity:.85}}
+@keyframes m-blush{50%{opacity:.6}}
+@keyframes m-twinkle{0%,100%{transform:scale(.5) rotate(0);opacity:.3}50%{transform:scale(1.15) rotate(45deg);opacity:1}}
+@keyframes m-jump{0%,100%{transform:none}12%{transform:scale(1.08,.9)}35%{transform:translateY(-12px) scale(.96,1.05)}55%{transform:translateY(-12px)}78%{transform:scale(1.06,.93)}90%{transform:none}}
+@keyframes m-bob{0%,100%{transform:rotate(0)}35%{transform:rotate(-4deg)}70%{transform:rotate(4deg)}}
+@keyframes m-flapL{0%,100%{transform:rotate(0)}35%,55%{transform:rotate(38deg)}}
+@keyframes m-flapR{0%,100%{transform:rotate(0)}35%,55%{transform:rotate(-38deg)}}
+@keyframes m-kickL{35%,55%{transform:rotate(12deg)}}
+@keyframes m-kickR{35%,55%{transform:rotate(-12deg)}}
+@keyframes m-heart{0%{opacity:0;transform:translateY(6px) scale(.4)}15%{opacity:1;transform:none}70%{opacity:.9}100%{opacity:0;transform:translateY(-22px) scale(.9) rotate(-10deg)}}
+@keyframes m-tilt{0%,100%{transform:rotate(0)}30%{transform:rotate(-7deg)}60%{transform:rotate(5deg)}}
+@keyframes m-look{0%,18%,100%{transform:none}25%,45%{transform:translateX(-3px)}55%,78%{transform:translate(3px,-1px)}}
+@keyframes m-tap{0%,100%{transform:none}50%{transform:rotate(-14deg)}}
+@keyframes m-dot{0%,100%{opacity:.25;transform:none}50%{opacity:1;transform:translateY(-3px)}}
+@keyframes m-wave{0%,100%{transform:rotate(-25deg)}50%{transform:rotate(-70deg)}}
+@keyframes m-droop{0%,100%{transform:translateY(1px) rotate(-3deg)}50%{transform:translateY(3px) rotate(3deg)}}
+@keyframes m-wobble{0%,100%{transform:none}25%{transform:translate(.6px,-.4px) scale(1.07)}75%{transform:translate(-.6px,.4px) scale(.94)}}
+@keyframes m-tear{0%{opacity:0;transform:scale(.6)}15%{opacity:1;transform:none}100%{opacity:0;transform:translateY(26px) scale(.9)}}
+@keyframes m-sob{0%,100%{transform:none}30%{transform:translateY(1.5px) scale(1.02,.97)}60%{transform:translateY(-1px)}}
+@keyframes m-sobhead{0%,100%{transform:none}40%{transform:translateY(2px) rotate(-1.5deg)}70%{transform:rotate(1.5deg)}}
+@keyframes m-flow{to{stroke-dashoffset:-12}}
+@keyframes m-puddle{0%,100%{transform:scaleX(.9);opacity:.3}50%{transform:scaleX(1.08);opacity:.45}}
+@keyframes m-drift{0%,100%{transform:translateX(-3px)}50%{transform:translateX(3px)}}
+@keyframes m-rain{0%{opacity:0;transform:none}20%{opacity:1}100%{opacity:0;transform:translateY(12px)}}
+@keyframes m-squish{0%,100%{transform:none}20%{transform:scale(1.14,.84)}45%{transform:translateY(-10px) scale(.94,1.08)}70%{transform:scale(1.05,.95)}}
+@keyframes m-burst{0%{opacity:0;transform:scale(.3)}30%{opacity:1;transform:translateY(-6px) scale(1.15)}100%{opacity:0;transform:translateY(-22px) scale(.9)}}
 /* free answers: practice, writing trainer, my dictionary */
 .ta{width:100%;border:2px solid var(--line);border-radius:14px;padding:12px 14px;background:var(--raise);font:inherit;font-size:1.02rem;line-height:1.5;resize:vertical;min-height:90px;transition:border-color .15s}
 .ta:focus{border-color:var(--primary);outline:0}
@@ -351,14 +363,7 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 .ptask{font-size:1.12rem;font-weight:700;line-height:1.45;overflow-wrap:anywhere}
 .fb.mid{background:var(--hl-soft)}
 .fb ins{text-decoration:none;background:var(--hl);border-radius:4px;padding:0 2px}
-.errs{margin:8px 0 0;padding-left:22px;display:grid;gap:8px;font-weight:500}
-.errs s{color:var(--bad);text-decoration-thickness:2px}
-.errs .small{font-weight:500;color:var(--muted)}
 .wtext{font-family:var(--read);line-height:1.7;overflow-wrap:anywhere}
-mark.er{background:var(--bad-soft);color:inherit;border-bottom:2px solid var(--bad);border-radius:3px;padding:0 1px}
-mark.er.lx{background:var(--hl-soft);border-color:var(--learning)}
-mark.er.st{background:var(--accent-soft);border-color:var(--primary)}
-mark.er sup{font:800 .6rem var(--body);margin-left:2px}
 .crit{display:grid;grid-template-columns:minmax(0,1fr) 90px 28px;gap:8px 10px;align-items:center;margin-top:10px}
 .crit .bar{height:8px;margin:0}
 .wc{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
@@ -379,9 +384,6 @@ mark.er sup{font:800 .6rem var(--body);margin-left:2px}
 .myform{display:grid;gap:12px}
 .myform label{display:grid;gap:6px}
 .lbl-s{font-size:.85rem;font-weight:700}
-.aibox{display:flex;gap:10px;align-items:center;font-weight:600}
-.spin{width:18px;height:18px;border-radius:50%;border:3px solid var(--line);border-top-color:var(--primary);animation:spin 1s linear infinite;flex:none}
-@keyframes spin{to{transform:rotate(360deg)}}
 .model p{margin:0 0 10px}
 details.more>summary{cursor:pointer;font-weight:700;list-style:none}
 details.more>summary::before{content:"›";display:inline-block;margin-right:8px;transition:transform .2s var(--ease)}
@@ -538,82 +540,87 @@ function newLeftToday(){ return Math.max(0, S.set.newPerDay - (L().n||0)); }
 // a finished study session, quiz or story; returns true for the first lesson of the day
 function lessonDone(){ const lg=L(), first=!(lg.u>0); lg.u=(lg.u||0)+1; persist(); return first; }
 
-// ---------- Kluska the panda ----------
+// ---------- Pyś, the little doodle man ----------
 function lessonGap(){ const t=today(); for(let i=0;i<=365;i++) if(dayDone(dstr(t-i))) return i; return null; }
-function pandaMood(){
+function mascotMood(){
   const g=lessonGap();
   if(g===0) return ["happy",0];
   if(g===null) return [Object.keys(S.w).length?"sad2":"new",null];
   return [g===1?"wait":g===2?"sad":"sad2",g];
 }
-function pandaLine(mood,g,sk){
-  if(mood==="happy") return sk>=2?[`Brawo! To już ${sk} dni z rzędu.`,`Браво! Уже ${sk} ${plural(sk,"день","дня","дней")} подряд — Клуска довольна.`]
-    :["Brawo! Dzisiejsza lekcja zaliczona.","Браво! Урок на сегодня сделан — Клуска довольна."];
-  if(mood==="wait") return ["Czekam na ciebie! Jedna lekcja i będę szczęśliwa.","Жду тебя! Один урок — и я буду счастлива."];
+function mascotLine(mood,g,sk){
+  if(mood==="happy") return sk>=2?[`Brawo! To już ${sk} dni z rzędu.`,`Браво! Уже ${sk} ${plural(sk,"день","дня","дней")} подряд — Пысь сияет.`]
+    :["Brawo! Dzisiejsza lekcja zaliczona.","Браво! Урок на сегодня сделан — Пысь сияет."];
+  if(mood==="wait") return ["Czekam na ciebie! Jedna lekcja i będę szczęśliwy.","Жду тебя! Один урок — и я буду счастлив."];
   if(mood==="sad") return ["Wczoraj nie było lekcji… Trochę mi smutno.","Вчера урока не было… Мне немножко грустно."];
-  if(mood==="sad2") return g?[`Nie widziałam cię od ${g} dni… Bardzo tęsknię.`,`Не видела тебя уже ${g} ${plural(g,"день","дня","дней")}… Очень скучаю.`]
+  if(mood==="sad2") return g?[`Nie widziałem cię od ${g} dni… Bardzo tęsknię.`,`Не видел тебя уже ${g} ${plural(g,"день","дня","дней")}… Очень скучаю.`]
     :["Dawno cię nie było… Bardzo tęsknię.","Давно тебя не было… Очень скучаю."];
-  return ["Cześć! Jestem Kluska. Uczymy się razem?","Привет! Я панда Клуска. Будем учиться вместе?"];
+  return ["Cześć! Jestem Pyś. Uczymy się razem?","Привет! Я Пысь. Будем учиться вместе?"];
 }
-const POKES=[["Dasz radę!","У тебя получится!"],["Jeszcze jedna lekcja?","Ещё один урок?"],["Uczę się razem z tobą.","Я учусь вместе с тобой."],["Polski nie jest taki straszny!","Польский не такой уж страшный!"],["Bambus po lekcji?","Бамбук после урока?"]];
+const POKES=[["Dasz radę!","У тебя получится!"],["Jeszcze jedna lekcja?","Ещё один урок?"],["Uczę się razem z tobą.","Я учусь вместе с тобой."],["Polski nie jest taki straszny!","Польский не такой уж страшный!"],["Ciasteczko po lekcji?","Печенька после урока?"]];
 function spark(x,y,s,delay){ const a=1.7*s,b=6*s;
   return `<path class="spark" style="animation-delay:${delay}s" d="M${x} ${y-b}L${x+a} ${y-a}L${x+b} ${y}L${x+a} ${y+a}L${x} ${y+b}L${x-a} ${y+a}L${x-b} ${y}L${x-a} ${y-a}Z" fill="var(--sparkle)"/>`; }
 const heart=(cls,x,y,s)=>`<g class="heart ${cls}"><path transform="translate(${x} ${y}) scale(${s})" d="M0 3.2C-.6 2.6-5 .2-5-2.6a2.6 2.6 0 0 1 5-1.2a2.6 2.6 0 0 1 5 1.2C5 .2.6 2.6 0 3.2z" fill="#ff6f8e"/></g>`;
-// Kluska is drawn from separate parts (head, ears, paws, pupils) so each can move on its own
-function pandaSVG(mood){
-  const happy=mood==="happy", sad=mood==="sad"||mood==="sad2", D="var(--fur-dark)", W="var(--fur)", E='stroke="var(--fur-edge)" stroke-width="1.6"', tilt=happy?14:sad?36:24;
-  const label={happy:"довольна",wait:"ждёт урока",new:"здоровается",sad:"грустит",sad2:"очень грустит"}[mood];
-  const px=sad?[44.5,75.5]:[46,74], py=sad?59.5:58;
-  const eyes=happy?`<path d="M38.5 60q6.5-8 13 0M68.5 60q6.5-8 13 0" fill="none" stroke="${W}" stroke-width="3.2" stroke-linecap="round"/>`
-    :`<g class="eyes"><circle cx="45" cy="57" r="5.6" fill="${W}"/><circle cx="75" cy="57" r="5.6" fill="${W}"/>
-      <g class="pupils"><circle cx="${px[0]}" cy="${py}" r="3.4" fill="${D}"/><circle cx="${px[1]}" cy="${py}" r="3.4" fill="${D}"/>
-        <circle cx="${px[0]+1.2}" cy="${py-1.8}" r="1.35" fill="${W}"/><circle cx="${px[1]+1.2}" cy="${py-1.8}" r="1.35" fill="${W}"/>
-        <circle cx="${px[0]-1}" cy="${py+1.4}" r=".6" fill="${W}"/><circle cx="${px[1]-1}" cy="${py+1.4}" r=".6" fill="${W}"/></g></g>`;
-  const mouth=happy?`<path d="M52 75.5q8 12 16 0z" fill="#5a2a33" stroke="${D}" stroke-width="2" stroke-linejoin="round"/><path d="M55.5 81q4.5 3.4 9 0q-4.5-2.8-9 0z" fill="#ff8fa3"/>`
-    :sad?`<path d="M53.5 81.5q6.5-6 13 0" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round"/>`
-    :`<path d="M54 76q3 3.2 6 0q3 3.2 6 0" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>`;
-  const blush=`<g class="blush" opacity="${happy?.95:sad?.45:.75}"><ellipse cx="33" cy="76" rx="5.5" ry="3.3" fill="var(--blush)"/><ellipse cx="87" cy="76" rx="5.5" ry="3.3" fill="var(--blush)"/></g>`;
-  const brows=sad?`<path d="M36 44q6-6 12-5M72 39q6-1 12 5" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round"/>`:"";
-  const tear=(cls,x)=>`<path class="tear ${cls}" d="M${x} 63q-3.6 5.6 0 8.4q3.6-2.8 0-8.4z" fill="var(--tear)"/>`;
-  const tears=mood==="sad"?tear("t1",80):mood==="sad2"?tear("t1",80)+tear("t2",40):"";
-  const cloud=mood!=="sad2"?"":`<g class="cloud"><circle cx="49" cy="-4" r="7" fill="var(--cloud)"/><circle cx="60" cy="-8" r="9" fill="var(--cloud)"/><circle cx="71" cy="-4" r="7" fill="var(--cloud)"/><rect x="49" y="-4" width="22" height="7" rx="3.5" fill="var(--cloud)"/>
-    <path class="drop" d="M52 6v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/><path class="drop r2" d="M60 7v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/><path class="drop r3" d="M68 6v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/></g>`;
-  const fx=heart("h1",92,10,1.1)+heart("h2",28,6,.9)
-    +(happy?spark(13,20,1,0)+spark(106,12,.8,.6)+spark(111,58,.6,1.1):"")
-    +(mood==="new"?spark(108,16,.8,0):"")
-    +(mood==="wait"?`<circle class="dot d1" cx="99" cy="10" r="2.2" fill="var(--muted)"/><circle class="dot d2" cx="106" cy="7" r="2.2" fill="var(--muted)"/><circle class="dot d3" cx="113" cy="4" r="2.2" fill="var(--muted)"/>`:"");
-  return `<svg class="panda ${mood}" viewBox="0 -20 120 144" role="img" aria-label="Панда Клуска ${label}">${cloud}<g class="pb">
-    <g ${E}><ellipse cx="45" cy="118" rx="10" ry="5.5" fill="${D}"/><ellipse cx="75" cy="118" rx="10" ry="5.5" fill="${D}"/></g>
-    <ellipse cx="45" cy="119" rx="3.6" ry="2.2" fill="#f2b2bf"/><ellipse cx="75" cy="119" rx="3.6" ry="2.2" fill="#f2b2bf"/>
-    <ellipse cx="60" cy="103" rx="30" ry="17" fill="${W}" stroke="${D}" stroke-width="2.5"/>
-    <path d="M31 99Q60 82 89 99L86 106Q60 92 34 106Z" fill="${D}"/>
-    <g class="head">
-      <g class="el"><circle cx="31" cy="30" r="13" fill="${D}" ${E}/><circle cx="31" cy="30" r="6.5" fill="#4a3f45"/></g>
-      <g class="er"><circle cx="89" cy="30" r="13" fill="${D}" ${E}/><circle cx="89" cy="30" r="6.5" fill="#4a3f45"/></g>
-      <ellipse cx="60" cy="58" rx="38" ry="34" fill="${W}" stroke="${D}" stroke-width="2.5"/>
-      <ellipse cx="44" cy="58" rx="10.5" ry="13" transform="rotate(${tilt} 44 58)" fill="${D}"/><ellipse cx="76" cy="58" rx="10.5" ry="13" transform="rotate(${-tilt} 76 58)" fill="${D}"/>
-      ${eyes}${brows}<ellipse cx="60" cy="69.5" rx="5" ry="3.6" fill="${D}"/><ellipse cx="58.6" cy="68.4" rx="1.5" ry=".8" fill="${W}" opacity=".7"/>${mouth}${blush}${tears}
-    </g>
-    <g class="al"><ellipse cx="37" cy="100" rx="8.5" ry="13" transform="rotate(28 37 100)" fill="${D}" ${E}/></g>
-    <g class="ar"><ellipse cx="83" cy="100" rx="8.5" ry="13" transform="rotate(-28 83 100)" fill="${D}" ${E}/></g>
-  </g>${fx}</svg>`;
+// Pyś is a sticker doodle: huge glossy eyes, a toothy grin after a lesson, tears when days are missed.
+// He is drawn from parts (body, feet, arms, head, eyes, the sprout on top) so each can move on its own.
+function mascotSVG(mood){
+  const happy=mood==="happy", down=mood==="sad"||mood==="sad2", sob=mood==="sad2";
+  const K="var(--doodle-ink)", W="var(--doodle)", L=`stroke="${K}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"`;
+  const label={happy:"радуется",wait:"ждёт урока",new:"здоровается",sad:"грустит",sad2:"плачет"}[mood];
+  const [rx,ry,dx,ey]=down?[12.5,15.5,13.5,49]:[11,14,13,48];   // eye size, distance from the middle, height
+  const eye=x=>`<ellipse cx="${x}" cy="${ey}" rx="${rx}" ry="${ry}" fill="${K}"/>
+    <g class="shine"><ellipse cx="${x+3.6}" cy="${ey-5.5}" rx="${down?5:4.2}" ry="${down?5.6:4.8}" fill="${W}"/><circle cx="${x-4.2}" cy="${ey+5.5}" r="${down?2.4:1.9}" fill="${W}"/>${down?`<circle cx="${x+4.6}" cy="${ey+7.6}" r="1.3" fill="${W}"/>`:""}</g>
+    ${down?`<path d="M${x-9.5} ${ey+10.5}Q${x} ${ey+17} ${x+9.5} ${ey+10.5}" fill="none" stroke="var(--tear)" stroke-width="2.2" stroke-linecap="round" opacity=".85"/>`:""}`;
+  const mouth=happy?`<path d="M43 63Q60 84 77 63Q60 68 43 63Z" fill="${W}" ${L}/><path d="M46.5 66.4Q60 71 73.5 66.4M51 64.8V70.6M60 65.5V73.5M69 64.8V70.6" fill="none" stroke="${K}" stroke-width="1.5" stroke-linecap="round"/>`
+    :sob?`<ellipse cx="60" cy="71" rx="6.5" ry="5.6" fill="${K}"/><ellipse cx="60" cy="73.8" rx="3.6" ry="1.9" fill="#ff8fa3"/>`
+    :down?`<path d="M53.5 71Q56.7 68.4 60 71Q63.3 73.6 66.5 71" fill="none" stroke="${K}" stroke-width="2" stroke-linecap="round"/>`
+    :`<path d="M53 66Q60 72.5 67 66" fill="none" stroke="${K}" stroke-width="2.2" stroke-linecap="round"/>`;
+  const blush=`<g class="blush" opacity="${happy?.95:down?.45:.7}"><ellipse cx="33.5" cy="63" rx="5.5" ry="3.1" fill="var(--blush)"/><ellipse cx="86.5" cy="63" rx="5.5" ry="3.1" fill="var(--blush)"/>
+    ${happy?`<path d="M30.5 63.6l2.2-2.6M33.8 63.9l2.2-2.6M37 64l2.2-2.6M83 64l2.2-2.6M86.2 63.9l2.2-2.6M89.5 63.6l2.2-2.6" stroke="#ff6f8e" stroke-width="1.1" stroke-linecap="round"/>`:""}</g>`;
+  // arm poses (degrees around the shoulder): up for joy, hanging down when sad, one hand up to say hello
+  const [aL,aR]=happy?[24,-24]:down?[-40,40]:mood==="new"?[-10,-20]:[-12,12];
+  const arm=(cls,x,d,a)=>`<g transform="rotate(${a} ${x} 91)"><g class="${cls}"><path d="M${x} 87Q${x+d*13} 84 ${x+d*19} 90Q${x+d*21} 95 ${x+d*16} 96Q${x+d*9} 95 ${x} 96" fill="${W}" ${L}/></g></g>`;
+  const tear=`<path class="tear" d="M80 62q-3.2 5 0 7.6q3.2-2.6 0-7.6z" fill="var(--tear)"/>`;
+  const stream="M44 64C39 79 46 93 38 120M76 64C81 79 74 93 82 120";
+  const streams=sob?`<path d="${stream}" fill="none" stroke="var(--tear)" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+    <path class="flow" d="${stream}" fill="none" stroke="#e3f3ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 9"/>`:"";
+  const cloud=sob?`<g class="cloud"><circle cx="49" cy="-10" r="7" fill="var(--cloud)"/><circle cx="60" cy="-14" r="9" fill="var(--cloud)"/><circle cx="71" cy="-10" r="7" fill="var(--cloud)"/><rect x="49" y="-10" width="22" height="7" rx="3.5" fill="var(--cloud)"/>
+    <path class="drop" d="M52 0v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/><path class="drop r2" d="M60 1v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/><path class="drop r3" d="M68 0v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/></g>`:"";
+  const fx=heart("h1",97,14,1.1)+heart("h2",23,10,.9)
+    +(happy?spark(11,26,1,0)+spark(108,10,.8,.6)+spark(112,64,.6,1.1):"")
+    +(mood==="new"?spark(106,20,.8,0):"")
+    +(mood==="wait"?`<circle class="dot d1" cx="100" cy="12" r="2.2" fill="var(--muted)"/><circle class="dot d2" cx="107" cy="9" r="2.2" fill="var(--muted)"/><circle class="dot d3" cx="114" cy="6" r="2.2" fill="var(--muted)"/>`:"");
+  return `<svg class="mascot ${mood}" viewBox="0 -20 120 144" role="img" aria-label="Человечек Пысь ${label}">${cloud}
+    <ellipse ${sob?'class="puddle" fill="var(--tear)" opacity=".35" rx="34" ry="4.8"':`fill="${K}" opacity=".12" rx="24" ry="3.6"`} cx="60" cy="121"/>
+    <g class="mb">
+      <g class="fl"><ellipse cx="50" cy="117" rx="7.5" ry="4.6" fill="${W}" ${L}/></g><g class="fr"><ellipse cx="70" cy="117" rx="7.5" ry="4.6" fill="${W}" ${L}/></g>
+      <path d="M45 80Q41 103 49 111Q60 117 71 111Q79 103 75 80Z" fill="${W}" ${L}/>
+      ${arm("al",47,-1,aL)}${arm("ar",73,1,aR)}
+      <g transform="translate(0 ${down?3:0})"><g class="mh">
+        <g class="sprout"><path d="M60 19Q52 12 57 5Q64 8 60 19Z" fill="${W}" ${L}/></g>
+        <path d="M60 18C83 17 96 33 95 51C94 70 80 82 60 82C39 82 25 70 25 51C25 32 38 19 60 18Z" fill="${W}" stroke="${K}" stroke-width="2.4" stroke-linejoin="round"/>
+        ${blush}<g class="eyes"><g class="look">${eye(60-dx)}${eye(60+dx)}</g></g>${mouth}
+        ${mood==="sad"?tear:""}${streams}
+      </g></g>
+    </g>${fx}</svg>`;
 }
-const PAW='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.5" cy="9" r="2.4"/><circle cx="12" cy="6.2" r="2.4"/><circle cx="17.5" cy="9" r="2.4"/><path d="M12 11.5c-3.2 0-6 3.4-6 5.8 0 1.8 1.6 2.7 3.2 2.2.9-.3 1.8-.5 2.8-.5s1.9.2 2.8.5c1.6.5 3.2-.4 3.2-2.2 0-2.4-2.8-5.8-6-5.8z"/></svg>';
+// a little star marks each day with a lesson
+const STAR='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 16.8l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>';
 function buddyHTML(sk){
-  const [mood,g]=pandaMood(), [pl,ru]=pandaLine(mood,g,sk), t=today(), wd=["вс","пн","вт","ср","чт","пт","сб"];
+  const [mood,g]=mascotMood(), [pl,ru]=mascotLine(mood,g,sk), t=today(), wd=["вс","пн","вт","ср","чт","пт","сб"];
   const week=[...Array(7)].map((_,i)=>{ const d=t-6+i, on=dayDone(dstr(d));
-    return `<div class="day${on?" on":""}${i===6?" today":""}"><i>${on?PAW:""}</i>${i===6?"сег.":wd[new Date(d*DAY).getUTCDay()]}</div>`; }).join("");
-  return `<section class="buddy">${pandaSVG(mood)}<div class="bubble" id="bubble"><b lang="pl">${pl}</b><span>${ru}</span></div>
+    return `<div class="day${on?" on":""}${i===6?" today":""}"><i>${on?STAR:""}</i>${i===6?"сег.":wd[new Date(d*DAY).getUTCDay()]}</div>`; }).join("");
+  return `<section class="buddy">${mascotSVG(mood)}<div class="bubble" id="bubble"><b lang="pl">${pl}</b><span>${ru}</span></div>
     <div class="week" role="img" aria-label="Уроки за последние 7 дней: ${[...Array(7)].filter((_,i)=>dayDone(dstr(t-6+i))).length} из 7">${week}</div></section>`;
 }
-// shown on a finished session, quiz or story
-function pandaDone(first){
-  const sk=streak(), [pl,ru]=first?pandaLine("happy",0,sk):["Kolejna lekcja — super!","Ещё один урок — супер!"];
-  return `<div class="buddy-done">${pandaSVG("happy")}<div class="bubble up"><b lang="pl">${pl}</b><span>${ru}</span></div></div>`;
+// shown on a finished session, quiz, story or text
+function mascotDone(first){
+  const sk=streak(), [pl,ru]=first?mascotLine("happy",0,sk):["Kolejna lekcja — super!","Ещё один урок — супер!"];
+  return `<div class="buddy-done">${mascotSVG("happy")}<div class="bubble up"><b lang="pl">${pl}</b><span>${ru}</span></div></div>`;
 }
-function pokePanda(e){
+function pokeMascot(e){
   const p=e.currentTarget; p.classList.remove("poke"); void p.getBBox(); p.classList.add("poke");
-  clearTimeout(p._t); p._t=setTimeout(()=>p.classList.remove("poke"),700);
+  clearTimeout(p._t); p._t=setTimeout(()=>p.classList.remove("poke"),800);
   const b=$("#bubble"); if(b){ const [pl,ru]=POKES[Math.floor(Math.random()*POKES.length)]; b.innerHTML=`<b lang="pl">${pl}</b><span>${ru}</span>`; }
 }
 
@@ -642,7 +649,7 @@ function render(){
   else if(view.tab==="read") a.innerHTML=view.story?storyHTML(view.story):storiesHTML();
   else if(view.tab==="mail") a.innerHTML=view.w&&WB[view.w]?writeHTML(view.w):view.letter?letterHTML(view.letter):lettersHTML();
   else a.innerHTML=statsHTML();
-  stagger(a); bind(); aiShow();
+  stagger(a); bind();
   updateSync();
 }
 
@@ -985,7 +992,7 @@ function renderDone(early){
   const counted=!early||n>=10, first=counted&&lessonDone();
   clearTimeout(s.autoNext); pushRemote();
   $("#app").innerHTML=`<div class="panel done-card" style="padding:28px 20px">
-    ${counted?pandaDone(first):""}
+    ${counted?mascotDone(first):""}
     <div class="eyebrow">${early?"Занятие прервано":"Занятие завершено"}</div>
     <div class="big num" id="bigNum">${acc}%</div><div class="muted num">${s.ok} верно · ${s.bad} ${plural(s.bad,"ошибка","ошибки","ошибок")}</div>
     <div class="small muted num">Сегодня всего: ${r} ${plural(r,"ответ","ответа","ответов")} из цели ${S.set.goal}</div>
@@ -993,7 +1000,7 @@ function renderDone(early){
     ${!s.drill&&themeStats(s.ti).due?`<button class="btn primary" id="again">Ещё повторение</button>`:`<button class="btn primary" id="more">${s.drill?"Ещё тренировка":"+10 новых"}</button>`}</div></div>`;
   const ti=s.ti, drill=s.drill; session=null;
   countUp($("#bigNum"),acc,"%"); if(first || !early && n>=5 && acc>=90) confetti();
-  document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
+  document.querySelectorAll(".mascot").forEach(p=>p.onclick=pokeMascot);
   $("#toHome").onclick=()=>go(view);
   const ag=$("#again"); if(ag) ag.onclick=()=>startSession(ti);
   const mo=$("#more"); if(mo) mo.onclick=()=>drill?startSession(ti,null,true):startSession(ti,10);
@@ -1011,8 +1018,7 @@ function gramsHTML(){
   const done=GRAMMAR.filter(g=>S.gr[g.id]>=80).length, groups=[...new Set(GRAMMAR.map(g=>g.grp))], pk=Object.keys(PT), pDone=pk.filter(k=>(S.pr[k]??0)>=80).length;
   return `<div class="top"><h1>Практика</h1><span class="pill num">${pDone+done}/${pk.length+GRAMMAR.length} от 80%</span></div>
   <p class="muted" style="margin:0">Задания, где ответ нужно написать самому, и грамматика уровня C1 с объяснением каждого ответа.</p>
-  <div class="tip small" data-ai hidden>Если ваш ответ не совпал с эталоном дословно, его проверяет Claude: покажет ошибки и исправленный вариант.</div>
-  <div class="tip small" data-noai>Ответ сравнивается с эталоном; если формулировка другая, вы сравниваете её с образцом сами. Разбор ошибок от Claude работает в версии тренажёра внутри Claude.</div>
+  <div class="tip small">Ответ сравнивается с эталоном. Если ваша формулировка другая, сравните её с образцом сами — или отправьте ответ в любую нейросеть, чтобы она его проверила.</div>
   <div class="section-h"><h2>Активные задания</h2></div>
   <div class="list">${pk.map(pRow).join("")}</div>
   <button class="btn ghost block" id="pMix">Смешанная практика · 10 заданий${S.pr.mix!=null?` · лучший ${S.pr.mix}%`:""}</button>
@@ -1055,13 +1061,13 @@ function renderQuiz(){
     const pct=Math.round(s.ok/s.items.length*100), box=lt?S.lt:S.gr, k=s.id||"mix";
     box[k]=Math.max(box[k]||0,pct);
     const first=lessonDone(); pushRemote();
-    a.innerHTML=`<div class="panel done-card" style="padding:28px 20px">${pandaDone(first)}<div class="eyebrow">${lt?esc(LB[s.id].ru):s.id?esc(GB[s.id].name):"Смешанный тест"}</div>
+    a.innerHTML=`<div class="panel done-card" style="padding:28px 20px">${mascotDone(first)}<div class="eyebrow">${lt?esc(LB[s.id].ru):s.id?esc(GB[s.id].name):"Смешанный тест"}</div>
       <div class="big num" id="bigNum">${pct}%</div><div class="muted num">${s.ok} из ${s.items.length} верно</div>
       ${pct>=80?`<div class="pill" style="background:var(--good-soft)">${lt?"Письмо освоено":"Тема освоена"}</div>`:`<div class="small muted">Для зачёта нужно 80%. ${lt?"Перечитайте образец и фразы":"Перечитайте правило"} и попробуйте снова.</div>`}
       <div class="row" style="width:100%"><button class="btn ghost" id="tBack">${lt?"К письму":s.id?"К правилу":"К грамматике"}</button><button class="btn primary" id="tAgain">Ещё раз</button></div></div>`;
     const src=s.src, id=s.id; tSession=null;
     countUp($("#bigNum"),pct,"%"); if(pct>=80||first) confetti();
-    document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
+    document.querySelectorAll(".mascot").forEach(p=>p.onclick=pokeMascot);
     $("#tBack").onclick=()=>quitQuiz(s);
     $("#tAgain").onclick=()=>startQuiz(src,id);
     return;
@@ -1151,8 +1157,8 @@ function answerQ(qel,btn){
   S.rd[s.id]=Math.max(S.rd[s.id]??0,score);
   const first=lessonDone();
   $("#qres").innerHTML=`<div class="fb ${all?"ok":"no"}">${all?"Отлично, всё верно!":`Верно ${score} из ${s.q.length}.`} ${s.kind?"Текст отмечен как прочитанный":"История отмечена как прочитанная"}.</div>
-    <div style="margin-top:14px">${pandaDone(first)}</div>`;
-  $("#qres .panda").onclick=pokePanda;
+    <div style="margin-top:14px">${mascotDone(first)}</div>`;
+  $("#qres .mascot").onclick=pokeMascot;
   if(all||first) confetti();
 }
 
@@ -1169,8 +1175,7 @@ function lettersHTML(){
   const done=LETTERS.filter(l=>S.lt[l.id]>=80).length, wDone=WRITING.filter(w=>wst(w.id).st==="done").length;
   return `<div class="top"><h1>Письмо</h1><span class="pill num">${wDone}/${WRITING.length} текстов</span></div>
   <p class="muted" style="margin:0">Задание → ваш текст → проверка → исправления → переписывание. Текст засчитывается, когда вы перепишете его с учётом ошибок.</p>
-  <div class="tip small" data-ai hidden>Тексты проверяет Claude: грамматические, лексические и стилистические ошибки прямо в тексте, оценка по пяти критериям, улучшенный вариант и советы.</div>
-  <div class="tip small" data-noai>Здесь проверка автоматическая (объём, регистр, связки, повторы) и самопроверка по образцу. Полный разбор ошибок от Claude работает в версии тренажёра внутри Claude; отсюда можно скопировать готовый запрос для проверки в чате с ИИ.</div>
+  <div class="tip small"><b>Как проверить текст.</b> Когда напишете текст, нажмите «Готово»: появится кнопка, которая скопирует его вместе с заданием и просьбой разобрать ошибки. Вставьте это в любую нейросеть (ChatGPT, Claude, Gemini, DeepSeek…) — она найдёт ошибки и предложит улучшенный вариант. Здесь же — автоматические проверки и самопроверка по образцу.</div>
   ${Object.entries(WG).map(([g,h])=>{ const ws=WRITING.filter(w=>w.grp===g); return ws.length?`<div class="section-h"><h2>${h}</h2></div><div class="list">${ws.map(wRow).join("")}</div>`:""; }).join("")}
   <div class="section-h"><h2>Образцы писем</h2><span class="small muted num">${done}/${LETTERS.length} освоено</span></div>
   <div class="tip small">В польском письме вежливость держится на формах <b>Pan / Pani / Państwo</b> с глаголом в 3-м лице («Czy mógłby Pan…»). В письмах их принято писать с заглавной буквы, как и <b>Ty / Twój</b> в личной переписке.</div>
@@ -1186,20 +1191,6 @@ function letterHTML(id){
   <div class="panel"><h3 style="margin-bottom:6px">Регистр: обращения и завершения</h3>${l.regi.map(([p,r])=>`<div class="phr"><span class="p" lang="pl">${esc(p)}</span><span class="small muted">${md(r)}</span></div>`).join("")}</div>
   <div class="panel"><h3 style="margin-bottom:6px">Полезные фразы</h3>${l.phr.map(([p,r])=>`<div class="phr"><span class="p" lang="pl">${esc(p)}</span><span class="small muted">${esc(r)}</span></div>`).join("")}</div>
   <button class="btn primary block" id="lQuiz">Упражнение · ${l.ex.length} заданий${S.lt[id]!=null?` · лучший ${S.lt[id]}%`:""}</button>`;
-}
-
-// ---------- Claude inside the artifact: checks free answers and texts (absent on GitHub Pages) ----------
-let AI=null, aiOff=false;
-(async()=>{ try{ if(window.claude?.use) AI=await claude.use("sample"); }catch(e){} aiShow(); })();
-const aiReady=()=>!!AI&&!aiOff;
-function aiShow(){ document.querySelectorAll("[data-ai]").forEach(el=>el.hidden=!aiReady()); document.querySelectorAll("[data-noai]").forEach(el=>el.hidden=aiReady()); }
-const AIERR={rate_limited:"Слишком много проверок подряд — попробуйте через пару минут.",session_expired:"Войдите в Claude заново и повторите.",refused:"Claude не стал проверять этот текст.",invalid_json:"Ответ пришёл в неверном формате — попробуйте ещё раз.",prompt_too_large:"Текст слишком длинный.",empty_completion:"Пустой ответ — попробуйте ещё раз."};
-async function askAI(prompt,tier){
-  try{ return await AI.json(prompt,{modelTier:tier||"default"}); }
-  catch(e){
-    if(["not_granted","sampling_disabled","not_declared","capability_disabled","capability_removed"].includes(e?.code)){ aiOff=true; aiShow(); throw new Error("Проверка через Claude недоступна — дальше самопроверка по образцу."); }
-    throw new Error(AIERR[e?.code]||"Проверка не удалась — попробуйте ещё раз.");
-  }
 }
 
 // ---------- PRACTICE: answers the learner writes ----------
@@ -1243,16 +1234,6 @@ function diffHTML(v,ref){
   while(j<m){ if(i<n&&a[i]===bn[j]){ out.push(esc(b[j])); i++; j++; } else if(i<n&&T[i+1][j]>=T[i][j+1]) i++; else { out.push(`<ins>${esc(b[j])}</ins>`); j++; } }
   return {html:out.join(" "),score:T[0][0]/Math.max(1,m)};
 }
-function practicePrompt(it,v){
-  const [name,instr]=PT[it.type], open=OPEN.has(it.type);
-  return `You check one answer in a Polish exercise (level C1) for a learner whose native language is Russian.
-Exercise: ${name} — ${instr}${it.task?` (${it.task})`:""}.
-Prompt: ${it.q}
-${open?"Sample answer (any other good answer is fine)":"Reference answer(s)"}: ${it.ans.join(" / ")}
-Learner's answer: ${v}
-Decide whether the answer is correct, natural Polish and does what the exercise asks. Wording different from the reference is fine if it is correct and keeps the meaning. Ignore a missing final full stop.
-Reply with only JSON: {"verdict":"correct"|"minor"|"wrong","corrected":"the learner's answer with the smallest necessary corrections","errors":[{"wrong":"fragment of the answer","fix":"corrected fragment","why":"short explanation in Russian"}],"comment":"one or two sentences in Russian"}`;
-}
 function renderPractice(){
   const s=pSession, a=$("#app");
   if(s.i>=s.items.length) return practiceDone();
@@ -1286,22 +1267,7 @@ function renderPractice(){
     const v=inp.value.trim(); if(!v||s.busy) return;
     if(!open){ const m=matchAns(v,it.ans);
       if(m) return finish(1,`<div class="fb ${m==="ok"?"ok":"mid"}">${m==="ok"?"Верно!":"Верно, но проверьте польские буквы."}${it.ans.length>1?`<div class="why"><span class="why-h">Варианты</span>${it.ans.map(x=>`<div lang="pl">${esc(x)}</div>`).join("")}</div>`:""}${it.note?`<div class="small muted mt">${md(it.note)}</div>`:""}</div>`); }
-    if(aiReady()){
-      s.busy=true; $("#pchk").disabled=true; $("#fb").innerHTML='<div class="fb aibox"><span class="spin"></span>Claude проверяет ответ…</div>';
-      try{
-        const r=await askAI(practicePrompt(it,v),"quick"); s.busy=false; if(pSession!==s) return;
-        const vd=r?.verdict==="correct"?"ok":r?.verdict==="minor"?"mid":"no", errs=(Array.isArray(r?.errors)?r.errors:[]).filter(x=>x&&x.wrong);
-        return finish(vd==="ok"?1:vd==="mid"?.5:0,`<div class="fb ${vd}"><div>${vd==="ok"?"Верно!":vd==="mid"?"Почти: есть неточность.":"Есть ошибки."} <span class="small muted">· проверил Claude</span></div>
-          ${errs.length?`<ul class="errs">${errs.map(x=>`<li><s lang="pl">${esc(x.wrong)}</s> → <b lang="pl">${esc(x.fix||"")}</b><div class="small">${esc(x.why||"")}</div></li>`).join("")}</ul>`:""}
-          ${vd!=="ok"&&r.corrected?`<div class="mt"><span class="why-h">Исправленный вариант</span><div lang="pl">${esc(r.corrected)}</div></div>`:""}
-          ${r?.comment?`<div class="small mt">${esc(r.comment)}</div>`:""}${refHTML("",open?"Образец":"Эталон")}</div>`);
-      }catch(err){
-        s.busy=false; if(pSession!==s) return; $("#pchk").disabled=false;
-        $("#fb").innerHTML=`<div class="tip small">${esc(err.message)}</div>`;
-        if(aiReady()) return;
-      }
-    }
-    // without Claude: compare with the reference and judge yourself
+    // compare with the reference and judge yourself
     s.answered=true; inp.readOnly=true; $("#dia").hidden=true; $("#pgive").hidden=true; $("#pchk").hidden=true;
     $("#fb").innerHTML=`<div class="fb">${open?"Сравните свой ответ с образцом.":"Ответ не совпал с эталоном дословно. Сравните: выделено то, чего нет в вашем варианте."}${refHTML(v,open?"Образец":"Эталон")}</div>
       <div class="row mt"><button class="btn ghost" id="sNo">Есть ошибки</button><button class="btn primary" id="sYes">${open?"Получилось":"Мой вариант тоже верен"}</button></div>`;
@@ -1316,12 +1282,12 @@ function practiceDone(early){
   const counted=!early||n>=5, first=counted&&lessonDone();
   if(!early) S.pr[s.type]=Math.max(S.pr[s.type]||0,pct);
   persist(); pushRemote();
-  $("#app").innerHTML=`<div class="panel done-card" style="padding:28px 20px">${counted?pandaDone(first):""}<div class="eyebrow">${s.type==="mix"?"Смешанная практика":PT[s.type][0]}</div>
+  $("#app").innerHTML=`<div class="panel done-card" style="padding:28px 20px">${counted?mascotDone(first):""}<div class="eyebrow">${s.type==="mix"?"Смешанная практика":PT[s.type][0]}</div>
     <div class="big num" id="bigNum">${pct}%</div><div class="muted num">${fmt1(s.ok)} из ${n}</div>
     <div class="row" style="width:100%"><button class="btn ghost" id="pBack">К практике</button><button class="btn primary" id="pAgain">Ещё раз</button></div></div>`;
   const type=s.type; pSession=null;
   countUp($("#bigNum"),pct,"%"); if(first||pct>=80&&!early) confetti();
-  document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
+  document.querySelectorAll(".mascot").forEach(p=>p.onclick=pokeMascot);
   $("#pBack").onclick=()=>go({tab:"gram"}); $("#pAgain").onclick=()=>startPractice(type);
 }
 
@@ -1329,9 +1295,6 @@ function practiceDone(early){
 const WB={}; WRITING.forEach(w=>WB[w.id]=w);
 const WG={let:"Официальные письма и заявления",biz:"Деловая переписка",ess:"Эссе и аргументация",op:"Мнение и публицистика",inf:"Неформальное письмо"};
 const REGRU={off:"официальный стиль",semi:"полуофициальный стиль",neu:"нейтральный стиль",inf:"неформальный стиль"};
-const REGEN={off:"formal",semi:"semi-formal",neu:"neutral",inf:"informal"};
-const CRIT=[["task","Выполнение задания"],["coherence","Логика и связность"],["vocabulary","Лексика"],["grammar","Грамматика"],["register","Стиль и регистр"]];
-const ECAT={grammar:["Грамматика","gr"],spelling:["Орфография","gr"],punctuation:["Пунктуация","gr"],vocabulary:["Лексика","lx"],style:["Стиль","st"],register:["Регистр","st"]};
 const wcount=s=>(String(s).match(/[\p{L}\d]+(?:[-'’][\p{L}\d]+)*/gu)||[]).length;
 const wst=id=>S.wr[id]||{};
 function wSave(id,patch){ S.wr[id]={...wst(id),...patch,t:Date.now()}; persist(); }
@@ -1367,58 +1330,31 @@ function localChecks(w,text){
   if(n>120&&!/\n\s*\S/.test(text.trim())) out.push(["mid","Текст без абзацев — разбейте его на вступление, основную часть и завершение"]);
   return out;
 }
-function writingPrompt(w,text,prev,human){
-  const intro=`You are an experienced examiner of Polish as a foreign language (level C1). A learner whose native language is Russian wrote the text below.
-TASK — ${w.title} (${REGEN[w.reg]} register, ${w.min}-${w.max} words):
-${w.task}
-The text should contain: ${w.pts.join("; ")}.`;
-  if(human) return `${intro}\n\nLEARNER'S TEXT:\n"""\n${text}\n"""\n\nPlease answer in Russian: 1) a score from 0 to 5 for task completion, coherence, vocabulary, grammar and register; 2) every grammar, vocabulary and style error as "wrong fragment → correction — explanation", grouped by type; 3) an improved version of the whole text in Polish at C1 level, keeping my ideas; 4) 2-4 concrete tips.`;
-  return `${intro}
-${prev?`This is the learner's REWRITE after feedback on the first version. The first version's errors were: ${(prev.errors||[]).map(e=>`"${e.wrong}" → "${e.fix}"`).join("; ")||"none listed"}. Assess the new version on its own, and in "progress" say in Russian what improved and what is still wrong.\n`:""}LEARNER'S TEXT:
+function writingPrompt(w,text){
+  return `Проверь мой текст на польском языке (уровень C1). Я русскоязычный ученик.
+Задание: ${w.task}
+Вид текста: ${w.kind}, ${REGRU[w.reg]}, ${w.min}–${w.max} слов. В тексте должно быть: ${w.pts.join("; ")}.
+
+Мой текст:
 """
 ${text}
 """
-Assess it as a C1 exam text. Reply with only JSON:
-{"scores":{"task":0-5,"coherence":0-5,"vocabulary":0-5,"grammar":0-5,"register":0-5},"summary":"2-3 sentences in Russian","errors":[{"cat":"grammar|spelling|punctuation|vocabulary|style|register","wrong":"exact fragment copied from the text","fix":"corrected fragment","why":"short explanation in Russian"}],"improved":"the whole text rewritten at a good C1 level, keeping the learner's ideas and structure; paragraphs separated by \\n","tips":["2-4 concrete tips in Russian"]${prev?`,"progress":"in Russian"`:""}}
-List every real error (at most 25), most important first. "wrong" must be copied character for character from the text and be short (one to six words). Do not mark correct alternatives as errors.`;
-}
-function normFB(r){
-  const sc={}; for(const [k] of CRIT){ const v=Number(r?.scores?.[k]); sc[k]=Math.max(0,Math.min(5,Math.round(isNaN(v)?0:v))); }
-  const errors=(Array.isArray(r?.errors)?r.errors:[]).filter(e=>e&&e.wrong).slice(0,25).map(e=>({cat:String(e.cat||"grammar").toLowerCase(),wrong:String(e.wrong),fix:String(e.fix||""),why:String(e.why||"")}));
-  return {scores:sc,score:Math.round(Object.values(sc).reduce((a,b)=>a+b,0)/25*100),summary:String(r?.summary||""),errors,
-    improved:String(r?.improved||"").replace(/\\n/g,"\n"),tips:(Array.isArray(r?.tips)?r.tips:[]).map(String).slice(0,5),progress:r?.progress?String(r.progress):""};
-}
-// error fragments marked in the learner's text, numbered like the list below it
-function markErrors(text,errs){
-  const spans=[];
-  errs.forEach((e,i)=>{ const f=e.wrong; if(!f) return;
-    for(const [hay,needle] of [[text,f],[text.toLowerCase(),f.toLowerCase()]]){ let k, from=0;
-      while((k=hay.indexOf(needle,from))>=0){ if(!spans.some(s=>k<s.b&&k+f.length>s.a)){ spans.push({a:k,b:k+f.length,i,c:(ECAT[e.cat]||ECAT.grammar)[1]}); return; } from=k+1; } } });
-  spans.sort((p,q)=>p.a-q.a);
-  let out="",p=0; for(const s of spans){ out+=esc(text.slice(p,s.a))+`<mark class="er ${s.c}">${esc(text.slice(s.a,s.b))}<sup>${s.i+1}</sup></mark>`; p=s.b; }
-  return (out+esc(text.slice(p))).replace(/\n/g,"<br>");
-}
-function aiFbHTML(fb,text,final){
-  const errs=fb.errors||[], groups=[["gr","Грамматика, орфография, пунктуация"],["lx","Лексика"],["st","Стиль и регистр"]];
-  return `<div class="panel" style="display:grid;gap:8px"><div class="row" style="align-items:center"><h3>${final?"Проверка исправленного текста":"Оценка"}</h3><span class="pill num ${fb.score>=80?"ok":""}" style="flex:none">${fb.score}%</span></div>
-    ${fb.summary?`<div class="small">${esc(fb.summary)}</div>`:""}
-    <div class="crit">${CRIT.map(([k,l])=>`<span class="small">${l}</span><div class="bar"><i style="width:${(fb.scores?.[k]??0)*20}%;background:var(--good)"></i></div><b class="num small">${fb.scores?.[k]??0}/5</b>`).join("")}</div></div>
-  <div class="panel"><h3>Ваш текст${errs.length?` <span class="small muted">· ${errs.length} ${plural(errs.length,"замечание","замечания","замечаний")}</span>`:""}</h3>
-    <div class="wtext mt" lang="pl">${markErrors(text||"",errs)}</div></div>
-  ${errs.length?`<div class="panel" style="display:grid;gap:14px">${groups.map(([g,h])=>{ const list=errs.map((e,i)=>({...e,i})).filter(e=>(ECAT[e.cat]||ECAT.grammar)[1]===g);
-      return list.length?`<div><h3>${h} · ${list.length}</h3><ol class="errs">${list.map(e=>`<li value="${e.i+1}"><s lang="pl">${esc(e.wrong)}</s> → <b lang="pl">${esc(e.fix)}</b><div class="small">${esc((ECAT[e.cat]||ECAT.grammar)[0])}: ${esc(e.why)}</div></li>`).join("")}</ol></div>`:""; }).join("")}</div>`
-    :`<div class="fb ok">Ошибок не найдено.</div>`}
-  ${fb.improved?`<div class="panel"><h3>Улучшенный вариант</h3><div class="wtext mt" lang="pl">${esc(fb.improved).replace(/\n/g,"<br>")}</div></div>`:""}
-  ${fb.tips?.length?`<div class="tip"><b>Советы</b><ul class="rule" style="margin-top:6px">${fb.tips.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`:""}`;
+
+Ответь по-русски:
+1) оценка от 0 до 5: выполнение задания, логика и связность, лексика, грамматика, стиль и регистр;
+2) все ошибки списком «как написано → как правильно — почему», отдельно грамматические (с орфографией и пунктуацией), лексические и стилистические;
+3) улучшенная версия всего текста на хорошем польском уровня C1, с моими мыслями и структурой;
+4) 2–4 конкретных совета.`;
 }
 const modelHTML=w=>`<details class="panel more model"><summary>Образец ответа</summary><div class="wtext mt" lang="pl">${w.model.map(p=>`<p>${esc(p).replace(/\\n/g,"<br>")}</p>`).join("")}</div></details>`;
 const SELF=["Регистр выдержан от начала до конца","Есть абзацы и связки между ними","Перечитано: падежи, окончания, польские буквы"];
 function offlineHTML(w,checks,text){
   const x=wst(w.id);
-  return `<div class="panel"><h3>Автоматическая проверка</h3><ul class="checks">${checks.map(([c,t])=>`<li class="${c}"><b>${c==="ok"?"✓":"!"}</b><span class="small">${esc(t)}</span></li>`).join("")}</ul></div>
+  return `<div class="tip"><b>Проверьте текст в нейросети.</b> Нажмите кнопку — текст скопируется вместе с заданием и просьбой разобрать ошибки. Вставьте его в любой чат с ИИ (ChatGPT, Claude, Gemini, DeepSeek…), а потом перепишите текст ниже с учётом исправлений.
+    <button class="btn primary block mt" id="wCopy">Скопировать текст для проверки</button><div id="wCopyBox"></div></div>
+  <div class="panel"><h3>Автоматическая проверка</h3><ul class="checks">${checks.map(([c,t])=>`<li class="${c}"><b>${c==="ok"?"✓":"!"}</b><span class="small">${esc(t)}</span></li>`).join("")}</ul></div>
   <div class="panel"><h3>Самопроверка</h3><div class="small muted">Сравните свой текст с образцом ниже и отметьте, что получилось.</div>
-    <div class="ticks">${[...w.pts.map(p=>"Есть: "+p),...SELF].map((t,k)=>`<label><input type="checkbox" data-tick="${k}" ${x.ticks?.[k]?"checked":""}><span class="small">${esc(t)}</span></label>`).join("")}</div>
-    <button class="btn ghost block mt" id="wCopy">Скопировать запрос для проверки в чате с ИИ</button></div>
+    <div class="ticks">${[...w.pts.map(p=>"Есть: "+p),...SELF].map((t,k)=>`<label><input type="checkbox" data-tick="${k}" ${x.ticks?.[k]?"checked":""}><span class="small">${esc(t)}</span></label>`).join("")}</div></div>
   <div class="panel"><h3>Ваш текст</h3><div class="wtext mt" lang="pl">${esc(text||"").replace(/\n/g,"<br>")}</div></div>
   ${modelHTML(w)}`;
 }
@@ -1432,42 +1368,31 @@ function writeHTML(id){
     <details class="more"><summary class="small">Полезные фразы</summary>${w.phr.map(([p,r])=>`<div class="phr"><span class="p" lang="pl">${esc(p)}</span><span class="small muted">${esc(r)}</span></div>`).join("")}</details></div>`;
   const editor=(fid,val,btn,btnText)=>`<textarea class="ta long" id="${fid}" lang="pl" spellcheck="false" placeholder="Пишите здесь. Черновик сохраняется автоматически.">${esc(val||"")}</textarea>
     ${diaHTML()}<div class="wc" id="wc"></div><button class="btn primary block" id="${btn}">${btnText}</button>`;
-  if(stage==="draft") return head+`<div class="panel pform"><h3>Ваш текст</h3>${editor("wt",x.d1,"wCheck","Проверить текст")}
-    <div class="small muted" data-ai hidden>Текст проверит Claude: ошибки по категориям прямо в тексте, оценка, улучшенный вариант и советы. Это занимает до минуты.</div>
-    <div class="small muted" data-noai>Проверка здесь — автоматическая (объём, регистр, связки, повторы) и самопроверка по образцу.</div></div>`;
-  if(stage==="checked") return head+(x.fb?.offline?offlineHTML(w,x.local||[],x.d1):aiFbHTML(x.fb||{},x.d1)+modelHTML(w))
+  if(stage==="draft") return head+`<div class="panel pform"><h3>Ваш текст</h3>${editor("wt",x.d1,"wCheck","Готово — проверить")}
+    <div class="small muted">После этого появятся автоматические проверки, образец и кнопка, которая скопирует текст для проверки в любой нейросети.</div></div>`;
+  if(stage==="checked") return head+offlineHTML(w,x.local||localChecks(w,x.d1||""),x.d1)
     +`<div class="panel pform"><h3>Перепишите текст</h3>
-    <div class="small muted">Исправьте ошибки и учтите советы — своими словами, не копируя улучшенный вариант. Текст засчитается после переписывания.</div>
+    <div class="small muted">Исправьте ошибки, которые нашли нейросеть и автоматическая проверка, — своими словами, не копируя готовый вариант. Текст засчитается после переписывания.</div>
     ${editor("wt2",x.d2??x.d1,"wCheck2","Сдать исправленный вариант")}</div>`;
-  const f1=x.fb, f2=x.fb2;
-  return head+`<div class="panel" style="display:grid;gap:10px"><h3>Итог</h3>
-    ${f1?.score!=null&&f2?.score!=null?`<div class="row" style="text-align:center"><div><div class="big num" style="font-size:1.8rem">${f1.score}%</div><div class="small muted">первый вариант</div></div><div><div class="big num" style="font-size:1.8rem">${f2.score}%</div><div class="small muted">после исправлений</div></div></div>`
-      :`<div class="small">Текст переписан${x.best?` · самооценка ${x.best}%`:""}.</div>`}
-    ${f2?.progress?`<div class="small">${esc(f2.progress)}</div>`:""}</div>
-    ${f2?aiFbHTML(f2,x.d2,true):`<div class="panel"><h3>Итоговый текст</h3><div class="wtext mt" lang="pl">${esc(x.d2||"").replace(/\n/g,"<br>")}</div></div>`}
+  return head+`<div class="panel" style="display:grid;gap:10px"><h3>Итог</h3><div class="small">Текст переписан${x.best?` · самооценка ${x.best}%`:""}.</div></div>
+    <div class="panel"><h3>Итоговый текст</h3><div class="wtext mt" lang="pl">${esc(x.d2||"").replace(/\n/g,"<br>")}</div></div>
     ${modelHTML(w)}
     <button class="btn ghost block" id="wRestart">Написать заново</button>`;
 }
-async function wCheck(id,stage){
-  const w=WB[id], ta=$(stage===1?"#wt":"#wt2"), btn=$(stage===1?"#wCheck":"#wCheck2"), text=ta.value.trim(), n=wcount(text);
+function wCheck(id,stage){
+  const w=WB[id], text=$(stage===1?"#wt":"#wt2").value.trim(), n=wcount(text);
   if(n<Math.round(w.min*.6)){ toast(`Пока коротко: ${n} ${plural(n,"слово","слова","слов")}, нужно ${w.min}–${w.max}`); return; }
-  if(aiReady()){
-    btn.disabled=true; btn.innerHTML='<span class="spin"></span> Claude читает текст…'; ta.readOnly=true;
-    try{
-      const fb=normFB(await askAI(writingPrompt(w,text,stage===2?wst(id).fb:null),"default"));
-      if(stage===1) wSave(id,{d1:text,d2:text,st:"checked",fb,local:localChecks(w,text)});
-      else wSave(id,{d2:text,st:"done",fb2:fb,best:Math.max(wst(id).best||0,fb.score)});
-    }catch(e){
-      toast(e.message);
-      if(view.w===id&&!session&&!tSession&&!pSession){ if(aiReady()){ btn.disabled=false; btn.textContent=stage===1?"Проверить текст":"Сдать исправленный вариант"; ta.readOnly=false; } else render(); }
-      return;
-    }
-  } else if(stage===1) wSave(id,{d1:text,d2:text,st:"checked",fb:{offline:true},local:localChecks(w,text)});
+  if(stage===1) wSave(id,{d1:text,d2:text,st:"checked",local:localChecks(w,text)});
   else { const x=wst(id), got=(x.ticks||[]).filter(Boolean).length; wSave(id,{d2:text,st:"done",best:Math.max(x.best||0,Math.round(got/(w.pts.length+SELF.length)*100))}); }
   const first=stage===2&&lessonDone(); pushRemote();
-  if(view.w!==id||session||tSession||pSession) return;
   render(); window.scrollTo(0,0);
   if(stage===2){ toast("Текст засчитан"); if(first) confetti(); }
+}
+// the clipboard can be blocked (inside Claude, old browsers): then the text is shown to copy by hand
+async function copyText(str,box){
+  try{ await navigator.clipboard.writeText(str); toast("Скопировано — вставьте в чат с нейросетью"); return; }catch(e){}
+  box.innerHTML=`<div class="small mt">Выделите текст ниже и скопируйте его:</div><textarea class="ta mt" readonly rows="6"></textarea>`;
+  const ta=box.querySelector("textarea"); ta.value=str; ta.focus(); ta.select();
 }
 function bindWrite(){
   const id=view.w, w=WB[id]; if(!w) return;
@@ -1481,8 +1406,8 @@ function bindWrite(){
   const c1=$("#wCheck"); if(c1) c1.onclick=()=>wCheck(id,1);
   const c2=$("#wCheck2"); if(c2) c2.onclick=()=>wCheck(id,2);
   document.querySelectorAll("[data-tick]").forEach(cb=>cb.onchange=()=>{ const t=[...(wst(id).ticks||[])]; t[+cb.dataset.tick]=cb.checked; wSave(id,{ticks:t}); });
-  const cp=$("#wCopy"); if(cp) cp.onclick=async()=>{ try{ await navigator.clipboard.writeText(writingPrompt(w,wst(id).d1||"",null,true)); toast("Запрос скопирован — вставьте его в чат с ИИ"); }catch(e){ toast("Не удалось скопировать"); } };
-  const rs=$("#wRestart"); if(rs) rs.onclick=()=>{ wSave(id,{st:"",d1:"",d2:"",fb:null,fb2:null,local:null,ticks:[]}); render(); };
+  const cp=$("#wCopy"); if(cp) cp.onclick=()=>copyText(writingPrompt(w,wst(id).d1||""),$("#wCopyBox"));
+  const rs=$("#wRestart"); if(rs) rs.onclick=()=>{ wSave(id,{st:"",d1:"",d2:"",local:null,ticks:[]}); render(); };
 }
 
 // ---------- MY DICTIONARY ----------
@@ -1502,7 +1427,7 @@ function myHTML(){
     <label><span class="lbl-s">Перевод</span><input class="search" id="myRu" maxlength="120" placeholder="разрешить спор"></label>
     <label><span class="lbl-s">Пример <span class="muted" style="font-weight:500">— необязательно, но с ним слово тренируется и в предложении</span></span><textarea class="ta" id="myEx" rows="2" lang="pl" maxlength="300" style="min-height:64px"></textarea></label>
     <div id="myMsg" class="small"></div>
-    <div class="row"><button type="button" class="btn ghost" id="myAI" data-ai hidden>Заполнить с Claude</button><button class="btn primary" type="submit">Добавить</button></div>
+    <div class="row"><button class="btn primary" type="submit">Добавить</button></div>
   </form>
   ${ws.length?`<div class="panel" style="display:grid;gap:12px">
     <div class="legend num"><span><i class="dot k"></i>Выучено ${s.learned}</span><span><i class="dot l"></i>В работе ${s.learning}</span><span><i class="dot"></i>Новые ${s.new}</span></div>
@@ -1523,16 +1448,6 @@ function bindMy(){
     const id=Date.now().toString(36)+Math.random().toString(36).slice(2,5), now=Date.now();
     S.my[id]={pl:p,ru:r,ex:x&&!/[.!?…]$/.test(x)?x+".":x,c:now,t:now}; persist(); rebuildMy();
     toast(dup?`Добавлено. «${dup.pl}» есть и в теме «${THEMES[dup.ti].name}»`:"Добавлено в словарь"); render();
-  };
-  const ai=$("#myAI"); if(ai) ai.onclick=async()=>{
-    const p=pl.value.trim(); if(!p){ msg.textContent="Сначала напишите слово по-польски."; return; }
-    ai.disabled=true; msg.innerHTML='<span class="aibox"><span class="spin"></span>Claude подбирает перевод и пример…</span>';
-    try{
-      const r=await askAI(`A Russian-speaking learner of Polish (level C1) is saving this Polish word or phrase in a personal dictionary: "${p}". Give its base form (correct the spelling if needed), a short Russian translation (1-3 meanings, comma-separated) and one natural Polish example sentence at C1 level that uses it. Reply with only JSON: {"pl":"...","ru":"...","ex":"..."}`,"quick");
-      if(r?.pl) pl.value=String(r.pl); if(r?.ru) ru.value=String(r.ru); if(r?.ex) ex.value=String(r.ex);
-      msg.textContent="Проверьте и нажмите «Добавить».";
-    }catch(err){ msg.textContent=err.message; }
-    ai.disabled=false;
   };
 }
 function delMy(id){ const v=S.my[id]; if(!v) return; S.my[id]={...v,x:1,t:Date.now()}; delete S.w["my:"+id]; persist(); rebuildMy(); toast("Удалено из словаря"); render(); }
@@ -1683,7 +1598,7 @@ function openSettings(){
 function bind(){
   const on=(sel,fn)=>{ const el=$(sel); if(el) el.onclick=fn; };
   on("#settings",openSettings);
-  document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
+  document.querySelectorAll(".mascot").forEach(p=>p.onclick=pokeMascot);
   on("#start",()=>startSession(null));
   on("#extra",()=>startSession(null,10));
   on("#mixTest",()=>startQuiz("gr",null));
