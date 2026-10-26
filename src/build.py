@@ -1,5 +1,5 @@
-"""Builds ../index.html from app.html + plain-text sources (words/*.txt, grammar.txt, stories.txt, letters.txt)."""
-import json, pathlib, sys
+"""Builds ../index.html from app.html + plain-text sources (words/*.txt, grammar.txt, stories.txt, letters.txt, practice.txt, writing.txt)."""
+import json, pathlib, re, sys
 
 SRC = pathlib.Path(__file__).parent
 OUT = SRC.parent / "index.html"
@@ -30,7 +30,11 @@ def words():
             if len(parts) != 3 or not all(parts):
                 sys.exit(f"{f.name}:{n}: expected 'pl | ru | example': {s}")
             pl, ru, ex = parts
-            th["words"].append([pl, "", ru, ex])
+            gap = ""
+            if "[" in pl:
+                gap = pl[pl.index("[") + 1:pl.index("]")]
+                pl = pl.replace("[", "").replace("]", "")
+            th["words"].append([pl, gap, ru, ex])
     return themes
 
 
@@ -59,8 +63,8 @@ def stories():
         k, _, v = s.partition(":")
         v = v.strip()
         if s.startswith("@"):
-            sid, title, ru, topic, level = split(s[1:])
-            st = {"id": sid, "title": title, "ru": ru, "topic": topic, "level": level, "text": [], "gloss": {}, "q": []}
+            sid, title, ru, topic, level, *kind = split(s[1:])
+            st = {"id": sid, "title": title, "ru": ru, "topic": topic, "level": level, "kind": kind[0] if kind else "", "text": [], "gloss": {}, "q": []}
             out.append(st)
         elif k == "p": st["text"].append(v)
         elif k == "g":
@@ -92,11 +96,50 @@ def letters():
     return out
 
 
+PTYPES = {"tr": 3, "fix": 3, "para": 4, "reg": 4, "gap": 3, "cont": 4, "use": 4, "op": 3}   # fields per line
+
+
+def practice():
+    # tr/fix/gap: prompt | answer || answer | note;  para/reg: prompt | task | answers | note
+    # cont/use: prompt | task | sample | note;  op: question | sample | note   (cont/use/op are open tasks)
+    out = {t: [] for t in PTYPES}
+    for n, s in lines("practice.txt"):
+        k, _, v = s.partition(":")
+        parts = [p.strip() for p in re.split(r"(?<!\|)\|(?!\|)", v)]   # "||" separates answers inside a field
+        if k not in PTYPES or len(parts) != PTYPES[k] or not all(parts):
+            sys.exit(f"practice.txt:{n}: bad line: {s}")
+        if len(parts) == 4:
+            q, task, ans, note = parts
+        else:
+            (q, ans, note), task = parts, ""
+        out[k].append({"q": q, "task": task, "ans": [a.strip() for a in ans.split("||")], "note": note})
+    return out
+
+
+def writing():
+    out, w = [], None
+    for n, s in lines("writing.txt"):
+        k, _, v = s.partition(":")
+        v = v.strip()
+        if s.startswith("@"):
+            wid, kind, grp, reg, rng, title, ru = split(s[1:])
+            lo, hi = map(int, rng.split("-"))
+            w = {"id": wid, "kind": kind, "grp": grp, "reg": reg, "min": lo, "max": hi, "title": title, "ru": ru, "task": "", "tru": "", "pts": [], "phr": [], "model": []}
+            out.append(w)
+        elif k == "task": w["task"] = v
+        elif k == "ru": w["tru"] = v
+        elif k == "pt": w["pts"].append(v)
+        elif k == "ph": w["phr"].append(split(v, 1))
+        elif k == "m": w["model"].append(v)
+        else: sys.exit(f"writing.txt:{n}: unknown line: {s}")
+    return out
+
+
 def js(name, data):
     return f"const {name} = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
 
 
-data = js("THEMES", words()) + js("GRAMMAR", grammar()) + js("STORIES", stories()) + js("LETTERS", letters())
+data = js("THEMES", words()) + js("GRAMMAR", grammar()) + js("STORIES", stories()) + js("LETTERS", letters()) + js("PRACTICE", practice()) + js("WRITING", writing())
 html = (SRC / "app.html").read_text(encoding="utf-8").replace("/*@DATA@*/\n", data)
 OUT.write_text(html, encoding="utf-8", newline="\n")
 print(f"index.html: {len(html.encode())//1024} KB")

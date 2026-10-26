@@ -31,7 +31,7 @@ for th in themes:
     if len(ws) < 200:
         err(f"{th['name']}: only {len(ws)} words")
     for w in ws:
-        if len(w) != 4 or not w[0] or not w[2] or not w[3] or w[1] != "":
+        if len(w) != 4 or not w[0] or not w[2] or not w[3] or (w[1] and w[1] not in w[0]):
             err(f"bad record: {w}")
             continue
         pl, _, ru, ex = w
@@ -99,8 +99,12 @@ print(f"Истории: {len(stories)}")
 for s in stories:
     text = " ".join(s["text"])
     nw = len(text.split())
-    if len(s["q"]) != 3 or any(len(q) < 3 for q in s["q"]):
-        err(f"story {s['id']}: needs 3 questions with options")
+    if not 3 <= len(s["q"]) <= 6 or any(len(q) < 3 or len(set(q[1:])) != len(q) - 1 for q in s["q"]):
+        err(f"story {s['id']}: needs 3-6 questions with distinct options")
+    if s.get("kind", "") not in ("", "artykuł", "publicystyka", "tekst urzędowy", "argumentacja", "rozmowa"):
+        err(f"story {s['id']}: unknown kind {s['kind']}")
+    if s.get("kind") and not all(q[0].startswith("[") for q in s["q"]):
+        err(f"story {s['id']}: C1 text questions need a [tag]")
     for k in s["gloss"]:
         if not re.search(rf"(?<!\w){re.escape(k)}(?!\w)", text, re.I):
             err(f"story {s['id']}: gloss word not in text: {k}")
@@ -126,7 +130,40 @@ for l in letters:
     for e in l["ex"]:
         check_item(f"letter {l['id']}", e)
 
-ids_all = [x["id"] for x in grammar + stories + letters]
+# ---------- practice ----------
+practice = const("PRACTICE")
+print("Практика: " + ", ".join(f"{k} {len(v)}" for k, v in practice.items()))
+for k, items in practice.items():
+    if len(items) < 10:
+        err(f"practice {k}: only {len(items)} items")
+    for it in items:
+        if not it["q"] or not all(it["ans"]) or len(it["note"]) < 10:
+            err(f"practice {k}: incomplete: {it['q'][:50]}")
+        if k == "gap" and it["q"].count("___") != 1:
+            err(f"practice gap: needs one ___: {it['q']}")
+        if k in ("para", "reg", "cont", "use") and not it["task"]:
+            err(f"practice {k}: no task: {it['q'][:50]}")
+        if len(set(it["ans"])) != len(it["ans"]):
+            err(f"practice {k}: repeated answer: {it['q'][:50]}")
+    if len({it["q"] for it in items}) != len(items):
+        err(f"practice {k}: repeated prompt")
+
+# ---------- writing ----------
+writing = const("WRITING")
+print(f"Письмо: {len(writing)} заданий")
+for w in writing:
+    words = len(re.findall(r"\w+", " ".join(w["model"]).replace(chr(92) + "n", " ")))
+    if w["grp"] not in ("let", "biz", "ess", "op", "inf") or w["reg"] not in ("off", "semi", "neu", "inf"):
+        err(f"writing {w['id']}: bad group or register")
+    if not w["task"] or not w["tru"] or len(w["pts"]) < 3 or len(w["phr"]) < 4 or len(w["model"]) < 3:
+        err(f"writing {w['id']}: needs task, ru, ≥3 points, ≥4 phrases, model")
+    if any(len(p) != 2 for p in w["phr"]):
+        err(f"writing {w['id']}: phrase without translation")
+    if not w["min"] * 0.9 <= words <= w["max"] * 1.15:
+        notes.append(f"writing {w['id']}: model has {words} words, task {w['min']}-{w['max']}")
+    print(f"  {w['id']:<12}{words:>4} слов в образце ({w['min']}–{w['max']})")
+
+ids_all = [x["id"] for x in grammar + stories + letters + writing]
 for i, c in collections.Counter(ids_all).items():
     if c > 1:
         err(f"repeated id: {i}")

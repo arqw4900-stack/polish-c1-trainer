@@ -1,0 +1,135 @@
+// Задания с ответом, который пишет сам ученик.
+// tr / fix / gap:  задание | ответ || другой верный ответ | пояснение
+// para / reg:      исходное предложение | что сделать | ответ || ответ | пояснение
+// cont / use:      начало или слово | задание | образец | на что обратить внимание   (открытые задания)
+// op:              вопрос | образец ответа | на что обратить внимание                    (открытое задание)
+
+tr: Несмотря на плохую погоду, мы решили пойти в горы. | Mimo złej pogody postanowiliśmy pójść w góry. || Pomimo złej pogody postanowiliśmy iść w góry. || Mimo złej pogody zdecydowaliśmy się pójść w góry. || Pomimo złej pogody postanowiliśmy pójść w góry. | После **mimo / pomimo** — родительный падеж: mimo złej pogody.
+tr: Если бы я знал об этом раньше, я бы тебе помог. | Gdybym wiedział o tym wcześniej, pomógłbym ci. || Gdybym o tym wiedział wcześniej, pomógłbym ci. || Gdybym wcześniej o tym wiedział, pomógłbym ci. | Нереальное условие: **gdyby** + личное окончание (gdybym), в главной части форма на **-łbym**.
+tr: Мне не хватает времени на чтение. | Brakuje mi czasu na czytanie. || Brak mi czasu na czytanie. | **brakować** + дательный (mi) + родительный (czasu).
+tr: Решение было принято после долгой дискуссии. | Decyzja została podjęta po długiej dyskusji. || Decyzję podjęto po długiej dyskusji. | Решение «принимают» — **podejmować decyzję**; страдательный залог: została podjęta, или безличная форма podjęto.
+tr: Чем больше я читаю, тем лучше понимаю. | Im więcej czytam, tym lepiej rozumiem. | «Чем… тем…» — **im… tym…**
+tr: Он сделал вид, что меня не заметил. | Udał, że mnie nie zauważył. || Udawał, że mnie nie zauważył. | «Сделать вид» — **udać / udawać**, а не дословное *zrobić widok.
+tr: Это зависит от того, сколько это будет стоить. | To zależy od tego, ile to będzie kosztować. || To zależy od tego, ile to będzie kosztowało. | **zależeć od** + родительный: od tego, ile…
+tr: Нам пришлось отменить встречу из-за болезни директора. | Musieliśmy odwołać spotkanie z powodu choroby dyrektora. || Musieliśmy odwołać spotkanie ze względu na chorobę dyrektora. || Musieliśmy odwołać spotkanie przez chorobę dyrektora. | Отменить встречу — **odwołać spotkanie**; причина — z powodu + родительный (разг. przez + винительный).
+tr: Я привык вставать рано. | Przyzwyczaiłem się do wczesnego wstawania. || Jestem przyzwyczajony do wczesnego wstawania. || Przywykłem do wczesnego wstawania. || Przyzwyczaiłam się do wczesnego wstawania. | **przyzwyczaić się do** + родительный (do wstawania) — инфинитив здесь не ставится.
+tr: Не стоит об этом беспокоиться. | Nie warto się tym martwić. || Nie warto się o to martwić. | **martwić się** + творительный (tym) или o + винительный (o to).
+tr: Ей удалось сдать экзамен с первого раза. | Udało jej się zdać egzamin za pierwszym razem. || Udało się jej zdać egzamin za pierwszym razem. | «С первого раза» — **za pierwszym razem**; удаться кому-то — udać się komuś.
+tr: Я хотел бы обратить ваше внимание на одну проблему. | Chciałbym zwrócić Państwa uwagę na jeden problem. || Chciałbym zwrócić Pana uwagę na jeden problem. || Chciałabym zwrócić Państwa uwagę na jeden problem. || Chciałbym zwrócić Pani uwagę na jeden problem. | Вежливое «ваше» — **Państwa / Pana / Pani**; zwrócić uwagę **na** + винительный.
+tr: Он отказался подписать договор. | Odmówił podpisania umowy. | **odmówić** + родительный отглагольного существительного (podpisania); инфинитив после odmówić — ошибка.
+tr: По мнению экспертов, цены будут расти. | Zdaniem ekspertów ceny będą rosły. || Według ekspertów ceny będą rosnąć. || Zdaniem ekspertów ceny będą rosnąć. || Według ekspertów ceny będą rosły. | «По мнению» — **zdaniem** + родительный или **według** + родительный.
+tr: Мне всё равно, что о нём говорят. | Wszystko mi jedno, co o nim mówią. || Jest mi obojętne, co o nim mówią. || Obojętne mi, co o nim mówią. | «Всё равно» — **wszystko mi jedno** или jest mi obojętne.
+tr: Нам пришлось ждать больше часа. | Musieliśmy czekać ponad godzinę. || Musieliśmy czekać dłużej niż godzinę. || Trzeba było czekać ponad godzinę. | «Пришлось» — musieć в прошедшем или **trzeba było**; ponad + винительный = больше.
+tr: Это не имеет никакого значения. | To nie ma żadnego znaczenia. | Двойное отрицание: **nie ma żadnego**; после отрицания — родительный падеж.
+tr: Он ведёт себя так, будто ничего не произошло. | Zachowuje się tak, jakby nic się nie stało. || Zachowuje się, jakby nic się nie stało. | «Будто» — **jakby**; «ничего не произошло» — nic się nie stało.
+tr: Я не уверен, получится ли у нас. | Nie jestem pewien, czy nam się uda. || Nie jestem pewny, czy nam się uda. || Nie jestem pewna, czy nam się uda. | Частица «ли» в косвенном вопросе — **czy** в начале придаточного.
+tr: Чем раньше, тем лучше. | Im wcześniej, tym lepiej. | Устойчивая конструкция **im… tym…**
+
+fix: Wczoraj spotkałem się z Ania w kawiarni. | Wczoraj spotkałem się z Anią w kawiarni. | **z** + творительный падеж: z Anią.
+fix: Nie mam czas na takie rzeczy. | Nie mam czasu na takie rzeczy. | После отрицания прямое дополнение стоит в **родительном**: nie mam czasu.
+fix: Dziękuję cię za pomoc. | Dziękuję ci za pomoc. | **dziękować** + дательный: ci, a nie cię.
+fix: Interesuję się o historię. | Interesuję się historią. | **interesować się** + творительный без предлога.
+fix: Pomimo deszcz poszliśmy na spacer. | Pomimo deszczu poszliśmy na spacer. || Mimo deszczu poszliśmy na spacer. | **(po)mimo** + родительный: deszczu.
+fix: Ona jest wyższa jak jej brat. | Ona jest wyższa niż jej brat. || Ona jest wyższa od swojego brata. || Ona jest wyższa od brata. | Сравнение: **niż** + именительный или **od** + родительный; jak здесь — ошибка.
+fix: Poszedłem do lekarza, bo bolała mi głowę. | Poszedłem do lekarza, bo bolała mnie głowa. | **boleć**: głowa — подлежащее (именительный), кого болит — mnie (винительный).
+fix: Wszyscy studenci przyszli na egzamin oprócz Marek. | Wszyscy studenci przyszli na egzamin oprócz Marka. | **oprócz** + родительный: Marka.
+fix: To jest książka, którą mówiłem ci wczoraj. | To jest książka, o której mówiłem ci wczoraj. || To ta książka, o której mówiłem ci wczoraj. | mówić **o** + предложный → o której.
+fix: Musimy się spotkać w poniedziałek albo we wtorku. | Musimy się spotkać w poniedziałek albo we wtorek. | Дни недели: **w / we** + винительный — we wtorek.
+fix: Szanowny Panie, piszę do pana w sprawie reklamacji. | Szanowny Panie, piszę do Pana w sprawie reklamacji. | В письме вежливые формы **Pan, Pani, Państwo** пишутся с заглавной буквы.
+fix: Gdybym miałbym więcej pieniędzy, kupiłbym dom. | Gdybym miał więcej pieniędzy, kupiłbym dom. | В **gdyby** уже есть -by: gdybym miał, а не *gdybym miałbym.
+fix: Wróciłem do domu o pół do ósmej. | Wróciłem do domu wpół do ósmej. || Wróciłem do domu o wpół do ósmej. | «Половина восьмого» — **wpół do ósmej**, слитно.
+fix: Proszę o przesłanie mi informacji odnośnie terminu. | Proszę o przesłanie mi informacji dotyczących terminu. || Proszę o przesłanie mi informacji w sprawie terminu. || Proszę o przesłanie mi informacji odnośnie do terminu. || Proszę o przesłanie mi informacji na temat terminu. | **odnośnie** требует предлога do (odnośnie do terminu); в официальном стиле лучше dotyczących или w sprawie.
+fix: Ten problem dotyczy się wszystkich mieszkańców. | Ten problem dotyczy wszystkich mieszkańców. | **dotyczyć** — без się, с родительным падежом.
+fix: Wziąłem udział na konferencji. | Wziąłem udział w konferencji. | **brać / wziąć udział w** + предложный.
+fix: On zawsze mi pomaga, gdy potrzebuję pomoc. | On zawsze mi pomaga, gdy potrzebuję pomocy. | **potrzebować** + родительный: pomocy.
+fix: Spotkanie odbędzie się na przyszły piątek o dziesiątej. | Spotkanie odbędzie się w przyszły piątek o dziesiątej. | Когда? — **w** + винительный (w piątek); na piątek — «к пятнице, на пятницу» (о планах).
+fix: Ze względu na to, że byłem chory, nie przyszłem na zajęcia. | Ze względu na to, że byłem chory, nie przyszedłem na zajęcia. | Прошедшее время от przyjść — **przyszedłem**, формы *przyszłem нет.
+fix: Wszystkie osoby, które przyszli, dostali prezenty. | Wszystkie osoby, które przyszły, dostały prezenty. | **osoby** — неличный (немужской) род: przyszły, dostały, хотя среди них могут быть мужчины.
+
+para: Choć było późno, nikt nie chciał iść do domu. | Начните с «Mimo…» | Mimo późnej pory nikt nie chciał iść do domu. || Mimo że było późno, nikt nie chciał iść do domu. || Mimo iż było późno, nikt nie chciał iść do domu. | **mimo** + родительный (mimo późnej pory) или союз **mimo że / mimo iż**.
+para: Nie poszedłem na imprezę, ponieważ byłem zmęczony. | Используйте «z powodu» | Nie poszedłem na imprezę z powodu zmęczenia. || Z powodu zmęczenia nie poszedłem na imprezę. | **z powodu** + существительное в родительном: zmęczenia.
+para: Jeśli nie zapłacisz rachunku, odetną ci prąd. | Начните с «W razie…» | W razie niezapłacenia rachunku odetną ci prąd. || W razie nieopłacenia rachunku odetną ci prąd. | **w razie** + отглагольное существительное (niezapłacenia) — книжный стиль.
+para: Firma zbudowała nowy magazyn w zeszłym roku. | Перепишите в страдательном залоге | Nowy magazyn został zbudowany przez firmę w zeszłym roku. || W zeszłym roku nowy magazyn został zbudowany przez firmę. || Nowy magazyn został zbudowany w zeszłym roku. | **został** + причастие на -ny; кем — przez + винительный.
+para: Ludzie mówią, że ten dom jest nawiedzony. | Используйте безличную форму или «podobno» | Mówi się, że ten dom jest nawiedzony. || Podobno ten dom jest nawiedzony. | Безличное **mówi się, że…** или частица **podobno** («говорят»).
+para: Gdy skończył pracę, poszedł do domu. | Используйте деепричастие на -wszy | Skończywszy pracę, poszedł do domu. | **-wszy** (skończywszy) — действие до основного, у того же лица.
+para: Kiedy czytałem gazetę, piłem kawę. | Используйте деепричастие на -ąc | Czytając gazetę, piłem kawę. || Pijąc kawę, czytałem gazetę. | **-ąc** — одновременное действие того же лица.
+para: Jest możliwe, że pociąg się spóźni. | Используйте слово «niewykluczone» | Niewykluczone, że pociąg się spóźni. | **niewykluczone, że…** — «не исключено, что…».
+para: Musisz to zrobić do jutra. | Начните с «Należy…» (безлично) | Należy to zrobić do jutra. | **należy** + инфинитив — безличное долженствование, официальный стиль.
+para: Zaproponował, żebyśmy poszli do kina. | Передайте как прямую речь | „Chodźmy do kina” — zaproponował. || „Pójdźmy do kina” — zaproponował. || Zaproponował: „Chodźmy do kina”. || Zaproponował: „Pójdźmy do kina”. | Предложение в прямой речи — повелительное **chodźmy / pójdźmy**.
+para: Nie znam nikogo, kto by mi pomógł. | Начните с «Nie ma nikogo…» | Nie ma nikogo, kto by mi pomógł. || Nie ma nikogo, kto mógłby mi pomóc. | **kto by** + прошедшее — сослагательное наклонение в придаточном.
+para: To bardzo ważne, żebyś przyszedł punktualnie. | Используйте «koniecznie» | Koniecznie przyjdź punktualnie. || Musisz koniecznie przyjść punktualnie. | **koniecznie** — «обязательно», усиливает просьбу.
+para: Ceny wzrosły, więc ludzie kupują mniej. | Начните с «Wskutek…» | Wskutek wzrostu cen ludzie kupują mniej. | **wskutek** + родительный — причина в книжном стиле.
+para: Ona mówi po polsku lepiej niż ja. | Начните с «Ja…» | Ja mówię po polsku gorzej niż ona. || Ja mówię po polsku gorzej od niej. || Ja nie mówię po polsku tak dobrze jak ona. | Обратное сравнение: **gorzej niż ona / gorzej od niej**, или nie tak dobrze jak.
+para: Nie zdążyłem na pociąg, chociaż biegłem. | Начните с «Mimo że…» | Mimo że biegłem, nie zdążyłem na pociąg. | **mimo że** — уступительный союз, после него придаточное с глаголом.
+
+reg: Hej, możesz mi wysłać te papiery do jutra? | Сделайте официальным (письмо в учреждение) | Czy mogliby Państwo przesłać mi te dokumenty do jutra? || Uprzejmie proszę o przesłanie dokumentów do jutra. || Zwracam się z prośbą o przesłanie dokumentów do jutra. || Czy mógłby Pan przesłać mi te dokumenty do jutra? | Официально: **Państwo / Pan** + 3-е лицо, условное наклонение или «uprzejmie proszę o…»; papiery → dokumenty.
+reg: Sorry, że tak późno odpisuję. | Сделайте официальным | Przepraszam za późną odpowiedź. || Przepraszam za opóźnioną odpowiedź. || Najmocniej przepraszam za zwłokę w odpowiedzi. || Przepraszam za zwłokę w odpowiedzi. | sorry, odpisywać — разговорные; официально: **przepraszam za zwłokę / późną odpowiedź**.
+reg: Fajnie by było, jakbyś przyszedł. | Официальное приглашение | Byłoby nam bardzo miło, gdyby Pan przyszedł. || Byłoby nam miło, gdyby Pani przyszła. || Będzie nam niezmiernie miło, jeśli zechce Pan przyjść. || Byłoby nam miło, gdyby Pan przyszedł. | **jakby** в значении «если бы» — разговорное; официально gdyby; fajnie → miło.
+reg: Ta firma nas olała i nie oddała kasy. | Официально (жалоба) | Firma zignorowała nasze zgłoszenie i nie zwróciła pieniędzy. || Firma nie odpowiedziała na nasze zgłoszenie i nie zwróciła należności. || Firma zignorowała naszą reklamację i nie zwróciła pieniędzy. | olać, kasa — сленг; официально: **zignorować, zwrócić pieniądze / należność**.
+reg: Szanowny Panie Dyrektorze, uprzejmie informuję, że nie będzie mnie jutro w pracy. | Сделайте неформальным (сообщение коллеге-другу) | Hej, jutro mnie nie będzie w pracy. || Cześć, jutro nie przyjdę do pracy. || Hej, jutro nie będzie mnie w pracy. || Cześć, jutro mnie nie będzie w pracy. | Неформально: **hej / cześć**, без формул вежливости.
+reg: Kupiłem buty, które się rozwaliły po tygodniu. | Сделайте официальным (рекламация) | Zakupione obuwie uległo uszkodzeniu po tygodniu użytkowania. || Zakupione przeze mnie obuwie uległo uszkodzeniu po tygodniu. || Kupione buty uległy uszkodzeniu po tygodniu użytkowania. | rozwalić się — разговорное; официально: **ulec uszkodzeniu**, obuwie.
+reg: Nie wiem, o co biega w tym piśmie. | Сделайте нейтральным | Nie wiem, o co chodzi w tym piśmie. || Nie rozumiem treści tego pisma. || Nie rozumiem, czego dotyczy to pismo. | o co biega — сленг; нейтрально: **o co chodzi**.
+reg: Proszę Państwa, zebranie zostaje zakończone. | Скажите разговорно (коллегам) | Dobra, kończymy na dziś. || No dobra, to na dziś koniec. || Dobra, na dziś koniec. || No to kończymy na dziś. | Разговорно: **dobra, kończymy**.
+reg: Mam nadzieję, że szybko dostanę odpowiedź. | Официальная концовка письма | Liczę na szybką odpowiedź. || Oczekuję na Państwa odpowiedź. || Z niecierpliwością oczekuję na odpowiedź. || Liczę na rychłą odpowiedź. | Стандартные формулы: **Liczę na… / Oczekuję na…**
+reg: Weź mi powiedz, ile to kosztuje. | Вежливо и нейтрально | Proszę mi powiedzieć, ile to kosztuje. || Czy może mi Pan powiedzieć, ile to kosztuje? || Czy mogłaby Pani powiedzieć, ile to kosztuje? || Czy mógłby Pan powiedzieć, ile to kosztuje? | **weź** + повелительное — грубовато-разговорное; вежливо: proszę + инфинитив или вопрос с Pan/Pani.
+reg: Dzięki za info. | Сделайте официальным | Dziękuję za informację. || Dziękuję za przekazane informacje. || Dziękuję za udzielenie informacji. || Dziękuję za informacje. | dzięki, info — разговорные; официально: **dziękuję za informację**.
+reg: Musimy pogadać o tym projekcie. | Официально (письмо руководителю) | Chciałbym omówić z Panem ten projekt. || Chciałabym porozmawiać z Panią o tym projekcie. || Proponuję spotkanie w celu omówienia projektu. || Chciałbym porozmawiać z Panem o tym projekcie. | pogadać — разговорное; официально: **omówić / porozmawiać**.
+
+gap: Nie mogę się ___ na tym tekście, bo jest za głośno. | skupić || skoncentrować | **skupić się na** + предложный.
+gap: Wszystko ___ od pogody. | zależy | **zależeć od** + родительный.
+gap: Dziękuję ___ cierpliwość. | za | **dziękować za** + винительный.
+gap: Ta decyzja ___ wiele kontrowersji. | wywołała || wzbudziła || budzi || wywołuje || wzbudza | **wywołać / wzbudzić kontrowersje**.
+gap: Musimy ___ pod uwagę wszystkie koszty. | wziąć || brać | **wziąć pod uwagę** — учесть.
+gap: Spotkanie nie ___ do skutku z powodu choroby prelegenta. | doszło | **dojść do skutku** — состояться.
+gap: Gdybyś mnie wcześniej ___, przyjechałbym. | uprzedził || uprzedziła || poinformował || poinformowała || powiadomił || powiadomiła | После **gdyby** — форма прошедшего времени.
+gap: ___ że było zimno, poszliśmy nad morze. | Mimo || Pomimo | **mimo że / pomimo że** — хотя.
+gap: Im dłużej o tym myślę, ___ mniej mi się to podoba. | tym | Пара **im… tym…**
+gap: Proszę ___ uwagę na wysokie stopnie. | zwrócić | **zwrócić uwagę na** — обратить внимание.
+gap: Nie ma tu ___ do zrobienia, wszystko jest gotowe. | nic || niczego | После nie ma — родительный: niczego (в разговорной речи и nic).
+gap: Spóźniłem się ___ korka na autostradzie. | z powodu | **z powodu** + родительный: z powodu korka.
+gap: Wniosek należy złożyć ___ końca miesiąca. | do | **do** + родительный — «до».
+gap: Oskarżony nie przyznał się ___ winy. | do | **przyznać się do winy**.
+gap: Ten film jest oparty ___ faktach. | na | **oparty na faktach**.
+gap: Zgadzam się ___ tobą w stu procentach. | z | **zgadzać się z** + творительный.
+gap: Kandydat musi wykazać się ___ myśleniem. | samodzielnym || krytycznym || analitycznym || logicznym | **wykazać się** + творительный.
+gap: Po długich negocjacjach strony ___ porozumienie. | osiągnęły || zawarły | **osiągnąć / zawrzeć porozumienie**.
+gap: Ze ___ na remont biblioteka będzie zamknięta. | względu | **ze względu na** — из-за, учитывая.
+gap: Nie ___ wątpliwości, że to był błąd. | ulega || ma | **nie ulega wątpliwości / nie ma wątpliwości**.
+
+cont: Choć praca zdalna ma wiele zalet, | Продолжите мысль: назовите минус и аргумент | Choć praca zdalna ma wiele zalet, sprzyja izolacji i utrudnia budowanie relacji w zespole, co na dłuższą metę może obniżać motywację. | После уступки (choć…) нужен **контраргумент**.
+cont: Gdybym mógł zmienić jedną rzecz w moim mieście, | Продолжите в условном наклонении | Gdybym mógł zmienić jedną rzecz w moim mieście, zamknąłbym centrum dla samochodów i zamienił główne ulice w deptaki. | Главная часть — в условном наклонении (**-łbym**).
+cont: Z jednej strony media społecznościowe pozwalają utrzymywać kontakt z bliskimi, | Продолжите с «z drugiej strony» | Z jednej strony media społecznościowe pozwalają utrzymywać kontakt z bliskimi, z drugiej strony sprawiają, że coraz rzadziej rozmawiamy twarzą w twarz. | Пара **z jednej strony… z drugiej strony**.
+cont: Wbrew powszechnej opinii | Опровергните стереотип | Wbrew powszechnej opinii Polacy czytają coraz więcej, zwłaszcza dzięki audiobookom. | **wbrew** + дательный — «вопреки».
+cont: Nie ulega wątpliwości, że | Сформулируйте тезис эссе | Nie ulega wątpliwości, że znajomość języków obcych zwiększa szanse na rynku pracy. | Тезис — утверждение, которое потом аргументируется.
+cont: W związku z licznymi skargami mieszkańców | Продолжите как официальное сообщение | W związku z licznymi skargami mieszkańców informujemy, że od przyszłego miesiąca odpady będą odbierane dwa razy w tygodniu. | Официальный регистр: **informujemy, że…**
+cont: Reasumując, | Сделайте вывод эссе о пользе путешествий | Reasumując, podróże poszerzają horyzonty, uczą tolerancji i pomagają lepiej zrozumieć samego siebie. | Вывод обобщает аргументы и не вводит новых фактов.
+cont: Ku mojemu zaskoczeniu | Расскажите о неожиданном событии | Ku mojemu zaskoczeniu egzaminator zapytał mnie nie o gramatykę, lecz o moje hobby. | **ku** + дательный (ku zaskoczeniu); nie… lecz… — «не…, а…».
+cont: Trudno się nie zgodzić z tezą, że | Приведите тезис и аргумент | Trudno się nie zgodzić z tezą, że zdrowe odżywianie jest dziś drogie, ponieważ ceny warzyw rosną szybciej niż płace. | Аргумент через **ponieważ / gdyż**.
+cont: Choć wielu uważa, że studia są stratą czasu, | Выразите противоположную позицию | Choć wielu uważa, że studia są stratą czasu, moim zdaniem dają one nie tylko wiedzę, ale także umiejętność samodzielnego myślenia. | Противопоставление позиций; **nie tylko…, ale także…**
+
+use: bagatelizować | преуменьшать значение | Nie należy bagatelizować pierwszych objawów choroby. | **bagatelizować** + винительный (coś).
+use: wbrew | вопреки | Wbrew zapowiedziom ceny biletów nie wzrosły. | **wbrew** + дательный.
+use: ze względu na | из-за, учитывая | Ze względu na złą pogodę wycieczka została odwołana. | **ze względu na** + винительный.
+use: dopuścić się | совершить (проступок) | Pracownik dopuścił się rażącego zaniedbania. | **dopuścić się** + родительный (чего-то плохого).
+use: przyczynić się do | способствовать | Nowa linia metra przyczyniła się do zmniejszenia korków. | **przyczynić się do** + родительный.
+use: tudzież | а также, или (книжн.) | Na stole leżały jabłka, gruszki tudzież śliwki. | **tudzież** — книжное «а также, либо».
+use: niemniej jednak | тем не менее | Plan był ryzykowny, niemniej jednak się powiódł. | Противопоставление после уступки.
+use: ilekroć | всякий раз, когда | Ilekroć przyjeżdżam do Gdańska, idę nad morze. | **ilekroć** вводит повторяющееся действие.
+use: zarzucać | упрекать (кого-то в чём-то) | Opozycja zarzuca rządowi brak przejrzystości. | **zarzucać** + дательный (komu) + винительный (co).
+use: stanowić | являться, представлять собой | Turystyka stanowi główne źródło dochodu regionu. | **stanowić** + винительный — книжный аналог «быть».
+use: skutkować | приводить к, влечь за собой | Nieopłacenie faktury skutkuje naliczeniem odsetek. | **skutkować** + творительный.
+use: na domiar złego | в довершение всего | Spóźniłem się na pociąg, a na domiar złego zaczęło padać. | Вводное выражение: к неприятности добавляется ещё одна.
+use: o ile | если только | Przyjdę, o ile skończę pracę na czas. | **o ile** — условие: «если только».
+use: bynajmniej | вовсе не | Nie jest to bynajmniej łatwe zadanie. | **bynajmniej** усиливает отрицание: «вовсе не, отнюдь не».
+use: wychodzić z założenia | исходить из того, что | Wychodzę z założenia, że każdy zasługuje na drugą szansę. | **wychodzić z założenia, że…**
+
+op: Czy praca zdalna powinna stać się standardem? | Moim zdaniem praca zdalna nie powinna być jedynym modelem. Pozwala oszczędzać czas na dojazdach, ale utrudnia integrację zespołu, dlatego najlepszym rozwiązaniem jest model hybrydowy. | Структура: **позиция → аргумент → вывод**; связки moim zdaniem, ale, dlatego.
+op: Czy warto uczyć się języków, skoro istnieją dobre tłumacze automatyczne? | Uważam, że warto, ponieważ język to nie tylko narzędzie, ale klucz do kultury. Tłumacz nie przekaże emocji ani kontekstu, a bezpośrednia rozmowa buduje zaufanie. | Аргумент + пример.
+op: Czy w centrach miast powinien obowiązywać zakaz wjazdu samochodów? | Jestem za ograniczeniem ruchu, choć nie za całkowitym zakazem. Mniej aut oznacza czystsze powietrze, jednak trzeba zapewnić dobrą komunikację miejską i dojazd dla mieszkańców. | Можно занять промежуточную позицию: **jestem za…, choć…**
+op: Czy szkoła powinna uczyć przedsiębiorczości? | Zdecydowanie tak. Młodzi ludzie powinni wiedzieć, jak działa rynek, jak planować budżet i jak założyć firmę, bo te umiejętności przydają się niezależnie od zawodu. | Подкрепите мнение **конкретикой**.
+op: Co jest ważniejsze w pracy: wysoka pensja czy dobra atmosfera? | Dla mnie ważniejsza jest atmosfera, ponieważ w toksycznym środowisku nawet wysoka pensja nie daje satysfakcji. Oczywiście wynagrodzenie musi być godziwe, ale nie jest jedynym kryterium. | Уступка **oczywiście…, ale…** делает ответ взвешенным.
+op: Czy media społecznościowe szkodzą demokracji? | Moim zdaniem mogą jej szkodzić, ponieważ algorytmy zamykają nas w bańkach informacyjnych i sprzyjają dezinformacji. Z drugiej strony umożliwiają obywatelom szybką mobilizację. | Взвесьте **плюсы и минусы**.
+op: Czy turystyka masowa powinna być ograniczana? | Uważam, że w najbardziej obleganych miejscach tak, na przykład przez limity wejść lub opłaty. Mieszkańcy mają prawo do normalnego życia, a zabytki trzeba chronić przed zniszczeniem. | Предложите **решение**, а не только оценку.
+op: Czy egzaminy są dobrym sposobem sprawdzania wiedzy? | Egzaminy są potrzebne, ale nie powinny być jedynym sposobem oceniania. Często sprawdzają pamięć, a nie umiejętność myślenia, dlatego warto łączyć je z projektami. | Позиция «**да, но**».
+op: Czy warto choć przez rok pomieszkać za granicą? | Zdecydowanie warto. Taki rok uczy samodzielności, otwiera na inne kultury i pozwala spojrzeć na własny kraj z dystansu. | Перечисление трёх аргументов в одном предложении.
+op: Czy sztuczna inteligencja zastąpi nauczycieli? | Nie sądzę. Sztuczna inteligencja może pomagać w ćwiczeniach i ocenianiu, ale nie zastąpi relacji z nauczycielem, który motywuje i rozumie emocje uczniów. | Отрицание + аргумент.

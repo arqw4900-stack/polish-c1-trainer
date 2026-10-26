@@ -1,0 +1,256 @@
+# Сочетания и обороты | Kolokacje i zwroty
+// [слово] в квадратных скобках — то, что нужно вписать в карточке «Допишите сочетание»
+// глагол + существительное
+[podjąć] decyzję | принять решение | Po długim namyśle podjęła decyzję o przeprowadzce.
+[podjąć] próbę | предпринять попытку | Ratownicy podjęli próbę dotarcia do rozbitków.
+[podjąć] wyzwanie | принять вызов | Drużyna podjęła wyzwanie i wygrała z faworytem.
+[podjąć] współpracę | начать сотрудничество | Uczelnia podjęła współpracę z firmą technologiczną.
+[podjąć] działania | предпринять меры | Władze podjęły działania, żeby ograniczyć smog.
+[rozstrzygnąć] spór | разрешить спор | Sąd rozstrzygnie spór jeszcze w tym roku.
+[rozstrzygnąć] kwestię | решить вопрос | Tę kwestię trzeba rozstrzygnąć przed podpisaniem umowy.
+ostatecznie [rozstrzygnąć] | окончательно решить | Sprawę ostatecznie rozstrzygnie zarząd.
+[rozstrzygnąć] konkurs | подвести итоги конкурса | Konkurs na projekt pomnika rozstrzygnięto w maju.
+[ponieść] konsekwencje | понести последствия | Każdy, kto łamie przepisy, musi ponieść konsekwencje.
+[ponieść] porażkę | потерпеть поражение | Partia poniosła porażkę w wyborach samorządowych.
+[ponieść] koszty | нести расходы | Kto poniesie koszty naprawy?
+[ponieść] stratę | понести убыток | W pierwszym roku firma poniosła dużą stratę.
+[wyciągnąć] wnioski | сделать выводы | Musimy wyciągnąć wnioski z tej porażki.
+[wyciągnąć] konsekwencje | применить санкции, сделать оргвыводы | Dyrekcja wyciągnie konsekwencje wobec winnych.
+[zwrócić] uwagę na | обратить внимание на | Zwróć uwagę na termin złożenia dokumentów.
+[zwrócić się] z prośbą | обратиться с просьбой | Zwracam się z uprzejmą prośbą o przedłużenie terminu.
+[odnieść] sukces | добиться успеха | Firma odniosła sukces na rynku niemieckim.
+[odnieść] wrażenie | получить впечатление, показаться (кому-то) | Odniosłem wrażenie, że nie był zadowolony.
+[odnieść] obrażenia | получить травмы | W wypadku dwie osoby odniosły obrażenia.
+[odnieść się] do | высказаться по поводу, отреагировать на | Minister nie odniósł się do zarzutów.
+[złożyć] rezygnację | подать заявление об уходе | Prezes złożył rezygnację po skandalu.
+[złożyć] skargę | подать жалобу | Mieszkańcy złożyli skargę na hałas z klubu.
+[złożyć] zeznania | дать показания | Świadek złożył zeznania przed sądem.
+[złożyć] ofertę | подать предложение (коммерческое) | Trzy firmy złożyły ofertę w przetargu.
+[złożyć] obietnicę | дать обещание | Złożył obietnicę, której nie dotrzymał.
+[złożyć] gratulacje | поздравить (официально) | Składam serdeczne gratulacje z okazji awansu.
+[wnieść] sprzeciw | заявить возражение | Sąsiedzi wnieśli sprzeciw wobec budowy.
+[wnieść] wkład | внести вклад | Każdy członek zespołu wniósł wkład w projekt.
+[wnieść] opłatę | внести плату | Opłatę należy wnieść przelewem.
+[wywrzeć] wpływ | оказать влияние | Ta książka wywarła na mnie ogromny wpływ.
+[wywrzeć] presję | оказать давление | Związkowcy wywierają presję na rząd.
+[wywrzeć] wrażenie | произвести впечатление | Jej przemówienie wywarło duże wrażenie.
+[zyskać] na znaczeniu | приобрести большее значение | Praca zdalna zyskała na znaczeniu po pandemii.
+[zyskać] poparcie | получить поддержку | Projekt zyskał poparcie mieszkańców.
+[spełnić] oczekiwania | оправдать ожидания | Nowy model nie spełnił oczekiwań klientów.
+[spełniać] wymagania | отвечать требованиям | Kandydat spełnia wszystkie wymagania formalne.
+[spełnić] warunki | выполнить условия | Aby dostać kredyt, trzeba spełnić kilka warunków.
+[budzić] wątpliwości | вызывать сомнения | Ta interpretacja przepisów budzi wątpliwości.
+[budzić] zaufanie | внушать доверие | Lekarz budził zaufanie pacjentów.
+[budzić] sprzeciw | вызывать протест | Plan wycinki budzi sprzeciw ekologów.
+[rzucić] światło na | пролить свет на | Nowe dokumenty rzucają światło na tę sprawę.
+[stawić] czoła | противостоять, встретить лицом к лицу | Musimy stawić czoła nowym wyzwaniom.
+[odegrać] rolę | сыграть роль | Media odegrały kluczową rolę w kampanii.
+[nawiązać] kontakt | установить контакт | Udało nam się nawiązać kontakt z producentem.
+[nawiązać] współpracę | наладить сотрудничество | Gmina nawiązała współpracę z miastem partnerskim.
+[nawiązać] rozmowę | завязать разговор | W pociągu nawiązał rozmowę z sąsiadem.
+[zawrzeć] kompromis | достичь компромисса | Strony zawarły kompromis w sprawie płac.
+[zawrzeć] znajomość | завести знакомство | Na wakacjach zawarła wiele nowych znajomości.
+[zawrzeć] związek małżeński | вступить в брак | Zawarli związek małżeński w urzędzie stanu cywilnego.
+[dotrzymać] słowa | сдержать слово | Zawsze dotrzymuje słowa.
+[dotrzymać] obietnicy | сдержать обещание | Rząd nie dotrzymał obietnicy wyborczej.
+[dotrzymać] towarzystwa | составить компанию | Dotrzymasz mi towarzystwa w drodze na dworzec?
+[wysunąć] argument | выдвинуть аргумент | Opozycja wysunęła mocny argument przeciwko reformie.
+[wysunąć] propozycję | выдвинуть предложение | Wysunął propozycję skrócenia czasu pracy.
+[wysunąć] zarzut | выдвинуть обвинение | Wysunięto wobec niego poważne zarzuty.
+[postawić] warunek | поставить условие | Inwestor postawił jeden warunek: szybki termin.
+[postawić] na swoim | настоять на своём | Jak zwykle postawiła na swoim.
+[postawić] sprawę jasno | расставить точки над «и» | Postawmy sprawę jasno: nie dostaniesz podwyżki.
+[dojść] do porozumienia | прийти к соглашению | Po wielu godzinach strony doszły do porozumienia.
+[dojść] do wniosku | прийти к выводу | Doszedłem do wniosku, że to zły pomysł.
+[dojść] do skutku | состояться (о планах) | Spotkanie nie doszło do skutku.
+[wziąć] pod uwagę | принять во внимание | Trzeba wziąć pod uwagę koszty transportu.
+[wziąć] na siebie odpowiedzialność | взять на себя ответственность | Szef wziął na siebie odpowiedzialność za błąd.
+[brać] udział | принимать участие | W konferencji bierze udział stu ekspertów.
+[zasięgnąć] opinii | узнать мнение (специалиста) | Przed operacją warto zasięgnąć opinii drugiego lekarza.
+[zasięgnąć] porady | проконсультироваться | Zasięgnij porady prawnika, zanim podpiszesz umowę.
+[uzyskać] zgodę | получить разрешение | Na remont trzeba uzyskać zgodę konserwatora zabytków.
+[uzyskać] dostęp | получить доступ | Hakerzy uzyskali dostęp do danych klientów.
+[cieszyć się] popularnością | пользоваться популярностью | Ten serial cieszy się ogromną popularnością.
+[cieszyć się] zaufaniem | пользоваться доверием | Strażacy cieszą się największym zaufaniem społecznym.
+[cieszyć się] dobrym zdrowiem | быть в добром здравии | Babcia mimo wieku cieszy się dobrym zdrowiem.
+[ponosić] odpowiedzialność | нести ответственность | Za bezpieczeństwo dzieci odpowiedzialność ponosi organizator.
+[stanowić] zagrożenie | представлять угрозу | Spróchniałe drzewo stanowi zagrożenie dla przechodniów.
+[stanowić] wyzwanie | быть серьёзной задачей | Starzenie się społeczeństwa stanowi wyzwanie dla państwa.
+[stanowić] wyjątek | быть исключением | Ten przypadek stanowi wyjątek od reguły.
+[zdawać] sobie sprawę | отдавать себе отчёт | Nie zdawałem sobie sprawy z powagi sytuacji.
+[mieć] na uwadze | иметь в виду, учитывать | Miej na uwadze, że sklep zamykają o osiemnastej.
+[dać] do zrozumienia | дать понять | Dała mi do zrozumienia, że nie chce rozmawiać.
+[wyrazić] zgodę | дать согласие | Rodzice wyrazili zgodę na wyjazd.
+[wyrazić] ubolewanie | выразить сожаление (офиц.) | Rzecznik wyraził ubolewanie z powodu incydentu.
+[wyrazić] nadzieję | выразить надежду | Wyrażam nadzieję, że sprawa zostanie szybko wyjaśniona.
+[zgłosić] zastrzeżenia | высказать замечания, возражения | Prawnik zgłosił zastrzeżenia do umowy.
+[napotkać] trudności | столкнуться с трудностями | Badacze napotkali nieoczekiwane trudności.
+[napotkać] opór | встретить сопротивление | Reforma napotkała opór nauczycieli.
+[przeprowadzić] badanie | провести исследование | Przeprowadzono badanie na grupie tysiąca osób.
+[przeprowadzić] reformę | провести реформу | Rząd przeprowadził reformę emerytalną.
+[przeprowadzić] rozmowę | провести беседу | Dyrektor przeprowadził rozmowę z rodzicami ucznia.
+[prowadzić] śledztwo | вести следствие | Prokuratura prowadzi śledztwo w sprawie pożaru.
+[prowadzić] działalność gospodarczą | вести предпринимательскую деятельность | Od pięciu lat prowadzi działalność gospodarczą.
+[sprostać] wyzwaniu | справиться с трудной задачей | Nie każdy jest w stanie sprostać takiemu wyzwaniu.
+[osiągnąć] cel | достичь цели | Konsekwencja pozwoliła jej osiągnąć cel.
+[osiągnąć] porozumienie | достичь соглашения | Negocjatorzy osiągnęli porozumienie nad ranem.
+[narazić się] na krytykę | навлечь на себя критику | Spóźniając się, narażasz się na krytykę.
+[narazić] na niebezpieczeństwo | подвергнуть опасности | Kierowca naraził pasażerów na niebezpieczeństwo.
+[popaść] w długi | влезть в долги | Po utracie pracy popadł w długi.
+[popaść] w konflikt | вступить в конфликт | Popadł w konflikt z prawem.
+[ulec] zmianie | подвергнуться изменению | Rozkład jazdy uległ zmianie.
+[ulec] wypadkowi | попасть в аварию | Kierowca autobusu uległ wypadkowi.
+[ulec] pokusie | поддаться искушению | Uległem pokusie i zjadłem cały tort.
+[dokonać] wyboru | сделать выбор | Trudno dokonać wyboru między dwiema ofertami.
+[dokonać] zmian | внести изменения | Dokonaliśmy zmian w regulaminie.
+[dokonać] odkrycia | сделать открытие | Archeolodzy dokonali niezwykłego odkrycia.
+[udzielić] odpowiedzi | дать ответ | Urząd udzieli odpowiedzi w ciągu trzydziestu dni.
+[udzielić] pomocy | оказать помощь | Przechodnie udzielili rannemu pierwszej pomocy.
+[udzielić] informacji | предоставить информацию | Niestety nie mogę udzielić informacji przez telefon.
+[udzielić] wywiadu | дать интервью | Aktorka rzadko udziela wywiadów.
+[wywiązać się] z zobowiązań | выполнить обязательства | Firma nie wywiązała się z zobowiązań wobec klientów.
+[nieść] pomoc | нести помощь (книжн.) | Wolontariusze niosą pomoc bezdomnym.
+[pełnić] funkcję | исполнять функцию, занимать пост | Od roku pełni funkcję rzecznika.
+[pokładać] nadzieję | возлагать надежды | Kibice pokładają wielkie nadzieje w nowym trenerze.
+[żywić] urazę | затаить обиду | Nie żywię do niego urazy.
+[snuć] plany | строить планы | Snuli plany na wspólną przyszłość.
+[toczyć] spór | вести спор, тяжбу | Sąsiedzi od lat toczą spór o granicę działki.
+[zaciągnąć] dług | взять в долг | Na leczenie musiał zaciągnąć dług u brata.
+[zaczerpnąć] powietrza | глотнуть воздуха | Wyszedł na balkon zaczerpnąć świeżego powietrza.
+[zażegnać] kryzys | предотвратить кризис | Rządowi udało się zażegnać kryzys.
+[łamać] sobie głowę | ломать голову | Łamię sobie głowę nad tym zadaniem.
+[mieć] coś na myśli | иметь в виду | Co masz na myśli?
+[przywiązywać] wagę do | придавать значение | Firma przywiązuje dużą wagę do jakości.
+[przyjąć] do wiadomości | принять к сведению | Przyjmuję do wiadomości pana decyzję.
+[wyjść] naprzeciw | пойти навстречу | Chcemy wyjść naprzeciw oczekiwaniom klientów.
+[stanąć] na wysokości zadania | оказаться на высоте | Nowy kierownik stanął na wysokości zadania.
+[wchodzić] w grę | рассматриваться (как вариант) | Podwyżka cen nie wchodzi w grę.
+[dać się] we znaki | дать о себе знать (о трудностях) | Upał dał się we znaki mieszkańcom miast.
+[mieć] na celu | иметь целью | Kampania ma na celu promocję zdrowego stylu życia.
+[rzucić] cień na | бросить тень на | Afera rzuciła cień na całą partię.
+[stać] na stanowisku | придерживаться позиции | Rząd stoi na stanowisku, że podatki nie wzrosną.
+[zająć] stanowisko | занять позицию (по вопросу) | Ministerstwo nie zajęło jeszcze stanowiska w tej sprawie.
+[dać] wyraz | выразить, проявить | Dał wyraz swojemu niezadowoleniu.
+[mieć] miejsce | иметь место, происходить | Zdarzenie miało miejsce wczoraj wieczorem.
+// прилагательное + существительное
+[rzęsiste] brawa | бурные аплодисменты | Aktorów pożegnały rzęsiste brawa.
+[ulewny] deszcz | проливной дождь | Ulewny deszcz zalał piwnice.
+[gęsta] mgła | густой туман | Z powodu gęstej mgły odwołano loty.
+[głęboki] szacunek | глубокое уважение | Mam dla niej głęboki szacunek.
+[gruntowna] reforma | основательная реформа | Służba zdrowia wymaga gruntownej reformy.
+[ostra] krytyka | резкая критика | Projekt spotkał się z ostrą krytyką.
+[zażarta] dyskusja | ожесточённая дискуссия | Na sesji rady wywiązała się zażarta dyskusja.
+[ciężka] choroba | тяжёлая болезнь | Po ciężkiej chorobie długo wracał do formy.
+[mocna] kawa | крепкий кофе | Bez mocnej kawy nie zaczynam dnia.
+[nagląca] potrzeba | насущная необходимость | Istnieje nagląca potrzeba zmian w prawie.
+[palący] problem | острая проблема | Brak mieszkań to palący problem młodych ludzi.
+[poważne] zastrzeżenia | серьёзные возражения | Mam poważne zastrzeżenia do tego planu.
+[trafna] uwaga | меткое замечание | To bardzo trafna uwaga.
+[trafna] decyzja | верное решение | Przeprowadzka okazała się trafną decyzją.
+[przemyślana] decyzja | взвешенное решение | To była przemyślana decyzja, a nie impuls.
+[pochopna] decyzja | поспешное решение | Nie podejmuj pochopnych decyzji.
+[świadoma] decyzja | осознанное решение | Rezygnacja z samochodu to moja świadoma decyzja.
+[żywe] zainteresowanie | живой интерес | Wykład spotkał się z żywym zainteresowaniem.
+[bliższe] informacje | подробная информация | Bliższe informacje można uzyskać w sekretariacie.
+[szeroki] wachlarz | широкий спектр | Oferujemy szeroki wachlarz usług.
+[nikłe] szanse | ничтожные шансы | Szanse na wygraną są nikłe.
+[znikome] ryzyko | минимальный риск | Ryzyko powikłań jest znikome.
+[nieodparte] wrażenie | непреодолимое ощущение | Miałem nieodparte wrażenie, że coś ukrywa.
+[bezpośrednie] zagrożenie | непосредственная угроза | Nie ma bezpośredniego zagrożenia dla zdrowia.
+[dotkliwa] kara | суровое наказание | Za te czyny grozi dotkliwa kara.
+[sroga] zima | суровая зима | Sroga zima zaskoczyła drogowców.
+[zagorzały] zwolennik | ярый сторонник | Jest zagorzałym zwolennikiem rowerów w mieście.
+[zaprzysięgły] wróg | заклятый враг | Byli zaprzysięgłymi wrogami od czasów szkoły.
+[zatwardziały] kawaler | закоренелый холостяк | Wujek to zatwardziały kawaler.
+[nałogowy] palacz | заядлый курильщик | Był nałogowym palaczem przez trzydzieści lat.
+[ślepy] zaułek | тупик, безвыходное положение | Negocjacje znalazły się w ślepym zaułku.
+[błędne] koło | замкнутый круг | Długi i kolejne kredyty to błędne koło.
+[dobra] passa | полоса удач | Drużyna jest w dobrej passie.
+[zła] passa | полоса неудач | Zła passa trwa już pięć meczów.
+[gorące] przyjęcie | тёплый приём | Delegację spotkało gorące przyjęcie.
+[chłodne] przyjęcie | холодный приём | Projekt spotkał się z chłodnym przyjęciem.
+[rażący] błąd | грубая ошибка | W raporcie znalazł się rażący błąd.
+[rażące] zaniedbanie | грубая халатность | Sąd uznał to za rażące zaniedbanie.
+[wymowne] milczenie | красноречивое молчание | Na pytanie odpowiedział wymownym milczeniem.
+[szczera] prawda | чистая правда | Mówię szczerą prawdę.
+[bolesna] strata | горькая утрата | Śmierć ojca była dla niej bolesną stratą.
+[doniosłe] znaczenie | важное (историческое) значение | To wydarzenie ma doniosłe znaczenie dla regionu.
+[nadzwyczajne] środki | чрезвычайные меры | Rząd wprowadził nadzwyczajne środki bezpieczeństwa.
+[przytłaczająca] większość | подавляющее большинство | Przytłaczająca większość posłów głosowała za.
+// наречие + глагол / прилагательное
+[stanowczo] odmówić | решительно отказать | Stanowczo odmówiła podpisania dokumentu.
+[gorąco] polecić | горячо рекомендовать | Gorąco polecam tę książkę.
+[kategorycznie] zaprzeczyć | категорически отрицать | Rzecznik kategorycznie zaprzeczył plotkom.
+[szczerze] żałować | искренне сожалеть | Szczerze żałuję, że cię uraziłem.
+[ściśle] przestrzegać | строго соблюдать | Należy ściśle przestrzegać zaleceń lekarza.
+w pełni [popierać] | полностью поддерживать | W pełni popieram tę inicjatywę.
+[głęboko] wierzyć | глубоко верить | Głęboko wierzę, że nam się uda.
+[diametralnie] się zmienić | кардинально измениться | Sytuacja zmieniła się diametralnie.
+[skutecznie] zniechęcić | надёжно отбить охоту | Wysokie ceny skutecznie zniechęcają turystów.
+[rzetelnie] wykonać | добросовестно выполнить | Pracę wykonał rzetelnie i na czas.
+[ściśle] tajny | строго секретный | Dokument był ściśle tajny.
+[wysoce] prawdopodobne | весьма вероятно | Jest wysoce prawdopodobne, że lot będzie opóźniony.
+[całkowicie] bezpodstawny | совершенно необоснованный | Te zarzuty są całkowicie bezpodstawne.
+[bezpowrotnie] utracić | безвозвратно потерять | Wiele zabytków zostało bezpowrotnie utraconych.
+[doszczętnie] spłonąć | сгореть дотла | Stodoła spłonęła doszczętnie.
+// предлоги и конструкции
+[kropla] w morzu potrzeb | капля в море | Ta dotacja to kropla w morzu potrzeb.
+w [obliczu] kryzysu | перед лицом кризиса | W obliczu kryzysu firma ograniczyła wydatki.
+na [skutek] | вследствие | Na skutek awarii pociągi kursowały z opóźnieniem.
+z [uwagi] na | ввиду, принимая во внимание | Z uwagi na remont biuro będzie zamknięte.
+w [związku] z | в связи с | W związku z pana pismem uprzejmie informuję, że wniosek rozpatrzono.
+pod [warunkiem], że | при условии, что | Pojadę pod warunkiem, że skończę pracę.
+w [ramach] projektu | в рамках проекта | W ramach projektu powstanie nowa biblioteka.
+na [rzecz] | в пользу, в интересах | Zbieramy pieniądze na rzecz schroniska.
+ze [względu] na | из-за, учитывая | Ze względu na pogodę mecz przełożono.
+w [myśl] przepisów | согласно правилам | W myśl przepisów sklep musi przyjąć reklamację.
+[stosownie] do | в соответствии с | Stosownie do umowy zapłata nastąpi w marcu.
+w [przeciwieństwie] do | в отличие от | W przeciwieństwie do brata jest bardzo cierpliwa.
+bez [względu] na | невзирая на | Bez względu na wynik jesteśmy z was dumni.
+[kosztem] zdrowia | ценой здоровья | Pracował po nocach kosztem zdrowia.
+w [dobie] internetu | в эпоху интернета | W dobie internetu trudno o prywatność.
+// связки и формулы для текстов и писем
+nie [ulega] wątpliwości | не подлежит сомнению | Nie ulega wątpliwości, że klimat się zmienia.
+warto [podkreślić] | стоит подчеркнуть | Warto podkreślić, że projekt jest bezpłatny.
+co [więcej] | более того | Co więcej, ceny wzrosły o połowę.
+[niemniej] jednak | тем не менее | Niemniej jednak warto spróbować.
+w [świetle] badań | в свете исследований | W świetle najnowszych badań ta teza jest wątpliwa.
+z [jednej] strony… z drugiej strony | с одной стороны… с другой стороны | Z jednej strony to wygodne, z drugiej strony drogie.
+[przede] wszystkim | прежде всего | Przede wszystkim chciałbym podziękować organizatorom.
+tym [samym] | тем самым | Spóźnił się, tym samym tracąc szansę na awans.
+jak [wynika] z | как следует из | Jak wynika z raportu, sprzedaż spadła.
+należy [zaznaczyć] | следует отметить | Należy zaznaczyć, że dane są niepełne.
+trudno się nie [zgodzić] | трудно не согласиться | Trudno się nie zgodzić z tym argumentem.
+w moim [przekonaniu] | по моему убеждению | W moim przekonaniu reforma jest konieczna.
+[skłaniam się] ku | я склоняюсь к | Skłaniam się ku drugiej opcji.
+[mimo] to | несмотря на это | Było zimno, mimo to poszliśmy na spacer.
+nie bez [znaczenia] | немаловажно | Nie bez znaczenia jest też koszt całego przedsięwzięcia.
+[uprzejmie] informuję | любезно сообщаю (офиц.) | Uprzejmie informuję, że wniosek został rozpatrzony.
+w [nawiązaniu] do | ссылаясь на, в продолжение | W nawiązaniu do rozmowy telefonicznej przesyłam ofertę.
+z góry [dziękuję] | заранее благодарю | Z góry dziękuję za odpowiedź.
+[pozostaję] z szacunkiem | с уважением (концовка письма) | Pozostaję z szacunkiem, Jan Nowak.
+proszę o pozytywne [rozpatrzenie] | прошу положительно рассмотреть | Proszę o pozytywne rozpatrzenie mojej prośby.
+w [odpowiedzi] na | в ответ на | W odpowiedzi na ogłoszenie przesyłam swoje CV.
+// фразеология
+[chodzić] na skróty | идти лёгким путём | Nie chodź na skróty, zrób to porządnie.
+[trzymać] rękę na pulsie | держать руку на пульсе | Szefowa trzyma rękę na pulsie.
+[wziąć] byka za rogi | взять быка за рога | Czas wziąć byka za rogi i zacząć remont.
+[grać] na zwłokę | тянуть время | Urzędnicy grają na zwłokę.
+[wyjść] z inicjatywą | выступить с инициативой | Mieszkańcy wyszli z inicjatywą budowy placu zabaw.
+[rzucić się] w wir pracy | с головой уйти в работу | Po rozstaniu rzucił się w wir pracy.
+[mieć] pełne ręce roboty | быть по горло в работе | Przed świętami mamy pełne ręce roboty.
+[stanąć] przed dylematem | оказаться перед дилеммой | Stanęła przed trudnym dylematem.
+[dolać] oliwy do ognia | подлить масла в огонь | Jego komentarz tylko dolał oliwy do ognia.
+[wyprowadzić] w pole | перехитрить, обвести вокруг пальца | Oszust wyprowadził w pole nawet doświadczonych policjantów.
+[puścić] mimo uszu | пропустить мимо ушей | Puścił moją uwagę mimo uszu.
+nie [przebierać] w słowach | не стесняться в выражениях | Krytyk nie przebierał w słowach.
+[wyjść] na jaw | выйти наружу, обнаружиться | Prawda w końcu wyszła na jaw.
+[wziąć] sobie do serca | принять близко к сердцу | Nie bierz sobie tego do serca.
+[stracić] głowę | потерять голову | Stracił dla niej głowę.
+[trafić] w sedno | попасть в точку | Twoja uwaga trafiła w sedno.
+[przejść] do porządku dziennego | смириться и забыть (о чём-то) | Nie można przejść do porządku dziennego nad tym skandalem.
+[zejść] na dalszy plan | отойти на второй план | Sprawy osobiste zeszły na dalszy plan.
+[ująć] w słowa | выразить словами | Trudno ująć to w słowa.
+[zachować] zimną krew | сохранять хладнокровие | Pilot zachował zimną krew.
+[zachować] pozory | соблюдать видимость | Starali się zachować pozory szczęśliwego małżeństwa.
+[dać] za wygraną | сдаться | Nie dał za wygraną i spróbował ponownie.

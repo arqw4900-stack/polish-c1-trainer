@@ -1,0 +1,283 @@
+// @ id | вид текста | группа (let/biz/ess/op/inf) | регистр (off/semi/neu/inf) | слов от-до | название по-польски | по-русски
+// task: задание по-польски / ru: задание по-русски / pt: что должно быть в тексте
+// ph: полезная фраза | перевод / m: абзац образца (\n — новая строка)
+
+@ ekspres | Рекламация | let | off | 150-230 | Reklamacja wadliwego ekspresu do kawy | Рекламация на сломанную кофемашину
+task: Miesiąc temu kupił(a) Pan/Pani w sklepie internetowym ekspres do kawy, który przestał działać. Sklep nie odpowiada na wiadomości. Napisz reklamację: opisz zakup i wadę, powołaj się na swoje prawa, przedstaw żądanie (naprawa, wymiana lub zwrot pieniędzy) i wyznacz termin odpowiedzi.
+ru: Вы купили кофемашину в интернет-магазине, через месяц она сломалась, магазин не отвечает. Напишите официальную рекламацию: что и когда куплено, какой дефект, ваше требование и срок ответа.
+pt: Данные покупки: что, когда, номер заказа
+pt: Описание дефекта и когда он появился
+pt: Требование: ремонт, замена или возврат денег
+pt: Срок ответа и что вы сделаете, если ответа не будет
+ph: Zwracam się z reklamacją dotyczącą… | Обращаюсь с рекламацией по поводу…
+ph: Na podstawie przepisów o niezgodności towaru z umową… | На основании норм о несоответствии товара договору…
+ph: Żądam wymiany towaru na nowy / zwrotu zapłaconej kwoty. | Требую замены товара на новый / возврата уплаченной суммы.
+ph: Proszę o ustosunkowanie się do reklamacji w ustawowym terminie 14 dni. | Прошу ответить на рекламацию в установленный законом срок — 14 дней.
+ph: W załączeniu przesyłam kopię dowodu zakupu. | Прилагаю копию подтверждения покупки.
+m: Kraków, 12 maja 2026 r.
+m: Sklep internetowy KawaDom.pl\nul. Handlowa 5\n02-100 Warszawa
+m: Reklamacja ekspresu do kawy – zamówienie nr 45812
+m: Szanowni Państwo,
+m: 10 kwietnia 2026 r. zakupiłam w Państwa sklepie internetowym ekspres do kawy Barista 300 w cenie 1299 zł (zamówienie nr 45812). Po niespełna czterech tygodniach użytkowania urządzenie przestało podgrzewać wodę, a na wyświetlaczu pojawia się komunikat o błędzie E4. Ekspres był używany zgodnie z instrukcją obsługi.
+m: Dwukrotnie, 5 i 8 maja, informowałam Państwa o usterce za pośrednictwem formularza kontaktowego, jednak do dziś nie otrzymałam żadnej odpowiedzi.
+m: Na podstawie przepisów o niezgodności towaru z umową żądam wymiany ekspresu na nowy, wolny od wad. Jeżeli wymiana nie będzie możliwa, proszę o zwrot zapłaconej kwoty na rachunek bankowy, z którego dokonano płatności.
+m: Proszę o ustosunkowanie się do reklamacji w ustawowym terminie 14 dni od daty otrzymania niniejszego pisma. W przypadku braku odpowiedzi będę zmuszona zwrócić się o pomoc do miejskiego rzecznika konsumentów.
+m: W załączeniu przesyłam kopię faktury oraz zdjęcie komunikatu o błędzie.
+m: Z poważaniem\nAnna Nowak
+
+@ skarga | Жалоба | let | off | 130-200 | Skarga na usługę hotelową | Жалоба на гостиницу
+task: Podczas pobytu w hotelu w Zakopanem spotkało Pana/Panią wiele nieprzyjemności: pokój nie odpowiadał opisowi, w nocy było głośno, a obsługa była nieuprzejma. Napisz skargę do dyrekcji hotelu. Opisz problemy, wyraź niezadowolenie stanowczo, ale kulturalnie, i zaproponuj formę rekompensaty.
+ru: Официальная жалоба директору гостиницы: что было не так, твёрдо, но вежливо, и какую компенсацию вы ждёте.
+pt: Даты пребывания и номер брони
+pt: 2–3 конкретные проблемы
+pt: Как отреагировал персонал
+pt: Ожидаемая компенсация и срок ответа
+ph: Z przykrością muszę stwierdzić, że… | С сожалением вынужден констатировать, что…
+ph: Pokój w żaden sposób nie odpowiadał opisowi na stronie. | Номер никак не соответствовал описанию на сайте.
+ph: Szczególne rozczarowanie wywołało zachowanie… | Особое разочарование вызвало поведение…
+ph: Oczekuję częściowego zwrotu kosztów pobytu. | Ожидаю частичного возврата стоимости проживания.
+ph: Liczę na rzetelne rozpatrzenie mojej skargi. | Рассчитываю на добросовестное рассмотрение моей жалобы.
+m: Szanowni Państwo,
+m: w dniach 3–7 lutego 2026 r. przebywałem w Państwa hotelu (rezerwacja nr ZK-2291). Z przykrością muszę stwierdzić, że pobyt pod wieloma względami był rozczarowujący.
+m: Po pierwsze, pokój w żaden sposób nie odpowiadał opisowi na stronie internetowej. Zamiast obiecanego widoku na Giewont okno wychodziło na parking, a łazienka wymagała pilnego remontu. Po drugie, przez trzy noce z rzędu do późna trwały głośne imprezy w restauracji na parterze, co uniemożliwiało sen.
+m: Szczególne rozczarowanie wywołało zachowanie pracownika recepcji, który na moją prośbę o zmianę pokoju odpowiedział, że „hotel nie jest od spełniania zachcianek gości”. Taka postawa jest nie do przyjęcia w obiekcie, który reklamuje się jako czterogwiazdkowy.
+m: W związku z powyższym oczekuję częściowego zwrotu kosztów pobytu w wysokości 40% ceny, tj. 680 zł. Liczę na rzetelne rozpatrzenie mojej skargi i odpowiedź w ciągu 14 dni.
+m: Z poważaniem\nTomasz Lewandowski
+
+@ podanie | Заявление | let | off | 120-200 | Podanie o urlop dziekański | Заявление об академическом отпуске
+task: Studiujesz na drugim roku. Z powodu choroby członka rodziny musisz na rok przerwać studia. Napisz podanie do dziekana z prośbą o urlop dziekański. Uzasadnij prośbę, wskaż okres urlopu i wymień załączniki.
+ru: Заявление декану об академическом отпуске: причина, срок, приложения.
+pt: Шапка: данные студента (номер зачётки, курс, направление), дата, адресат
+pt: Просьба и срок отпуска
+pt: Обоснование просьбы
+pt: Приложения и формула вежливости в конце
+ph: Uprzejmie proszę o udzielenie mi urlopu dziekańskiego w roku akademickim… | Прошу предоставить мне академический отпуск на … учебный год
+ph: Swoją prośbę motywuję tym, że… | Свою просьбу обосновываю тем, что…
+ph: Do podania załączam… | К заявлению прилагаю…
+ph: Proszę o pozytywne rozpatrzenie mojej prośby. | Прошу положительно рассмотреть мою просьбу.
+m: Katarzyna Wiśniewska\nnr albumu 104578\nII rok, socjologia, studia stacjonarne
+m: Wrocław, 2 września 2026 r.
+m: Dziekan Wydziału Nauk Społecznych\nUniwersytetu Wrocławskiego
+m: Podanie o udzielenie urlopu dziekańskiego
+m: Uprzejmie proszę o udzielenie mi urlopu dziekańskiego w roku akademickim 2026/2027.
+m: Swoją prośbę motywuję tym, że od czerwca opiekuję się ciężko chorą matką, która po udarze wymaga stałej pomocy. Jestem jedyną osobą w rodzinie, która może ją zapewnić. Pogodzenie opieki z zajęciami stacjonarnymi jest w tej sytuacji niemożliwe, a nie chciałabym rezygnować ze studiów, które są dla mnie bardzo ważne.
+m: Dotychczas zaliczałam wszystkie przedmioty w terminie, a moja średnia ocen wynosi 4,6. Po zakończeniu urlopu zamierzam kontynuować naukę od trzeciego semestru.
+m: Do podania załączam zaświadczenie lekarskie o stanie zdrowia matki oraz zaświadczenie z ośrodka pomocy społecznej.
+m: Proszę o pozytywne rozpatrzenie mojej prośby.
+m: Z wyrazami szacunku\nKatarzyna Wiśniewska
+
+@ odwolanie | Апелляция | let | off | 130-200 | Odwołanie od decyzji o stypendium | Обжалование отказа в стипендии
+task: Komisja stypendialna odmówiła Ci stypendium socjalnego, ponieważ — jej zdaniem — dochód w Twojej rodzinie przekracza próg. Uważasz, że komisja popełniła błąd w obliczeniach. Napisz odwołanie do rektora: wskaż decyzję, przedstaw argumenty i dowody oraz sformułuj żądanie.
+ru: Обжалование у ректора отказа в социальной стипендии: какое решение, в чём ошибка комиссии, доказательства, требование.
+pt: Ссылка на решение (номер, дата)
+pt: В чём ошибка комиссии
+pt: Доказательства (приложения)
+pt: Чёткое требование
+ph: Na podstawie § … regulaminu wnoszę odwołanie od decyzji… | На основании § … положения обжалую решение…
+ph: Decyzja ta jest moim zdaniem niezasadna, ponieważ… | Это решение, по моему мнению, необоснованно, поскольку…
+ph: Komisja błędnie przyjęła, że… | Комиссия ошибочно исходила из того, что…
+ph: Wnoszę o uchylenie zaskarżonej decyzji i przyznanie mi stypendium. | Прошу отменить обжалуемое решение и назначить мне стипендию.
+m: Michał Zieliński\nnr albumu 98321\nWydział Prawa i Administracji
+m: Łódź, 20 października 2026 r.
+m: Jego Magnificencja\nRektor Uniwersytetu Łódzkiego
+m: Odwołanie od decyzji Komisji Stypendialnej
+m: Na podstawie § 21 Regulaminu świadczeń dla studentów wnoszę odwołanie od decyzji Komisji Stypendialnej z dnia 10 października 2026 r. (nr KS/412/2026), odmawiającej mi przyznania stypendium socjalnego.
+m: Decyzja ta jest moim zdaniem niezasadna, ponieważ komisja błędnie przyjęła, że dochód w mojej rodzinie wynosi 1720 zł na osobę. Przy obliczeniach pominięto mojego młodszego brata, który jest uczniem szkoły średniej i pozostaje na utrzymaniu rodziców. Po uwzględnieniu czterech, a nie trzech członków rodziny dochód na osobę wynosi 1290 zł, a więc nie przekracza progu określonego w regulaminie.
+m: Na potwierdzenie powyższego załączam zaświadczenie ze szkoły brata oraz jego akt urodzenia.
+m: Wobec powyższego wnoszę o uchylenie zaskarżonej decyzji i przyznanie mi stypendium socjalnego od października 2026 r.
+m: Z poważaniem\nMichał Zieliński
+
+@ halas | Обращение в учреждение | let | off | 150-230 | Pismo do urzędu miasta w sprawie hałasu | Обращение в мэрию из-за ночного шума
+task: Od kilku miesięcy pod Twoim blokiem odbywają się nocne dostawy do supermarketu: ciężarówki rozładowują towar między 2.00 a 4.00. Napisz pismo do Urzędu Miasta (Wydział Ochrony Środowiska): opisz problem i jego skutki dla mieszkańców oraz poproś o konkretne działania.
+ru: Обращение в мэрию: ночные разгрузки грузовиков под окнами — проблема, последствия, конкретная просьба.
+pt: Адрес и суть проблемы
+pt: Как долго и как часто это происходит
+pt: Последствия для жителей и что вы уже предпринимали
+pt: Конкретная просьба (замер шума, ограничение часов)
+ph: Zwracam się z prośbą o interwencję w sprawie… | Обращаюсь с просьбой вмешаться в ситуацию с…
+ph: Problem występuje regularnie od… | Проблема регулярно возникает с…
+ph: Sytuacja ta narusza ciszę nocną i… | Эта ситуация нарушает ночную тишину и…
+ph: Wnoszę o przeprowadzenie kontroli / pomiaru hałasu. | Прошу провести проверку / замер шума.
+ph: Do pisma dołączam listę podpisów mieszkańców. | К письму прилагаю список подписей жителей.
+m: Urząd Miasta Poznania\nWydział Ochrony Środowiska
+m: Poznań, 15 listopada 2026 r.
+m: Dotyczy: hałasu związanego z nocnymi dostawami do sklepu przy ul. Polnej 14
+m: Szanowni Państwo,
+m: zwracam się z prośbą o interwencję w sprawie uciążliwego hałasu, który od czerwca bieżącego roku zakłóca spokój mieszkańców bloku przy ul. Polnej 12.
+m: Problem występuje regularnie, co najmniej cztery razy w tygodniu. Między godziną 2.00 a 4.00 pod oknami naszego budynku rozładowywane są ciężarówki dostarczające towar do supermarketu. Pracujące silniki, sygnały cofania i trzaskanie metalowych wózków słychać nawet przy zamkniętych oknach.
+m: Sytuacja ta narusza ciszę nocną i odbija się na zdrowiu mieszkańców, wśród których są małe dzieci i osoby starsze. Nasze wielokrotne prośby kierowane do kierownictwa sklepu pozostały bez odpowiedzi.
+m: W związku z powyższym wnoszę o przeprowadzenie pomiaru hałasu w godzinach nocnych oraz o podjęcie działań, które zobowiążą sklep do przeniesienia dostaw na godziny dzienne.
+m: Do pisma dołączam listę podpisów 46 mieszkańców.
+m: Z poważaniem\nPiotr Wójcik\nul. Polna 12/7, 60-001 Poznań
+
+@ staz | Мотивационное письмо | let | off | 150-230 | List motywacyjny na staż | Мотивационное письмо на стажировку
+task: Fundacja zajmująca się ochroną przyrody szuka stażysty/stażystki do działu komunikacji (media społecznościowe, kontakt z wolontariuszami). Napisz list motywacyjny: wyjaśnij, dlaczego interesuje Cię ta oferta, przedstaw swoje doświadczenie i umiejętności oraz zaproponuj spotkanie.
+ru: Мотивационное письмо на стажировку в отдел коммуникаций природоохранного фонда: почему именно вы, опыт, навыки, готовность к собеседованию.
+pt: Откуда вы узнали о стажировке
+pt: Почему именно эта организация
+pt: Опыт и навыки с конкретными примерами
+pt: Готовность к собеседованию
+ph: W odpowiedzi na ogłoszenie zamieszczone na… | В ответ на объявление, размещённое на…
+ph: Szczególnie bliska jest mi misja Fundacji, ponieważ… | Мне особенно близка миссия Фонда, поскольку…
+ph: Podczas studiów miałam okazję… | Во время учёбы у меня была возможность…
+ph: Jestem przekonana, że moje doświadczenie pozwoli mi… | Я убеждена, что мой опыт позволит мне…
+ph: Chętnie przedstawię swoją kandydaturę podczas rozmowy. | С удовольствием представлю свою кандидатуру на собеседовании.
+m: Szanowni Państwo,
+m: w odpowiedzi na ogłoszenie zamieszczone na portalu ngo.pl chciałabym zgłosić swoją kandydaturę na staż w dziale komunikacji Fundacji „Dzika Polska”.
+m: Szczególnie bliska jest mi misja Fundacji, ponieważ od kilku lat działam jako wolontariuszka przy ochronie płazów w okolicach Lublina. Wiem z doświadczenia, jak wiele zależy od dobrej komunikacji: to dzięki jednemu filmowi w mediach społecznościowych na wiosenną akcję przenoszenia żab zgłosiło się ponad sto nowych osób.
+m: Obecnie kończę studia magisterskie z dziennikarstwa i komunikacji społecznej. Podczas studiów miałam okazję prowadzić profil koła naukowego, którego liczba obserwujących wzrosła w ciągu roku z 800 do 5000. Swobodnie posługuję się narzędziami do tworzenia grafik i montażu wideo, a także piszę teksty popularnonaukowe. Moją mocną stroną jest umiejętność przekładania trudnych tematów na prosty i angażujący język.
+m: Jestem przekonana, że doświadczenie w pracy z wolontariuszami oraz w prowadzeniu kampanii internetowych pozwoli mi szybko odnaleźć się w Państwa zespole.
+m: Chętnie przedstawię swoją kandydaturę podczas rozmowy. Dziękuję za poświęcony czas.
+m: Z poważaniem\nZuzanna Krawczyk
+
+@ szef | Деловое письмо | biz | semi | 120-190 | E-mail do przełożonej: prośba o pracę zdalną | Письмо начальнице: просьба об удалённой работе
+task: Od przyszłego miesiąca chcesz pracować zdalnie dwa dni w tygodniu. Napisz e-mail do swojej przełożonej, pani Marty Kowalczyk. Uzasadnij prośbę, przedstaw korzyści dla firmy i zaproponuj, jak będziesz w kontakcie z zespołem.
+ru: Деловое письмо начальнице: просьба работать из дома два дня в неделю — обоснование, польза для работы, как вы будете на связи.
+pt: Чёткая просьба: какие дни и с какого числа
+pt: Обоснование
+pt: Польза для работы и как не пострадает команда
+pt: Предложение обсудить или попробовать на время
+ph: Pani Marto, | Обращение к начальнице по имени (полуофициально)
+ph: Chciałbym zapytać o możliwość… | Хотел бы спросить о возможности…
+ph: Jestem przekonany, że takie rozwiązanie… | Я уверен, что такое решение…
+ph: Oczywiście pozostanę w stałym kontakcie z zespołem. | Разумеется, я останусь на постоянной связи с командой.
+ph: Chętnie omówię szczegóły w dogodnym dla Pani terminie. | С удовольствием обсужу детали в удобное для вас время.
+m: Temat: Prośba o pracę zdalną w poniedziałki i piątki
+m: Pani Marto,
+m: chciałbym zapytać o możliwość pracy zdalnej w poniedziałki i piątki, począwszy od 1 grudnia.
+m: Od września dojeżdżam do biura z Pruszkowa, co przy obecnych remontach torów zajmuje mi ponad dwie godziny dziennie. W dni pracy z domu mógłbym przeznaczyć ten czas na pracę, zwłaszcza na przygotowywanie raportów, które wymagają skupienia i najlepiej wychodzą mi w ciszy.
+m: Jestem przekonany, że takie rozwiązanie nie wpłynie negatywnie na pracę zespołu. Spotkania z klientami i cotygodniowe narady planujemy we wtorki i środy, więc nadal będę w nich uczestniczył osobiście. Oczywiście w dni pracy zdalnej pozostanę w stałym kontakcie przez komunikator i telefon.
+m: Proponuję, abyśmy wprowadzili to rozwiązanie na próbę na trzy miesiące, a potem wspólnie ocenili jego efekty.
+m: Chętnie omówię szczegóły w dogodnym dla Pani terminie.
+m: Pozdrawiam serdecznie\nKrzysztof Mazur
+
+@ redakcja | Письмо в редакцию | op | semi | 150-230 | List do redakcji: likwidacja osiedlowej biblioteki | Письмо в газету: закрытие районной библиотеки
+task: Lokalna gazeta opublikowała artykuł, w którym chwali decyzję władz miasta o zamknięciu filii biblioteki na Twoim osiedlu. Napisz list do redakcji, w którym nie zgadzasz się z autorem. Przedstaw co najmniej dwa argumenty i zaproponuj alternatywne rozwiązanie.
+ru: Письмо в местную газету: несогласие с автором статьи о закрытии библиотеки — минимум два аргумента и альтернативное решение.
+pt: Ссылка на статью и её главный тезис
+pt: Ваша позиция
+pt: Минимум два аргумента с примерами
+pt: Альтернативное решение
+ph: Z dużym zainteresowaniem, ale i z niepokojem przeczytałam artykuł… | С большим интересом, но и с тревогой я прочитала статью…
+ph: Nie mogę zgodzić się z tezą, że… | Не могу согласиться с тезисом, что…
+ph: Autor zdaje się nie dostrzegać, że… | Автор, похоже, не замечает, что…
+ph: Zamiast likwidować…, warto byłoby… | Вместо того чтобы закрывать…, стоило бы…
+ph: Mam nadzieję, że władze miasta raz jeszcze przeanalizują… | Надеюсь, что власти города ещё раз проанализируют…
+m: Szanowna Redakcjo,
+m: z dużym zainteresowaniem, ale i z niepokojem przeczytałam artykuł „Koniec epoki papieru”, opublikowany w ostatnim numerze „Głosu Śródmieścia”. Autor przekonuje, że zamknięcie filii biblioteki na osiedlu Zielone Wzgórze to rozsądna oszczędność. Nie mogę zgodzić się z tą tezą.
+m: Po pierwsze, biblioteka to nie tylko wypożyczalnia książek. Na naszym osiedlu jest jedynym miejscem, gdzie seniorzy mogą bezpłatnie skorzystać z komputera, a dzieci po lekcjach odrobić zadania pod okiem bibliotekarki. Autor zdaje się nie dostrzegać, że dla wielu mieszkańców to jedyna instytucja kultury w zasięgu spaceru.
+m: Po drugie, argument o spadającej liczbie czytelników jest wątpliwy. Z danych samej biblioteki wynika, że w ubiegłym roku liczba wypożyczeń wzrosła o 12%, głównie dzięki klubowi dyskusyjnemu i zajęciom dla dzieci.
+m: Zamiast likwidować filię, warto byłoby przenieść ją do mniejszego lokalu w szkole podstawowej lub połączyć z klubem seniora. Takie rozwiązanie pozwoliłoby obniżyć koszty, nie odbierając mieszkańcom ważnego miejsca spotkań.
+m: Mam nadzieję, że władze miasta raz jeszcze przeanalizują swoją decyzję.
+m: Z wyrazami szacunku\nElżbieta Majewska, mieszkanka osiedla Zielone Wzgórze
+
+@ media | Эссе-рассуждение | ess | neu | 200-280 | Rozprawka: czy media społecznościowe zbliżają ludzi? | Эссе: сближают ли соцсети людей?
+task: Napisz rozprawkę na temat: „Media społecznościowe bardziej zbliżają, niż oddalają ludzi od siebie”. Sformułuj tezę, przedstaw co najmniej trzy argumenty poparte przykładami, odnieś się do kontrargumentu i zakończ wnioskiem.
+ru: Эссе-рассуждение: тезис, три аргумента с примерами, ответ на контраргумент, вывод.
+pt: Вступление с тезисом
+pt: Три аргумента с примерами
+pt: Ответ на контраргумент
+pt: Вывод, который не повторяет тезис дословно
+ph: Kwestia… budzi dziś wiele kontrowersji. | Вопрос … вызывает сегодня много споров.
+ph: Za słusznością tej tezy przemawia przede wszystkim… | В пользу этого тезиса говорит прежде всего…
+ph: Kolejnym argumentem jest… | Ещё один аргумент — …
+ph: Przeciwnicy tego poglądu twierdzą, że…, jednak… | Противники этой точки зрения утверждают, что…, однако…
+ph: Podsumowując, można stwierdzić, że… | Подводя итог, можно сказать, что…
+m: Kwestia wpływu mediów społecznościowych na relacje międzyludzkie budzi dziś wiele kontrowersji. Moim zdaniem, choć platformy te mają swoje ciemne strony, częściej zbliżają ludzi, niż ich od siebie oddalają.
+m: Za słusznością tej tezy przemawia przede wszystkim możliwość utrzymywania kontaktu na odległość. Tysiące Polaków pracujących za granicą codziennie rozmawiają z rodziną, oglądają zdjęcia wnuków i uczestniczą w ich życiu, co jeszcze dwadzieścia lat temu było niemal niemożliwe.
+m: Kolejnym argumentem jest łatwość znalezienia ludzi o podobnych zainteresowaniach. Osoba chorująca na rzadką chorobę czy miłośnik niszowej muzyki może dzięki grupom tematycznym poczuć, że nie jest sam. Z takich internetowych znajomości często rodzą się prawdziwe przyjaźnie.
+m: Wreszcie media społecznościowe pomagają organizować się lokalnym społecznościom. Osiedlowe grupy ułatwiają sąsiadom wymianę rzeczy, wspólne sprzątanie parku czy pomoc starszym osobom.
+m: Przeciwnicy tego poglądu twierdzą, że wirtualne kontakty wypierają rozmowy twarzą w twarz i prowadzą do samotności. Trudno temu zaprzeczyć, jednak problem nie leży w samym narzędziu, lecz w sposobie jego używania. Telefon na stole podczas rodzinnego obiadu oddala ludzi, ale ten sam telefon pozwala zaprosić na obiad kogoś, z kim dawno nie było kontaktu.
+m: Podsumowując, można stwierdzić, że media społecznościowe są jak każde narzędzie: same w sobie nie są ani dobre, ani złe. Używane świadomie, pomagają budować i podtrzymywać więzi.
+
+@ zdalna | Аргументативное эссе | ess | neu | 200-280 | Praca zdalna — przyszłość czy chwilowa moda? | Удалённая работа — будущее или мода?
+task: Napisz tekst argumentacyjny na temat: „Praca zdalna — przyszłość rynku pracy czy chwilowa moda?”. Przedstaw swoje stanowisko, rozważ argumenty obu stron i sformułuj przemyślany wniosek.
+ru: Аргументативное эссе: ваша позиция, доводы обеих сторон и взвешенный вывод.
+pt: Позиция во вступлении
+pt: Аргументы «за» с примерами
+pt: Аргументы «против»
+pt: Взвешенный вывод
+ph: Pandemia sprawiła, że… | Пандемия привела к тому, что…
+ph: Zwolennicy pracy zdalnej podkreślają, że… | Сторонники удалённой работы подчёркивают, что…
+ph: Nie można jednak pominąć faktu, że… | Нельзя, однако, упускать из виду, что…
+ph: Wydaje się, że przyszłość należy do… | Похоже, будущее за…
+ph: Biorąc pod uwagę wszystkie argumenty… | Принимая во внимание все аргументы…
+m: Pandemia sprawiła, że miliony ludzi z dnia na dzień przeniosły biura do własnych mieszkań. Dziś, kiedy wiele firm wzywa pracowników z powrotem, pojawia się pytanie, czy praca zdalna była jedynie chwilową modą. Uważam, że jest ona trwałym elementem przyszłego rynku pracy, choć raczej w formie hybrydowej niż całkowitej.
+m: Zwolennicy pracy zdalnej podkreślają przede wszystkim oszczędność czasu i pieniędzy. Brak codziennych dojazdów to dla mieszkańca dużego miasta nawet dziesięć godzin tygodniowo, które można przeznaczyć na rodzinę, sport czy rozwój. Dla pracodawcy oznacza to z kolei mniejsze koszty wynajmu biur i dostęp do kandydatów z całego kraju.
+m: Nie można jednak pominąć faktu, że praca w samotności ma swoją cenę. Młodsi pracownicy tracą okazję do uczenia się od bardziej doświadczonych kolegów, a spontanicznych rozmów przy kawie, z których rodzą się nowe pomysły, nie zastąpi wideokonferencja. Wiele osób przyznaje też, że granica między życiem zawodowym a prywatnym coraz bardziej się zaciera.
+m: Wydaje się, że przyszłość należy do rozwiązań pośrednich. Model, w którym część tygodnia spędzamy w biurze, a część w domu, łączy zalety obu światów i pozwala dopasować sposób pracy do charakteru zadań.
+m: Biorąc pod uwagę wszystkie argumenty, trudno nazwać pracę zdalną chwilową modą. Zmieniła ona nasze oczekiwania wobec pracodawców i raczej nie wrócimy do świata, w którym obecność przy biurku była jedynym dowodem zaangażowania.
+
+@ jezyk | Эссе | ess | neu | 180-260 | Czy trzeba znać język kraju, w którym się mieszka? | Нужно ли знать язык страны, в которой живёшь?
+task: Napisz esej na temat: „Czy imigrant powinien znać język kraju, w którym mieszka, nawet jeśli w pracy posługuje się angielskim?”. Przedstaw własne zdanie i uzasadnij je, odwołując się do doświadczeń swoich lub znajomych.
+ru: Эссе: должен ли иммигрант знать язык страны, если на работе говорит по-английски? Своё мнение с примерами из своего опыта или опыта знакомых.
+pt: Ясная позиция во вступлении
+pt: Аргументы из личного опыта
+pt: Ответ на противоположное мнение
+pt: Вывод
+ph: Z własnego doświadczenia wiem, że… | По собственному опыту знаю, что…
+ph: Można by argumentować, że…, lecz… | Можно было бы возразить, что…, но…
+ph: Nie chodzi tu wyłącznie o…, ale również o… | Речь идёт не только о…, но и о…
+ph: Język otwiera drzwi do… | Язык открывает двери в…
+ph: Jestem głęboko przekonana, że… | Я глубоко убеждена, что…
+m: W wielu międzynarodowych firmach w Warszawie czy Krakowie można przepracować lata, nie używając ani jednego polskiego słowa. Czy w takiej sytuacji nauka języka kraju, w którym się mieszka, ma jeszcze sens? Jestem głęboko przekonana, że tak.
+m: Z własnego doświadczenia wiem, że angielski wystarcza w biurze, ale zawodzi wszędzie poza nim. Wizyta w przychodni, rozmowa z administratorem budynku czy wypełnianie formularzy w urzędzie stają się źródłem stresu, a czasem kosztownych nieporozumień. Znajomość polskiego daje niezależność i poczucie bezpieczeństwa.
+m: Nie chodzi tu jednak wyłącznie o sprawy praktyczne, ale również o relacje. Moja koleżanka z Kijowa przez pierwszy rok w Polsce przyjaźniła się wyłącznie z innymi obcokrajowcami. Dopiero gdy zaczęła swobodnie mówić po polsku, zaprzyjaźniła się z sąsiadami, a dziś śmieje się, że zna lokalne plotki lepiej niż oni sami.
+m: Można by argumentować, że w dobie automatycznych tłumaczy nauka języka jest stratą czasu, lecz aplikacja nie zrozumie żartu, nie wyczuje emocji rozmówcy i nie pomoże zbudować zaufania. Język otwiera drzwi do kultury, humoru i sposobu myślenia ludzi, wśród których żyjemy.
+m: Podsumowując, znajomość języka kraju zamieszkania nie jest obowiązkiem, ale inwestycją, która zwraca się wielokrotnie: w codziennym życiu, w pracy i w relacjach z innymi.
+
+@ miasto | Колонка-мнение | op | semi | 160-240 | Felieton: miasto dla pieszych czy dla samochodów? | Колонка: город для пешеходов или для машин?
+task: Napisz felieton do lokalnego portalu na temat planu zamknięcia głównej ulicy Twojego miasta dla samochodów. Wyraź swoją opinię wyraziście, możesz użyć ironii lub humoru, ale nie rezygnuj z rzeczowych argumentów.
+ru: Колонка мнения для местного портала: яркая позиция, можно иронию и юмор, но с аргументами.
+pt: Цепляющее начало
+pt: Ясная позиция
+pt: Аргументы, можно с иронией
+pt: Запоминающаяся концовка
+ph: Wyobraźmy sobie… | Представим себе…
+ph: Nie ukrywam, że… | Не скрываю, что…
+ph: Paradoksalnie… | Парадоксально, но…
+ph: Mówiąc wprost… | Говоря прямо…
+ph: Czas pokaże, czy… | Время покажет, …
+m: Wyobraźmy sobie ulicę Długą w sobotnie przedpołudnie: zamiast klaksonów — muzyka ulicznych grajków, zamiast spalin — zapach kawy, zamiast sznura aut — dzieci na hulajnogach. Brzmi jak utopia? A jednak to właśnie proponuje ratusz, a część mieszkańców reaguje tak, jakby ktoś chciał im odebrać tlen.
+m: Nie ukrywam, że jestem zwolennikiem tego pomysłu. Paradoksalnie najgłośniej protestują ci, którzy po Długiej jeżdżą najrzadziej. Dane miejskie pokazują, że większość przechodzących tędy osób przychodzi pieszo lub przyjeżdża tramwajem. Kierowcy stanowią mniejszość, choć z pewnością najbardziej słyszalną.
+m: Kupcy obawiają się, że bez samochodów stracą klientów. Doświadczenia innych miast mówią jednak co innego: tam, gdzie ulica stała się deptakiem, obroty kawiarni i sklepów wzrosły. Mówiąc wprost: z samochodu nikt nie kupuje butów, za to spacerowicz chętnie zajrzy do witryny.
+m: Oczywiście zmiana musi być przemyślana. Potrzebne są parkingi na obrzeżach centrum, dostęp dla dostawców i dla osób z niepełnosprawnością. To jednak kwestie techniczne, a nie argumenty przeciwko samemu pomysłowi.
+m: Czas pokaże, czy Długa stanie się naszym salonem, czy pozostanie parkingiem z chodnikami. Ja już teraz kupuję wygodne buty.
+
+@ recenzja | Рецензия | op | semi | 160-240 | Recenzja książki lub filmu | Рецензия на книгу или фильм
+task: Napisz do internetowego magazynu kulturalnego recenzję książki lub filmu, który ostatnio zrobił na Tobie wrażenie. Krótko przedstaw fabułę (bez zdradzania zakończenia), oceń mocne i słabe strony dzieła i napisz, komu je polecasz.
+ru: Рецензия для онлайн-журнала о культуре: коротко о сюжете без спойлеров, сильные и слабые стороны, кому рекомендуете.
+pt: Короткое представление без спойлеров
+pt: Сильные стороны с примерами
+pt: Слабые стороны
+pt: Кому рекомендуете и итоговая оценка
+ph: Akcja rozgrywa się w… | Действие происходит в…
+ph: Największą zaletą … jest… | Главное достоинство … — …
+ph: Nieco słabiej wypada… | Чуть слабее выглядит…
+ph: Na uwagę zasługuje… | Внимания заслуживает…
+ph: Polecam tę książkę każdemu, kto… | Рекомендую эту книгу каждому, кто…
+m: „Prowadź swój pług przez kości umarłych” Olgi Tokarczuk to powieść, która tylko z pozoru jest kryminałem. Akcja rozgrywa się w odludnej wsi w Kotlinie Kłodzkiej, gdzie w tajemniczych okolicznościach giną kolejni myśliwi. Narratorką jest Janina Duszejko, starsza kobieta ucząca angielskiego, miłośniczka astrologii i poezji Williama Blake'a, przekonana, że za śmierciami stoją… zwierzęta.
+m: Największą zaletą książki jest właśnie bohaterka. Ekscentryczna, uparta i ironiczna, budzi na przemian sympatię i niepokój, a jej monologi są jednocześnie zabawne i przejmujące. Na uwagę zasługuje także język: Tokarczuk pisze lekko, ale każde zdanie ma swój ciężar.
+m: Pod warstwą kryminalnej intrygi kryje się poważne pytanie o to, jak traktujemy zwierzęta i przyrodę oraz kto w małej społeczności ma prawo do głosu. Autorka nie daje łatwych odpowiedzi, co jednych czytelników zachwyci, a innych zirytuje.
+m: Nieco słabiej wypada środkowa część powieści, w której akcja wyraźnie zwalnia, a astrologiczne dygresje mogą zmęczyć mniej cierpliwych.
+m: Polecam tę książkę każdemu, kto lubi literaturę, która bawi i jednocześnie zmusza do myślenia. Dla mnie to jedna z najciekawszych polskich powieści XXI wieku.
+
+@ rada | Неформальное письмо | inf | inf | 150-240 | List do przyjaciółki, która przeprowadza się do Polski | Письмо подруге, которая переезжает в Польшу
+task: Twoja przyjaciółka zamierza przeprowadzić się do Polski i prosi Cię o radę. Napisz list (e-mail): podziel się swoimi doświadczeniami, daj praktyczne rady (mieszkanie, język, urzędy) i dodaj jej otuchy.
+ru: Неформальное письмо подруге, которая переезжает в Польшу: ваш опыт, практические советы (жильё, язык, учреждения) и поддержка.
+pt: Тёплое неформальное начало
+pt: 2–3 практических совета
+pt: Ваш личный опыт
+pt: Поддержка и неформальная концовка
+ph: Ale się cieszę, że… | Как же я рада, что…
+ph: Na twoim miejscu… | На твоём месте…
+ph: Uważaj na… | Осторожно с…
+ph: Nie przejmuj się, jeśli… | Не переживай, если…
+ph: Trzymam kciuki! / Ściskam mocno | Держу кулачки! / Крепко обнимаю
+m: Cześć, Lena!
+m: Ale się cieszę, że w końcu się zdecydowałaś! Kraków jest świetny, zobaczysz, a ja będę miała cię wreszcie na wyciągnięcie ręki.
+m: Skoro prosisz o rady, to proszę bardzo. Po pierwsze, mieszkanie: nie wpłacaj kaucji, zanim nie zobaczysz lokalu na żywo i nie podpiszesz umowy. Ja na początku dałam się nabrać na ogłoszenie, które wyglądało podejrzanie dobrze — i oczywiście było zbyt piękne, żeby było prawdziwe.
+m: Po drugie, język. Wiem, że w twojej firmie wszyscy mówią po angielsku, ale na twoim miejscu od razu zapisałabym się na kurs. Polski na początku brzmi jak szelest, ale po kilku miesiącach zaczniesz łapać, o co chodzi, a ludzie od razu stają się milsi, kiedy słyszą, że się starasz.
+m: Po trzecie, urzędy. Uzbrój się w cierpliwość i zawsze miej przy sobie kopie wszystkich dokumentów. Nie przejmuj się, jeśli coś trzeba będzie załatwiać dwa razy — to normalne, nie tylko dla obcokrajowców!
+m: Jak przyjedziesz, zabiorę cię na pierogi i na spacer nad Wisłą. Trzymam kciuki za przeprowadzkę!
+m: Ściskam mocno\nOla

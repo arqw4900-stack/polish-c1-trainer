@@ -197,3 +197,193 @@ g: Weź przestań = да брось ты
 q: Dlaczego Bartek poprosił Kubę o transport? | Bo jego samochód się zepsuł | Bo nie miał prawa jazdy | Bo chciał oszczędzić na paliwie
 q: Co się stało, kiedy weszli do kościoła? | Bartek potknął się i wszyscy się odwrócili | Ksiądz przerwał ceremonię | Pomylili kościoły
 q: Dlaczego ciocia Grażyna się obraziła? | Bo Kuba odmawiał picia wódki | Bo nie przynieśli prezentu | Bo Kuba nie chciał z nią tańczyć
+
+// ---------- тексты C1: шестое поле — вид текста; у вопросов метка [что проверяет] ----------
+
+@ pamiec | Dlaczego zapominamy? | Почему мы забываем | Наука | C1 | artykuł
+p: Każdy, kto uczył się języka obcego, zna to uczucie: słowo, które wczoraj wydawało się oczywiste, dziś zniknęło bez śladu. Winowajcą nie jest jednak lenistwo ani słaba pamięć, lecz mechanizm, który psychologowie badają od ponad stu lat.
+p: Pod koniec XIX wieku niemiecki badacz Hermann Ebbinghaus postanowił sprawdzić, jak szybko zapominamy. Uczył się na pamięć ciągów bezsensownych sylab, a następnie mierzył, ile z nich pamięta po upływie godzin i dni. Wyniki okazały się bezlitosne: większość materiału ulatywała z pamięci już w ciągu pierwszej doby. Tak powstała słynna krzywa zapominania.
+p: Ebbinghaus zauważył jednak coś jeszcze. Każde kolejne powtórzenie sprawiało, że krzywa stawała się łagodniejsza, a wiadomości utrzymywały się w pamięci coraz dłużej. Co ciekawe, najskuteczniejsze okazywały się powtórki rozłożone w czasie, a nie wielogodzinne wkuwanie przed egzaminem. Na tej obserwacji opierają się dzisiejsze aplikacje do nauki słówek, które pokazują fiszkę akurat wtedy, gdy zaczynamy ją zapominać.
+p: Nie mniej istotny jest sposób powtarzania. Badania nad tak zwanym efektem testowania dowodzą, że samodzielne przypominanie sobie informacji utrwala ją znacznie lepiej niż wielokrotne czytanie tego samego tekstu. Innymi słowy, wysiłek, z jakim wydobywamy słowo z pamięci, nie jest stratą czasu, lecz warunkiem trwałej nauki.
+p: Czy zatem da się w ogóle nie zapominać? Raczej nie — i całe szczęście. Zapominanie pozwala mózgowi pozbywać się informacji zbędnych i skupiać się na tym, co rzeczywiście ważne. Sztuka nie polega więc na tym, by pamiętać wszystko, ale na tym, by mądrze wybierać, czego warto się uczyć, i wracać do tego w odpowiednim momencie.
+g: winowajcą = виновником
+g: bezlitosne = беспощадными
+g: ulatywała = улетучивалась
+g: krzywa zapominania = кривая забывания
+g: łagodniejsza = более пологой
+g: wkuwanie = зубрёжка
+g: fiszkę = карточку
+g: utrwala = закрепляет
+g: wydobywamy = извлекаем
+g: zbędnych = ненужных
+q: [факты] Co odkrył Ebbinghaus w swoich badaniach? | Że większość materiału zapominamy w ciągu pierwszej doby. | Że bezsensowne sylaby zapamiętujemy lepiej niż słowa. | Że pamięć słabnie dopiero po kilku tygodniach.
+q: [вывод] Jaki wniosek dla uczącego się wynika z tekstu? | Lepiej powtarzać materiał kilka razy w odstępach czasu niż raz, ale długo. | Najlepiej uczyć się wieczorem w przeddzień egzaminu. | Wielokrotne czytanie tekstu jest najskuteczniejszą metodą.
+q: [значение в контексте] Co oznacza zdanie, że wysiłek „nie jest stratą czasu, lecz warunkiem trwałej nauki”? | Trudność w przypomnieniu sobie słowa pomaga je zapamiętać. | Nauka powinna być jak najmniej męcząca. | Kto się męczy, ten uczy się za wolno.
+q: [позиция автора] Jak autor ocenia samo zapominanie? | Jako potrzebne, bo pozwala mózgowi odsiewać zbędne informacje. | Jako groźną wadę, którą trzeba całkowicie wyeliminować. | Jako skutek lenistwa uczniów.
+q: [стиль и регистр] Jaki charakter ma ten tekst? | Popularnonaukowy: przystępnie przedstawia wyniki badań. | Urzędowy: informuje o nowych przepisach. | Reklamowy: zachęca do kupna konkretnej aplikacji.
+
+@ narzekanie | Mistrzowie narzekania | Мастера жаловаться | Общество | C1 | publicystyka
+p: Polak zapytany „co słychać?” rzadko odpowiada „świetnie”. Znacznie częściej usłyszymy „jakoś leci”, „stara bieda” albo „nie narzekam”, co — paradoksalnie — zwykle stanowi wstęp do długiej listy narzekań. Cudzoziemcy bywają tym zdziwieni, a nawet zaniepokojeni. My sami traktujemy to jak rytuał, bez którego trudno wyobrazić sobie rozmowę w kolejce do lekarza.
+p: Socjologowie od lat próbują wyjaśnić to zjawisko. Jedni widzą w nim spuściznę czasów, gdy chwalenie się sukcesem mogło ściągnąć na człowieka podejrzliwość sąsiadów lub uwagę władzy. Inni zwracają uwagę, że narzekanie pełni funkcję społeczną: tworzy wspólnotę. Kiedy dwoje nieznajomych zgodnie psioczy na pogodę, ceny i polityków, przez chwilę czują się sobie bliscy.
+p: Nie zamierzam bronić narzekania jako narodowej cnoty. Zbyt często zamienia się ono w wygodną wymówkę: skoro wszystko jest beznadziejne, nie warto niczego zmieniać. Trudno jednak nie zauważyć, że ci sami ludzie, którzy przy kawie wieszają psy na całym świecie, w potrzebie potrafią zorganizować zbiórkę dla sąsiada szybciej niż niejedna instytucja.
+p: Może więc nasze narzekanie jest po prostu specyficzną formą optymizmu? Narzekamy, bo wierzymy, że mogłoby być lepiej. Ktoś, kto naprawdę stracił nadzieję, raczej milczy. Kiedy następnym razem usłyszę, że „wszystko idzie ku gorszemu”, spróbuję przetłumaczyć to sobie na język, w którym to zdanie znaczy: „zależy mi”.
+p: A na pytanie „co słychać?” odpowiem „świetnie”. Choćby po to, żeby zobaczyć minę rozmówcy.
+g: jakoś leci = помаленьку, потихоньку
+g: stara bieda = всё по-старому (плохо)
+g: spuściznę = наследие
+g: ściągnąć = навлечь
+g: psioczy = ворчат, ругают
+g: cnoty = добродетели
+g: wymówkę = отговорку
+g: wieszają psy = ругают на чём свет стоит
+g: zbiórkę = сбор денег
+g: minę = выражение лица
+q: [подтекст] Co według autora często naprawdę oznacza odpowiedź „nie narzekam”? | Że zaraz usłyszymy narzekania. | Że rozmówca jest w pełni zadowolony. | Że rozmówca nie chce rozmawiać.
+q: [факты] Jaką funkcję narzekania wskazują niektórzy socjologowie? | Buduje poczucie wspólnoty między ludźmi. | Pozwala wpływać na decyzje władz. | Pomaga szybciej załatwić sprawy w urzędzie.
+q: [позиция автора] Jakie jest stanowisko autora wobec narzekania? | Krytyczne, ale z dystansem: dostrzega też jego dobre strony. | Uważa je bezkrytycznie za narodową cnotę. | Uważa je za wyłącznie szkodliwe i wstydliwe.
+q: [значение в контексте] Co znaczy wyrażenie „wieszać psy na kimś”? | Ostro kogoś krytykować. | Zajmować się bezdomnymi zwierzętami. | Pomagać komuś w potrzebie.
+q: [вывод] Dlaczego autor na koniec chce odpowiedzieć „świetnie”? | Żeby przełamać rytuał i zaskoczyć rozmówcę. | Bo naprawdę wszystko mu się udało. | Bo uważa, że Polacy powinni ukrywać problemy.
+
+@ komunikat | Komunikat o przerwie w dostawie wody | Объявление об отключении воды | Город и жильё | C1 | tekst urzędowy
+p: Zarząd Spółdzielni Mieszkaniowej „Słoneczne Wzgórze” uprzejmie informuje, że w związku z modernizacją instalacji wodociągowej w budynkach przy ul. Klonowej 4, 6 i 8 w dniach 14–16 marca 2026 r. nastąpią przerwy w dostawie zimnej i ciepłej wody.
+p: Prace prowadzone będą etapami. W dniu 14 marca w godzinach 8.00–16.00 woda zostanie wyłączona w budynku nr 4, w dniu 15 marca — w budynku nr 6, a w dniu 16 marca — w budynku nr 8. W wyjątkowych przypadkach, na przykład w razie stwierdzenia dodatkowych uszkodzeń, czas trwania prac może ulec wydłużeniu, o czym mieszkańcy zostaną niezwłocznie poinformowani.
+p: Na czas prac przed każdym budynkiem zostanie ustawiony beczkowóz z wodą pitną. Mieszkańców prosi się o zgromadzenie zapasu wody w ilości niezbędnej do zaspokojenia podstawowych potrzeb oraz o zakręcenie kranów przed rozpoczęciem prac, co pozwoli uniknąć zalania mieszkań po ponownym uruchomieniu dopływu.
+p: Jednocześnie przypominamy, że zgodnie z § 12 Regulaminu używania lokali mieszkańcy zobowiązani są do udostępnienia lokalu w celu wymiany pionów. Osoby, które w wyznaczonym terminie nie będą mogły być obecne w mieszkaniu, proszone są o wcześniejszy kontakt z administracją osiedla w celu ustalenia dogodnego terminu. Brak dostępu do lokalu może skutkować obciążeniem mieszkańca kosztami ponownego przyjazdu ekipy.
+p: Za utrudnienia przepraszamy i dziękujemy za wyrozumiałość.
+p: Zarząd Spółdzielni
+g: uprzejmie informuje = любезно сообщает
+g: nastąpią = будут, произойдут
+g: ulec wydłużeniu = увеличиться
+g: niezwłocznie = безотлагательно
+g: beczkowóz = автоцистерна
+g: zgromadzenie zapasu = создание запаса
+g: pionów = стояков
+g: dogodnego = удобного
+g: skutkować obciążeniem = повлечь возложение (расходов)
+g: wyrozumiałość = понимание
+q: [факты] Kiedy nie będzie wody w budynku nr 6? | 15 marca w godzinach 8.00–16.00. | Przez trzy dni, od 14 do 16 marca. | 16 marca przez całą dobę.
+q: [вывод] Co powinien zrobić mieszkaniec budynku nr 6, który 15 marca będzie w pracy? | Wcześniej skontaktować się z administracją i ustalić inny termin. | Zostawić klucze sąsiadowi bez informowania administracji. | Nic, bo prace w mieszkaniach nie są potrzebne.
+q: [подтекст] Co sugeruje informacja o „ponownym przyjeździe ekipy”? | Że mieszkaniec, który nie udostępni mieszkania, może za to zapłacić. | Że ekipa przyjedzie dwa razy do każdego mieszkania. | Że prace na pewno potrwają dłużej, niż zapowiedziano.
+q: [стиль и регистр] Która cecha jest typowa dla stylu tego tekstu? | Konstrukcje bezosobowe i bierne, np. „prosi się”, „zostanie wyłączona”. | Zwroty potoczne i żarty. | Emocjonalne słownictwo w pierwszej osobie liczby pojedynczej.
+q: [значение в контексте] Co oznacza zwrot „może ulec wydłużeniu”? | Może potrwać dłużej. | Może zostać skrócony. | Może zostać odwołany.
+
+@ tydzien | Czterodniowy tydzień pracy: rewolucja czy hasło? | Четырёхдневка: революция или лозунг | Работа | C1 | argumentacja
+p: W ostatnich latach coraz więcej firm w Europie eksperymentuje z czterodniowym tygodniem pracy. Wyniki pilotażowych programów brzmią obiecująco: pracownicy deklarują mniej stresu, a wydajność nierzadko pozostaje na tym samym poziomie. Czy oznacza to, że pięciodniowy tydzień jest reliktem przeszłości? Moim zdaniem odpowiedź jest bardziej złożona, niż chcieliby entuzjaści.
+p: Nie sposób zaprzeczyć, że krótszy tydzień niesie ze sobą realne korzyści. Trzydniowy weekend daje czas na regenerację, życie rodzinne i rozwój, a wypoczęty pracownik popełnia mniej błędów. Firmy, które zdecydowały się na ten krok, często łatwiej przyciągają specjalistów, dla których elastyczność bywa ważniejsza niż wysokość pensji.
+p: Problem w tym, że większość udanych eksperymentów przeprowadzono w biurach, gdzie efekty pracy mierzy się zrealizowanymi projektami, a nie liczbą przepracowanych godzin. Trudno wyobrazić sobie podobną zmianę w szpitalu, w szkole czy w sklepie, gdzie ktoś musi być na miejscu przez cały tydzień. Wprowadzenie czterodniowego tygodnia tylko w niektórych branżach mogłoby więc pogłębić podział na uprzywilejowanych pracowników umysłowych i całą resztę.
+p: Warto też pamiętać, że w wielu firmach krótszy tydzień oznacza w praktyce te same zadania upchnięte w cztery dni. Zamiast mniej stresu otrzymujemy wtedy dłuższe dni i presję, by „wyrobić się” przed piątkiem.
+p: Nie twierdzę, że czterodniowy tydzień to mrzonka. Uważam jednak, że zamiast ogłaszać rewolucję, należy traktować go jako jedno z wielu narzędzi i wprowadzać tam, gdzie charakter pracy na to pozwala. W przeciwnym razie z dobrego pomysłu zostanie tylko chwytliwe hasło.
+g: pilotażowych = пилотных
+g: obiecująco = многообещающе
+g: reliktem = пережитком
+g: złożona = сложной
+g: regenerację = восстановление сил
+g: uprzywilejowanych = привилегированных
+g: upchnięte = втиснутые
+g: wyrobić się = успеть, уложиться
+g: mrzonka = несбыточная мечта
+g: chwytliwe hasło = броский лозунг
+q: [позиция автора] Jakie stanowisko zajmuje autor? | Widzi zalety czterodniowego tygodnia, ale uważa, że nie da się go wprowadzić wszędzie. | Jest bezwarunkowym zwolennikiem czterodniowego tygodnia. | Uważa czterodniowy tydzień za całkowicie szkodliwy pomysł.
+q: [факты] Gdzie według autora przeprowadzono większość udanych eksperymentów? | W biurach, gdzie liczą się efekty, a nie godziny. | W szpitalach i szkołach. | W sklepach i fabrykach.
+q: [вывод] Jakie ryzyko społeczne dostrzega autor? | Pogłębienie podziału między pracownikami różnych branż. | Wzrost bezrobocia wśród specjalistów. | Spadek wynagrodzeń w biurach.
+q: [значение в контексте] Co znaczy, że z pomysłu „zostanie tylko chwytliwe hasło”? | Że będzie się o nim dużo mówić, ale w praktyce niewiele się zmieni. | Że stanie się obowiązującym prawem. | Że szybko wszyscy o nim zapomną.
+q: [стиль и регистр] Jaką funkcję pełni zdanie „Nie twierdzę, że czterodniowy tydzień to mrzonka”? | Łagodzi krytykę, żeby autora nie uznano za przeciwnika samego pomysłu. | Wprowadza nowy argument przeciwko pomysłowi. | Streszcza wyniki badań naukowych.
+
+@ czynsz | Rozmowa o podwyżce czynszu | Разговор о повышении аренды | Жильё | C1 | rozmowa
+p: — Pani Agnieszko, dobrze, że panią złapałem. Chciałem porozmawiać o umowie. Sama pani wie, jak teraz wszystko drożeje…
+p: — Wiem, panie Ryszardzie. Domyślam się, do czego pan zmierza.
+p: — No właśnie. Od nowego roku muszę podnieść czynsz o trzysta złotych. Proszę mnie zrozumieć: podatki, wspólnota, remont dachu…
+p: — Rozumiem, że koszty rosną. Ale trzysta złotych to prawie dwadzieścia procent. Mieszkam tu cztery lata, zawsze płacę w terminie i sama pomalowałam mieszkanie, chociaż w zasadzie to było pana zadanie.
+p: — No, nie mówię, że nie. Jest pani wzorową lokatorką, nie ma co ukrywać.
+p: — Dlatego chciałabym zaproponować kompromis. Zgodzę się na podwyżkę o sto pięćdziesiąt złotych, jeśli przedłużymy umowę na dwa lata i wymieni pan wreszcie lodówkę, która hałasuje jak traktor.
+p: — Sto pięćdziesiąt… — Pan Ryszard podrapał się w głowę. — Wie pani, znajomy mówił, że na tym osiedlu za takie mieszkanie biorą już więcej.
+p: — Możliwe. Tyle że nowy najemca to zawsze ryzyko. Nie wiadomo, czy będzie płacił, czy nie zniszczy mebli. A ze mną ma pan spokój.
+p: — Hm… Niech będzie dwieście, ale lodówkę wymienię jeszcze w tym miesiącu. I umowa na dwa lata, tak jak pani mówi.
+p: — Dwieście, nowa lodówka i dwuletnia umowa… Dobrze, panie Ryszardzie. Myślę, że oboje wyjdziemy na tym na swoje.
+p: — No to jesteśmy umówieni. Przygotuję aneks do umowy.
+g: złapałem = застал
+g: do czego pan zmierza = к чему вы клоните
+g: wspólnota = товарищество собственников
+g: w terminie = в срок
+g: w zasadzie = вообще-то, в принципе
+g: wzorową = образцовой
+g: podrapał się w głowę = почесал затылок
+g: najemca = арендатор
+g: wyjdziemy na tym na swoje = останемся в выигрыше
+g: aneks = дополнительное соглашение
+q: [подтекст] Co pan Ryszard sugeruje, mówiąc o znajomym i cenach na osiedlu? | Że mógłby wynająć mieszkanie komuś innemu za więcej. | Że chce sprzedać mieszkanie znajomemu. | Że ceny na osiedlu spadają.
+q: [факты] Na jakie warunki ostatecznie umawiają się rozmówcy? | Podwyżka o 200 zł, nowa lodówka i umowa na dwa lata. | Podwyżka o 300 zł i remont dachu. | Podwyżka o 150 zł bez innych zmian.
+q: [стратегия героя] Jaką strategię negocjacyjną stosuje pani Agnieszka? | Przypomina swoje zalety jako lokatorki i proponuje kompromis z dodatkowymi warunkami. | Grozi natychmiastową wyprowadzką. | Odmawia jakiejkolwiek podwyżki.
+q: [значение в контексте] Co oznacza „wyjść na swoje”? | Nie stracić, a nawet coś zyskać. | Wyprowadzić się na zawsze. | Postawić na swoim wbrew innym.
+q: [стиль и регистр] Jaki ton ma ta rozmowa? | Uprzejmy i rzeczowy, mimo sprzecznych interesów. | Agresywny i pełen obelg. | Bardzo oficjalny, jak w urzędzie.
+
+@ miasta15 | Miasto piętnastominutowe | Город пятнадцати минут | Город | C1 | artykuł
+p: Wyobraźmy sobie miasto, w którym do szkoły, przychodni, sklepu i parku można dojść pieszo lub dojechać rowerem w ciągu kwadransa. Taką wizję przedstawił kilka lat temu francusko-kolumbijski urbanista Carlos Moreno, a koncepcja „miasta piętnastominutowego” szybko zrobiła karierę w debacie o przyszłości metropolii.
+p: Jej zwolennicy przekonują, że bliskość podstawowych usług zmniejsza zależność od samochodu, ogranicza emisję spalin i oddaje mieszkańcom czas tracony w korkach. Co więcej, ożywia lokalne ulice: zamiast jechać do centrum handlowego na obrzeżach, ludzie robią zakupy w osiedlowych sklepach i spotykają sąsiadów.
+p: Koncepcja nie jest jednak wolna od kontrowersji. Krytycy zwracają uwagę, że w wielu miastach, zwłaszcza na przedmieściach, osiedla zaprojektowano jako sypialnie, w których brakuje miejsc pracy i usług. Ich przekształcenie wymagałoby lat i ogromnych nakładów. Pojawiają się też obawy, że atrakcyjne „piętnastominutowe” dzielnice podrożeją, a mniej zamożni mieszkańcy zostaną wypchnięci tam, gdzie wszystko jest daleko.
+p: W sieci krążą ponadto teorie spiskowe, według których idea ma posłużyć do ograniczania swobody przemieszczania się. Urbaniści odpowiadają, że chodzi o dodanie możliwości, a nie o zakazy: nikt nie zabrania wyjazdu poza dzielnicę, po prostu nie trzeba tego robić codziennie.
+p: Niezależnie od sporów wiele polskich miast już dziś wprowadza elementy tej koncepcji: buduje ścieżki rowerowe, przychodnie w nowych osiedlach i niewielkie parki kieszonkowe. Być może nie powstanie idealne miasto piętnastominutowe, ale kierunek zmian wydaje się przesądzony.
+g: kwadransa = четверти часа
+g: urbanista = градостроитель
+g: zrobiła karierę = стала популярной
+g: ożywia = оживляет
+g: sypialnie = спальные районы
+g: nakładów = затрат
+g: wypchnięci = вытеснены
+g: teorie spiskowe = теории заговора
+g: kieszonkowe = карманные (маленькие)
+g: przesądzony = предрешённый
+q: [факты] Na czym polega koncepcja miasta piętnastominutowego? | Najważniejsze usługi mają być osiągalne pieszo lub rowerem w ciągu kwadransa. | Każdy ma dojeżdżać do pracy samochodem w piętnaście minut. | Komunikacja miejska ma kursować co piętnaście minut.
+q: [вывод] Jakie ryzyko dla mniej zamożnych mieszkańców wskazują krytycy? | Wzrost cen w atrakcyjnych dzielnicach i wypchnięcie ich na obrzeża. | Zakaz wjazdu do centrum dla ich samochodów. | Likwidację osiedlowych sklepów.
+q: [позиция автора] Jak autor przedstawia teorie spiskowe dotyczące tej koncepcji? | Relacjonuje je z dystansem i przytacza odpowiedź urbanistów. | Popiera je i ostrzega przed koncepcją. | Uważa je za główny argument krytyków.
+q: [значение в контексте] Co znaczy, że „kierunek zmian wydaje się przesądzony”? | Że zmiany w tę stronę najpewniej będą kontynuowane. | Że ktoś z góry zakazał dalszych zmian. | Że kierunek zmian jest przypadkowy.
+q: [стиль и регистр] Do jakiego gatunku najlepiej pasuje ten tekst? | Artykuł informacyjno-publicystyczny przedstawiający różne stanowiska. | Ogłoszenie urzędu miasta. | Osobisty list do przyjaciela.
+
+@ falszywki | Kto się boi fałszywek? | Кто боится фейков | Медиа | C1 | publicystyka
+p: Co jakiś czas media biją na alarm: dezinformacja zalewa internet, a obywatele nie odróżniają prawdy od fikcji. Nie przeczę, że problem istnieje. Mam jednak wrażenie, że w tej panice łatwo przeoczyć rzecz najważniejszą: fałszywe wiadomości działają nie dlatego, że są przekonujące, ale dlatego, że mówią nam to, w co i tak chcemy wierzyć.
+p: Weźmy prosty przykład. Kiedy w sieci pojawia się sensacyjna informacja o skandalu z udziałem polityka, którego nie znosimy, rzadko sprawdzamy źródło. Udostępniamy ją z poczuciem moralnej satysfakcji. Ten sam tekst o polityku, którego popieramy, natychmiast wydałby nam się podejrzany. Psychologowie nazywają to efektem potwierdzenia i przypominają, że nikt nie jest na niego odporny — także dziennikarze i naukowcy.
+p: Dlatego nie wierzę w cudowne rozwiązania w postaci kolejnych przepisów czy automatycznych filtrów. Owszem, platformy powinny usuwać ewidentne kłamstwa i ujawniać, kto płaci za polityczne reklamy. Prawdziwą zaporą przed dezinformacją jest jednak nawyk, którego nie da się narzucić ustawą: zatrzymać się na chwilę, zanim klikniemy „udostępnij”, i zadać sobie pytanie, dlaczego ta wiadomość tak bardzo nam się podoba.
+p: Edukacja medialna w szkołach to krok w dobrą stronę, pod warunkiem że nie skończy się na pogadance o „złych stronach internetu”. Uczniowie powinni sprawdzać źródła na prawdziwych przykładach — również takich, które pasują do ich własnych poglądów. Bo najtrudniej przyłapać na kłamstwie nie przeciwnika, ale samego siebie.
+g: biją na alarm = бьют тревогу
+g: nie przeczę = не отрицаю
+g: przeoczyć = упустить из виду
+g: nie znosimy = терпеть не можем
+g: efektem potwierdzenia = предвзятостью подтверждения
+g: odporny = невосприимчив
+g: zaporą = преградой
+g: narzucić = навязать
+g: pogadance = нравоучительной беседе
+g: przyłapać = поймать (на чём-то)
+q: [позиция автора] Co według autora jest głównym powodem skuteczności fałszywych wiadomości? | Potwierdzają to, w co ludzie i tak chcą wierzyć. | Są lepiej napisane niż prawdziwe informacje. | Publikują je wyłącznie duże media.
+q: [подтекст] Dlaczego autor podkreśla, że na efekt potwierdzenia nie są odporni także dziennikarze i naukowcy? | Żeby pokazać, że problem dotyczy każdego, a nie tylko „naiwnych” odbiorców. | Żeby skrytykować konkretne redakcje. | Żeby udowodnić, że naukowcy celowo kłamią.
+q: [вывод] Jakie rozwiązanie autor uważa za najważniejsze? | Nawyk krytycznego namysłu przed udostępnieniem informacji. | Nowe ustawy zakazujące publikowania nieprawdy. | Automatyczne filtry instalowane przez platformy.
+q: [значение в контексте] Co oznacza „bić na alarm”? | Ostrzegać przed niebezpieczeństwem, wzbudzać niepokój. | Uspokajać opinię publiczną. | Organizować ćwiczenia przeciwpożarowe.
+q: [стиль и регистр] Jaki typ tekstu reprezentuje ten artykuł? | Felieton publicystyczny z wyraźnym stanowiskiem autora. | Neutralny raport statystyczny. | Instrukcję obsługi aplikacji.
+
+@ ocena | Rozmowa oceniająca | Разговор об оценке работы | Работа | C1 | rozmowa
+p: — Usiądź, Kamil. Jak ci minął kwartał?
+p: — Szczerze? Intensywnie. Projekt dla klienta z Gdańska zjadł mi chyba wszystkie nerwy.
+p: — Wiem i chcę od razu powiedzieć, że klient jest bardzo zadowolony. Sam do mnie dzwonił z podziękowaniami. To w dużej mierze twoja zasługa.
+p: — Miło słyszeć.
+p: — Jest jednak jedna rzecz, o której chciałabym porozmawiać, zanim przejdziemy do planów na kolejny kwartał. Zauważyłam, że w ostatnich tygodniach kilka razy przekazałeś zespołowi zadania dosłownie na ostatnią chwilę. Ania i Marek siedzieli przez to do nocy.
+p: — No tak, ale klient ciągle zmieniał wymagania. Nie miałem na to wpływu.
+p: — Rozumiem i nie mówię, że to łatwa sytuacja. Pytanie brzmi raczej, co możemy zrobić inaczej następnym razem. Na przykład czy dałoby się wcześniej sygnalizować zespołowi, że coś może się zmienić?
+p: — Hm. Mógłbym robić krótkie poranne podsumowania. Pięć minut, żeby wszyscy wiedzieli, na czym stoimy.
+p: — To świetny pomysł. Może spróbujesz od poniedziałku? Za miesiąc wrócimy do tematu i zobaczymy, czy coś się poprawiło.
+p: — Dobrze. I… dzięki, że powiedziałaś to wprost, a nie w mailu.
+p: — Od tego jestem. A teraz porozmawiajmy o tym, jak widzisz swoją rolę w nowym projekcie, bo mam dla ciebie propozycję.
+g: zjadł mi chyba wszystkie nerwy = вымотал мне все нервы
+g: w dużej mierze = в значительной степени
+g: zasługa = заслуга
+g: na ostatnią chwilę = в последний момент
+g: nie miałem na to wpływu = я не мог на это повлиять
+g: sygnalizować = заранее предупреждать
+g: na czym stoimy = как обстоят дела
+g: wrócimy do tematu = вернёмся к теме
+g: wprost = прямо
+g: od tego jestem = это моя работа
+q: [подтекст] Dlaczego szefowa zaczyna rozmowę od pochwały? | Żeby krytyka była łatwiejsza do przyjęcia i nie zabrzmiała jak atak. | Bo nie zamierza mówić o żadnych problemach. | Bo chce szybko zakończyć spotkanie.
+q: [факты] Jaki problem porusza szefowa? | Kamil przekazywał zespołowi zadania w ostatniej chwili. | Kamil spóźniał się do pracy. | Klient był niezadowolony z projektu.
+q: [вывод] Jak można ocenić reakcję Kamila na krytykę? | Najpierw się broni, ale potem sam proponuje rozwiązanie. | Od razu składa rezygnację. | Obwinia Anię i Marka.
+q: [значение в контексте] Co znaczy zdanie „Od tego jestem”? | To należy do moich obowiązków. | Jestem z tego dumna. | Właśnie stąd przyszłam.
+q: [подтекст] Co sugeruje ostatnia wypowiedź szefowej? | Że mimo krytyki ceni Kamila i chce mu powierzyć nowe zadanie. | Że Kamil zostanie za karę przeniesiony do innego działu. | Że rozmowa jest już zakończona.

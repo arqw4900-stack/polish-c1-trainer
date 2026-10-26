@@ -341,6 +341,51 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 @keyframes p-rain{0%{opacity:0;transform:none}20%{opacity:1}100%{opacity:0;transform:translateY(12px)}}
 @keyframes p-squish{0%,100%{transform:none}25%{transform:scale(1.12,.86)}55%{transform:scale(.94,1.08)}80%{transform:scale(1.03,.97)}}
 @keyframes p-burst{0%{opacity:0;transform:scale(.3)}30%{opacity:1;transform:translateY(-6px) scale(1.15)}100%{opacity:0;transform:translateY(-22px) scale(.9)}}
+/* free answers: practice, writing trainer, my dictionary */
+.ta{width:100%;border:2px solid var(--line);border-radius:14px;padding:12px 14px;background:var(--raise);font:inherit;font-size:1.02rem;line-height:1.5;resize:vertical;min-height:90px;transition:border-color .15s}
+.ta:focus{border-color:var(--primary);outline:0}
+.ta.long{min-height:280px;font-family:var(--read);font-size:1rem}
+.typein.mid{border-color:var(--learning)}
+.pform{display:grid;gap:10px}
+.pq{display:grid;gap:8px}
+.ptask{font-size:1.12rem;font-weight:700;line-height:1.45;overflow-wrap:anywhere}
+.fb.mid{background:var(--hl-soft)}
+.fb ins{text-decoration:none;background:var(--hl);border-radius:4px;padding:0 2px}
+.errs{margin:8px 0 0;padding-left:22px;display:grid;gap:8px;font-weight:500}
+.errs s{color:var(--bad);text-decoration-thickness:2px}
+.errs .small{font-weight:500;color:var(--muted)}
+.wtext{font-family:var(--read);line-height:1.7;overflow-wrap:anywhere}
+mark.er{background:var(--bad-soft);color:inherit;border-bottom:2px solid var(--bad);border-radius:3px;padding:0 1px}
+mark.er.lx{background:var(--hl-soft);border-color:var(--learning)}
+mark.er.st{background:var(--accent-soft);border-color:var(--primary)}
+mark.er sup{font:800 .6rem var(--body);margin-left:2px}
+.crit{display:grid;grid-template-columns:minmax(0,1fr) 90px 28px;gap:8px 10px;align-items:center;margin-top:10px}
+.crit .bar{height:8px;margin:0}
+.wc{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.wc.ok{color:var(--good)} .wc.no{color:var(--bad)}
+.checks{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:8px}
+.checks li{display:grid;grid-template-columns:22px 1fr;gap:8px;align-items:start}
+.checks b{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;font-size:.75rem;color:#fff;background:var(--good)}
+.checks .mid b{background:var(--learning)} .checks .no b{background:var(--bad)}
+.ticks{display:grid;gap:8px;margin-top:8px}
+.ticks label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.ticks input{width:20px;height:20px;flex:none;accent-color:var(--primary);margin-top:1px}
+.skills{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.skills span{font-size:.72rem;font-weight:700;padding:2px 9px;border-radius:99px;background:var(--raise);color:var(--muted)}
+.skills span.on{background:var(--good-soft);color:var(--good)}
+.colls{display:grid;gap:3px;margin-top:10px;font-style:normal;text-align:left;width:100%}
+.qtag{display:block;font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--primary);margin-bottom:2px}
+.hintline{font-size:.9rem;color:var(--muted);min-height:1.2em}
+.myform{display:grid;gap:12px}
+.myform label{display:grid;gap:6px}
+.lbl-s{font-size:.85rem;font-weight:700}
+.aibox{display:flex;gap:10px;align-items:center;font-weight:600}
+.spin{width:18px;height:18px;border-radius:50%;border:3px solid var(--line);border-top-color:var(--primary);animation:spin 1s linear infinite;flex:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.model p{margin:0 0 10px}
+details.more>summary{cursor:pointer;font-weight:700;list-style:none}
+details.more>summary::before{content:"›";display:inline-block;margin-right:8px;transition:transform .2s var(--ease)}
+details.more[open]>summary::before{transform:rotate(90deg)}
 </style>
 
 <div class="readbar" id="readbar" hidden></div>
@@ -349,14 +394,19 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 
 <script>
 /*@DATA@*/
-const ABBR = ["ПК","ДБ","ОП","ПУ","НТ","ЗМ","ХЭ","ПЭ","ОБ","КМ","ПГ","РЯ","C2"];
-const HUES = [352,40,210,262,188,150,318,95,232,288,20,170,62];
+const ABBR = ["ПК","ДБ","ОП","ПУ","НТ","ЗМ","ХЭ","ПЭ","ОБ","КМ","ПГ","РЯ","C2","СВ"];
+const HUES = [352,40,210,262,188,150,318,95,232,288,20,170,62,12];
 const WORDS = []; const BY = {};
-THEMES.forEach((th,ti)=>th.words.forEach(([pl,ipa,ru,ex])=>{
-  const w={key:pl,pl:pl.replace(/\s*\(.*?\)\s*/g,"").trim(),hint:(pl.match(/\((.*?)\)/)||[])[1]||"",ru,ex,ti,
+// gap: the word typed in a collocation card ("ostatecznie [rozstrzygnąć] spór")
+function mkWord(key,pl,gap,ru,ex,ti){
+  return {key,pl:pl.replace(/\s*\(.*?\)\s*/g,"").trim(),hint:(pl.match(/\((.*?)\)/)||[])[1]||"",gap,ru,ex,ti,
     senses:ru.replace(/\(.*?\)/g,"").split(/[,;]/).map(s=>s.trim()).filter(Boolean)};
-  WORDS.push(w); BY[pl]=w;
-}));
+}
+THEMES.forEach((th,ti)=>th.words.forEach(([pl,gap,ru,ex])=>{ const w=mkWord(pl,pl,gap,ru,ex,ti); WORDS.push(w); BY[pl]=w; }));
+const COLLS=WORDS.filter(w=>w.gap);
+// the learner's own words live in S.my and form one more theme
+const MY_TI=THEMES.length;
+THEMES.push({name:"Мой словарь",pl:"Mój słownik",words:[],my:true}); ABBR.push("Я"); HUES.push(48);
 // synonyms: same Polish or at least one shared Russian meaning (zatrudnić → нанять / przyjąć do pracy)
 const clash=(a,b)=>a.pl===b.pl||a.senses.some(s=>b.senses.includes(s));
 const IV=[0,1,2,4,7,14,30,60,120];      // days until next review for stage 1..8
@@ -368,21 +418,23 @@ const KEY="pl-c1-state", BKEY="pl-c1-backup";
 const DAY=864e5;
 function today(){ const d=new Date(); return Math.floor((d.getTime()-d.getTimezoneOffset()*6e4)/DAY); }
 function dstr(n){ return new Date(n*DAY).toISOString().slice(0,10); }
-let S = {w:{}, log:{}, gr:{}, rd:{}, lt:{}, set:{newPerDay:15, goal:40, dir:"mix"}, v:1};
+let S = {w:{}, log:{}, gr:{}, rd:{}, lt:{}, pr:{}, wr:{}, my:{}, set:{newPerDay:15, goal:40, dir:"mix"}, v:1};
 try{ const s=JSON.parse(localStorage.getItem(KEY)||"null"); if(s&&s.v===1) S=merge(S,s); }catch(e){}
 function merge(a,b){
   // rs = time of the last reset/replace; progress from a copy that predates it is dropped,
   // so a reset on one device is not undone by another device's old data
   const rs=Math.max(a.rs||0,b.rs||0);
   const [o,n]=(b.st||0)>=(a.st||0)?[a,b]:[b,a];   // settings: the more recently changed copy wins
-  const out={w:{}, log:{}, gr:{}, rd:{}, lt:{}, set:{...o.set,...(n.set||{})}, v:1, st:Math.max(a.st||0,b.st||0), rs};
+  const out={w:{}, log:{}, gr:{}, rd:{}, lt:{}, pr:{}, wr:{}, my:{}, set:{...o.set,...(n.set||{})}, v:1, st:Math.max(a.st||0,b.st||0), rs};
   for(const x of [a,b]){
     const fresh=(x.rs||0)>=rs;
-    for(const k in (x.w||{})){ const v=x.w[k]; if(!fresh && (v.t||0)<=rs) continue; if(!out.w[k] || (v.t||0)>(out.w[k].t||0)) out.w[k]=v; }
+    // the learner's own words are content, not progress: a reset keeps them; deleted ones stay as x:1
+    for(const k in (x.my||{})){ const v=x.my[k]; if(!out.my[k] || (v.t||0)>(out.my[k].t||0)) out.my[k]=v; }
+    for(const f of ["w","wr"]) for(const k in (x[f]||{})){ const v=x[f][k]; if(!fresh && (v.t||0)<=rs) continue; if(!out[f][k] || (v.t||0)>(out[f][k].t||0)) out[f][k]=v; }
     if(!fresh) continue;
     for(const k in (x.log||{})){ const p=out.log[k]||{r:0,ok:0,n:0,u:0}, y=x.log[k]; out.log[k]={r:Math.max(p.r,y.r||0),ok:Math.max(p.ok,y.ok||0),n:Math.max(p.n,y.n||0),u:Math.max(p.u||0,y.u||0)}; }
-    // best scores: grammar topics, stories (answers out of 3), letter exercises
-    for(const f of ["gr","rd","lt"]) for(const k in (x[f]||{})) out[f][k]=Math.max(out[f][k]??0,x[f][k]);
+    // best scores: grammar topics, stories, letter exercises, practice types
+    for(const f of ["gr","rd","lt","pr"]) for(const k in (x[f]||{})) out[f][k]=Math.max(out[f][k]??0,x[f][k]);
   }
   return out;
 }
@@ -562,9 +614,9 @@ function pokePanda(e){
 
 // ---------- navigation ----------
 let view={tab:"home"}, session=null, tSession=null;
-function go(v){ if(session) clearTimeout(session.autoNext); view=v; session=null; tSession=null; render(); window.scrollTo(0,0); }
+function go(v){ if(session) clearTimeout(session.autoNext); view=v; session=null; tSession=null; pSession=null; render(); window.scrollTo(0,0); }
 function renderTabs(){
-  const tabs=[["home","Сегодня",ICON.home],["words","Слова",ICON.words],["gram","Грамматика",ICON.gram],["read","Чтение",ICON.read],["mail","Письма",ICON.mail],["stats","Прогресс",ICON.stats]];
+  const tabs=[["home","Сегодня",ICON.home],["words","Слова",ICON.words],["gram","Практика",ICON.gram],["read","Чтение",ICON.read],["mail","Письмо",ICON.mail],["stats","Прогресс",ICON.stats]];
   $("#tabs").innerHTML=tabs.map(([id,l,ic])=>`<button data-tab="${id}" ${view.tab===id?'aria-current="page"':""}>${ic}<span>${l}</span></button>`).join("");
 }
 $("#tabs").addEventListener("click",e=>{ const b=e.target.closest("[data-tab]"); if(b) go({tab:b.dataset.tab}); });
@@ -573,18 +625,19 @@ document.addEventListener("click",e=>{ if(!e.target.closest(".gl,.glpop")) hideG
 window.addEventListener("scroll",()=>{ const bar=$("#readbar"); if(bar.hidden) return; const h=document.documentElement; bar.style.width=Math.min(100,h.scrollTop/Math.max(1,h.scrollHeight-h.clientHeight)*100)+"%"; },{passive:true});
 
 function render(){
-  renderTabs();
+  rebuildMy(); renderTabs();
   const a=$("#app"), bar=$("#readbar");
-  hideGloss(); bar.hidden=!((view.tab==="read"&&view.story||view.tab==="mail"&&view.letter)&&!session&&!tSession); bar.style.width="0";
+  hideGloss(); bar.hidden=!((view.tab==="read"&&view.story||view.tab==="mail"&&view.letter)&&!session&&!tSession&&!pSession); bar.style.width="0";
   if(session) return renderStudy();
   if(tSession) return renderQuiz();
+  if(pSession) return renderPractice();
   if(view.tab==="home") a.innerHTML=homeHTML();
-  else if(view.tab==="words") a.innerHTML=view.theme!=null?themeHTML(view.theme):wordsHTML();
+  else if(view.tab==="words") a.innerHTML=view.hard?hardHTML():view.theme===MY_TI?myHTML():view.theme!=null?themeHTML(view.theme):wordsHTML();
   else if(view.tab==="gram") a.innerHTML=view.g?gramHTML(view.g):gramsHTML();
   else if(view.tab==="read") a.innerHTML=view.story?storyHTML(view.story):storiesHTML();
-  else if(view.tab==="mail") a.innerHTML=view.letter?letterHTML(view.letter):lettersHTML();
+  else if(view.tab==="mail") a.innerHTML=view.w&&WB[view.w]?writeHTML(view.w):view.letter?letterHTML(view.letter):lettersHTML();
   else a.innerHTML=statsHTML();
-  stagger(a); bind();
+  stagger(a); bind(); aiShow();
   updateSync();
 }
 
@@ -599,7 +652,7 @@ function homeHTML(){
   const all=themeStats(), lg=L(), due=all.due, nl=Math.min(newLeftToday(), all.new), sk=streak();
   const total=Math.min(due,MAXDUE)+nl;
   const greet = lg.r>=S.set.goal ? "Cel na dziś osiągnięty" : total? "Gotowi do nauki?" : "Na dziś wszystko powtórzone";
-  const gDone=GRAMMAR.filter(g=>S.gr[g.id]>=80).length, lDone=LETTERS.filter(l=>S.lt[l.id]>=80).length, nEx=GRAMMAR.reduce((a,g)=>a+g.ex.length,0);
+  const gDone=GRAMMAR.filter(g=>S.gr[g.id]>=80).length, wDone=WRITING.filter(w=>wst(w.id).st==="done").length, nMy=WORDS.filter(w=>w.ti===MY_TI).length;
   return `
   <div class="top"><div class="brand"><h1>Polski</h1><span class="lvl">C1</span></div>
     <div style="display:flex;flex:none;align-items:center;gap:10px"><span class="sync" id="sync"><i></i> …</span><button class="iconbtn" id="settings" aria-label="Настройки">${ICON.gear}</button></div></div>
@@ -620,35 +673,51 @@ function homeHTML(){
   ${needBackup()?`<div class="tip" style="display:flex;gap:12px;align-items:center;justify-content:space-between"><span class="small">Прогресс хранится только в этом браузере — сохраните резервную копию.</span><button class="btn ghost" id="bkNow" style="min-height:40px;padding:8px 14px;flex:none">Экспорт</button></div>`:""}
   <div class="list">
     <button class="theme" data-go="gram"><div class="badge" style="--h:352">${ICON.gram}</div>
-      <div class="meta"><div class="t">Грамматика C1</div><div class="small muted num">${GRAMMAR.length} тем · ${nEx} ${plural(nEx,"упражнение","упражнения","упражнений")} с объяснениями · освоено ${gDone}</div></div><span class="chev">›</span></button>
-    <button class="theme" data-go="read"><div class="badge" style="--h:28">${ICON.read}</div>
-      <div class="meta"><div class="t">Короткие истории</div><div class="small muted num">Чтение с переводом слов · прочитано ${readCount()} из ${STORIES.length}</div></div><span class="chev">›</span></button>
+      <div class="meta"><div class="t">Практика и грамматика</div><div class="small muted num">Перевод, исправление ошибок, перефразирование, свои предложения · ${GRAMMAR.length} тем грамматики · освоено ${gDone}</div></div><span class="chev">›</span></button>
     <button class="theme" data-go="mail"><div class="badge" style="--h:210">${ICON.mail}</div>
-      <div class="meta"><div class="t">Письма</div><div class="small muted num">Официальные, полуофициальные и личные · освоено ${lDone} из ${LETTERS.length}</div></div><span class="chev">›</span></button>
+      <div class="meta"><div class="t">Письмо</div><div class="small muted num">${WRITING.length} заданий: письма, жалобы, заявления, эссе · проверка и переписывание · готово ${wDone}</div></div><span class="chev">›</span></button>
+    <button class="theme" data-go="read"><div class="badge" style="--h:28">${ICON.read}</div>
+      <div class="meta"><div class="t">Чтение</div><div class="small muted num">Истории, статьи, публицистика, официальные тексты · прочитано ${readCount()} из ${STORIES.length}</div></div><span class="chev">›</span></button>
+    <button class="theme" data-topic="${MY_TI}"><div class="badge" style="--h:${HUES[MY_TI]}">${ABBR[MY_TI]}</div>
+      <div class="meta"><div class="t">Мой словарь</div><div class="small muted num">${nMy?`${nMy} ${plural(nMy,"слово","слова","слов")} · `:""}записывайте свои слова и учите их как карточки</div></div><span class="chev">›</span></button>
   </div>
   <div class="section-h"><h2>Темы</h2><span class="small muted num">${WORDS.length} слов</span></div>
-  <div class="list">${THEMES.map((t,i)=>themeRow(i)).join("")}</div>`;
+  <div class="list">${THEMES.map((t,i)=>i===MY_TI?"":themeRow(i)).join("")}</div>`;
 }
 function themeRow(i){
-  const t=THEMES[i], s=themeStats(i);
+  const t=THEMES[i], s=themeStats(i), tot=s.total||1;
+  if(t.my&&!s.total) return `<button class="theme" data-topic="${i}"><div class="badge" style="--h:${HUES[i]}">${ABBR[i]}</div>
+    <div class="meta"><div class="t">${esc(t.name)}</div><div class="small muted">Добавляйте свои слова и учите их как карточки</div></div><span class="chev">›</span></button>`;
   return `<button class="theme" data-topic="${i}"><div class="badge" style="--h:${HUES[i]??(i*33)%360}">${ABBR[i]||i+1}</div>
     <div class="meta"><div class="t">${esc(t.name)}</div><div class="small muted">${esc(t.pl)}</div>
-      <div class="bar"><i style="width:${s.learned/s.total*100}%;background:var(--good)"></i><i style="width:${s.learning/s.total*100}%;background:var(--learning)"></i></div>
+      <div class="bar"><i style="width:${s.learned/tot*100}%;background:var(--good)"></i><i style="width:${s.learning/tot*100}%;background:var(--learning)"></i></div>
       <div class="small muted num mt">${s.learned} выучено · ${s.learning} в работе · ${s.new} новых</div></div>
     ${s.due?`<span class="pill due num">${s.due}</span>`:`<span class="chev">›</span>`}</button>`;
 }
 
 // ---------- WORDS ----------
 function wordsHTML(){
+  const hard=hardWords().length;
   return `<div class="top"><h1>Слова</h1></div>
   <input class="search" id="q" type="search" placeholder="Поиск по всем ${WORDS.length} словам" autocomplete="off">
   <div id="results"></div>
-  <div class="list" id="themeList">${THEMES.map((t,i)=>themeRow(i)).join("")}</div>`;
+  <div id="themeList" style="display:grid;gap:12px"><div class="list">${themeRow(MY_TI)}${hard?`<button class="theme" data-hard="1"><div class="badge" style="--h:18">!</div>
+    <div class="meta"><div class="t">Трудные слова</div><div class="small muted num">${hard} ${plural(hard,"слово","слова","слов")}, которые вы часто забываете</div></div><span class="pill due num">${hard}</span></button>`:""}</div>
+  <div class="list">${THEMES.map((t,i)=>i===MY_TI?"":themeRow(i)).join("")}</div></div>`;
 }
+const skillsHTML=s=>`<div class="skills"><span class="${skl(s,"r")>=2?"on":""}">узнаю</span><span class="${skl(s,"c")>=2?"on":""}">вспоминаю</span><span class="${skl(s,"p")>=1?"on":""}">использую</span>${isLeech(s)?'<span style="color:var(--bad)">трудное</span>':""}</div>`;
 function wordRows(list){
   if(!list.length) return `<div class="panel muted">Ничего не найдено</div>`;
   return `<div class="wl">${list.map(w=>{ const s=st(w.key); const cls=!s?"":s.s>=LEARNED?"k":"l";
-    return `<details class="wrow"><summary><span class="dot ${cls}"></span><div style="min-width:0"><div class="pl">${esc(w.pl)}</div><div class="ru">${esc(w.ru)}</div></div></summary><div class="exw">${esc(w.ex)}</div></details>`; }).join("")}</div>`;
+    return `<details class="wrow"><summary><span class="dot ${cls}"></span><div style="min-width:0"><div class="pl">${esc(w.pl)}</div><div class="ru">${esc(w.ru)}</div></div></summary><div class="exw">${esc(w.ex)}${s?skillsHTML(s):""}${collHTML(w)}${w.ti===MY_TI?`<button type="button" class="btn ghost mt" data-del="${esc(w.key.slice(3))}" style="min-height:40px;padding:8px 14px;font-style:normal">Удалить из словаря</button>`:""}</div></details>`; }).join("")}</div>`;
+}
+function hardHTML(){
+  const ws=hardWords();
+  return `<button class="back" data-back>${ICON.back} Все темы</button>
+  <div><div class="eyebrow">Слова с повторяющимися ошибками</div><h1>Трудные слова</h1></div>
+  <div class="panel" style="display:grid;gap:10px"><div class="small muted">Сюда попадают слова, на которых вы ошиблись три раза и больше и которые до сих пор даются с трудом. Они и так возвращаются на повторение чаще остальных, а здесь их можно прогнать отдельно.</div>
+    <button class="btn primary" id="hardStudy" ${ws.length?"":"disabled"}>${ws.length?`Повторить ${Math.min(ws.length,30)}`:"Трудных слов нет"}</button></div>
+  ${ws.length?wordRows(ws):""}`;
 }
 function themeHTML(i){
   const t=THEMES[i], s=themeStats(i), ws=WORDS.filter(w=>w.ti===i);
@@ -669,13 +738,51 @@ function themeHTML(i){
 }
 
 // ---------- STUDY SESSION ----------
-function buildQueue(ti, extraNew){
+// A card keeps: s stage, d due day, l lapses, e ease (1.3–3, how easy this card is for the learner)
+// and three skills: r recognition (choose the translation), c recall (type the word), p use (word in a sentence).
+const EASE0=2.5;
+const SKILL={pl2ru:"r",ru2pl:"r",type:"c",use:"p",gap:"p"};
+function skl(s,f){ return s?.[f] ?? (f==="r"?(s?.s>=2?2:0):f==="c"?(s?.s>=4?2:0):0); }   // older cards: guess from the stage
+const isLeech=s=>!!s && (s.l||0)>=3 && (s.e??EASE0)<2.1;   // forgotten again and again
+const hardWords=()=>WORDS.filter(w=>isLeech(st(w.key)));
+// answer quality 0–5 from correctness, hints, typos and time to answer
+function quality(kind,ok,info){
+  if(!ok) return info.gave?0:1;
+  if(info.hint||info.near) return 3;
+  const typed=kind!=="pl2ru"&&kind!=="ru2pl", ms=info.ms??6000;
+  return ms<(typed?8000:3500)?5:ms<(typed?18000:8000)?4:3;
+}
+function interval(s,q){
+  let d=IV[s.s]*((s.e??EASE0)/EASE0)*(q>=5?1.15:q<=3?.7:1);
+  if(isLeech(s)) d=Math.min(d*.6,10);   // stubborn words come back sooner
+  return Math.max(1,Math.round(d));
+}
+function cloze(w){   // the word inside its own example: forms change, so word starts are compared
+  if(w._cz!==undefined) return w._cz;
+  w._cz=null;
+  const pat=plain(norm(w.pl)).split(" ").filter(x=>x&&x!=="sie");
+  if(!w.ex||!pat.length||pat.length>4) return null;
+  const pre=x=>x.length<=2?x:x.length<=4?x.slice(0,x.length-1):x.length===5?x.slice(0,4):x.slice(0,Math.max(4,x.length-3));
+  const toks=[...w.ex.matchAll(/\p{L}+/gu)].map(m=>({t:plain(m[0].toLowerCase()),a:m.index,b:m.index+m[0].length})).filter(x=>x.t!=="sie");
+  for(let i=0;i+pat.length<=toks.length;i++){
+    if(pat.every((p,j)=>p.length<=2?toks[i+j].t===p:toks[i+j].t.startsWith(pre(p)))){
+      const a=toks[i].a, b=toks[i+pat.length-1].b;
+      if(b-a>=w.ex.length-2) return null;
+      return w._cz={text:w.ex.slice(0,a)+"___"+w.ex.slice(b), ans:w.ex.slice(a,b)};
+    }
+  }
+  return null;
+}
+function buildQueue(ti, extraNew, keys){
+  if(keys) return shuffle(keys).map(k=>({key:k,kind:kindFor(k)}));
   const pool = ti==null?WORDS:WORDS.filter(w=>w.ti===ti);
-  const due = shuffle(pool.filter(w=>isDue(w.key))).sort((a,b)=>st(a.key).d-st(b.key).d).slice(0,MAXDUE);
+  // overdue first; within a day the stubborn words first
+  const due = shuffle(pool.filter(w=>isDue(w.key))).sort((a,b)=>st(a.key).d-st(b.key).d || (isLeech(st(b.key))-isLeech(st(a.key)))).slice(0,MAXDUE);
   const nNew = extraNew ?? Math.min(newLeftToday(), ti==null?S.set.newPerDay:10);
   let fresh;
-  if(ti==null){ // round-robin across themes for variety
-    const by=THEMES.map((_,i)=>WORDS.filter(w=>w.ti===i&&isNew(w.key)));
+  if(ti==null){ // round-robin across themes for variety, the learner's own words first
+    const order=[MY_TI,...THEMES.map((_,i)=>i).filter(i=>i!==MY_TI)];
+    const by=order.map(i=>WORDS.filter(w=>w.ti===i&&isNew(w.key)));
     fresh=[]; let r=0; while(fresh.length<nNew && by.some(b=>b.length)){ const b=by[r%by.length]; if(b.length) fresh.push(b.shift()); r++; }
   } else fresh=pool.filter(w=>isNew(w.key)).slice(0,nNew);
   const q=due.map(w=>({key:w.key,kind:kindFor(w.key)}));
@@ -683,32 +790,41 @@ function buildQueue(ti, extraNew){
   fresh.forEach((w,i)=>{ const pos=Math.min(q.length, Math.floor(i*2.5)); q.splice(pos,0,{key:w.key,kind:"intro"}); });
   return q;
 }
+// the card type follows the weakest skill: recognise → recall → use in context
 function kindFor(k){
   if(S.set.dir==="pl") return "pl2ru";
-  const s=st(k)?.s||0;
-  if(s<=1) return "pl2ru"; if(s===2) return "ru2pl"; if(s===3) return Math.random()<.5?"pl2ru":"ru2pl";
+  const w=BY[k], s=st(k)||{s:0};
+  if(skl(s,"r")<2) return s.s>=1&&Math.random()<.3?"ru2pl":"pl2ru";
+  if(skl(s,"c")<2) return s.s<=2?"ru2pl":"type";
+  if(w.gap) return Math.random()<.65?"gap":"type";
+  if(cloze(w) && (skl(s,"p")<2 || Math.random()<.5)) return "use";
   return Math.random()<.6?"type":"ru2pl";
 }
-function startSession(ti,extraNew,drill){
+function startSession(ti,extraNew,drill,keys){
+  rebuildMy();
   let q;
   if(drill){ const pool=WORDS.filter(w=>w.ti===ti); q=shuffle(pool).slice(0,20).map(w=>({key:w.key,kind:S.set.dir==="pl"?"pl2ru":["pl2ru","ru2pl","type"][Math.floor(Math.random()*3)]})); }
-  else q=buildQueue(ti,extraNew);
+  else q=buildQueue(ti,extraNew,keys);
   if(!q.length){ toast("Сейчас нечего повторять"); return; }
-  session={q,i:0,ti,drill,ok:0,bad:0,failed:new Set(),answered:false,total:q.length};
+  session={q,i:0,ti,drill,hard:!!keys,ok:0,bad:0,failed:new Set(),answered:false,total:q.length};
   render(); window.scrollTo(0,0);
 }
-function grade(key,ok){
+function grade(key,ok,info={}){
   if(session.drill){ ok?session.ok++:session.bad++; const lg=L(); lg.r++; if(ok) lg.ok++; persist(); return; }
   const now=Date.now(), t=today(); const s=S.w[key]||{s:0,d:t,l:0};
+  const kind=info.kind||"pl2ru", f=SKILL[kind]||"r", q=quality(kind,ok,info);
+  s.e=Math.round(Math.min(3,Math.max(1.3,(s.e??EASE0)+.1-(5-q)*(.08+(5-q)*.02)))*100)/100;
   if(ok){
-    if(session.failed.has(key)) s.d=t+IV[s.s];   // relearned after a mistake: keep the lowered stage
-    else { s.s=Math.min(s.s+1,8); s.d=t+IV[s.s]; }
+    s[f]=Math.min(5,skl(s,f)+1);
+    if(session.failed.has(key)) s.d=t+interval(s,3);   // relearned after a mistake: keep the lowered stage
+    else { if(q>=4||s.s<3) s.s=Math.min(s.s+1,8); s.d=t+interval(s,q); }
     session.ok++;
   } else {
-    s.l=(s.l||0)+1; s.d=t; session.bad++;
+    s[f]=Math.max(0,skl(s,f)-1); s.l=(s.l||0)+1; s.d=t; session.bad++;
     if(!session.failed.has(key)){   // a mistake costs two stages (not a full restart), once per session
       s.s=Math.max(1,s.s-2);
-      session.failed.add(key); session.q.splice(Math.min(session.q.length,session.i+4),0,{key,kind:"pl2ru",retry:true}); session.total++;
+      // the same task again a few cards later (choice cards come back as recognition)
+      session.failed.add(key); session.q.splice(Math.min(session.q.length,session.i+4),0,{key,kind:kind==="ru2pl"?"pl2ru":kind,retry:true}); session.total++;
     }
   }
   s.t=now; S.w[key]=s;
@@ -740,18 +856,40 @@ const markDia=s=>esc(s).replace(/[ąćęłńóśźżĄĆĘŁŃÓŚŹŻ]/g,'<span
 function lev(a,b){ const m=a.length,n=b.length; const d=Array.from({length:m+1},(_,i)=>[i]); for(let j=1;j<=n;j++)d[0][j]=j;
   for(let i=1;i<=m;i++)for(let j=1;j<=n;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1)); return d[m][n]; }
 
+// collocations that contain this word ("decyzja" → "podjąć decyzję", "pochopna decyzja")
+function collFor(w){
+  if(w._co) return w._co;
+  if(w.gap) return w._co=[];
+  const toks=plain(norm(w.pl)).split(" ").filter(t=>t.length>=4);
+  if(!toks.length||toks.length>2) return w._co=[];
+  const x=toks[0], pre=x.length>=6?x.slice(0,x.length-2):x.length===5?x.slice(0,4):x;
+  return w._co=COLLS.filter(c=>plain(norm(c.pl)).split(" ").some(t=>x.length>=5?t.startsWith(pre):t===x)).slice(0,4);
+}
+function collHTML(w){
+  const c=collFor(w); if(!c.length) return "";
+  return `<div class="colls"><span class="why-h">Сочетания</span>${c.map(x=>`<div class="small"><b lang="pl">${esc(x.pl)}</b> — <span class="muted">${esc(x.ru)}</span></div>`).join("")}</div>`;
+}
+const diaHTML=id=>`<div class="dia" id="${id||"dia"}" aria-label="Польские буквы">${[...PL].map(c=>`<button type="button" data-c="${c}">${c}</button>`).join("")}</div>`;
+// letter buttons keep the focus in the field, so the phone keyboard stays open
+function bindDia(inp,box){
+  (box||$("#dia"))?.querySelectorAll("button").forEach(b=>{ b.onpointerdown=b.onmousedown=e=>e.preventDefault();
+    b.onclick=()=>{ if(inp.readOnly) return; const s=inp.selectionStart??inp.value.length; inp.setRangeText(b.dataset.c,s,inp.selectionEnd??s,"end"); inp.dispatchEvent(new Event("input")); inp.focus({preventScroll:true}); }; });
+}
 function renderStudy(){
   const a=$("#app");
   if(session.i>=session.q.length) return renderDone();
   const it=session.q[session.i], w=BY[it.key];
+  if(!w){ session.i++; return renderStudy(); }   // a word deleted from my dictionary meanwhile
+  if(it.kind==="use"&&!cloze(w)) it.kind="type";
+  if(it.kind==="gap"&&!w.gap) it.kind="type";
   const pct=session.i/session.total*100;
   let body="";
   const head=`<div class="study-top"><button class="iconbtn" id="quit" aria-label="Завершить">${ICON.close}</button>
     <div class="prog"><i style="width:${pct}%"></i></div><span class="small muted num">${session.i+1}/${session.total}</span></div>`;
   if(it.kind==="intro"){
-    body=`<div class="card"><span class="pill kind">Новое слово</span>
+    body=`<div class="card"><span class="pill kind">${w.gap?"Новое сочетание":"Новое слово"}</span>
       <div class="word">${esc(w.pl)}</div>
-      <div class="trans">${esc(w.ru)}</div><div class="ex">${esc(w.ex)}</div></div>
+      <div class="trans">${esc(w.ru)}</div>${w.ex?`<div class="ex">${esc(w.ex)}</div>`:""}${collHTML(w)}</div>
       <div class="row"><button class="btn ghost" id="known">Уже знаю</button><button class="btn primary" id="learn">Учить</button></div>
       <div class="kbd-hint">«Уже знаю» отложит слово на неделю</div>`;
   } else if(it.kind==="pl2ru"||it.kind==="ru2pl"){
@@ -764,41 +902,53 @@ function renderStudy(){
       <div class="opts two" id="opts">${opts.map((o,i)=>`<button class="opt" data-i="${i}"><span class="muted small num">${i+1}</span>&nbsp; ${esc(o[field])}</button>`).join("")}</div>
       <div id="fb"></div>`;
   } else {
+    // typed cards: the word (type), the word in its example sentence (use), the missing word of a collocation (gap)
+    const cz=it.kind==="use"?cloze(w):null, target=it.kind==="gap"?w.gap:cz?cz.ans:w.pl;
     const nW=w.pl.split(" ").length, nL=w.pl.replace(/[^\p{L}]/gu,"").length;
-    body=`<div class="card"><span class="pill kind">Напишите по-польски</span>
-      <div class="word ru">${esc(w.ru)}</div>${w.hint?`<div class="small muted">(${esc(w.hint)})</div>`:""}
-      <div class="small muted">${nW>1?`${nW} ${plural(nW,"слово","слова","слов")} · `:""}${nL} ${plural(nL,"буква","буквы","букв")} · начинается на «${esc(w.pl[0])}»</div></div>
+    const sent=it.kind==="gap"?w.pl.replace(w.gap,"___"):cz?.text;
+    body=`<div class="card"><span class="pill kind">${it.kind==="type"?"Напишите по-польски":it.kind==="gap"?"Допишите сочетание":"Слово в предложении"}</span>
+      ${it.kind==="type"?`<div class="word ru">${esc(w.ru)}</div>${w.hint?`<div class="small muted">(${esc(w.hint)})</div>`:""}
+      <div class="small muted">${nW>1?`${nW} ${plural(nW,"слово","слова","слов")} · `:""}${nL} ${plural(nL,"буква","буквы","букв")} · начинается на «${esc(w.pl[0])}»</div>`
+      :`<div class="sentence" lang="pl">${esc(sent).replace("___",'<span class="blank"></span>')}</div>
+      <div class="small muted">${it.kind==="gap"?esc(w.ru):`«${esc(w.ru)}» — в нужной форме`}</div>`}
+      <div class="hintline" id="hl"></div></div>
       <form id="tf" style="display:grid;gap:10px" autocomplete="off">
         <input class="typein" id="ans" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="ваш ответ" lang="pl">
-        <div class="dia" id="dia" aria-label="Польские буквы">${[...PL].map(c=>`<button type="button" data-c="${c}">${c}</button>`).join("")}</div>
-        <div class="row"><button class="btn ghost" type="button" id="giveup">Не знаю</button><button class="btn primary" type="submit" id="chk">Проверить</button></div>
+        ${diaHTML()}
+        <div class="row"><button class="btn ghost" type="button" id="giveup">Не знаю</button><button class="btn ghost" type="button" id="hint">Подсказка</button><button class="btn primary" type="submit" id="chk">Проверить</button></div>
       </form><div id="fb"></div>`;
+    session.target=target;
   }
-  a.innerHTML=head+body;
+  a.innerHTML=head+body; it.t0=performance.now();
   $("#quit").onclick=()=>{ session.i>0?renderDone(true):go(view); };
   if(it.kind==="intro"){
     $("#known").onclick=()=>{ introduce(w.key,true); next(); };
     $("#learn").onclick=()=>{ introduce(w.key,false); next(); };
-  } else if(it.kind==="type"){
-    const inp=$("#ans"); setTimeout(()=>inp.focus({preventScroll:true}),50);
-    let done=false;
-    // letter buttons keep the focus in the field, so the phone keyboard stays open
-    document.querySelectorAll("#dia button").forEach(b=>{ b.onpointerdown=b.onmousedown=e=>e.preventDefault();
-      b.onclick=()=>{ if(inp.readOnly) return; const s=inp.selectionStart??inp.value.length; inp.setRangeText(b.dataset.c,s,inp.selectionEnd??s,"end"); inp.focus({preventScroll:true}); }; });
+  } else if(it.kind==="type"||it.kind==="use"||it.kind==="gap"){
+    const inp=$("#ans"), target=session.target; setTimeout(()=>inp.focus({preventScroll:true}),50);
+    let done=false, hints=0;
+    bindDia(inp);
+    // each hint shows more: the base word first (in a sentence), then letter by letter; a hinted answer counts as weak
+    $("#hint").onclick=()=>{ if(done) return; hints++; it.hint=true;
+      if(it.kind==="use"&&hints===1){ $("#hl").innerHTML=`Слово: <b lang="pl">${esc(w.pl)}</b>`; return; }
+      inp.value=target.slice(0,Math.min(target.length,hints-(it.kind==="use"?1:0))); inp.focus({preventScroll:true}); };
     const finish=(ans)=>{
-      done=true; const a1=norm(ans), t=norm(w.pl);
+      done=true; const a1=norm(ans), t=norm(target);
       let ok=a1===t;
       const dia=!ok && !!a1 && plain(a1)===plain(t);                                  // right word, Polish letters missing
       const near=!ok && !dia && !!a1 && t.length>4 && lev(plain(a1),plain(t))===1;    // one typo
-      if(dia||near) ok=true;
-      inp.readOnly=true; inp.classList.add(ok?"ok":"no");
-      grade(w.key,ok);
+      const lemma=!ok && !dia && !near && it.kind==="use" && !!a1 && plain(a1)===plain(norm(w.pl));   // right word, wrong form
+      const soft=dia||near||lemma;
+      if(soft) ok=true;
+      inp.readOnly=true; inp.classList.add(ok?(soft?"mid":"ok"):"no");
+      grade(w.key,ok,{kind:it.kind,ms:performance.now()-it.t0,hint:it.hint,near:soft,gave:!a1});
       const noPl=!!a1 && plain(a1)===a1 && plain(t)!==t;   // typed without any Polish letters
-      $("#fb").innerHTML=`<div class="fb ${ok?"ok":"no"}">${ok?(dia?"Почти! Засчитано, но проверьте польские буквы: ":near?"Почти! Опечатка: ":"Верно: "):"Правильно: "}<b>${dia||near&&noPl?markDia(w.pl):esc(w.pl)}</b><div class="small muted mt">${esc(w.ex)}</div></div>`;
-      $("#dia").hidden=true; $("#giveup").hidden=true; $("#chk").textContent="Дальше"; $("#chk").focus({preventScroll:true});
+      $("#fb").innerHTML=`<div class="fb ${ok?(soft?"mid":"ok"):"no"}">${ok?(lemma?"Слово верное, но здесь нужна другая форма: ":dia?"Почти! Засчитано, но проверьте польские буквы: ":near?"Почти! Опечатка: ":"Верно: "):"Правильно: "}<b>${dia||near&&noPl?markDia(target):esc(target)}</b>
+        ${it.kind==="type"?"":`<div class="small mt"><b lang="pl">${esc(w.pl)}</b> — ${esc(w.ru)}</div>`}${w.ex?`<div class="small muted mt">${esc(w.ex)}</div>`:""}${collHTML(w)}</div>`;
+      $("#dia").hidden=true; $("#giveup").hidden=true; $("#hint").hidden=true; $("#chk").textContent="Дальше"; $("#chk").focus({preventScroll:true});
     };
     $("#tf").onsubmit=e=>{ e.preventDefault(); if(done) return next(); if(!inp.value.trim()) return;
-      const syn=synonymOf(w,inp.value);
+      const syn=it.kind==="type"&&synonymOf(w,inp.value);
       if(syn){ $("#fb").innerHTML=`<div class="tip">«${esc(syn.pl)}» тоже подходит по смыслу, но здесь загадано другое слово. Попробуйте ещё раз.</div>`; inp.select(); return; }
       finish(inp.value); };
     $("#giveup").onclick=()=>{ if(!done) finish(""); };
@@ -808,8 +958,8 @@ function renderStudy(){
       const o=session.opts[i], ok=o.key===w.key;
       document.querySelectorAll(".opt").forEach(b=>{ b.disabled=true; const x=session.opts[+b.dataset.i]; if(x.key===w.key) b.classList.add("right"); });
       if(!ok) document.querySelector(`.opt[data-i="${i}"]`).classList.add("wrong");
-      grade(w.key,ok);
-      $("#fb").innerHTML=`<div class="fb ${ok?"ok":"no"}" style="display:grid;gap:4px">${ok?"Верно!":"Неверно."} <span><b>${esc(w.pl)}</b> — ${esc(w.ru)}</span><span class="small muted">${esc(w.ex)}</span></div>
+      grade(w.key,ok,{kind:it.kind,ms:performance.now()-it.t0});
+      $("#fb").innerHTML=`<div class="fb ${ok?"ok":"no"}" style="display:grid;gap:4px">${ok?"Верно!":"Неверно."} <span><b>${esc(w.pl)}</b> — ${esc(w.ru)}</span>${w.ex?`<span class="small muted">${esc(w.ex)}</span>`:""}${ok?"":collHTML(w)}</div>
         <button class="btn primary block mt" id="nx">Дальше</button>`;
       $("#nx").onclick=next; $("#nx").focus({preventScroll:true});
       if(ok) session.autoNext=setTimeout(next,1100);
@@ -853,10 +1003,16 @@ function gRow(g){
     ${sc!=null?`<span class="pill ${sc>=80?"ok":""} num">${sc}%</span>`:`<span class="chev">›</span>`}</button>`;
 }
 function gramsHTML(){
-  const done=GRAMMAR.filter(g=>S.gr[g.id]>=80).length, groups=[...new Set(GRAMMAR.map(g=>g.grp))];
-  return `<div class="top"><h1>Грамматика</h1><span class="pill num">${done}/${GRAMMAR.length} освоено</span></div>
-  <p class="muted" style="margin:0">Трудные темы уровня C1: правило, таблица, примеры и упражнения с объяснением каждого ответа. Тема засчитывается от 80%.</p>
-  ${groups.map(gp=>`<div class="section-h"><h2>${esc(gp)}</h2></div><div class="list">${GRAMMAR.filter(g=>g.grp===gp).map(gRow).join("")}</div>`).join("")}
+  const done=GRAMMAR.filter(g=>S.gr[g.id]>=80).length, groups=[...new Set(GRAMMAR.map(g=>g.grp))], pk=Object.keys(PT), pDone=pk.filter(k=>(S.pr[k]??0)>=80).length;
+  return `<div class="top"><h1>Практика</h1><span class="pill num">${pDone+done}/${pk.length+GRAMMAR.length} от 80%</span></div>
+  <p class="muted" style="margin:0">Задания, где ответ нужно написать самому, и грамматика уровня C1 с объяснением каждого ответа.</p>
+  <div class="tip small" data-ai hidden>Если ваш ответ не совпал с эталоном дословно, его проверяет Claude: покажет ошибки и исправленный вариант.</div>
+  <div class="tip small" data-noai>Ответ сравнивается с эталоном; если формулировка другая, вы сравниваете её с образцом сами. Разбор ошибок от Claude работает в версии тренажёра внутри Claude.</div>
+  <div class="section-h"><h2>Активные задания</h2></div>
+  <div class="list">${pk.map(pRow).join("")}</div>
+  <button class="btn ghost block" id="pMix">Смешанная практика · 10 заданий${S.pr.mix!=null?` · лучший ${S.pr.mix}%`:""}</button>
+  <div class="section-h"><h2>Грамматика</h2><span class="small muted num">${done}/${GRAMMAR.length} освоено</span></div>
+  ${groups.map(gp=>`<h3 class="small muted" style="margin:4px 0 0">${esc(gp)}</h3><div class="list">${GRAMMAR.filter(g=>g.grp===gp).map(gRow).join("")}</div>`).join("")}
   <div class="panel" style="display:grid;gap:10px"><h3>Смешанный тест</h3>
     <div class="small muted">20 случайных заданий из всех тем.${S.gr.mix!=null?` Лучший результат: ${S.gr.mix}%.`:""}</div>
     <button class="btn primary" id="mixTest">Начать тест</button></div>`;
@@ -939,14 +1095,19 @@ document.addEventListener("keydown",e=>{
 const SB={}; STORIES.forEach(s=>SB[s.id]=s);
 const readCount=()=>STORIES.filter(s=>S.rd[s.id]!=null).length;
 const mins=s=>Math.max(1,Math.round(s.text.join(" ").split(/\s+/).length/140));
+const KINDS=[["","Истории"],["artykuł","Статьи"],["publicystyka","Публицистика"],["tekst urzędowy","Официальные тексты"],["argumentacja","Аргументация"],["rozmowa","Сложные разговоры"]];
+function sRow(s){
+  const sc=S.rd[s.id], i=STORIES.indexOf(s);
+  return `<button class="theme" data-story="${s.id}"><div class="badge" style="--h:${(i*36+350)%360}">${i+1}</div>
+    <div class="meta"><div class="t">${esc(s.title)}</div><div class="small muted">${esc(s.ru)} · ${esc(s.topic)} · ${mins(s)} мин</div></div>
+    ${sc!=null?`<span class="pill ${sc===s.q.length?"ok":""} num">✓ ${sc}/${s.q.length}</span>`:`<span class="chev">›</span>`}</button>`;
+}
 function storiesHTML(){
   return `<div class="top"><h1>Чтение</h1><span class="pill num">${readCount()}/${STORIES.length} прочитано</span></div>
-  <p class="muted" style="margin:0">Короткие истории на польском. Нажимайте на подчёркнутые слова, чтобы увидеть перевод, а в конце ответьте на три вопроса.</p>
-  <div class="list">${STORIES.map((s,i)=>{ const sc=S.rd[s.id];
-    return `<button class="theme" data-story="${s.id}"><div class="badge" style="--h:${(i*36+350)%360}">${i+1}</div>
-      <div class="meta"><div class="t">${esc(s.title)}</div><div class="small muted">${esc(s.ru)} · ${esc(s.topic)} · ${mins(s)} мин</div></div>
-      ${sc!=null?`<span class="pill ok num">✓ ${sc}/${s.q.length}</span>`:`<span class="chev">›</span>`}</button>`; }).join("")}</div>`;
+  <p class="muted" style="margin:0">Истории и тексты уровня C1. Нажимайте на подчёркнутые слова, чтобы увидеть перевод. Вопросы к текстам C1 проверяют не только факты, но и подтекст, позицию автора, выводы, значение выражений и стиль.</p>
+  ${KINDS.map(([k,h])=>{ const ss=STORIES.filter(s=>(s.kind||"")===k); return ss.length?`<div class="section-h"><h2>${h}</h2></div><div class="list">${ss.map(sRow).join("")}</div>`:""; }).join("")}`;
 }
+const qtag=s=>{ const m=s.match(/^\[(.+?)\]\s*(.*)$/); return m?[m[1],m[2]]:["",s]; };
 // wrap glossary words in buttons; \b does not know Polish letters, so word edges are checked with \p{L}
 function glossify(text,gloss){
   const keys=Object.keys(gloss).sort((a,b)=>b.length-a.length);
@@ -961,8 +1122,8 @@ function storyHTML(id){
   <div><div class="eyebrow">${esc(s.topic)} · ${s.level} · ${mins(s)} мин</div><h1 lang="pl">${esc(s.title)}</h1><div class="muted small mt">${esc(s.ru)}</div></div>
   <article class="panel reader" lang="pl">${s.text.map(p=>`<p>${glossify(p,s.gloss)}</p>`).join("")}</article>
   <div class="panel" style="display:grid;gap:18px"><h3>Проверьте понимание</h3>
-    ${s.q.map((q,qi)=>`<div class="q" data-q="${qi}" lang="pl"><div class="qt">${qi+1}. ${esc(q[0])}</div>
-      <div class="opts">${shuffle(q.slice(1)).map(o=>`<button class="opt" data-a="${esc(o)}">${esc(o)}</button>`).join("")}</div></div>`).join("")}
+    ${s.q.map((q,qi)=>{ const [tag,qt]=qtag(q[0]); return `<div class="q" data-q="${qi}" lang="pl"><div class="qt">${tag?`<span class="qtag" lang="ru">${esc(tag)}</span>`:""}${qi+1}. ${esc(qt)}</div>
+      <div class="opts">${shuffle(q.slice(1)).map(o=>`<button class="opt" data-a="${esc(o)}">${esc(o)}</button>`).join("")}</div></div>`; }).join("")}
     <div id="qres"></div></div>
   ${nx?`<button class="btn ghost block" data-story="${nx.id}">Следующая: ${esc(nx.title)} ›</button>`:""}`;
 }
@@ -984,7 +1145,7 @@ function answerQ(qel,btn){
   const score=qs.filter(x=>!x.querySelector(".opt.wrong")).length, all=score===s.q.length;
   S.rd[s.id]=Math.max(S.rd[s.id]??0,score);
   const first=lessonDone();
-  $("#qres").innerHTML=`<div class="fb ${all?"ok":"no"}">${all?"Отлично, всё верно!":`Верно ${score} из ${s.q.length}.`} История отмечена как прочитанная.</div>
+  $("#qres").innerHTML=`<div class="fb ${all?"ok":"no"}">${all?"Отлично, всё верно!":`Верно ${score} из ${s.q.length}.`} ${s.kind?"Текст отмечен как прочитанный":"История отмечена как прочитанная"}.</div>
     <div style="margin-top:14px">${pandaDone(first)}</div>`;
   $("#qres .panda").onclick=pokePanda;
   if(all||first) confetti();
@@ -1000,11 +1161,15 @@ function lRow(l){
     ${sc!=null?`<span class="pill ${sc>=80?"ok":""} num">${sc}%</span>`:`<span class="chev">›</span>`}</button>`;
 }
 function lettersHTML(){
-  const done=LETTERS.filter(l=>S.lt[l.id]>=80).length;
-  return `<div class="top"><h1>Письма</h1><span class="pill num">${done}/${LETTERS.length} освоено</span></div>
-  <p class="muted" style="margin:0">Образцы писем на польском: структура, регистр, обращения и завершения, полезные фразы и короткое упражнение к каждому.</p>
+  const done=LETTERS.filter(l=>S.lt[l.id]>=80).length, wDone=WRITING.filter(w=>wst(w.id).st==="done").length;
+  return `<div class="top"><h1>Письмо</h1><span class="pill num">${wDone}/${WRITING.length} текстов</span></div>
+  <p class="muted" style="margin:0">Задание → ваш текст → проверка → исправления → переписывание. Текст засчитывается, когда вы перепишете его с учётом ошибок.</p>
+  <div class="tip small" data-ai hidden>Тексты проверяет Claude: грамматические, лексические и стилистические ошибки прямо в тексте, оценка по пяти критериям, улучшенный вариант и советы.</div>
+  <div class="tip small" data-noai>Здесь проверка автоматическая (объём, регистр, связки, повторы) и самопроверка по образцу. Полный разбор ошибок от Claude работает в версии тренажёра внутри Claude; отсюда можно скопировать готовый запрос для проверки в чате с ИИ.</div>
+  ${Object.entries(WG).map(([g,h])=>{ const ws=WRITING.filter(w=>w.grp===g); return ws.length?`<div class="section-h"><h2>${h}</h2></div><div class="list">${ws.map(wRow).join("")}</div>`:""; }).join("")}
+  <div class="section-h"><h2>Образцы писем</h2><span class="small muted num">${done}/${LETTERS.length} освоено</span></div>
   <div class="tip small">В польском письме вежливость держится на формах <b>Pan / Pani / Państwo</b> с глаголом в 3-м лице («Czy mógłby Pan…»). В письмах их принято писать с заглавной буквы, как и <b>Ty / Twój</b> в личной переписке.</div>
-  ${Object.entries(REG).map(([k,[h]])=>`<div class="section-h"><h2>${h}</h2></div><div class="list">${LETTERS.filter(l=>l.reg===k).map(lRow).join("")}</div>`).join("")}`;
+  ${Object.entries(REG).map(([k,[h]])=>`<h3 class="small muted" style="margin:4px 0 0">${h}</h3><div class="list">${LETTERS.filter(l=>l.reg===k).map(lRow).join("")}</div>`).join("")}`;
 }
 function letterHTML(id){
   const l=LB[id];
@@ -1017,6 +1182,355 @@ function letterHTML(id){
   <div class="panel"><h3 style="margin-bottom:6px">Полезные фразы</h3>${l.phr.map(([p,r])=>`<div class="phr"><span class="p" lang="pl">${esc(p)}</span><span class="small muted">${esc(r)}</span></div>`).join("")}</div>
   <button class="btn primary block" id="lQuiz">Упражнение · ${l.ex.length} заданий${S.lt[id]!=null?` · лучший ${S.lt[id]}%`:""}</button>`;
 }
+
+// ---------- Claude inside the artifact: checks free answers and texts (absent on GitHub Pages) ----------
+let AI=null, aiOff=false;
+(async()=>{ try{ if(window.claude?.use) AI=await claude.use("sample"); }catch(e){} aiShow(); })();
+const aiReady=()=>!!AI&&!aiOff;
+function aiShow(){ document.querySelectorAll("[data-ai]").forEach(el=>el.hidden=!aiReady()); document.querySelectorAll("[data-noai]").forEach(el=>el.hidden=aiReady()); }
+const AIERR={rate_limited:"Слишком много проверок подряд — попробуйте через пару минут.",session_expired:"Войдите в Claude заново и повторите.",refused:"Claude не стал проверять этот текст.",invalid_json:"Ответ пришёл в неверном формате — попробуйте ещё раз.",prompt_too_large:"Текст слишком длинный.",empty_completion:"Пустой ответ — попробуйте ещё раз."};
+async function askAI(prompt,tier){
+  try{ return await AI.json(prompt,{modelTier:tier||"default"}); }
+  catch(e){
+    if(["not_granted","sampling_disabled","not_declared","capability_disabled","capability_removed"].includes(e?.code)){ aiOff=true; aiShow(); throw new Error("Проверка через Claude недоступна — дальше самопроверка по образцу."); }
+    throw new Error(AIERR[e?.code]||"Проверка не удалась — попробуйте ещё раз.");
+  }
+}
+
+// ---------- PRACTICE: answers the learner writes ----------
+// [name, instruction, description, badge, hue]
+const PT={
+  tr:["Перевод с русского","Переведите на польский","целые предложения с типичными ловушками","RU",200],
+  fix:["Исправление ошибок","Найдите ошибку и перепишите предложение правильно","падежи, предлоги, формы","✎",20],
+  para:["Перефразирование","Скажите то же самое иначе","конструкции C1 вместо простых","≈",262],
+  reg:["Смена регистра","Перепишите в нужном стиле","официально ↔ разговорно","Aa",318],
+  gap:["Пропуски без вариантов","Впишите пропущенное слово в нужной форме","без готовых вариантов ответа","__",150],
+  cont:["Продолжите мысль","Допишите текст по заданию","тезисы, выводы, контраргументы","…",40],
+  use:["Слово в контексте","Составьте своё предложение с этим словом","книжные слова и связки","W",95],
+  op:["Ваше мнение","Ответьте в 2–3 предложениях и обоснуйте","короткая аргументация","?",352]};
+const OPEN=new Set(["cont","use","op"]);   // open tasks: no single right answer
+let pSession=null;
+function pRow(k){
+  const [l,,d,b,h]=PT[k], sc=S.pr[k], n=PRACTICE[k].length;
+  return `<button class="theme" data-pt="${k}"><div class="badge" style="--h:${h}">${b}</div>
+    <div class="meta"><div class="t">${l}</div><div class="small muted">${d} · ${n} ${plural(n,"задание","задания","заданий")}</div></div>
+    ${sc!=null?`<span class="pill ${sc>=80?"ok":""} num">${sc}%</span>`:`<span class="chev">›</span>`}</button>`;
+}
+function startPractice(type){
+  const items=type==="mix"?shuffle(Object.keys(PT).filter(k=>!OPEN.has(k)).flatMap(k=>PRACTICE[k].map(x=>({...x,type:k})))).slice(0,10)
+    :shuffle(PRACTICE[type].map(x=>({...x,type}))).slice(0,OPEN.has(type)?5:10);
+  session=null; tSession=null; pSession={type,items,i:0,ok:0,answered:false};
+  render(); window.scrollTo(0,0);
+}
+const normS=s=>String(s).toLowerCase().replace(/[„”“"«»‚‘’'.,!?;:()…–—-]/g," ").replace(/\s+/g," ").trim();
+function matchAns(v,list){
+  const a=normS(v); if(!a) return null;
+  if(list.some(x=>normS(x)===a)) return "ok";
+  if(list.some(x=>plain(normS(x))===plain(a))) return "dia";
+  return null;
+}
+// the reference with the words the answer lacks highlighted (longest common subsequence of words)
+function diffHTML(v,ref){
+  const a=normS(v).split(" "), b=ref.split(/\s+/), bn=b.map(normS), n=a.length, m=b.length;
+  const T=Array.from({length:n+1},()=>new Array(m+1).fill(0));
+  for(let i=n-1;i>=0;i--) for(let j=m-1;j>=0;j--) T[i][j]=a[i]===bn[j]?T[i+1][j+1]+1:Math.max(T[i+1][j],T[i][j+1]);
+  const out=[]; let i=0,j=0;
+  while(j<m){ if(i<n&&a[i]===bn[j]){ out.push(esc(b[j])); i++; j++; } else if(i<n&&T[i+1][j]>=T[i][j+1]) i++; else { out.push(`<ins>${esc(b[j])}</ins>`); j++; } }
+  return {html:out.join(" "),score:T[0][0]/Math.max(1,m)};
+}
+function practicePrompt(it,v){
+  const [name,instr]=PT[it.type], open=OPEN.has(it.type);
+  return `You check one answer in a Polish exercise (level C1) for a learner whose native language is Russian.
+Exercise: ${name} — ${instr}${it.task?` (${it.task})`:""}.
+Prompt: ${it.q}
+${open?"Sample answer (any other good answer is fine)":"Reference answer(s)"}: ${it.ans.join(" / ")}
+Learner's answer: ${v}
+Decide whether the answer is correct, natural Polish and does what the exercise asks. Wording different from the reference is fine if it is correct and keeps the meaning. Ignore a missing final full stop.
+Reply with only JSON: {"verdict":"correct"|"minor"|"wrong","corrected":"the learner's answer with the smallest necessary corrections","errors":[{"wrong":"fragment of the answer","fix":"corrected fragment","why":"short explanation in Russian"}],"comment":"one or two sentences in Russian"}`;
+}
+function renderPractice(){
+  const s=pSession, a=$("#app");
+  if(s.i>=s.items.length) return practiceDone();
+  const it=s.items[s.i], [name,instr]=PT[it.type], open=OPEN.has(it.type), one=it.type==="gap";
+  const pre=it.type==="fix"?it.q:it.type==="cont"?it.q+" ":"";
+  const prompt=it.type==="gap"?esc(it.q).replace(/___/g,'<span class="blank"></span>'):it.type==="use"?`<b>${esc(it.q)}</b> <span class="muted" style="font-weight:600">— ${esc(it.task)}</span>`:esc(it.q);
+  a.innerHTML=`<div class="study-top"><button class="iconbtn" id="quit" aria-label="Завершить">${ICON.close}</button>
+    <div class="prog"><i style="width:${s.i/s.items.length*100}%"></i></div><span class="small muted num">${s.i+1}/${s.items.length}</span></div>
+  <div class="panel pq"><span class="pill kind" style="justify-self:start">${name}</span>
+    <div class="small muted">${instr}${it.task&&it.type!=="use"?`: <b style="color:var(--ink)">${esc(it.task)}</b>`:""}</div>
+    <div class="ptask" ${it.type==="tr"?"":'lang="pl"'}>${prompt}</div></div>
+  <form id="pf" class="pform" autocomplete="off">
+    ${one?`<input class="typein" id="pa" lang="pl" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" placeholder="пропущенное слово">`
+      :`<textarea class="ta" id="pa" lang="pl" rows="${open?4:3}" spellcheck="false" placeholder="${open?"ваш ответ":"предложение целиком"}">${esc(pre)}</textarea>`}
+    ${diaHTML()}
+    <div class="row"><button type="button" class="btn ghost" id="pgive">${open?"Образец":"Не знаю"}</button><button class="btn primary" id="pchk">Проверить</button></div>
+  </form><div id="fb"></div>`;
+  const inp=$("#pa"); bindDia(inp);
+  setTimeout(()=>{ inp.focus({preventScroll:true}); try{ inp.setSelectionRange(inp.value.length,inp.value.length); }catch(e){} },50);
+  inp.onkeydown=e=>{ if(e.key==="Enter"&&(e.ctrlKey||e.metaKey)){ e.preventDefault(); $("#pf").requestSubmit(); } };
+  $("#quit").onclick=()=>s.i>0?practiceDone(true):go(view);
+  const best=v=>it.ans.map(x=>diffHTML(v,x)).sort((p,q)=>q.score-p.score)[0].html;
+  const refHTML=(v,head)=>`<div class="why"><span class="why-h">${head}</span>${v&&!open?`<div lang="pl">${best(v)}</div>`:it.ans.map(x=>`<div lang="pl">${esc(x)}</div>`).join("")}${it.note?`<div class="small muted mt">${md(it.note)}</div>`:""}</div>`;
+  const finish=(score,html)=>{
+    s.answered=true; s.ok+=score; inp.readOnly=true;
+    $("#dia").hidden=true; $("#pgive").hidden=true; $("#pchk").textContent="Дальше"; $("#pchk").disabled=false;
+    $("#fb").innerHTML=html; $("#pchk").focus({preventScroll:true});
+  };
+  $("#pf").onsubmit=async e=>{ e.preventDefault();
+    if(s.answered) return nextP();
+    const v=inp.value.trim(); if(!v||s.busy) return;
+    if(!open){ const m=matchAns(v,it.ans);
+      if(m) return finish(1,`<div class="fb ${m==="ok"?"ok":"mid"}">${m==="ok"?"Верно!":"Верно, но проверьте польские буквы."}${it.ans.length>1?`<div class="why"><span class="why-h">Варианты</span>${it.ans.map(x=>`<div lang="pl">${esc(x)}</div>`).join("")}</div>`:""}${it.note?`<div class="small muted mt">${md(it.note)}</div>`:""}</div>`); }
+    if(aiReady()){
+      s.busy=true; $("#pchk").disabled=true; $("#fb").innerHTML='<div class="fb aibox"><span class="spin"></span>Claude проверяет ответ…</div>';
+      try{
+        const r=await askAI(practicePrompt(it,v),"quick"); s.busy=false; if(pSession!==s) return;
+        const vd=r?.verdict==="correct"?"ok":r?.verdict==="minor"?"mid":"no", errs=(Array.isArray(r?.errors)?r.errors:[]).filter(x=>x&&x.wrong);
+        return finish(vd==="ok"?1:vd==="mid"?.5:0,`<div class="fb ${vd}"><div>${vd==="ok"?"Верно!":vd==="mid"?"Почти: есть неточность.":"Есть ошибки."} <span class="small muted">· проверил Claude</span></div>
+          ${errs.length?`<ul class="errs">${errs.map(x=>`<li><s lang="pl">${esc(x.wrong)}</s> → <b lang="pl">${esc(x.fix||"")}</b><div class="small">${esc(x.why||"")}</div></li>`).join("")}</ul>`:""}
+          ${vd!=="ok"&&r.corrected?`<div class="mt"><span class="why-h">Исправленный вариант</span><div lang="pl">${esc(r.corrected)}</div></div>`:""}
+          ${r?.comment?`<div class="small mt">${esc(r.comment)}</div>`:""}${refHTML("",open?"Образец":"Эталон")}</div>`);
+      }catch(err){
+        s.busy=false; if(pSession!==s) return; $("#pchk").disabled=false;
+        $("#fb").innerHTML=`<div class="tip small">${esc(err.message)}</div>`;
+        if(aiReady()) return;
+      }
+    }
+    // without Claude: compare with the reference and judge yourself
+    s.answered=true; inp.readOnly=true; $("#dia").hidden=true; $("#pgive").hidden=true; $("#pchk").hidden=true;
+    $("#fb").innerHTML=`<div class="fb">${open?"Сравните свой ответ с образцом.":"Ответ не совпал с эталоном дословно. Сравните: выделено то, чего нет в вашем варианте."}${refHTML(v,open?"Образец":"Эталон")}</div>
+      <div class="row mt"><button class="btn ghost" id="sNo">Есть ошибки</button><button class="btn primary" id="sYes">${open?"Получилось":"Мой вариант тоже верен"}</button></div>`;
+    $("#sYes").onclick=()=>{ s.ok++; nextP(); }; $("#sNo").onclick=nextP;
+  };
+  $("#pgive").onclick=()=>{ if(!s.answered&&!s.busy) finish(0,`<div class="fb ${open?"":"no"}">${open?"Образец ответа":"Правильный ответ"}${refHTML("",open?"Образец":"Эталон")}</div>`); };
+}
+function nextP(){ if(!pSession) return; pSession.i++; pSession.answered=false; renderPractice(); window.scrollTo(0,0); }
+const fmt1=x=>Number.isInteger(x)?String(x):x.toFixed(1).replace(".",",");
+function practiceDone(early){
+  const s=pSession, n=early?s.i:s.items.length, pct=n?Math.round(s.ok/n*100):0;
+  const counted=!early||n>=5, first=counted&&lessonDone();
+  if(!early) S.pr[s.type]=Math.max(S.pr[s.type]||0,pct);
+  persist(); pushRemote();
+  $("#app").innerHTML=`<div class="panel done-card" style="padding:28px 20px">${counted?pandaDone(first):""}<div class="eyebrow">${s.type==="mix"?"Смешанная практика":PT[s.type][0]}</div>
+    <div class="big num" id="bigNum">${pct}%</div><div class="muted num">${fmt1(s.ok)} из ${n}</div>
+    <div class="row" style="width:100%"><button class="btn ghost" id="pBack">К практике</button><button class="btn primary" id="pAgain">Ещё раз</button></div></div>`;
+  const type=s.type; pSession=null;
+  countUp($("#bigNum"),pct,"%"); if(first||pct>=80&&!early) confetti();
+  document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
+  $("#pBack").onclick=()=>go({tab:"gram"}); $("#pAgain").onclick=()=>startPractice(type);
+}
+
+// ---------- WRITING: task → text → check → corrections → rewrite ----------
+const WB={}; WRITING.forEach(w=>WB[w.id]=w);
+const WG={let:"Официальные письма и заявления",biz:"Деловая переписка",ess:"Эссе и аргументация",op:"Мнение и публицистика",inf:"Неформальное письмо"};
+const REGRU={off:"официальный стиль",semi:"полуофициальный стиль",neu:"нейтральный стиль",inf:"неформальный стиль"};
+const REGEN={off:"formal",semi:"semi-formal",neu:"neutral",inf:"informal"};
+const CRIT=[["task","Выполнение задания"],["coherence","Логика и связность"],["vocabulary","Лексика"],["grammar","Грамматика"],["register","Стиль и регистр"]];
+const ECAT={grammar:["Грамматика","gr"],spelling:["Орфография","gr"],punctuation:["Пунктуация","gr"],vocabulary:["Лексика","lx"],style:["Стиль","st"],register:["Регистр","st"]};
+const wcount=s=>(String(s).match(/[\p{L}\d]+(?:[-'’][\p{L}\d]+)*/gu)||[]).length;
+const wst=id=>S.wr[id]||{};
+function wSave(id,patch){ S.wr[id]={...wst(id),...patch,t:Date.now()}; persist(); }
+function wRow(w){
+  const x=wst(w.id), i=WRITING.indexOf(w);
+  const pill=x.st==="done"?`<span class="pill ok num">✓${x.best?" "+x.best+"%":""}</span>`:x.st==="checked"?`<span class="pill due">переписать</span>`:x.d1?`<span class="pill">черновик</span>`:`<span class="chev">›</span>`;
+  return `<button class="theme" data-wt="${w.id}"><div class="badge" style="--h:${(i*41+200)%360}">${i+1}</div>
+    <div class="meta"><div class="t">${esc(w.ru)}</div><div class="small muted">${esc(w.kind)} · ${w.min}–${w.max} слов</div></div>${pill}</button>`;
+}
+const INF_RE=/(?<!\p{L})(cześć|hej|siema|pozdro|sorry|sorki|spoko|fajn\p{L}*|super|okej|kasa|kasy|ty|cię|tobie|twój|twoja|twoje|twoim|twojej|twojego)(?!\p{L})/giu;
+const LINKERS=["po pierwsze","po drugie","przede wszystkim","ponadto","co więcej","oprócz tego","natomiast","jednak","niemniej","z kolei","dlatego","w związku z","ponieważ","gdyż","zatem","w rezultacie","podsumowując","reasumując","z jednej strony","z drugiej strony","wreszcie","mimo","chociaż","choć","przy czym","tymczasem","w efekcie","biorąc pod uwagę"];
+const STOPW=new Set(["które","który","która","którzy","których","jednak","bardzo","można","także","przez","tylko","będzie","jestem","państwa","państwo","proszę","jeszcze","ponieważ","dlatego","również","wszystko","wszystkie"]);
+// quick checks that work without Claude
+function localChecks(w,text){
+  const out=[], n=wcount(text), low=text.toLowerCase(), letter=w.grp==="let"||w.grp==="biz";
+  out.push(n<w.min?["no",`Мало слов: ${n} (нужно ${w.min}–${w.max})`]:n>w.max*1.15?["mid",`Много слов: ${n} (нужно ${w.min}–${w.max})`]:["ok",`Объём в норме: ${n} слов`]);
+  if(n>40&&!/[ąćęłńóśźż]/i.test(text)) out.push(["no","В тексте нет польских букв (ą, ę, ó, ł…) — без них слова написаны с ошибками"]);
+  if(w.reg==="off"){
+    if(letter&&!/szanown|dzień dobry/i.test(text.slice(0,300))) out.push(["mid","Нет официального обращения в начале: Szanowni Państwo, / Szanowna Pani, / Szanowny Panie,"]);
+    if(letter&&!/z poważaniem|z wyrazami szacunku|łączę wyrazy szacunku|pozostaję z szacunkiem/i.test(low)) out.push(["mid","Нет официальной концовки: Z poważaniem / Z wyrazami szacunku"]);
+    const inf=[...new Set((text.match(INF_RE)||[]).map(x=>x.toLowerCase()))];
+    if(inf.length) out.push(["no",`Разговорные слова в официальном тексте: ${inf.slice(0,6).join(", ")}`]);
+    if(letter&&/(?<!\p{L})(pan|pana|panu|panem|pani|panią|państwo|państwa|państwu|państwem)(?!\p{L})/u.test(text.replace(/(^|[.!?]\s+|\n)\p{Ll}/gu,""))) out.push(["mid","В письме формы Pan, Pani, Państwo (и Pana, Państwa…) пишутся с заглавной буквы"]);
+  }
+  if(w.reg==="inf"&&/szanowni państwo|z poważaniem/i.test(low)) out.push(["mid","Для неформального письма формулы слишком официальные"]);
+  const links=LINKERS.filter(l=>low.includes(l));
+  out.push(links.length>=3?["ok",`Связки: ${links.slice(0,6).join(", ")}`]:["mid",`Мало связок (${links.length}). Добавьте: po pierwsze, ponadto, z kolei, niemniej jednak, dlatego…`]);
+  const cnt={}; for(const m of low.matchAll(/\p{L}{5,}/gu)) if(!STOPW.has(m[0])) cnt[m[0]]=(cnt[m[0]]||0)+1;
+  const rep=Object.entries(cnt).filter(([,c])=>c>=4).sort((a,b)=>b[1]-a[1]);
+  if(rep.length) out.push(["mid",`Повторы: ${rep.slice(0,4).map(([k,c])=>`${k} ×${c}`).join(", ")} — замените синонимами или местоимениями`]);
+  const long=text.split(/[.!?]+/).filter(s=>wcount(s)>40).length;
+  if(long) out.push(["mid",`Очень длинные предложения (больше 40 слов): ${long}. Разбейте их`]);
+  if(n>120&&!/\n\s*\S/.test(text.trim())) out.push(["mid","Текст без абзацев — разбейте его на вступление, основную часть и завершение"]);
+  return out;
+}
+function writingPrompt(w,text,prev,human){
+  const intro=`You are an experienced examiner of Polish as a foreign language (level C1). A learner whose native language is Russian wrote the text below.
+TASK — ${w.title} (${REGEN[w.reg]} register, ${w.min}-${w.max} words):
+${w.task}
+The text should contain: ${w.pts.join("; ")}.`;
+  if(human) return `${intro}\n\nLEARNER'S TEXT:\n"""\n${text}\n"""\n\nPlease answer in Russian: 1) a score from 0 to 5 for task completion, coherence, vocabulary, grammar and register; 2) every grammar, vocabulary and style error as "wrong fragment → correction — explanation", grouped by type; 3) an improved version of the whole text in Polish at C1 level, keeping my ideas; 4) 2-4 concrete tips.`;
+  return `${intro}
+${prev?`This is the learner's REWRITE after feedback on the first version. The first version's errors were: ${(prev.errors||[]).map(e=>`"${e.wrong}" → "${e.fix}"`).join("; ")||"none listed"}. Assess the new version on its own, and in "progress" say in Russian what improved and what is still wrong.\n`:""}LEARNER'S TEXT:
+"""
+${text}
+"""
+Assess it as a C1 exam text. Reply with only JSON:
+{"scores":{"task":0-5,"coherence":0-5,"vocabulary":0-5,"grammar":0-5,"register":0-5},"summary":"2-3 sentences in Russian","errors":[{"cat":"grammar|spelling|punctuation|vocabulary|style|register","wrong":"exact fragment copied from the text","fix":"corrected fragment","why":"short explanation in Russian"}],"improved":"the whole text rewritten at a good C1 level, keeping the learner's ideas and structure; paragraphs separated by \\n","tips":["2-4 concrete tips in Russian"]${prev?`,"progress":"in Russian"`:""}}
+List every real error (at most 25), most important first. "wrong" must be copied character for character from the text and be short (one to six words). Do not mark correct alternatives as errors.`;
+}
+function normFB(r){
+  const sc={}; for(const [k] of CRIT){ const v=Number(r?.scores?.[k]); sc[k]=Math.max(0,Math.min(5,Math.round(isNaN(v)?0:v))); }
+  const errors=(Array.isArray(r?.errors)?r.errors:[]).filter(e=>e&&e.wrong).slice(0,25).map(e=>({cat:String(e.cat||"grammar").toLowerCase(),wrong:String(e.wrong),fix:String(e.fix||""),why:String(e.why||"")}));
+  return {scores:sc,score:Math.round(Object.values(sc).reduce((a,b)=>a+b,0)/25*100),summary:String(r?.summary||""),errors,
+    improved:String(r?.improved||"").replace(/\\n/g,"\n"),tips:(Array.isArray(r?.tips)?r.tips:[]).map(String).slice(0,5),progress:r?.progress?String(r.progress):""};
+}
+// error fragments marked in the learner's text, numbered like the list below it
+function markErrors(text,errs){
+  const spans=[];
+  errs.forEach((e,i)=>{ const f=e.wrong; if(!f) return;
+    for(const [hay,needle] of [[text,f],[text.toLowerCase(),f.toLowerCase()]]){ let k, from=0;
+      while((k=hay.indexOf(needle,from))>=0){ if(!spans.some(s=>k<s.b&&k+f.length>s.a)){ spans.push({a:k,b:k+f.length,i,c:(ECAT[e.cat]||ECAT.grammar)[1]}); return; } from=k+1; } } });
+  spans.sort((p,q)=>p.a-q.a);
+  let out="",p=0; for(const s of spans){ out+=esc(text.slice(p,s.a))+`<mark class="er ${s.c}">${esc(text.slice(s.a,s.b))}<sup>${s.i+1}</sup></mark>`; p=s.b; }
+  return (out+esc(text.slice(p))).replace(/\n/g,"<br>");
+}
+function aiFbHTML(fb,text,final){
+  const errs=fb.errors||[], groups=[["gr","Грамматика, орфография, пунктуация"],["lx","Лексика"],["st","Стиль и регистр"]];
+  return `<div class="panel" style="display:grid;gap:8px"><div class="row" style="align-items:center"><h3>${final?"Проверка исправленного текста":"Оценка"}</h3><span class="pill num ${fb.score>=80?"ok":""}" style="flex:none">${fb.score}%</span></div>
+    ${fb.summary?`<div class="small">${esc(fb.summary)}</div>`:""}
+    <div class="crit">${CRIT.map(([k,l])=>`<span class="small">${l}</span><div class="bar"><i style="width:${(fb.scores?.[k]??0)*20}%;background:var(--good)"></i></div><b class="num small">${fb.scores?.[k]??0}/5</b>`).join("")}</div></div>
+  <div class="panel"><h3>Ваш текст${errs.length?` <span class="small muted">· ${errs.length} ${plural(errs.length,"замечание","замечания","замечаний")}</span>`:""}</h3>
+    <div class="wtext mt" lang="pl">${markErrors(text||"",errs)}</div></div>
+  ${errs.length?`<div class="panel" style="display:grid;gap:14px">${groups.map(([g,h])=>{ const list=errs.map((e,i)=>({...e,i})).filter(e=>(ECAT[e.cat]||ECAT.grammar)[1]===g);
+      return list.length?`<div><h3>${h} · ${list.length}</h3><ol class="errs">${list.map(e=>`<li value="${e.i+1}"><s lang="pl">${esc(e.wrong)}</s> → <b lang="pl">${esc(e.fix)}</b><div class="small">${esc((ECAT[e.cat]||ECAT.grammar)[0])}: ${esc(e.why)}</div></li>`).join("")}</ol></div>`:""; }).join("")}</div>`
+    :`<div class="fb ok">Ошибок не найдено.</div>`}
+  ${fb.improved?`<div class="panel"><h3>Улучшенный вариант</h3><div class="wtext mt" lang="pl">${esc(fb.improved).replace(/\n/g,"<br>")}</div></div>`:""}
+  ${fb.tips?.length?`<div class="tip"><b>Советы</b><ul class="rule" style="margin-top:6px">${fb.tips.map(t=>`<li>${esc(t)}</li>`).join("")}</ul></div>`:""}`;
+}
+const modelHTML=w=>`<details class="panel more model"><summary>Образец ответа</summary><div class="wtext mt" lang="pl">${w.model.map(p=>`<p>${esc(p).replace(/\\n/g,"<br>")}</p>`).join("")}</div></details>`;
+const SELF=["Регистр выдержан от начала до конца","Есть абзацы и связки между ними","Перечитано: падежи, окончания, польские буквы"];
+function offlineHTML(w,checks,text){
+  const x=wst(w.id);
+  return `<div class="panel"><h3>Автоматическая проверка</h3><ul class="checks">${checks.map(([c,t])=>`<li class="${c}"><b>${c==="ok"?"✓":"!"}</b><span class="small">${esc(t)}</span></li>`).join("")}</ul></div>
+  <div class="panel"><h3>Самопроверка</h3><div class="small muted">Сравните свой текст с образцом ниже и отметьте, что получилось.</div>
+    <div class="ticks">${[...w.pts.map(p=>"Есть: "+p),...SELF].map((t,k)=>`<label><input type="checkbox" data-tick="${k}" ${x.ticks?.[k]?"checked":""}><span class="small">${esc(t)}</span></label>`).join("")}</div>
+    <button class="btn ghost block mt" id="wCopy">Скопировать запрос для проверки в чате с ИИ</button></div>
+  <div class="panel"><h3>Ваш текст</h3><div class="wtext mt" lang="pl">${esc(text||"").replace(/\n/g,"<br>")}</div></div>
+  ${modelHTML(w)}`;
+}
+function writeHTML(id){
+  const w=WB[id], x=wst(id), stage=x.st||"draft";
+  const head=`<button class="back" data-back>${ICON.back} Все задания</button>
+  <div><div class="eyebrow">${esc(w.kind)} · ${REGRU[w.reg]} · ${w.min}–${w.max} слов</div><h1>${esc(w.ru)}</h1><div class="muted small mt" lang="pl">${esc(w.title)}</div></div>
+  <div class="panel" style="display:grid;gap:10px"><h3>Задание</h3><div lang="pl" class="wtext">${esc(w.task)}</div>
+    <details class="more"><summary class="small">По-русски</summary><div class="small mt">${esc(w.tru)}</div></details>
+    <div><span class="why-h">Что должно быть в тексте</span><ul class="rule">${w.pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div>
+    <details class="more"><summary class="small">Полезные фразы</summary>${w.phr.map(([p,r])=>`<div class="phr"><span class="p" lang="pl">${esc(p)}</span><span class="small muted">${esc(r)}</span></div>`).join("")}</details></div>`;
+  const editor=(fid,val,btn,btnText)=>`<textarea class="ta long" id="${fid}" lang="pl" spellcheck="false" placeholder="Пишите здесь. Черновик сохраняется автоматически.">${esc(val||"")}</textarea>
+    ${diaHTML()}<div class="wc" id="wc"></div><button class="btn primary block" id="${btn}">${btnText}</button>`;
+  if(stage==="draft") return head+`<div class="panel pform"><h3>Ваш текст</h3>${editor("wt",x.d1,"wCheck","Проверить текст")}
+    <div class="small muted" data-ai hidden>Текст проверит Claude: ошибки по категориям прямо в тексте, оценка, улучшенный вариант и советы. Это занимает до минуты.</div>
+    <div class="small muted" data-noai>Проверка здесь — автоматическая (объём, регистр, связки, повторы) и самопроверка по образцу.</div></div>`;
+  if(stage==="checked") return head+(x.fb?.offline?offlineHTML(w,x.local||[],x.d1):aiFbHTML(x.fb||{},x.d1)+modelHTML(w))
+    +`<div class="panel pform"><h3>Перепишите текст</h3>
+    <div class="small muted">Исправьте ошибки и учтите советы — своими словами, не копируя улучшенный вариант. Текст засчитается после переписывания.</div>
+    ${editor("wt2",x.d2??x.d1,"wCheck2","Сдать исправленный вариант")}</div>`;
+  const f1=x.fb, f2=x.fb2;
+  return head+`<div class="panel" style="display:grid;gap:10px"><h3>Итог</h3>
+    ${f1?.score!=null&&f2?.score!=null?`<div class="row" style="text-align:center"><div><div class="big num" style="font-size:1.8rem">${f1.score}%</div><div class="small muted">первый вариант</div></div><div><div class="big num" style="font-size:1.8rem">${f2.score}%</div><div class="small muted">после исправлений</div></div></div>`
+      :`<div class="small">Текст переписан${x.best?` · самооценка ${x.best}%`:""}.</div>`}
+    ${f2?.progress?`<div class="small">${esc(f2.progress)}</div>`:""}</div>
+    ${f2?aiFbHTML(f2,x.d2,true):`<div class="panel"><h3>Итоговый текст</h3><div class="wtext mt" lang="pl">${esc(x.d2||"").replace(/\n/g,"<br>")}</div></div>`}
+    ${modelHTML(w)}
+    <button class="btn ghost block" id="wRestart">Написать заново</button>`;
+}
+async function wCheck(id,stage){
+  const w=WB[id], ta=$(stage===1?"#wt":"#wt2"), btn=$(stage===1?"#wCheck":"#wCheck2"), text=ta.value.trim(), n=wcount(text);
+  if(n<Math.round(w.min*.6)){ toast(`Пока коротко: ${n} ${plural(n,"слово","слова","слов")}, нужно ${w.min}–${w.max}`); return; }
+  if(aiReady()){
+    btn.disabled=true; btn.innerHTML='<span class="spin"></span> Claude читает текст…'; ta.readOnly=true;
+    try{
+      const fb=normFB(await askAI(writingPrompt(w,text,stage===2?wst(id).fb:null),"default"));
+      if(stage===1) wSave(id,{d1:text,d2:text,st:"checked",fb,local:localChecks(w,text)});
+      else wSave(id,{d2:text,st:"done",fb2:fb,best:Math.max(wst(id).best||0,fb.score)});
+    }catch(e){
+      toast(e.message);
+      if(view.w===id&&!session&&!tSession&&!pSession){ if(aiReady()){ btn.disabled=false; btn.textContent=stage===1?"Проверить текст":"Сдать исправленный вариант"; ta.readOnly=false; } else render(); }
+      return;
+    }
+  } else if(stage===1) wSave(id,{d1:text,d2:text,st:"checked",fb:{offline:true},local:localChecks(w,text)});
+  else { const x=wst(id), got=(x.ticks||[]).filter(Boolean).length; wSave(id,{d2:text,st:"done",best:Math.max(x.best||0,Math.round(got/(w.pts.length+SELF.length)*100))}); }
+  const first=stage===2&&lessonDone(); pushRemote();
+  if(view.w!==id||session||tSession||pSession) return;
+  render(); window.scrollTo(0,0);
+  if(stage===2){ toast("Текст засчитан"); if(first) confetti(); }
+}
+function bindWrite(){
+  const id=view.w, w=WB[id]; if(!w) return;
+  const ta=$("#wt")||$("#wt2"), field=$("#wt")?"d1":"d2";
+  if(ta){
+    bindDia(ta);
+    const wc=$("#wc"), upd=()=>{ const n=wcount(ta.value); wc.textContent=`${n} ${plural(n,"слово","слова","слов")} · нужно ${w.min}–${w.max}`; wc.className="wc "+(n>=w.min&&n<=w.max?"ok":n>w.max*1.15?"no":""); };
+    let tm=null; ta.oninput=()=>{ upd(); clearTimeout(tm); tm=setTimeout(()=>{ S.wr[id]={...wst(id),[field]:ta.value,t:Date.now()}; persist(); },600); };
+    upd();
+  }
+  const c1=$("#wCheck"); if(c1) c1.onclick=()=>wCheck(id,1);
+  const c2=$("#wCheck2"); if(c2) c2.onclick=()=>wCheck(id,2);
+  document.querySelectorAll("[data-tick]").forEach(cb=>cb.onchange=()=>{ const t=[...(wst(id).ticks||[])]; t[+cb.dataset.tick]=cb.checked; wSave(id,{ticks:t}); });
+  const cp=$("#wCopy"); if(cp) cp.onclick=async()=>{ try{ await navigator.clipboard.writeText(writingPrompt(w,wst(id).d1||"",null,true)); toast("Запрос скопирован — вставьте его в чат с ИИ"); }catch(e){ toast("Не удалось скопировать"); } };
+  const rs=$("#wRestart"); if(rs) rs.onclick=()=>{ wSave(id,{st:"",d1:"",d2:"",fb:null,fb2:null,local:null,ticks:[]}); render(); };
+}
+
+// ---------- MY DICTIONARY ----------
+function rebuildMy(){
+  for(let i=WORDS.length-1;i>=0;i--) if(WORDS[i].ti===MY_TI){ delete BY[WORDS[i].key]; WORDS.splice(i,1); }
+  Object.entries(S.my||{}).filter(([,v])=>!v.x&&v.pl&&v.ru).sort((a,b)=>(a[1].c||0)-(b[1].c||0))
+    .forEach(([id,v])=>{ const w=mkWord("my:"+id,v.pl,"",v.ru,v.ex||"",MY_TI); WORDS.push(w); BY[w.key]=w; });
+}
+function myHTML(){
+  const s=themeStats(MY_TI), ws=WORDS.filter(w=>w.ti===MY_TI).reverse(), nl=Math.min(10,s.new,newLeftToday()), dueN=Math.min(s.due,MAXDUE), extra=!dueN&&!nl&&s.new>0;
+  const label=dueN||nl?[dueN?`Повторить ${dueN}`:"",nl?`${nl} новых`:""].filter(Boolean).join(" + "):extra?`Ещё ${Math.min(10,s.new)} новых`:"На сегодня всё";
+  return `<button class="back" data-back>${ICON.back} Все темы</button>
+  <div><div class="eyebrow">Ваши слова и выражения · ${ws.length}</div><h1>Мой словарь</h1></div>
+  <form class="panel myform" id="myForm" autocomplete="off">
+    <label><span class="lbl-s">По-польски</span><input class="search" id="myPl" lang="pl" maxlength="80" placeholder="например: rozstrzygnąć spór" autocapitalize="off" spellcheck="false"></label>
+    ${diaHTML("myDia")}
+    <label><span class="lbl-s">Перевод</span><input class="search" id="myRu" maxlength="120" placeholder="разрешить спор"></label>
+    <label><span class="lbl-s">Пример <span class="muted" style="font-weight:500">— необязательно, но с ним слово тренируется и в предложении</span></span><textarea class="ta" id="myEx" rows="2" lang="pl" maxlength="300" style="min-height:64px"></textarea></label>
+    <div id="myMsg" class="small"></div>
+    <div class="row"><button type="button" class="btn ghost" id="myAI" data-ai hidden>Заполнить с Claude</button><button class="btn primary" type="submit">Добавить</button></div>
+  </form>
+  ${ws.length?`<div class="panel" style="display:grid;gap:12px">
+    <div class="legend num"><span><i class="dot k"></i>Выучено ${s.learned}</span><span><i class="dot l"></i>В работе ${s.learning}</span><span><i class="dot"></i>Новые ${s.new}</span></div>
+    <div class="row"><button class="btn primary" id="tStudy" ${extra?'data-extra="1"':""} ${dueN||s.new?"":"disabled"}>${label}</button><button class="btn ghost" id="tDrill">Тренировка</button></div>
+    <div class="small muted">Новые слова из вашего словаря попадают и в ежедневное занятие на главной — раньше слов из тем.</div></div>
+    ${wordRows(ws)}`
+  :`<div class="panel small muted">Записывайте сюда слова, которые встретили в книгах, сериалах или разговорах. Они станут карточками: сначала узнавание, потом ввод с клавиатуры, а с примером — и использование в предложении.</div>`}`;
+}
+function bindMy(){
+  const f=$("#myForm"); if(!f) return;
+  const pl=$("#myPl"), ru=$("#myRu"), ex=$("#myEx"), msg=$("#myMsg");
+  bindDia(pl,$("#myDia"));
+  f.onsubmit=e=>{ e.preventDefault();
+    const p=pl.value.trim().replace(/\s+/g," "), r=ru.value.trim(), x=ex.value.trim();
+    if(!p||!r){ msg.textContent="Нужны слово и перевод."; return; }
+    const dup=WORDS.find(w=>plain(norm(w.pl))===plain(norm(p)));
+    if(dup&&dup.ti===MY_TI){ msg.textContent="Это слово уже есть в вашем словаре."; return; }
+    const id=Date.now().toString(36)+Math.random().toString(36).slice(2,5), now=Date.now();
+    S.my[id]={pl:p,ru:r,ex:x&&!/[.!?…]$/.test(x)?x+".":x,c:now,t:now}; persist(); rebuildMy();
+    toast(dup?`Добавлено. «${dup.pl}» есть и в теме «${THEMES[dup.ti].name}»`:"Добавлено в словарь"); render();
+  };
+  const ai=$("#myAI"); if(ai) ai.onclick=async()=>{
+    const p=pl.value.trim(); if(!p){ msg.textContent="Сначала напишите слово по-польски."; return; }
+    ai.disabled=true; msg.innerHTML='<span class="aibox"><span class="spin"></span>Claude подбирает перевод и пример…</span>';
+    try{
+      const r=await askAI(`A Russian-speaking learner of Polish (level C1) is saving this Polish word or phrase in a personal dictionary: "${p}". Give its base form (correct the spelling if needed), a short Russian translation (1-3 meanings, comma-separated) and one natural Polish example sentence at C1 level that uses it. Reply with only JSON: {"pl":"...","ru":"...","ex":"..."}`,"quick");
+      if(r?.pl) pl.value=String(r.pl); if(r?.ru) ru.value=String(r.ru); if(r?.ex) ex.value=String(r.ex);
+      msg.textContent="Проверьте и нажмите «Добавить».";
+    }catch(err){ msg.textContent=err.message; }
+    ai.disabled=false;
+  };
+}
+function delMy(id){ const v=S.my[id]; if(!v) return; S.my[id]={...v,x:1,t:Date.now()}; delete S.w["my:"+id]; persist(); rebuildMy(); toast("Удалено из словаря"); render(); }
 
 // ---------- STATS ----------
 function statsHTML(){
@@ -1031,6 +1545,9 @@ function statsHTML(){
   const totalAns=Object.values(S.log).reduce((a,x)=>a+(x.r||0),0);
   const gDone=GRAMMAR.filter(g=>S.gr[g.id]>=80).length, lDone=LETTERS.filter(l=>S.lt[l.id]>=80).length;
   const wd=["вс","пн","вт","ср","чт","пт","сб"];
+  const seen=Object.entries(S.w).filter(([k,s])=>BY[k]&&s.s>0).map(([,s])=>s), nSeen=seen.length||1;
+  const fun=[["Узнаю","выбираю перевод без ошибок",seen.filter(s=>skl(s,"r")>=2).length],["Вспоминаю","пишу слово сам",seen.filter(s=>skl(s,"c")>=2).length],["Использую","ставлю в предложение или сочетание",seen.filter(s=>skl(s,"p")>=1).length]];
+  const pk=Object.keys(PT), pDone=pk.filter(k=>(S.pr[k]??0)>=80).length, wDone=WRITING.filter(w=>wst(w.id).st==="done").length;
   return `<div class="top"><h1>Прогресс</h1><span class="sync" id="sync"><i></i> …</span></div>
   <div class="panel" style="display:grid;gap:10px">
     <div class="row" style="text-align:center">
@@ -1045,6 +1562,13 @@ function statsHTML(){
     <div class="stat"><b class="num">${readCount()}/${STORIES.length}</b><span>историй прочитано</span></div>
     <div class="stat"><b class="num">${lDone}/${LETTERS.length}</b><span>писем освоено</span></div>
   </div>
+  <div class="stats3">
+    <div class="stat"><b class="num">${pDone}/${pk.length}</b><span>видов практики от 80%</span></div>
+    <div class="stat"><b class="num">${wDone}/${WRITING.length}</b><span>текстов переписано</span></div>
+    <div class="stat"><b class="num">${hardWords().length}</b><span>трудных слов</span></div>
+  </div>
+  <div class="panel"><h3>Как вы знаете слова</h3><div class="small muted mt">Из ${seen.length} изученных слов:</div>
+    <div class="crit">${fun.map(([h,d,n])=>`<span class="small"><b>${h}</b> · <span class="muted">${d}</span></span><div class="bar"><i style="width:${n/nSeen*100}%;background:var(--good)"></i></div><b class="num small">${n}</b>`).join("")}</div></div>
   <div class="panel"><h3>Ответы за 14 дней</h3>
     <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block;margin-top:8px" role="img" aria-label="Ответы по дням">
       <line x1="0" x2="${W}" y1="${goalY}" y2="${goalY}" style="stroke:var(--muted)" stroke-dasharray="3 4" stroke-width="1"/>
@@ -1053,7 +1577,7 @@ function statsHTML(){
     <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:10px;text-align:center">
     ${week.map((c,i)=>`<div style="background:${i===0?"var(--accent-soft)":"var(--raise)"};border-radius:10px;padding:8px 2px"><div class="small muted">${i===0?"сег.":wd[new Date((t+i)*DAY).getUTCDay()]}</div><b class="num">${i===0?themeStats().due:c}</b></div>`).join("")}</div></div>
   <div class="panel"><h3 style="margin-bottom:8px">По темам</h3><div class="list">${THEMES.map((th,i)=>{const s=themeStats(i);return `<div><div class="row small" style="justify-content:space-between"><span style="font-weight:700">${esc(th.name)}</span><span class="muted num" style="flex:none">${s.learned}/${s.total}</span></div><div class="bar"><i style="width:${s.learned/s.total*100}%;background:var(--good)"></i><i style="width:${s.learning/s.total*100}%;background:var(--learning)"></i></div></div>`}).join("")}</div></div>
-  <div class="panel small muted">Слово считается выученным, когда вы правильно ответили на него несколько раз с растущими интервалами (1 → 2 → 4 → 7 → 14 дней). Ошибка откатывает слово на две ступени назад и возвращает его на повторение. Ответ без польских букв засчитывается, но с подсказкой.</div>`;
+  <div class="panel small muted">Слово считается выученным, когда вы правильно ответили на него несколько раз с растущими интервалами (1 → 2 → 4 → 7 → 14 дней). Интервал подстраивается под каждое слово: быстрый уверенный ответ его удлиняет, а ошибка, подсказка, опечатка или долгое раздумье — сокращают. Ошибка откатывает слово на две ступени назад. Слова, которые вы забываете снова и снова, становятся «трудными» и возвращаются чаще. Карточки идут по ступеням: узнать перевод → написать слово самому → использовать его в предложении.</div>`;
 }
 
 // ---------- backup: export / import progress as a JSON file ----------
@@ -1082,7 +1606,7 @@ async function readBackup(file){
 }
 function importProgress(d,replace){
   // replace: new rs, so older progress on other devices doesn't come back on sync
-  if(replace) S={w:d.w,log:d.log||{},gr:d.gr||{},rd:d.rd||{},lt:d.lt||{},set:{...S.set,...(d.set||{})},v:1,st:Date.now(),rs:Date.now()};
+  if(replace) S={w:d.w,log:d.log||{},gr:d.gr||{},rd:d.rd||{},lt:d.lt||{},pr:d.pr||{},wr:d.wr||{},my:{...S.my,...(d.my||{})},set:{...S.set,...(d.set||{})},v:1,st:Date.now(),rs:Date.now()};
   else S=merge(S,{...d,rs:S.rs||0});   // per word, the more recent result wins
   persist(); pushRemote(true);
 }
@@ -1145,9 +1669,9 @@ function openSettings(){
     zone.querySelector("#imM").onclick=()=>{ importProgress(d,false); close(); toast("Прогресс объединён"); };
     zone.querySelector("#imR").onclick=()=>{ importProgress(d,true); close(); toast("Прогресс заменён"); };
   };
-  bg.querySelector("#reset").onclick=()=>{ bg.querySelector("#resetZone").innerHTML=`<div class="small" style="margin-bottom:8px">Удалить прогресс по всем словам, грамматике, историям и письмам? Это нельзя отменить.</div><div class="row"><button class="btn ghost" id="rn">Отмена</button><button class="btn bad" id="ry">Удалить</button></div>`;
+  bg.querySelector("#reset").onclick=()=>{ bg.querySelector("#resetZone").innerHTML=`<div class="small" style="margin-bottom:8px">Удалить прогресс по всем словам, грамматике, практике, текстам, историям и письмам? Слова из «Моего словаря» останутся. Это нельзя отменить.</div><div class="row"><button class="btn ghost" id="rn">Отмена</button><button class="btn bad" id="ry">Удалить</button></div>`;
     bg.querySelector("#rn").onclick=close;
-    bg.querySelector("#ry").onclick=()=>{ S={w:{},log:{},gr:{},rd:{},lt:{},set:S.set,v:1,st:S.st,rs:Date.now()}; persist(); pushRemote(true); close(); toast("Прогресс сброшен"); }; };
+    bg.querySelector("#ry").onclick=()=>{ S={w:{},log:{},gr:{},rd:{},lt:{},pr:{},wr:{},my:S.my,set:S.set,v:1,st:S.st,rs:Date.now()}; persist(); pushRemote(true); close(); toast("Прогресс сброшен"); }; };
 }
 
 // ---------- bindings ----------
@@ -1163,6 +1687,14 @@ function bind(){
   on("#tStudy",()=>startSession(view.theme,$("#tStudy").dataset.extra?10:null));
   on("#bkNow",()=>{ exportProgress(); render(); });
   on("#tDrill",()=>startSession(view.theme,null,true));
+  on("#pMix",()=>startPractice("mix"));
+  on("#hardStudy",()=>startSession(null,null,false,hardWords().slice(0,30).map(w=>w.key)));
+  document.querySelectorAll("[data-pt]").forEach(b=>b.onclick=()=>startPractice(b.dataset.pt));
+  document.querySelectorAll("[data-hard]").forEach(b=>b.onclick=()=>go({tab:"words",hard:1}));
+  document.querySelectorAll("[data-wt]").forEach(b=>b.onclick=()=>go({tab:"mail",w:b.dataset.wt}));
+  document.querySelectorAll("[data-del]").forEach(b=>b.onclick=e=>{ e.preventDefault(); delMy(b.dataset.del); });
+  if(view.tab==="words"&&view.theme===MY_TI) bindMy();
+  if(view.tab==="mail"&&view.w) bindWrite();
   // data-topic, not data-theme: Claude puts data-theme on <html> for light/dark mode
   document.querySelectorAll("[data-topic]").forEach(b=>b.onclick=()=>go({tab:"words",theme:+b.dataset.topic}));
   document.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>go({tab:"gram",g:b.dataset.g}));
