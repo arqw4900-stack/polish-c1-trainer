@@ -217,3 +217,53 @@ bis | бис | Publiczność wywołała zespół na bis.
 skrzypce | скрипка | Gra na skrzypcach od piątego roku życia.
 fortepian | фортепиано, рояль | Na Konkursie Chopinowskim gra się na fortepianie.
 perkusja | ударные | Sąsiad ćwiczy na perkusji wieczorami.
+grafomania | графомания | Jego wiersze to czysta grafomania.
+pastisz | пастиш, стилизация | Powieść jest pastiszem kryminału retro.
+pamflet | памфлет | Autor wydał ostry pamflet na rząd.
+reportażysta | автор репортажей | Kapuściński był najsłynniejszym polskim reportażystą.
+publicysta | публицист | Znany publicysta skomentował wyniki wyborów.
+wznowienie | переиздание | Wydawnictwo przygotowuje wznowienie powieści.
+scenograf | сценограф | Scenograf zbudował na scenie cały dworzec.
+inscenizacja | постановка (пьесы) | Nowa inscenizacja „Wesela” podzieliła widzów.
+kaskader | каскадёр | Kaskader wyskoczył z płonącego auta.
+kasowy | кассовый | Film okazał się kasowym hitem.
+owacja na stojąco | овация стоя | Pianista dostał owację na stojąco.
+symbolika | символика | Symbolika kolorów w filmie jest bardzo przemyślana.
+alegoria | аллегория | „Dżuma” Camusa bywa czytana jako alegoria faszyzmu.
+oksymoron | оксюморон | „Gorący lód” to klasyczny oksymoron.
+punkt kulminacyjny | кульминация | Punkt kulminacyjny filmu rozgrywa się na moście.
+epilog | эпилог | W epilogu poznajemy losy bohaterów po wojnie.
+tantiemy | авторские отчисления | Autor piosenki do dziś żyje z tantiem.
+piractwo | пиратство | Piractwo internetowe uderza w małych wydawców.
+brukowiec | бульварная газета | Brukowiec opublikował zdjęcia z jej urlopu.
+paparazzo | папарацци | Paparazzo czatował pod domem aktorki od rana.
+zasięg | охват (аудитории) | Post miał zasięg miliona użytkowników.
+bańka informacyjna | информационный пузырь | Algorytmy zamykają nas w bańce informacyjnej.
+fałszywka | фейк, подделка | Zdjęcie okazało się fałszywką.
+sprostowanie | опровержение | Gazeta musiała opublikować sprostowanie.
+tajemnica dziennikarska | журналистская тайна | Dziennikarz zasłonił się tajemnicą dziennikarską.
+ramówka | сетка вещания | Stacja zmieniła jesienną ramówkę.
+słuchalność | рейтинг радио (аудитория) | Słuchalność porannej audycji wzrosła.
+abonament RTV | абонентская плата за ТВ и радио | Wielu Polaków nie płaci abonamentu RTV.
+nadawca | вещатель | Publiczny nadawca transmituje mecze reprezentacji.
+serwis streamingowy | стриминговый сервис | Serial jest dostępny w serwisie streamingowym.
+obrzęd | обряд | Topienie marzanny to dawny obrzęd powitania wiosny.
+skansen | музей под открытым небом | W skansenie można zobaczyć dawne chaty i wiatraki.
+kanon lektur | канон обязательной литературы | Spór o kanon lektur wraca co kilka lat.
+noblistka | нобелевская лауреатка | Wisława Szymborska została noblistką w 1996 roku.
+zwrot akcji | неожиданный поворот сюжета | Zwrot akcji w finale zaskoczył wszystkich.
+monodram | моноспектакль | Aktorka wystawiła monodram o Marii Skłodowskiej-Curie.
+kurtyna | занавес | Kurtyna opadła przy gromkich brawach.
+sufler | суфлёр | Sufler podpowiedział aktorowi zapomnianą kwestię.
+partytura | партитура | Dyrygent przeglądał partyturę przed próbą.
+libretto | либретто | Libretto opery napisał znany poeta.
+aria | ария | Śpiewaczka zaśpiewała arię z „Halki” Moniuszki.
+wystawa czasowa | временная выставка | Wystawa czasowa potrwa do końca marca.
+ekspozycja stała | постоянная экспозиция | Ekspozycja stała muzeum jest bezpłatna we wtorki.
+konserwator zabytków | служба охраны памятников (реставратор) | Konserwator zabytków nie zgodził się na wymianę okien.
+fresk | фреска | Freski w kaplicy odnowiono po latach.
+akwarela | акварель | Malowała akwarelami pejzaże Mazur.
+martwa natura | натюрморт | Na martwej naturze widać jabłka i dzban.
+pejzaż | пейзаж | Pejzaże Chełmońskiego pokazują polską wieś.
+autoportret | автопортрет | Malarka namalowała autoportret w lustrze.
+witraż | витраж | Witraże Wyspiańskiego zdobią kościół franciszkanów w Krakowie.

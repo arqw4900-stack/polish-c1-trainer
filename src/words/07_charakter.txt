@@ -208,3 +208,53 @@ przygnębiony | удручённый | Wrócił z rozmowy przygnębiony.
 rozradowany | ликующий | Rozradowane dzieci wybiegły na śnieg.
 zawstydzony | пристыженный | Zawstydzony spuścił wzrok.
 bezradny | беспомощный | Czuła się bezradna wobec biurokracji.
+pamiętliwy | злопамятный | Uważaj, on jest bardzo pamiętliwy.
+zawzięty | упорный, ожесточённый | Był zawziętym przeciwnikiem reformy.
+zapalczywy | запальчивый, горячий | Zapalczywy młodzieniec od razu rzucił się do bójki.
+flegmatyczny | флегматичный | Flegmatyczny kelner nie przejął się naszym pośpiechem.
+melancholijny | меланхоличный | Jesienią wpada w melancholijny nastrój.
+podstępny | коварный | Podstępny plan wspólnika doprowadził firmę do ruiny.
+oschły | сухой, холодный (в общении) | Odpowiedziała oschłym tonem i odłożyła słuchawkę.
+wylewny | экспансивный, сердечный | Nie jest zbyt wylewny, ale bardzo nas lubi.
+zahukany | забитый, запуганный | Zahukany chłopiec bał się odezwać.
+nierozgarnięty | несообразительный | Nowy praktykant jest trochę nierozgarnięty.
+roztropny | благоразумный | Roztropny człowiek nie podpisuje umowy bez czytania.
+rozgoryczenie | горечь, разочарование | Rozgoryczenie kibiców po porażce było ogromne.
+rozżalony | обиженный, огорчённый | Rozżalona córka nie odzywała się do ojca przez tydzień.
+otucha | ободрение, надежда | Jej słowa dodały mi otuchy.
+błogość | блаженство | Leżał na słońcu w stanie zupełnej błogości.
+uniesienie | восторг, душевный подъём | W uniesieniu obiecał jej gwiazdkę z nieba.
+skrępowanie | неловкость, стеснённость | Poczuł skrępowanie, gdy wszyscy na niego spojrzeli.
+osłupieć | остолбенеть | Osłupiała, gdy zobaczyła rachunek.
+rozdrażnienie | раздражённость | Z rozdrażnieniem trzasnął drzwiami.
+zniecierpliwienie | нетерпение | Ze zniecierpliwieniem spoglądał na zegarek.
+trwoga | страх, тревога (книжн.) | Z trwogą czekała na wyniki badań.
+popłoch | паника, переполох | Na widok dymu w sali wybuchł popłoch.
+skrucha | раскаяние | Okazał szczerą skruchę i przeprosił.
+apatia | апатия | Po stracie pracy popadł w apatię.
+euforia | эйфория | Po golu kibiców ogarnęła euforia.
+dwulicowy | двуличный | Okazał się dwulicowym intrygantem.
+roztrzepany | рассеянный, несобранный | Roztrzepana studentka znów zapomniała legitymacji.
+rozczulić się | умилиться, растрогаться | Babcia rozczuliła się na widok wnuczki.
+zrzędliwy | ворчливый | Zrzędliwy sąsiad narzeka na wszystko.
+marudny | капризный, нудный | Dziecko jest marudne, bo się nie wyspało.
+gderać | брюзжать | Babcia gdera, że za mało jemy.
+wybredny | привередливый | Jest wybredny w jedzeniu i nie tknie ryby.
+drobiazgowy | дотошный | Drobiazgowa kontrola trwała cały tydzień.
+zadufany w sobie | самонадеянный | Zadufany w sobie prezes nie słuchał doradców.
+chełpliwy | хвастливый | Chełpliwy wujek przesadza w każdej historii.
+przechwalać się | хвастаться | Przechwala się swoim nowym samochodem.
+tupet | наглость, апломб | Miał tupet, żeby prosić o kolejną pożyczkę.
+pokora | смирение | Porażka nauczyła go pokory.
+prostoduszny | простодушный | Prostoduszny chłopak wierzył we wszystko, co mu powiedziano.
+poczciwy | добродушный, славный | Poczciwy staruszek częstował dzieci cukierkami.
+ospały | сонный, вялый | Po obiedzie wszyscy byli ospali.
+żywiołowy | живой, темпераментный | Żywiołowa dziewczyna rozkręciła całą imprezę.
+stateczny | степенный | Stateczny pan w kapeluszu karmił gołębie.
+frywolny | фривольный | Frywolne żarty nie pasowały do sytuacji.
+swawolny | озорной | Swawolne dzieci biegały po ogrodzie.
+psotny | проказливый | Psotny kot zrzucił wazon z półki.
+nieokrzesany | неотёсанный | Nieokrzesany gość jadł rękami i głośno mlaskał.
+ogłada | воспитанность, хорошие манеры | Brakuje mu ogłady towarzyskiej.
+obycie | светскость, умение держаться | Ma obycie w świecie i swobodnie rozmawia z każdym.
+natarczywy | навязчивый | Natarczywy sprzedawca nie dawał nam spokoju.

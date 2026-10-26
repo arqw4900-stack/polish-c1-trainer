@@ -210,3 +210,53 @@ kornik | короед | Kornik zniszczył tysiące hektarów świerków.
 łąka | луг | Na łące pasą się krowy.
 pole | поле | Pole rzepaku kwitnie na żółto.
 zboże | зерновые, хлеба | Susza zmniejszyła plony zbóż.
+gatunek inwazyjny | инвазивный вид | Barszcz Sosnowskiego to groźny gatunek inwazyjny.
+wymieranie | вымирание | Masowe wymieranie gatunków przyspiesza.
+mokradła | водно-болотные угодья | Mokradła są ostoją rzadkich ptaków.
+starorzecze | старица (реки) | W starorzeczu gniazdują czaple.
+rozlewisko | разлив (реки) | Wiosną łąki zamieniają się w rozlewiska.
+koryto rzeki | русло реки | Po regulacji koryto rzeki stało się proste jak kanał.
+pustynnienie | опустынивание | Pustynnienie zagraża rolnictwu w Afryce.
+nawałnica | сильная буря, ненастье | Nawałnica powaliła setki drzew.
+szadź | изморозь | Rano drzewa pokryła biała szadź.
+roztopy | таяние снегов | W czasie roztopów drogi zamieniają się w błoto.
+niska emisja | выбросы из бытовых печей | Niska emisja z domowych pieców to główne źródło smogu.
+zakwaszenie oceanów | закисление океанов | Zakwaszenie oceanów niszczy rafy koralowe.
+wieczna zmarzlina | вечная мерзлота | Rozmarzanie wiecznej zmarzliny uwalnia metan.
+monokultura | монокультура | Monokultury wyjaławiają glebę.
+wyjałowić | истощить (почву) | Intensywna uprawa wyjałowiła ziemię.
+trzmiel | шмель | Trzmiel zapyla kwiaty nawet w chłodne dni.
+wycinka | вырубка | Mieszkańcy protestują przeciwko wycince starych drzew.
+zalesianie | лесонасаждение | Zalesianie nieużytków wspiera retencję wody.
+runo leśne | лесной травяной покров | W runie leśnym rosną jagody i grzyby.
+podszyt | подлесок | Gęsty podszyt utrudniał marsz.
+ściółka | лесная подстилка | Grzyby rosną w wilgotnej ściółce.
+jałowy | бесплодный, неплодородный | Na jałowej glebie nic nie chce rosnąć.
+padlinożerca | падальщик | Sępy są padlinożercami.
+roślinożerca | травоядное | Żubr jest roślinożercą.
+tarło | нерест | Łososie wracają na tarło do rzek, w których się wykluły.
+gody | брачный период (у животных) | W okresie godów samce cietrzewi tokują o świcie.
+rykowisko | гон оленей | Jesienią turyści przyjeżdżają w Bieszczady posłuchać rykowiska.
+odpady wielkogabarytowe | крупногабаритный мусор | Odpady wielkogabarytowe odbierane są raz w miesiącu.
+składowisko odpadów | полигон отходов, свалка | Składowisko odpadów zatruwa wody gruntowe.
+system kaucyjny | система залога за тару | System kaucyjny obejmie butelki plastikowe i puszki.
+wyciek ropy | разлив нефти | Wyciek ropy zabił tysiące ptaków morskich.
+żyzny | плодородный | Żyzne czarnoziemy dają wysokie plony.
+dziupla | дупло | W dziupli starego dębu zamieszkała sowa.
+gawra | берлога | Niedźwiedź zimuje w gawrze.
+nora | нора | Lis wykopał norę pod korzeniami.
+legowisko | лежбище, логово | Dzik zrobił sobie legowisko w trzcinach.
+trzcina | тростник | Brzegi jeziora porasta gęsta trzcina.
+rosiczka | росянка | Rosiczka chwyta owady lepkimi włoskami.
+jemioła | омела | Jemioła pasożytuje na drzewach.
+porost | лишайник | Porosty są wskaźnikiem czystości powietrza.
+igliwie | хвоя | Ścieżka była miękka od igliwia.
+żołądź | жёлудь | Dziki objadają się żołędziami.
+zaskroniec | уж | Zaskroniec jest niejadowity.
+traszka | тритон | Traszki żyją w czystych stawach.
+czapla | цапля | Czapla stała nieruchomo w płyciźnie.
+żuraw | журавль | Klucz żurawi przeleciał nad łąką.
+kormoran | баклан | Kormorany wyjadają ryby ze stawów.
+wydra | выдра | Wydra wróciła do oczyszczonej rzeki.
+ryś | рысь | Ryś to najrzadziej widywany drapieżnik w polskich lasach.
+borsuk | барсук | Borsuk kopie rozległe nory.

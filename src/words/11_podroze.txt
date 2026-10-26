@@ -220,3 +220,53 @@ strych | чердак | Na strychu znalazłam stare listy.
 działka | дачный участок | W weekend jedziemy na działkę.
 nocne życie | ночная жизнь | Nocne życie Krakowa toczy się na Kazimierzu.
 zwiedzanie z przewodnikiem | экскурсия с гидом | Zwiedzanie z przewodnikiem trwa półtorej godziny.
+blokowisko | спальный район панельных домов | Wychował się na blokowisku na obrzeżach Łodzi.
+wielka płyta | панельное домостроение | Bloki z wielkiej płyty wymagają ocieplenia.
+oficyna | флигель | Mieszkamy w oficynie starej kamienicy.
+buspas | выделенная полоса для автобусов | Taksówki mogą jeździć buspasem.
+wiadukt | путепровод | Pod wiaduktem utworzył się korek.
+estakada | эстакада | Nowa estakada ominie centrum miasta.
+węzeł przesiadkowy | пересадочный узел | Przy dworcu powstał węzeł przesiadkowy.
+odholować | эвакуировать (машину) | Straż miejska odholowała źle zaparkowane auto.
+kwatera prywatna | частное жильё для туристов | Nad morzem wynajęliśmy kwaterę prywatną.
+pole namiotowe | палаточный кемпинг | Na polu namiotowym zabrakło miejsc.
+rezydent | представитель турфирмы | Rezydent biura podróży pomógł nam zmienić pokój.
+pilot wycieczki | руководитель тургруппы | Pilot wycieczki zebrał paszporty na granicy.
+przełęcz | перевал | Na przełęczy zerwał się silny wiatr.
+żleb | кулуар (горное ущелье) | Lawina zeszła żlebem prosto na szlak.
+grań | гребень (горный) | Szliśmy granią przez dwie godziny.
+nadbagaż | перевес багажа | Za nadbagaż zapłaciliśmy więcej niż za bilet.
+międzylądowanie | промежуточная посадка | Lot do Tokio ma międzylądowanie w Dubaju.
+krajoznawczy | краеведческий | Szkoła organizuje wycieczki krajoznawcze.
+promenada | променад, набережная | Wieczorem spacerowaliśmy promenadą nad morzem.
+molo | пирс, мол | Molo w Sopocie jest najdłuższe w Europie.
+plecakowiec | бэкпекер | Plecakowcy szukają tanich hosteli.
+tułaczka | скитания | Po latach tułaczki wrócił do rodzinnego miasta.
+bezdroża | бездорожье, глушь | Terenówką przejechali bezdroża Mongolii.
+zejść na manowce | сбиться с пути | Bez mapy szybko zeszliśmy na manowce.
+mała architektura | малые архитектурные формы | Ławki i latarnie to elementy małej architektury.
+krawężnik | бордюр | Koło uderzyło o krawężnik.
+spółdzielnia mieszkaniowa | жилищный кооператив | Spółdzielnia mieszkaniowa podniosła opłaty.
+podnajem | субаренда | Podnajem mieszkania wymaga zgody właściciela.
+stan deweloperski | черновая отделка | Kupili mieszkanie w stanie deweloperskim.
+mieszkanie pod klucz | квартира под ключ | Mieszkanie pod klucz kosztuje więcej, ale można od razu się wprowadzić.
+bilet okresowy | проездной билет | Bilet okresowy opłaca się przy codziennych dojazdach.
+deweloper | застройщик | Deweloper spóźnia się z oddaniem mieszkań.
+lokator | жилец | Nowy lokator gra na perkusji po nocach.
+przejście graniczne | пограничный пункт пропуска | Na przejściu granicznym tworzą się kolejki ciężarówek.
+zielona granica | незаконный переход границы (вне КПП) | Przemytnicy przekroczyli zieloną granicę nocą.
+przemyt | контрабанда | Celnicy wykryli przemyt papierosów.
+obsuwa | задержка (разг.) | Pociąg miał godzinę obsuwy.
+zawracać | разворачиваться (назад) | Zgubiliśmy drogę i musieliśmy zawracać.
+zjazd z autostrady | съезд с автострады | Przegapiliśmy zjazd z autostrady.
+winieta | виньетка (оплата дорог) | W Czechach trzeba kupić winietę na autostrady.
+fotoradar | камера фиксации скорости | Fotoradar zrobił mu zdjęcie przy stu dwudziestu na godzinę.
+odcinkowy pomiar prędkości | контроль средней скорости на участке | Na tym moście działa odcinkowy pomiar prędkości.
+laweta | эвакуатор (платформа) | Zepsute auto odjechało na lawecie.
+pobocze | обочина | Zatrzymał się na poboczu, żeby zmienić koło.
+koleina | колея (на дороге) | Ciężarówki wyżłobiły w asfalcie głębokie koleiny.
+jezdnia | проезжая часть | Dzieci nie powinny bawić się przy jezdni.
+torowisko | трамвайные пути | Na torowisku zatrzymał się samochód i tramwaje stanęły.
+kuszetka | спальное место в поезде (кушетка) | W nocnym pociągu wykupiliśmy kuszetki.
+bezpośrednie połączenie | прямое сообщение (без пересадок) | Z Gdańska do Zakopanego jest bezpośrednie połączenie.
+nadkomplet | перебор гостей (больше брони, чем мест) | Hotel przyjął nadkomplet gości i część odesłał gdzie indziej.

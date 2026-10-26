@@ -232,3 +232,53 @@ opieka paliatywna | паллиативная помощь | Opieka paliatywna ł
 eutanazja | эвтаназия | Eutanazja jest w Polsce zakazana.
 sanatorium | санаторий | Babcia pojechała do sanatorium na trzy tygodnie.
 uzdrowisko | бальнеологический курорт | Ciechocinek to znane uzdrowisko.
+remisja | ремиссия | Choroba jest w remisji od dwóch lat.
+przerzut | метастаз | Badanie wykazało przerzuty do wątroby.
+biopsja | биопсия | Lekarz zlecił biopsję węzła chłonnego.
+węzeł chłonny | лимфатический узел | Powiększony węzeł chłonny może świadczyć o infekcji.
+radioterapia | лучевая терапия | Po operacji czeka ją jeszcze radioterapia.
+biorca | реципиент | Biorca nerki dobrze zniósł zabieg.
+niewydolność serca | сердечная недостаточность | Niewydolność serca objawia się dusznością i obrzękami.
+tętniak | аневризма | Pękł mu tętniak w mózgu.
+zakrzep | тромб | Po długim locie w nodze utworzył się zakrzep.
+niedokrwistość | анемия, малокровие | Niedobór żelaza wywołał niedokrwistość.
+niedoczynność tarczycy | гипотиреоз | Niedoczynność tarczycy powoduje zmęczenie i tycie.
+trzustka | поджелудочная железа | Zapalenie trzustki jest bardzo bolesne.
+śledziona | селезёнка | Po wypadku usunięto mu śledzionę.
+pęcherzyk żółciowy | желчный пузырь | W pęcherzyku żółciowym wykryto kamienie.
+kamica nerkowa | мочекаменная болезнь | Kamica nerkowa daje silny ból w okolicy lędźwiowej.
+przepuklina | грыжа | Przepuklinę trzeba było operować.
+szew | шов | Szwy zdejmą za tydzień.
+omdlenie | обморок | Omdlenie było skutkiem odwodnienia.
+odwodnienie | обезвоживание | Przy biegunce łatwo o odwodnienie.
+kołatanie serca | учащённое сердцебиение | Po trzeciej kawie czuję kołatanie serca.
+swędzenie | зуд | Swędzenie skóry nie dawało mu spać.
+krążenie | кровообращение | Ruch poprawia krążenie.
+stan zapalny | воспалительный процесс | Antybiotyk opanował stan zapalny.
+dreszcze | озноб | Gorączce towarzyszyły silne dreszcze.
+odporność stadna | коллективный иммунитет | Szczepienia budują odporność stadną.
+przeciwwskazanie | противопоказание | Ciąża jest przeciwwskazaniem do przyjmowania tego leku.
+dawkowanie | дозировка | Przestrzegaj zaleceń dotyczących dawkowania.
+oddział intensywnej terapii | отделение интенсивной терапии | Po wypadku trafił na oddział intensywnej terapii.
+resuscytacja | сердечно-лёгочная реанимация | Resuscytacja przywróciła akcję serca.
+lekarz pierwszego kontaktu | участковый терапевт | Najpierw idź do lekarza pierwszego kontaktu po skierowanie.
+zaostrzenie | обострение | Zaostrzenie astmy wymagało hospitalizacji.
+hipochondryk | ипохондрик | Ten hipochondryk przy każdym kichnięciu podejrzewa zapalenie płuc.
+zaburzenia odżywiania | расстройства пищевого поведения | Zaburzenia odżywiania dotykają coraz młodsze dzieci.
+abstynent | трезвенник | Od dziesięciu lat jest abstynentem.
+badanie przesiewowe | скрининг | Badania przesiewowe wykrywają raka we wczesnym stadium.
+zapalenie wyrostka robaczkowego | аппендицит | Z zapaleniem wyrostka robaczkowego trafił prosto na stół operacyjny.
+złamanie otwarte | открытый перелом | Złamanie otwarte wymaga natychmiastowej operacji.
+nowotwór złośliwy | злокачественная опухоль | Nowotwór złośliwy wykryto na szczęście bardzo wcześnie.
+krwotok | сильное кровотечение, кровоизлияние | Ratownicy zatamowali krwotok.
+mdłości | тошнота, дурнота | Ciężarne często cierpią na poranne mdłości.
+zgaga | изжога | Po tłustym jedzeniu męczy mnie zgaga.
+wrzody żołądka | язва желудка | Wrzody żołądka często wywołuje bakteria Helicobacter pylori.
+rwa kulszowa | ишиас | Rwa kulszowa promieniuje bólem do nogi.
+dyskopatia | дископатия (болезнь межпозвонковых дисков) | Dyskopatia to częsta choroba ludzi pracujących przy biurku.
+zwyrodnienie stawów | артроз | Zwyrodnienie stawów kolanowych utrudnia chodzenie.
+osteoporoza | остеопороз | Osteoporoza sprawia, że kości łatwo się łamią.
+jaskra | глаукома | Nieleczona jaskra prowadzi do ślepoty.
+zaćma | катаракта | Po operacji zaćmy babcia znów czyta bez okularów.
+półpasiec | опоясывающий лишай | Półpasiec to nawrót wirusa ospy wietrznej.
+ospa wietrzna | ветрянка | Dzieci w przedszkolu chorują na ospę wietrzną.

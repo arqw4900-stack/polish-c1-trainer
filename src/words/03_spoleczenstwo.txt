@@ -232,3 +232,53 @@ naród | народ, нация | Naród zjednoczył się w żałobie.
 tożsamość narodowa | национальная идентичность | Język jest podstawą tożsamości narodowej.
 globalizacja | глобализация | Globalizacja ma swoich zwycięzców i przegranych.
 urbanizacja | урбанизация | Urbanizacja postępuje w całym regionie.
+koalicjant | партнёр по коалиции | Koalicjant zagroził wyjściem z rządu.
+ustąpić ze stanowiska | уйти с поста | Po skandalu burmistrz ustąpił ze stanowiska.
+żerować | наживаться (на чём-то), паразитировать | Oszuści żerują na łatwowierności starszych osób.
+marginalizacja | маргинализация | Marginalizacja mniejszości rodzi frustrację.
+rozwarstwienie | расслоение | Rozwarstwienie dochodów rośnie z roku na rok.
+plebiscyt | плебисцит | Plebiscyt czytelników wyłonił książkę roku.
+ordynacja wyborcza | закон о выборах, избирательная система | Partie spierają się o zmianę ordynacji wyborczej.
+próg wyborczy | избирательный барьер | Partia nie przekroczyła progu wyborczego.
+interpelacja | депутатский запрос | Posłanka złożyła interpelację w sprawie likwidacji szpitala.
+ustawodawca | законодатель | Ustawodawca nie przewidział takiej sytuacji.
+kontrmanifestacja | контрманифестация | Policja oddzieliła uczestników marszu od kontrmanifestacji.
+trzeci sektor | некоммерческий сектор | W trzecim sektorze pracuje coraz więcej młodych ludzi.
+wyludnić się | обезлюдеть | Po zamknięciu zakładu miasteczko szybko się wyludniło.
+dzietność | рождаемость (число детей на женщину) | Niska dzietność to jedno z największych wyzwań demograficznych.
+podsycać | разжигать, подогревать | Media podsycały panikę przed wyborami.
+reżim | режим (авторитарный) | Reżim brutalnie stłumił protesty.
+stłumić | подавить | Wojsko stłumiło powstanie w ciągu kilku dni.
+junta | хунта | Wojskowa junta przejęła władzę w nocy.
+zamach stanu | государственный переворот | Próba zamachu stanu zakończyła się fiaskiem.
+fiasko | провал, фиаско | Negocjacje zakończyły się fiaskiem.
+sołtys | сельский староста | Sołtys zwołał zebranie wiejskie.
+agitacja | агитация | Agitacja w szkołach jest zabroniona.
+koryto | кормушка (о власти, разг.) | Politycy walczą już tylko o dostęp do koryta.
+głosowanie jawne | открытое голосование | Radni zażądali głosowania jawnego.
+uprzywilejowany | привилегированный | Uprzywilejowana mniejszość nie chce oddać wpływów.
+egalitarny | эгалитарный, уравнительный | Szwecja uchodzi za społeczeństwo egalitarne.
+marszałek Sejmu | маршал (спикер) Сейма | Marszałek Sejmu zarządził przerwę w obradach.
+klub parlamentarny | парламентская фракция | Klub parlamentarny zagłosował jednomyślnie.
+dyscyplina partyjna | партийная дисциплина | Posłowie złamali dyscyplinę partyjną i poparli projekt opozycji.
+rekonstrukcja rządu | перестановки в правительстве | Premier zapowiedział rekonstrukcję rządu.
+rząd mniejszościowy | правительство меньшинства | Rząd mniejszościowy rzadko przetrwa całą kadencję.
+pucz | путч | Pucz wojskowy stłumiono w ciągu doby.
+dysydent | диссидент | Dysydentów więziono za ich poglądy.
+opozycjonista | оппозиционер | W latach osiemdziesiątych był znanym opozycjonistą.
+stan wojenny | военное положение | Stan wojenny wprowadzono w Polsce 13 grudnia 1981 roku.
+internowanie | интернирование | W stanie wojennym internowano tysiące działaczy.
+kombatant | ветеран войны | Kombatanci złożyli wieńce pod pomnikiem.
+martyrologia | мартирология (память о жертвах) | Martyrologia odgrywa ważną rolę w polskiej pamięci zbiorowej.
+polityka historyczna | историческая политика | Spór o politykę historyczną dzieli partie.
+dekomunizacja | декоммунизация | Dekomunizacja nazw ulic wywołała spory.
+technokrata | технократ | Rząd technokratów miał przeprowadzić trudne reformy.
+państwo opiekuńcze | государство всеобщего благосостояния | Skandynawia słynie z modelu państwa opiekuńczego.
+transfery socjalne | социальные выплаты | Transfery socjalne zmniejszyły ubóstwo wśród dzieci.
+roszczeniowy | склонный требовать (иждивенческий) | Krytycy zarzucają młodym roszczeniową postawę.
+partycypacja | участие (гражданское) | Budżet obywatelski zwiększa partycypację mieszkańców.
+konsultacje społeczne | общественные консультации | Projekt trafił do konsultacji społecznych.
+inkluzywny | инклюзивный | Szkoła stara się być bardziej inkluzywna.
+parytet | паритет, квота | Parytet płci na listach wyborczych budzi kontrowersje.
+wykluczenie komunikacyjne | транспортная изоляция | Likwidacja autobusów pogłębiła wykluczenie komunikacyjne wsi.
+depopulacja | депопуляция | Depopulacja małych miast przyspiesza.

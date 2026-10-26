@@ -219,3 +219,53 @@ wszcząć postępowanie | возбудить дело | Urząd wszczął postęp
 postępowanie | разбирательство, производство по делу | Postępowanie administracyjne trwa zbyt długo.
 akta sprawy | материалы дела | Adwokat zapoznał się z aktami sprawy.
 pouczenie | разъяснение прав (в документе) | Na końcu decyzji znajduje się pouczenie o prawie do odwołania.
+akt oskarżenia | обвинительное заключение | Prokurator skierował akt oskarżenia do sądu.
+areszt tymczasowy | предварительное заключение | Sąd zastosował wobec podejrzanego trzymiesięczny areszt tymczasowy.
+dozór policyjny | полицейский надзор | Zamiast aresztu orzeczono dozór policyjny.
+poręczenie majątkowe | денежный залог (за освобождение) | Wyszedł na wolność po wpłaceniu poręczenia majątkowego.
+współsprawca | соучастник | Policja zatrzymała drugiego współsprawcę napadu.
+paserstwo | скупка краденого | Oskarżono go o paserstwo kradzionych telefonów.
+przywłaszczenie | присвоение (чужого имущества) | Księgowa odpowie za przywłaszczenie pieniędzy firmy.
+fałszywe zeznania | ложные показания | Za fałszywe zeznania grozi do ośmiu lat więzienia.
+biegły | судебный эксперт | Sąd powołał biegłego z zakresu medycyny.
+intercyza | брачный договор | Przed ślubem podpisali intercyzę.
+ubezwłasnowolnić | признать недееспособным | Sąd ubezwłasnowolnił chorego starszego pana na wniosek rodziny.
+zasiedzenie | приобретательная давность | Sąsiad nabył pas działki przez zasiedzenie.
+klauzula niedozwolona | недопустимое условие договора | Sąd uznał zapis umowy za klauzulę niedozwoloną.
+zażalenie | частная жалоба | Obrońca złożył zażalenie na postanowienie o areszcie.
+orzecznictwo | судебная практика | Orzecznictwo w tej sprawie jest niejednolite.
+odpis aktu urodzenia | копия свидетельства о рождении | Do wniosku dołącz odpis aktu urodzenia.
+odsyłać od okienka do okienka | гонять по кабинетам | W urzędzie odsyłali mnie od okienka do okienka.
+uwierzytelnić | заверить (документ) | Tłumacz przysięgły uwierzytelnił kopię dyplomu.
+termin zawity | пресекательный срок | Termin na wniesienie odwołania jest terminem zawitym.
+ustawa zasadnicza | основной закон | Ustawa zasadnicza gwarantuje wolność słowa.
+protokolant | секретарь судебного заседания | Protokolant odczytał zeznania świadka.
+wokanda | список дел к слушанию | Sprawa trafiła na wokandę dopiero po roku.
+klauzula wykonalności | исполнительная надпись | Wyrok opatrzono klauzulą wykonalności.
+zajęcie komornicze | арест имущества (приставом) | Na koncie pojawiło się zajęcie komornicze.
+egzekucja | принудительное исполнение | Wierzyciel wszczął egzekucję z nieruchomości.
+zasądzić | присудить | Sąd zasądził od pozwanego dziesięć tysięcy złotych.
+pokrzywdzony | потерпевший | Pokrzywdzony może występować jako oskarżyciel posiłkowy.
+oskarżyciel posiłkowy | вспомогательный обвинитель | Rodzice ofiary wystąpili jako oskarżyciele posiłkowi.
+przesłuchanie | допрос | Przesłuchanie świadka trwało trzy godziny.
+konfrontacja | очная ставка | Prokurator zarządził konfrontację obu świadków.
+list gończy | розыскной лист | Za zbiegiem rozesłano list gończy.
+zbieg | беглец | Zbieg ukrywał się w lesie przez tydzień.
+europejski nakaz aresztowania | европейский ордер на арест | Na podstawie europejskiego nakazu aresztowania zatrzymano go w Hiszpanii.
+zatarcie skazania | погашение судимости | Po zatarciu skazania uważa się je za niebyłe.
+zaświadczenie o niekaralności | справка о несудимости | Pracodawca zażądał zaświadczenia o niekaralności.
+dozór elektroniczny | электронный браслет (надзор) | Resztę kary odbywa w systemie dozoru elektronicznego.
+kara ograniczenia wolności | ограничение свободы (исправительные работы) | Sąd orzekł karę ograniczenia wolności w postaci prac społecznych.
+obdukcja | медицинское освидетельствование побоев | Po pobiciu poszła na obdukcję.
+sekcja zwłok | вскрытие (тела) | Sekcja zwłok wykazała zatrucie.
+nieumyślne spowodowanie śmierci | неумышленное причинение смерти | Kierowcę oskarżono o nieumyślne spowodowanie śmierci.
+obrona konieczna | необходимая оборона | Sąd uznał, że działał w obronie koniecznej.
+stan wyższej konieczności | крайняя необходимость | Wybił szybę w stanie wyższej konieczności, żeby ratować dziecko z auta.
+poczytalność | вменяемость | Biegli psychiatrzy ocenią jego poczytalność.
+podżeganie | подстрекательство | Oskarżono go o podżeganie do zabójstwa.
+pomocnictwo | пособничество | Za pomocnictwo grozi taka sama kara jak sprawcy.
+usiłowanie | покушение (на преступление) | Usiłowanie kradzieży również jest karalne.
+groźba karalna | уголовно наказуемая угроза | Sąsiad usłyszał zarzut groźby karalnej.
+znieważenie | оскорбление (юр.) | Znieważenie funkcjonariusza jest przestępstwem.
+naruszenie miru domowego | нарушение неприкосновенности жилища | Wejście do cudzego domu bez zgody to naruszenie miru domowego.
+służebność | сервитут | Sąsiad ma służebność przejazdu przez naszą działkę.

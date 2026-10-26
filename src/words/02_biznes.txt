@@ -263,3 +263,53 @@ drobne | мелочь (деньги) | Masz drobne na parking?
 napiwek | чаевые | W Polsce zwykle zostawia się dziesięć procent napiwku.
 skarbonka | копилка | Dzieci wrzucają monety do skarbonki.
 kieszonkowe | карманные деньги | Dostaje kieszonkowe co tydzień.
+zaległość | задолженность, недоимка | Zaległości czynszowe sięgnęły kilku tysięcy złotych.
+rentowność | рентабельность | Rentowność sklepu spadła po podwyżce czynszu.
+amortyzacja | амортизация | Amortyzacja samochodu firmowego obniża podatek.
+odliczyć od podatku | вычесть из налога | Darowiznę na cele charytatywne można odliczyć od podatku.
+fiskus | налоговая, казна (разг.) | Fiskus upomniał się o niezapłacony podatek.
+oferent | участник тендера | Spośród pięciu oferentów wybrano najtańszego.
+stopa procentowa | процентная ставка | Bank centralny podniósł stopy procentowe.
+weksel | вексель | Pożyczkę zabezpieczono wekslem in blanco.
+lombard | ломбард | Zastawił w lombardzie złoty zegarek.
+chwilówka | микрозайм до зарплаты | Wziął chwilówkę, a potem kolejną, żeby spłacić pierwszą.
+spirala zadłużenia | долговая спираль | Kolejne kredyty wciągnęły rodzinę w spiralę zadłużenia.
+anioł biznesu | бизнес-ангел | Start-up pozyskał pieniądze od anioła biznesu.
+walne zgromadzenie | общее собрание (акционеров) | Walne zgromadzenie zatwierdziło sprawozdanie finansowe.
+spekulant | спекулянт | Spekulanci wywindowali ceny mieszkań.
+wywindować | взвинтить (цены) | Susza wywindowała ceny warzyw do rekordowego poziomu.
+bonifikata | бонификация, скидка за объём | Przy zakupie hurtowym udzielamy bonifikaty.
+dumping | демпинг | Producent oskarżył konkurencję o dumping cenowy.
+akcyza | акциз | Rząd podniósł akcyzę na alkohol i papierosy.
+ryczałt | фиксированная сумма, паушальный платёж | Rozlicza się z fiskusem ryczałtem.
+zysk netto | чистая прибыль | Zysk netto spółki spadł o dwadzieścia procent.
+upust | уступка в цене, скидка (книжн.) | Stałym klientom przysługuje upust w wysokości dziesięciu procent.
+emitent | эмитент | Emitent obligacji zobowiązał się wypłacać odsetki co kwartał.
+wierzytelność | право требования (долга) | Bank sprzedał wierzytelność firmie windykacyjnej.
+faktoring | факторинг | Dzięki faktoringowi firma szybciej dostaje pieniądze z faktur.
+leasing | лизинг | Samochód firmowy wzięli w leasing.
+księga przychodów i rozchodów | книга учёта доходов и расходов | Mały przedsiębiorca prowadzi księgę przychodów i rozchodów.
+nadpłata | переплата | Urząd skarbowy zwrócił mi nadpłatę podatku.
+niedopłata | недоплата | Za niedopłatę podatku naliczono odsetki.
+odsetki za zwłokę | пени за просрочку | Za spóźnioną płatność naliczono odsetki za zwłokę.
+konsolidacja kredytów | консолидация кредитов | Konsolidacja kredytów obniżyła jego miesięczną ratę.
+karencja | льготный период (отсрочка платежей) | Bank dał nam pół roku karencji w spłacie kredytu.
+lichwa | ростовщичество | Oprocentowanie tej pożyczki to zwykła lichwa.
+parabank | небанковская кредитная организация | Parabanki kuszą szybką pożyczką bez sprawdzania historii kredytowej.
+historia kredytowa | кредитная история | Spóźnione raty psują historię kredytową.
+piramida finansowa | финансовая пирамида | Tysiące ludzi straciło oszczędności w piramidzie finansowej.
+kapitalizacja odsetek | капитализация процентов | Przy codziennej kapitalizacji odsetek zysk jest nieco wyższy.
+dywersyfikacja | диверсификация | Dywersyfikacja portfela ogranicza ryzyko.
+kapitalizacja rynkowa | рыночная капитализация | Kapitalizacja rynkowa spółki przekroczyła miliard złotych.
+debiut giełdowy | выход на биржу (IPO) | Debiut giełdowy spółki przyciągnął drobnych inwestorów.
+emisja akcji | эмиссия акций | Spółka przeprowadziła emisję akcji, żeby sfinansować rozwój.
+hurtownik | оптовик | Hurtownik podniósł ceny o dziesięć procent.
+narzut | наценка к себестоимости | Sklep dolicza trzydziestoprocentowy narzut.
+koszt wytworzenia | себестоимость | Koszt wytworzenia jednej sztuki wynosi trzy złote.
+kartel | картель | Urząd ukarał kartel producentów cementu.
+zmowa cenowa | ценовой сговор | Sieci handlowe oskarżono o zmowę cenową.
+rynek wtórny | вторичный рынок | Mieszkania z rynku wtórnego są często tańsze.
+rynek pierwotny | первичный рынок (новостройки) | Ceny na rynku pierwotnym wzrosły o dziesięć procent.
+wycofać się z rynku | уйти с рынка | Sieć wycofała się z polskiego rynku.
+spółka skarbu państwa | госкомпания | Spółki skarbu państwa zatrudniają tysiące osób.
+prywatyzacja | приватизация | Prywatyzacja zakładu zakończyła się zwolnieniami.

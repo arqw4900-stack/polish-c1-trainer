@@ -213,3 +213,53 @@ urlop dziekański | академический отпуск | Wzięła urlop dzi
 skreślić z listy studentów | отчислить | Za niezaliczenie sesji skreślono go z listy studentów.
 przenieść się na inną uczelnię | перевестись в другой вуз | Po pierwszym roku przeniósł się na inną uczelnię.
 przygotowywać się do egzaminu | готовиться к экзамену | Przygotowuję się do egzaminu w bibliotece.
+pensum | учебная нагрузка (норма часов) | Pensum nauczyciela wynosi osiemnaście godzin tygodniowo.
+prorektor | проректор | Prorektor do spraw studenckich przyjął delegację samorządu.
+obrona pracy dyplomowej | защита дипломной работы | Obrona pracy dyplomowej trwała pół godziny.
+adiunkt | адъюнкт (преподаватель со степенью) | Adiunkt prowadzi wykład zamiast profesora.
+konwersatorium | семинар-дискуссия | Na konwersatorium omawiamy przeczytane teksty.
+seminarium dyplomowe | дипломный семинар | Na seminarium dyplomowym każdy prezentuje postępy pracy.
+indeks | зачётная книжка | Kiedyś oceny wpisywano do papierowego indeksu.
+immatrykulacja | торжественное зачисление в вуз | Na immatrykulacji pierwszoroczni składają ślubowanie.
+samouk | самоучка | Jest samoukiem, programowania nauczył się z internetu.
+metodyka | методика (преподавания) | Na studiach mieliśmy metodykę nauczania języka polskiego.
+ocenianie kształtujące | формирующее оценивание | Ocenianie kształtujące daje uczniom informację zwrotną zamiast stopni.
+rozprawka | сочинение-рассуждение | Na maturze trzeba napisać rozprawkę.
+system antyplagiatowy | система антиплагиата | System antyplagiatowy wykazał trzydzieści procent zapożyczeń.
+zerówka | подготовительный класс (нулевой) | Sześciolatki chodzą do zerówki.
+próbna matura | пробный выпускной экзамен | Próbna matura pokazała, ile jeszcze trzeba powtórzyć.
+kółko zainteresowań | школьный кружок | Zapisał się na kółko szachowe.
+woźny | школьный сторож | Woźny otwiera szkołę o siódmej rano.
+wagary | прогул уроков | Pierwszego dnia wiosny cała klasa poszła na wagary.
+lektura obowiązkowa | обязательное чтение (по программе) | Pan Tadeusz to lektura obowiązkowa w liceum.
+zakuwać | зубрить, долбить (разг.) | Całą noc zakuwał daty do egzaminu z historii.
+egzamin ustny | устный экзамен | Na egzaminie ustnym trzeba wylosować trzy pytania.
+odpisać zadanie | списать домашку | Odpisał zadanie od kolegi na przerwie.
+zgłaszać się | тянуть руку (вызываться отвечать) | Zgłasza się na każdej lekcji.
+wyrwać do odpowiedzi | вызвать к доске (неожиданно) | Nauczycielka wyrwała mnie do odpowiedzi z zadania domowego.
+zgłosić nieprzygotowanie | заявить о неготовности к уроку | Zgłosiłem nieprzygotowanie, bo byłem chory.
+szczęśliwy numerek | «счастливый номер» (ученика не спрашивают) | Dziś mam szczęśliwy numerek, więc nie będę pytany.
+dostać uwagę | получить замечание (в журнал) | Dostał uwagę za rozmawianie na lekcji.
+być zagrożonym | быть под угрозой неаттестации | Jest zagrożony z matematyki na koniec roku.
+wystawić ocenę | поставить оценку | Nauczyciel wystawił oceny końcowe.
+nauczanie indywidualne | индивидуальное обучение (на дому) | Po wypadku przeszedł na nauczanie indywidualne.
+poradnia psychologiczno-pedagogiczna | психолого-педагогическая консультация | Poradnia psychologiczno-pedagogiczna wydała opinię o dysleksji.
+nauczyciel wspomagający | учитель поддержки (в инклюзивном классе) | W klasie integracyjnej pracuje nauczyciel wspomagający.
+rozkład materiału | план прохождения материала | Rozkład materiału przewiduje powtórkę w maju.
+konspekt | конспект урока, план | Praktykantka przygotowała konspekt lekcji.
+hospitacja | посещение урока с проверкой | Dyrektor zapowiedział hospitację lekcji.
+ślubowanie | торжественная клятва | Pierwszoklasiści złożyli ślubowanie.
+pasowanie na ucznia | посвящение в первоклассники | Na pasowaniu na ucznia dyrektor dotyka ramienia dziecka wielkim ołówkiem.
+wyróżnienie | отличие, награда | Ukończyła studia z wyróżnieniem.
+docent | доцент | Docent prowadził zakład przez dwadzieścia lat.
+katedra | кафедра | Katedra fizyki zatrudnia trzydziestu pracowników.
+kolokwium | коллоквиум (промежуточная контрольная) | Kolokwium z anatomii oblała połowa roku.
+egzamin zerowy | досрочный экзамен | Najlepsi mogą zdawać egzamin zerowy przed sesją.
+sylabus | программа курса (силлабус) | W sylabusie podano wszystkie lektury.
+lista obecności | список присутствующих | Na wykładzie krąży lista obecności.
+usprawiedliwienie | записка об уважительной причине пропуска | Mama napisała mi usprawiedliwienie.
+polonista | учитель польского языка | Polonista kazał nam przeczytać „Lalkę” w tydzień.
+pierwszoroczniak | первокурсник | Pierwszoroczniacy gubią się na kampusie.
+stancja | съёмная комната (для студента) | Zamiast w akademiku mieszka na stancji.
+praca zaliczeniowa | зачётная работа | Pracę zaliczeniową trzeba oddać do piątku.
+egzaminator | экзаменатор | Egzaminator był surowy, ale sprawiedliwy.

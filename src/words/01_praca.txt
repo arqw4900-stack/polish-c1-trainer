@@ -217,3 +217,53 @@ ambitny | амбициозный | To ambitny projekt, ale realny.
 ambicje zawodowe | профессиональные амбиции | Jego ambicje zawodowe sięgają fotela prezesa.
 wygórowane oczekiwania | завышенные ожидания | Kandydat miał wygórowane oczekiwania finansowe.
 widełki płacowe | вилка зарплаты | Coraz więcej firm podaje w ogłoszeniach widełki płacowe.
+obsadzić stanowisko | заполнить должность | Zarząd chce obsadzić to stanowisko jeszcze przed końcem kwartału.
+piastować | занимать (высокий пост) | Przez dekadę piastował funkcję prezesa spółki.
+świadczenia pozapłacowe | соцпакет, неденежные льготы | Firma kusi kandydatów świadczeniami pozapłacowymi, na przykład prywatną opieką medyczną.
+premia uznaniowa | премия на усмотрение руководства | Premia uznaniowa zależy wyłącznie od decyzji kierownika.
+etos pracy | трудовая этика | Etos pracy jego dziadków opierał się na sumienności i oszczędności.
+rotacja kadr | текучесть кадров | Wysoka rotacja kadr świadczy o złej atmosferze w zespole.
+umowa śmieciowa | «мусорный» договор (без соцгарантий) | Przez lata pracował na umowach śmieciowych, bez prawa do płatnego urlopu.
+szklany sufit | стеклянный потолок | Wiele kobiet w korporacjach wciąż natrafia na szklany sufit.
+wyścig szczurów | крысиные бега | Zrezygnował z wyścigu szczurów i przeprowadził się na wieś.
+wypalić się | выгореть (на работе) | Po pięciu latach nocnych dyżurów całkiem się wypaliła.
+zwierzchnik | вышестоящий начальник | Na wyjazd potrzebujesz zgody bezpośredniego zwierzchnika.
+uposażenie | жалованье, оклад (офиц.) | Uposażenie sędziów jest powiązane z przeciętnym wynagrodzeniem.
+pobory | получка, заработок (книжн.) | Nauczyciele od miesięcy domagają się podwyżki poborów.
+staż pracy | трудовой стаж | Wysokość dodatku zależy od stażu pracy.
+wysługa lat | выслуга лет | Za wysługę lat przysługuje mu dodatek do pensji.
+angaż | ангажемент (приём на работу в театр) | Po udanym przesłuchaniu dostał angaż w Teatrze Narodowym.
+intratny | прибыльный, доходный | To intratne stanowisko, ale wymaga ciągłych wyjazdów.
+harówka | каторжный труд, пахота | Praca na budowie w upale to prawdziwa harówka.
+oddelegować | откомандировать | Firma oddelegowała go na pół roku do oddziału w Gdańsku.
+degradacja | понижение в должности | Za rażące zaniedbania groziła mu degradacja.
+kolesiostwo | кумовство, блат (разг.) | Mówi się, że w tej spółce awansuje się wyłącznie przez kolesiostwo.
+protekcja | протекция | Dostał tę posadę dzięki protekcji wpływowego wujka.
+deputat | натуральная выплата (углём и пр.) | Emerytowani górnicy walczyli o zachowanie deputatu węglowego.
+pracownik umysłowy | работник умственного труда | Pracownicy umysłowi rzadziej skarżą się na urazy, częściej na stres.
+pracownik fizyczny | работник физического труда | Brakuje pracowników fizycznych, zwłaszcza w budownictwie.
+strajk włoski | итальянская забастовка | Celnicy rozpoczęli strajk włoski i odprawy trwały godzinami.
+nienormowany czas pracy | ненормированный рабочий день | Menedżerowie często mają nienormowany czas pracy.
+wdrożyć | ввести в курс дела; внедрить | Nowego pracownika trzeba najpierw wdrożyć w procedury firmy.
+posłuch | авторитет, послушание (подчинённых) | Nowa kierowniczka szybko zdobyła posłuch w zespole.
+sowity | обильный, щедрый (о плате, угощении) | Za ten projekt dostała sowite wynagrodzenie.
+dodatek stażowy | надбавка за стаж | Dodatek stażowy rośnie o jeden procent za każdy rok pracy.
+trzynastka | тринадцатая зарплата | W budżetówce trzynastkę wypłaca się zwykle w marcu.
+budżetówka | бюджетная сфера (разг.) | Płace w budżetówce rosną wolniej niż w sektorze prywatnym.
+korpomowa | корпоративный жаргон | Jego maile są pełne korpomowy i anglicyzmów.
+dowieźć projekt | довести проект до конца (жарг.) | Musimy dowieźć projekt przed końcem kwartału.
+zastępca | заместитель | Zastępca dyrektora prowadził dziś zebranie.
+pełniący obowiązki | исполняющий обязанности | Do czasu konkursu szkołą kieruje pełniący obowiązki dyrektora.
+konkurs na stanowisko | конкурс на должность | Konkurs na stanowisko dyrektora rozstrzygnięto w maju.
+awans poziomy | горизонтальный перевод (на равную должность) | Zamiast podwyżki zaproponowano jej awans poziomy do innego działu.
+urlop wychowawczy | отпуск по уходу за ребёнком | Po macierzyńskim wzięła jeszcze rok urlopu wychowawczego.
+urlop okolicznościowy | отпуск по семейным обстоятельствам | Na ślub przysługują dwa dni urlopu okolicznościowego.
+zaległy urlop | неиспользованный отпуск | Zaległy urlop trzeba wykorzystać do końca września.
+ekwiwalent za urlop | компенсация за неиспользованный отпуск | Przy odejściu z firmy wypłacono mu ekwiwalent za urlop.
+badania okresowe | периодический медосмотр | Bez aktualnych badań okresowych nie można dopuścić pracownika do pracy.
+lekarz medycyny pracy | врач-профпатолог | Lekarz medycyny pracy uznał go za zdolnego do pracy na wysokości.
+Państwowa Inspekcja Pracy | Государственная инспекция труда | Pracownicy złożyli skargę do Państwowej Inspekcji Pracy.
+sygnalista | информатор-разоблачитель (внутри организации) | Sygnalista ujawnił nieprawidłowości w przetargach.
+przyuczyć do zawodu | обучить профессии на месте | Firma sama przyucza do zawodu nowych spawaczy.
+czeladnik | подмастерье | Czeladnik zdał egzamin i został mistrzem stolarskim.
+terminować | быть в учениках (у мастера) | W młodości terminował u krawca.

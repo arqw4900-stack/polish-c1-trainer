@@ -210,3 +210,53 @@ tlen | кислород | Bez tlenu mózg obumiera po kilku minutach.
 wodór | водород | Wodór może napędzać samochody przyszłości.
 azot | азот | Powietrze składa się głównie z azotu.
 akcelerator cząstek | ускоритель частиц | W akceleratorze cząstek zderza się protony.
+falsyfikowalny | опровержимый (фальсифицируемый) | Dobra teoria naukowa musi być falsyfikowalna.
+grant badawczy | исследовательский грант | Zespół dostał grant badawczy na trzy lata.
+grupa kontrolna | контрольная группа | Grupa kontrolna otrzymała placebo.
+korelacja | корреляция | Korelacja nie oznacza związku przyczynowego.
+związek przyczynowo-skutkowy | причинно-следственная связь | Trudno wykazać związek przyczynowo-skutkowy między tymi zjawiskami.
+istotność statystyczna | статистическая значимость | Wynik nie osiągnął istotności statystycznej.
+próba reprezentatywna | репрезентативная выборка | Badanie przeprowadzono na próbie reprezentatywnej tysiąca Polaków.
+odchylenie standardowe | стандартное отклонение | Odchylenie standardowe pokazuje rozrzut wyników.
+zbiór danych | набор данных | Model wytrenowano na ogromnym zbiorze danych.
+luka w zabezpieczeniach | уязвимость (в защите) | Hakerzy wykorzystali lukę w zabezpieczeniach serwera.
+uwierzytelnianie dwuskładnikowe | двухфакторная аутентификация | Włącz uwierzytelnianie dwuskładnikowe w aplikacji banku.
+chmura obliczeniowa | облачные вычисления | Firma przeniosła serwery do chmury obliczeniowej.
+półprzewodnik | полупроводник | Brak półprzewodników zatrzymał produkcję samochodów.
+nadprzewodnik | сверхпроводник | Nadprzewodnik przewodzi prąd bez żadnego oporu.
+cząstka elementarna | элементарная частица | Elektron jest cząstką elementarną.
+izotop | изотоп | Promieniotwórczy izotop węgla pozwala datować znaleziska.
+datowanie radiowęglowe | радиоуглеродный анализ | Datowanie radiowęglowe wykazało, że kość ma dwanaście tysięcy lat.
+katalizator | катализатор | Platyna działa jak katalizator reakcji.
+reakcja łańcuchowa | цепная реакция | W reaktorze zachodzi kontrolowana reakcja łańcuchowa.
+genom | геном | Naukowcy zsekwencjonowali genom pszenicy.
+sekwencjonowanie | секвенирование | Sekwencjonowanie DNA staniało tysiąckrotnie.
+komórka macierzysta | стволовая клетка | Terapia komórkami macierzystymi daje nadzieję chorym.
+opatentować | запатентовать | Wynalazca opatentował nową metodę oczyszczania wody.
+własność intelektualna | интеллектуальная собственность | Firma pilnie strzeże swojej własności intelektualnej.
+miniaturyzacja | миниатюризация | Miniaturyzacja pozwoliła zmieścić komputer w zegarku.
+podzespoły | комплектующие | Ceny podzespołów komputerowych poszły w górę.
+oprogramowanie układowe | прошивка | Producent wydał nowe oprogramowanie układowe routera.
+aparatura | аппаратура | Laboratorium kupiło nowoczesną aparaturę pomiarową.
+odczynnik | реактив | Odczynnik zmienił kolor na niebieski.
+probówka | пробирка | Laborantka opisała każdą probówkę.
+mikroskop elektronowy | электронный микроскоп | Pod mikroskopem elektronowym widać pojedyncze wirusy.
+sonda kosmiczna | космический зонд | Sonda kosmiczna dotarła do Jowisza.
+czarna dziura | чёрная дыра | Nawet światło nie ucieka z czarnej dziury.
+entropia | энтропия | Entropia układu izolowanego nie maleje.
+napęd | привод | Samochód ma napęd na cztery koła.
+silnik spalinowy | двигатель внутреннего сгорания | Silniki spalinowe powoli ustępują elektrycznym.
+kryptografia | криптография | Kryptografia chroni płatności internetowe.
+drukarka 3D | 3D-принтер | Na drukarce 3D wydrukowali protezę dłoni.
+replikacja badań | воспроизведение исследований | Kryzys replikacji badań podważył wiele wyników w psychologii.
+metaanaliza | метаанализ | Metaanaliza objęła ponad sto badań.
+kwant | квант | Energia światła jest przekazywana w kwantach.
+komputer kwantowy | квантовый компьютер | Komputer kwantowy rozwiązał zadanie w kilka minut.
+splątanie kwantowe | квантовая запутанность | Splątanie kwantowe wykorzystuje się w kryptografii.
+synteza jądrowa | термоядерный синтез | Synteza jądrowa może dać niemal nieograniczoną energię.
+rozszczepienie jądra | деление ядра | Elektrownie atomowe wykorzystują rozszczepienie jąder uranu.
+okres połowicznego rozpadu | период полураспада | Okres połowicznego rozpadu węgla-14 wynosi około 5730 lat.
+antymateria | антиматерия | Zetknięcie materii z antymaterią uwalnia ogromną energię.
+ciemna materia | тёмная материя | Ciemna materia nie emituje światła.
+ekstrapolacja | экстраполяция | Ekstrapolacja obecnych trendów bywa zawodna.
+pochodna | производная | Pochodna funkcji opisuje tempo jej zmian.
