@@ -16,13 +16,15 @@
   --display:"Unbounded",system-ui,sans-serif; --body:"Manrope",system-ui,-apple-system,sans-serif;
   --read:"Literata",Georgia,"Times New Roman",serif; --mono:"JetBrains Mono",ui-monospace,monospace;
   --r:18px; --ease:cubic-bezier(.2,.8,.2,1);
+  /* Kluska the panda keeps her colours in both themes */
+  --fur:#ffffff; --fur-dark:#2b2426; --fur-edge:transparent; --blush:#ff9fb2; --tear:#5fb2f5; --sparkle:#ffc93c; --cloud:#aeb8c4;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#151113; --surface:#1f191b; --raise:#2a2225; --ink:#f2e9eb; --muted:#ad9fa3; --line:#3a2f33; --rule:#272a33; --margin:rgba(255,125,140,.34);
   --primary:#f2858f; --on-primary:#1a0f12; --accent-soft:#3b1e25;
   --hl:rgba(255,214,90,.34); --hl-soft:rgba(255,214,90,.12); --hl-good:rgba(84,206,143,.32); --learning:#e3b13c;
   --good:#58cf91; --good-soft:#15322a; --bad:#ffa36b; --bad-soft:#3a2418;
-  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55);
+  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55); --fur-edge:rgba(255,255,255,.5);
   --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 24px -10px rgba(0,0,0,.6);
   --bs:36%; --bl:23%; --ts:80%; --tl:80%; color-scheme:dark}}
 :root[data-theme="dark"]{
@@ -30,7 +32,7 @@
   --primary:#f2858f; --on-primary:#1a0f12; --accent-soft:#3b1e25;
   --hl:rgba(255,214,90,.34); --hl-soft:rgba(255,214,90,.12); --hl-good:rgba(84,206,143,.32); --learning:#e3b13c;
   --good:#58cf91; --good-soft:#15322a; --bad:#ffa36b; --bad-soft:#3a2418;
-  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55);
+  --toast:#f2e9eb; --toast-ink:#151113; --scrim:rgba(0,0,0,.55); --fur-edge:rgba(255,255,255,.5);
   --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 24px -10px rgba(0,0,0,.6);
   --bs:36%; --bl:23%; --ts:80%; --tl:80%; color-scheme:dark}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -208,6 +210,25 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 .phr{display:grid;gap:2px;padding:9px 0;border-top:1px solid var(--line)}
 .phr:first-child{border-top:0}
 .phr .p{font-family:var(--read);font-weight:600}
+/* buddy: Kluska the panda — happy after today's lesson, sad when days are skipped */
+.buddy{display:grid;grid-template-columns:92px 1fr;gap:10px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:12px 14px 14px;box-shadow:var(--shadow)}
+.panda{width:92px;height:auto;display:block;overflow:visible;cursor:pointer}
+.panda .pb{transform-box:view-box;transform-origin:60px 122px}
+.panda .eyes{transform-box:view-box;transform-origin:60px 57px}
+.panda .spark{transform-box:fill-box;transform-origin:center}
+.bubble{position:relative;background:var(--raise);border-radius:16px;padding:10px 12px;display:grid;gap:2px;min-width:0}
+.bubble::before{content:"";position:absolute;left:-8px;top:50%;margin-top:-8px;border:8px solid transparent;border-left:0;border-right-color:var(--raise)}
+.bubble b{font-family:var(--read);font-size:1rem;font-weight:600;line-height:1.35}
+.bubble span{font-size:.8rem;color:var(--muted);line-height:1.35}
+.week{grid-column:1/-1;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.day{display:grid;justify-items:center;gap:3px;font-size:.68rem;font-weight:700;color:var(--muted)}
+.day i{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--raise);border:2px solid transparent}
+.day i svg{width:15px;height:15px;fill:var(--good)}
+.day.on i{background:var(--good-soft);border-color:var(--good)}
+.day.today:not(.on) i{border:2px dashed var(--muted);background:transparent}
+.buddy-done{display:grid;justify-items:center;gap:8px}
+.buddy-done .panda{width:110px}
+.bubble.up::before{left:50%;top:-8px;margin:0 0 0 -8px;border:8px solid transparent;border-top:0;border-bottom-color:var(--raise)}
 /* sheet */
 .sheet-bg{position:fixed;inset:0;background:var(--scrim);z-index:40;display:flex;align-items:flex-end;justify-content:center}
 .sheet{background:var(--surface);width:100%;max-width:600px;border-radius:22px 22px 0 0;padding:20px max(18px,env(safe-area-inset-left,0px)) calc(22px + env(safe-area-inset-bottom,0px)) max(18px,env(safe-area-inset-right,0px));display:grid;gap:14px;max-height:85vh;overflow:auto}
@@ -242,6 +263,14 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
   .sheet-bg{animation:fade .2s}
   .sheet{animation:sheetUp .32s var(--ease)}
   .toast,.glpop{animation:floatIn .28s var(--ease)}
+  .panda .pb{animation:breathe 3.4s ease-in-out infinite}
+  .panda.happy .pb{animation:hop 1.6s var(--ease) infinite}
+  .panda.sad .pb,.panda.sad2 .pb{animation:breathe 4.8s ease-in-out infinite}
+  .panda.poke .pb{animation:wiggle .6s var(--ease)}
+  .panda .eyes{animation:blink 5s infinite}
+  .panda .spark{animation:twinkle 1.8s ease-in-out infinite}
+  .panda .tear{animation:tear 2.4s ease-in infinite}
+  .panda .drop{animation:rain 1s linear infinite}
 }
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @keyframes cardIn{from{opacity:0;transform:translateX(24px) rotate(1deg)}to{opacity:1;transform:none}}
@@ -254,6 +283,13 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 @keyframes sheetUp{from{transform:translateY(100%)}}
 @keyframes floatIn{from{opacity:0;transform:translate(-50%,12px)}}
 @keyframes fall{to{transform:translate(var(--dx),110vh) rotate(var(--r))}}
+@keyframes breathe{50%{transform:scale(1.025,.975)}}
+@keyframes hop{0%,100%{transform:none}35%{transform:translateY(-7px)}55%{transform:scale(1.05,.95)}70%{transform:none}}
+@keyframes wiggle{25%{transform:rotate(-7deg)}75%{transform:rotate(7deg)}}
+@keyframes blink{0%,94%,100%{transform:none}97%{transform:scaleY(.1)}}
+@keyframes twinkle{50%{opacity:.25;transform:scale(.55)}}
+@keyframes tear{0%{opacity:0;transform:none}15%{opacity:1}75%{opacity:1;transform:translateY(14px)}100%{opacity:0;transform:translateY(18px)}}
+@keyframes rain{from{opacity:1;transform:none}to{opacity:0;transform:translateY(9px)}}
 </style>
 
 <div class="readbar" id="readbar" hidden></div>
@@ -262,8 +298,8 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 
 <script>
 /*@DATA@*/
-const ABBR = ["ПК","ДБ","ОП","ПУ","НТ","ЗМ","ХЭ","ПЭ","ОБ","КМ","ПГ","РЯ"];
-const HUES = [352,40,210,262,188,150,318,95,232,288,20,170];
+const ABBR = ["ПК","ДБ","ОП","ПУ","НТ","ЗМ","ХЭ","ПЭ","ОБ","КМ","ПГ","РЯ","C2"];
+const HUES = [352,40,210,262,188,150,318,95,232,288,20,170,62];
 const WORDS = []; const BY = {};
 THEMES.forEach((th,ti)=>th.words.forEach(([pl,ipa,ru,ex])=>{
   const w={key:pl,pl:pl.replace(/\s*\(.*?\)\s*/g,"").trim(),hint:(pl.match(/\((.*?)\)/)||[])[1]||"",ru,ex,ti,
@@ -293,7 +329,7 @@ function merge(a,b){
     const fresh=(x.rs||0)>=rs;
     for(const k in (x.w||{})){ const v=x.w[k]; if(!fresh && (v.t||0)<=rs) continue; if(!out.w[k] || (v.t||0)>(out.w[k].t||0)) out.w[k]=v; }
     if(!fresh) continue;
-    for(const k in (x.log||{})){ const p=out.log[k]||{r:0,ok:0,n:0}, y=x.log[k]; out.log[k]={r:Math.max(p.r,y.r||0),ok:Math.max(p.ok,y.ok||0),n:Math.max(p.n,y.n||0)}; }
+    for(const k in (x.log||{})){ const p=out.log[k]||{r:0,ok:0,n:0,u:0}, y=x.log[k]; out.log[k]={r:Math.max(p.r,y.r||0),ok:Math.max(p.ok,y.ok||0),n:Math.max(p.n,y.n||0),u:Math.max(p.u||0,y.u||0)}; }
     // best scores: grammar topics, stories (answers out of 3), letter exercises
     for(const f of ["gr","rd","lt"]) for(const k in (x[f]||{})) out[f][k]=Math.max(out[f][k]??0,x[f][k]);
   }
@@ -301,7 +337,8 @@ function merge(a,b){
 }
 let dirty=false, saveTimer=null;
 function persist(){ try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){} dirty=true; clearTimeout(saveTimer); saveTimer=setTimeout(pushRemote,3000); }
-const L=()=>{ const k=dstr(today()); return S.log[k]||(S.log[k]={r:0,ok:0,n:0}); };
+// log per day: r answers, ok correct, n new words, u lessons finished
+const L=()=>{ const k=dstr(today()); return S.log[k]||(S.log[k]={r:0,ok:0,n:0,u:0}); };
 
 // ---------- cloud sync (same progress on phone and computer) ----------
 let db=null, docRef=null, syncOn=false;
@@ -381,13 +418,82 @@ function themeStats(ti){
   for(const w of ws){ const s=st(w.key); if(!s) n++; else if(s.s>=LEARNED) k++; else l++; if(isDue(w.key)) d++; }
   return {total:ws.length,new:n,learning:l,learned:k,due:d};
 }
+// a day counts when at least one lesson was finished (older logs without lessons: 10+ answers)
+const dayDone=k=>{ const d=S.log[k]; return !!d && ((d.u||0)>0 || (d.r||0)>=10); };
 function streak(){
   let n=0, t=today();
-  if(!(S.log[dstr(t)]?.r>0)) t--;
-  while(S.log[dstr(t)]?.r>0){ n++; t--; }
+  if(!dayDone(dstr(t))) t--;
+  while(dayDone(dstr(t))){ n++; t--; }
   return n;
 }
 function newLeftToday(){ return Math.max(0, S.set.newPerDay - (L().n||0)); }
+// a finished study session, quiz or story; returns true for the first lesson of the day
+function lessonDone(){ const lg=L(), first=!(lg.u>0); lg.u=(lg.u||0)+1; persist(); return first; }
+
+// ---------- Kluska the panda ----------
+function lessonGap(){ const t=today(); for(let i=0;i<=365;i++) if(dayDone(dstr(t-i))) return i; return null; }
+function pandaMood(){
+  const g=lessonGap();
+  if(g===0) return ["happy",0];
+  if(g===null) return [Object.keys(S.w).length?"sad2":"new",null];
+  return [g===1?"wait":g===2?"sad":"sad2",g];
+}
+function pandaLine(mood,g,sk){
+  if(mood==="happy") return sk>=2?[`Brawo! To już ${sk} dni z rzędu.`,`Браво! Уже ${sk} ${plural(sk,"день","дня","дней")} подряд — Клуска довольна.`]
+    :["Brawo! Dzisiejsza lekcja zaliczona.","Браво! Урок на сегодня сделан — Клуска довольна."];
+  if(mood==="wait") return ["Czekam na ciebie! Jedna lekcja i będę szczęśliwa.","Жду тебя! Один урок — и я буду счастлива."];
+  if(mood==="sad") return ["Wczoraj nie było lekcji… Trochę mi smutno.","Вчера урока не было… Мне немножко грустно."];
+  if(mood==="sad2") return g?[`Nie widziałam cię od ${g} dni… Bardzo tęsknię.`,`Не видела тебя уже ${g} ${plural(g,"день","дня","дней")}… Очень скучаю.`]
+    :["Dawno cię nie było… Bardzo tęsknię.","Давно тебя не было… Очень скучаю."];
+  return ["Cześć! Jestem Kluska. Uczymy się razem?","Привет! Я панда Клуска. Будем учиться вместе?"];
+}
+const POKES=[["Dasz radę!","У тебя получится!"],["Jeszcze jedna lekcja?","Ещё один урок?"],["Uczę się razem z tobą.","Я учусь вместе с тобой."],["Polski nie jest taki straszny!","Польский не такой уж страшный!"],["Bambus po lekcji?","Бамбук после урока?"]];
+function spark(x,y,s,delay){ const a=1.7*s,b=6*s;
+  return `<path class="spark" style="animation-delay:${delay}s" d="M${x} ${y-b}L${x+a} ${y-a}L${x+b} ${y}L${x+a} ${y+a}L${x} ${y+b}L${x-a} ${y+a}L${x-b} ${y}L${x-a} ${y-a}Z" fill="var(--sparkle)"/>`; }
+function pandaSVG(mood){
+  const happy=mood==="happy", sad=mood==="sad"||mood==="sad2", D="var(--fur-dark)", W="var(--fur)", tilt=happy?14:sad?36:24;
+  const label={happy:"довольна",wait:"ждёт урока",new:"здоровается",sad:"грустит",sad2:"очень грустит"}[mood];
+  const eyes=happy?`<path d="M38.5 60q6.5-8 13 0M68.5 60q6.5-8 13 0" fill="none" stroke="${W}" stroke-width="3.2" stroke-linecap="round"/>`
+    :`<g class="eyes"><circle cx="45" cy="57" r="5.4" fill="${W}"/><circle cx="75" cy="57" r="5.4" fill="${W}"/>
+      <circle cx="${sad?44.5:46}" cy="${sad?59.5:58}" r="3.2" fill="${D}"/><circle cx="${sad?75.5:74}" cy="${sad?59.5:58}" r="3.2" fill="${D}"/>
+      <circle cx="${sad?43.6:47}" cy="${sad?58:56}" r="1.2" fill="${W}"/><circle cx="${sad?74.6:75}" cy="${sad?58:56}" r="1.2" fill="${W}"/></g>`;
+  const mouth=happy?`<path d="M52 76q8 11 16 0z" fill="#ff8fa3" stroke="${D}" stroke-width="2" stroke-linejoin="round"/>`
+    :sad?`<path d="M53.5 81.5q6.5-6 13 0" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round"/>`
+    :`<path d="M54 76q3 3.2 6 0q3 3.2 6 0" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>`;
+  const op=happy?.95:sad?.45:.7;
+  const blush=`<ellipse cx="33" cy="76" rx="5.5" ry="3.3" fill="var(--blush)" opacity="${op}"/><ellipse cx="87" cy="76" rx="5.5" ry="3.3" fill="var(--blush)" opacity="${op}"/>`;
+  const brows=sad?`<path d="M36 44q6-6 12-5M72 39q6-1 12 5" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round"/>`:"";
+  const tear=`<path class="tear" d="M80 64q-3.6 5.6 0 8.4q3.6-2.8 0-8.4z" fill="var(--tear)"/>`;
+  const cloud=`<g><circle cx="49" cy="-4" r="7" fill="var(--cloud)"/><circle cx="60" cy="-8" r="9" fill="var(--cloud)"/><circle cx="71" cy="-4" r="7" fill="var(--cloud)"/><rect x="49" y="-4" width="22" height="7" rx="3.5" fill="var(--cloud)"/>
+    <path class="drop" d="M52 7v5M60 8v5M68 7v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/></g>`;
+  const extra=happy?spark(13,20,1,0)+spark(106,12,.8,.6)+spark(111,58,.6,1.1):mood==="new"?spark(108,16,.8,0):mood==="sad"?tear:mood==="sad2"?tear+cloud:"";
+  return `<svg class="panda ${mood}" viewBox="0 -20 120 144" role="img" aria-label="Панда Клуска ${label}"><g class="pb">
+    <ellipse cx="60" cy="103" rx="30" ry="17" fill="${W}" stroke="${D}" stroke-width="2.5"/>
+    <g stroke="var(--fur-edge)" stroke-width="1.6"><ellipse cx="45" cy="118" rx="10" ry="5.5" fill="${D}"/><ellipse cx="75" cy="118" rx="10" ry="5.5" fill="${D}"/>
+    <ellipse cx="37" cy="100" rx="8.5" ry="13" transform="rotate(28 37 100)" fill="${D}"/><ellipse cx="83" cy="100" rx="8.5" ry="13" transform="rotate(-28 83 100)" fill="${D}"/>
+    <circle cx="31" cy="30" r="13" fill="${D}"/><circle cx="89" cy="30" r="13" fill="${D}"/></g>
+    <ellipse cx="60" cy="58" rx="38" ry="34" fill="${W}" stroke="${D}" stroke-width="2.5"/>
+    <ellipse cx="44" cy="58" rx="10.5" ry="13" transform="rotate(${tilt} 44 58)" fill="${D}"/><ellipse cx="76" cy="58" rx="10.5" ry="13" transform="rotate(${-tilt} 76 58)" fill="${D}"/>
+    ${eyes}${brows}<ellipse cx="60" cy="69.5" rx="5" ry="3.6" fill="${D}"/>${mouth}${blush}</g>${extra}</svg>`;
+}
+const PAW='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.5" cy="9" r="2.4"/><circle cx="12" cy="6.2" r="2.4"/><circle cx="17.5" cy="9" r="2.4"/><path d="M12 11.5c-3.2 0-6 3.4-6 5.8 0 1.8 1.6 2.7 3.2 2.2.9-.3 1.8-.5 2.8-.5s1.9.2 2.8.5c1.6.5 3.2-.4 3.2-2.2 0-2.4-2.8-5.8-6-5.8z"/></svg>';
+function buddyHTML(sk){
+  const [mood,g]=pandaMood(), [pl,ru]=pandaLine(mood,g,sk), t=today(), wd=["вс","пн","вт","ср","чт","пт","сб"];
+  const week=[...Array(7)].map((_,i)=>{ const d=t-6+i, on=dayDone(dstr(d));
+    return `<div class="day${on?" on":""}${i===6?" today":""}"><i>${on?PAW:""}</i>${i===6?"сег.":wd[new Date(d*DAY).getUTCDay()]}</div>`; }).join("");
+  return `<section class="buddy">${pandaSVG(mood)}<div class="bubble" id="bubble"><b lang="pl">${pl}</b><span>${ru}</span></div>
+    <div class="week" role="img" aria-label="Уроки за последние 7 дней: ${[...Array(7)].filter((_,i)=>dayDone(dstr(t-6+i))).length} из 7">${week}</div></section>`;
+}
+// shown on a finished session, quiz or story
+function pandaDone(first){
+  const sk=streak(), [pl,ru]=first?pandaLine("happy",0,sk):["Kolejna lekcja — super!","Ещё один урок — супер!"];
+  return `<div class="buddy-done">${pandaSVG("happy")}<div class="bubble up"><b lang="pl">${pl}</b><span>${ru}</span></div></div>`;
+}
+function pokePanda(e){
+  const p=e.currentTarget; p.classList.remove("poke"); void p.getBBox(); p.classList.add("poke");
+  clearTimeout(p._t); p._t=setTimeout(()=>p.classList.remove("poke"),700);
+  const b=$("#bubble"); if(b){ const [pl,ru]=POKES[Math.floor(Math.random()*POKES.length)]; b.innerHTML=`<b lang="pl">${pl}</b><span>${ru}</span>`; }
+}
 
 // ---------- navigation ----------
 let view={tab:"home"}, session=null, tSession=null;
@@ -432,6 +538,7 @@ function homeHTML(){
   return `
   <div class="top"><div class="brand"><h1>Polski</h1><span class="lvl">C1</span></div>
     <div style="display:flex;flex:none;align-items:center;gap:10px"><span class="sync" id="sync"><i></i> …</span><button class="iconbtn" id="settings" aria-label="Настройки">${ICON.gear}</button></div></div>
+  ${buddyHTML(sk)}
   <section class="hero paper">
     <div><div class="eyebrow">${new Date().toLocaleDateString("ru-RU",{weekday:"long",day:"numeric",month:"long"})}</div>
       <h2><span class="mark">${greet}</span></h2>
@@ -654,15 +761,19 @@ document.addEventListener("keydown",e=>{
 });
 function renderDone(early){
   const s=session, n=s.ok+s.bad, acc=n?Math.round(s.ok/n*100):0, r=L().r;
+  // a lesson counts when the session is finished, or after at least 10 answers
+  const counted=!early||n>=10, first=counted&&lessonDone();
   clearTimeout(s.autoNext); pushRemote();
   $("#app").innerHTML=`<div class="panel done-card" style="padding:28px 20px">
+    ${counted?pandaDone(first):""}
     <div class="eyebrow">${early?"Занятие прервано":"Занятие завершено"}</div>
     <div class="big num" id="bigNum">${acc}%</div><div class="muted num">${s.ok} верно · ${s.bad} ${plural(s.bad,"ошибка","ошибки","ошибок")}</div>
     <div class="small muted num">Сегодня всего: ${r} ${plural(r,"ответ","ответа","ответов")} из цели ${S.set.goal}</div>
     <div class="row" style="width:100%"><button class="btn ghost" id="toHome">${view.tab==="home"?"На главную":"Назад"}</button>
     ${!s.drill&&themeStats(s.ti).due?`<button class="btn primary" id="again">Ещё повторение</button>`:`<button class="btn primary" id="more">${s.drill?"Ещё тренировка":"+10 новых"}</button>`}</div></div>`;
   const ti=s.ti, drill=s.drill; session=null;
-  countUp($("#bigNum"),acc,"%"); if(!early && n>=5 && acc>=90) confetti();
+  countUp($("#bigNum"),acc,"%"); if(first || !early && n>=5 && acc>=90) confetti();
+  document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
   $("#toHome").onclick=()=>go(view);
   const ag=$("#again"); if(ag) ag.onclick=()=>startSession(ti);
   const mo=$("#more"); if(mo) mo.onclick=()=>drill?startSession(ti,null,true):startSession(ti,10);
@@ -717,13 +828,14 @@ function renderQuiz(){
   if(s.i>=s.items.length){
     const pct=Math.round(s.ok/s.items.length*100), box=lt?S.lt:S.gr, k=s.id||"mix";
     box[k]=Math.max(box[k]||0,pct);
-    persist(); pushRemote();
-    a.innerHTML=`<div class="panel done-card" style="padding:28px 20px"><div class="eyebrow">${lt?esc(LB[s.id].ru):s.id?esc(GB[s.id].name):"Смешанный тест"}</div>
+    const first=lessonDone(); pushRemote();
+    a.innerHTML=`<div class="panel done-card" style="padding:28px 20px">${pandaDone(first)}<div class="eyebrow">${lt?esc(LB[s.id].ru):s.id?esc(GB[s.id].name):"Смешанный тест"}</div>
       <div class="big num" id="bigNum">${pct}%</div><div class="muted num">${s.ok} из ${s.items.length} верно</div>
       ${pct>=80?`<div class="pill" style="background:var(--good-soft)">${lt?"Письмо освоено":"Тема освоена"}</div>`:`<div class="small muted">Для зачёта нужно 80%. ${lt?"Перечитайте образец и фразы":"Перечитайте правило"} и попробуйте снова.</div>`}
       <div class="row" style="width:100%"><button class="btn ghost" id="tBack">${lt?"К письму":s.id?"К правилу":"К грамматике"}</button><button class="btn primary" id="tAgain">Ещё раз</button></div></div>`;
     const src=s.src, id=s.id; tSession=null;
-    countUp($("#bigNum"),pct,"%"); if(pct>=80) confetti();
+    countUp($("#bigNum"),pct,"%"); if(pct>=80||first) confetti();
+    document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
     $("#tBack").onclick=()=>quitQuiz(s);
     $("#tAgain").onclick=()=>startQuiz(src,id);
     return;
@@ -805,9 +917,12 @@ function answerQ(qel,btn){
   const qs=[...document.querySelectorAll(".q")];
   if(!qs.every(x=>x.dataset.done)) return;
   const score=qs.filter(x=>!x.querySelector(".opt.wrong")).length, all=score===s.q.length;
-  S.rd[s.id]=Math.max(S.rd[s.id]??0,score); persist();
-  $("#qres").innerHTML=`<div class="fb ${all?"ok":"no"}">${all?"Отлично, всё верно!":`Верно ${score} из ${s.q.length}.`} История отмечена как прочитанная.</div>`;
-  if(all) confetti();
+  S.rd[s.id]=Math.max(S.rd[s.id]??0,score);
+  const first=lessonDone();
+  $("#qres").innerHTML=`<div class="fb ${all?"ok":"no"}">${all?"Отлично, всё верно!":`Верно ${score} из ${s.q.length}.`} История отмечена как прочитанная.</div>
+    <div style="margin-top:14px">${pandaDone(first)}</div>`;
+  $("#qres .panda").onclick=pokePanda;
+  if(all||first) confetti();
 }
 
 // ---------- LETTERS ----------
@@ -974,6 +1089,7 @@ function openSettings(){
 function bind(){
   const on=(sel,fn)=>{ const el=$(sel); if(el) el.onclick=fn; };
   on("#settings",openSettings);
+  document.querySelectorAll(".panda").forEach(p=>p.onclick=pokePanda);
   on("#start",()=>startSession(null));
   on("#extra",()=>startSession(null,10));
   on("#mixTest",()=>startQuiz("gr",null));
