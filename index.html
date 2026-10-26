@@ -213,9 +213,19 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 /* buddy: Kluska the panda — happy after today's lesson, sad when days are skipped */
 .buddy{display:grid;grid-template-columns:92px 1fr;gap:10px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:12px 14px 14px;box-shadow:var(--shadow)}
 .panda{width:92px;height:auto;display:block;overflow:visible;cursor:pointer}
-.panda .pb{transform-box:view-box;transform-origin:60px 122px}
-.panda .eyes{transform-box:view-box;transform-origin:60px 57px}
-.panda .spark{transform-box:fill-box;transform-origin:center}
+/* every moving part pivots where a real joint would be: feet, neck, ear base, shoulder */
+.panda g{transform-box:view-box}
+.panda .pb{transform-origin:60px 122px}
+.panda .head{transform-origin:60px 90px}
+.panda .el{transform-origin:38px 40px} .panda .er{transform-origin:82px 40px}
+.panda .al{transform-origin:42px 92px} .panda .ar{transform-origin:78px 92px}
+.panda .eyes{transform-origin:60px 57px}
+.panda .heart,.panda .spark,.panda .dot{transform-box:fill-box;transform-origin:center}
+.panda .tear{transform-box:fill-box;transform-origin:50% 0}
+.panda .heart{opacity:0}
+.panda.sad .head,.panda.sad2 .head{transform:translateY(3px)}
+.panda.sad .el,.panda.sad2 .el{transform:rotate(-14deg)}
+.panda.sad .er,.panda.sad2 .er{transform:rotate(14deg)}
 .bubble{position:relative;background:var(--raise);border-radius:16px;padding:10px 12px;display:grid;gap:2px;min-width:0}
 .bubble::before{content:"";position:absolute;left:-8px;top:50%;margin-top:-8px;border:8px solid transparent;border-left:0;border-right-color:var(--raise)}
 .bubble b{font-family:var(--read);font-size:1rem;font-weight:600;line-height:1.35}
@@ -263,14 +273,40 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
   .sheet-bg{animation:fade .2s}
   .sheet{animation:sheetUp .32s var(--ease)}
   .toast,.glpop{animation:floatIn .28s var(--ease)}
-  .panda .pb{animation:breathe 3.4s ease-in-out infinite}
-  .panda.happy .pb{animation:hop 1.6s var(--ease) infinite}
-  .panda.sad .pb,.panda.sad2 .pb{animation:breathe 4.8s ease-in-out infinite}
-  .panda.poke .pb{animation:wiggle .6s var(--ease)}
-  .panda .eyes{animation:blink 5s infinite}
-  .panda .spark{animation:twinkle 1.8s ease-in-out infinite}
-  .panda .tear{animation:tear 2.4s ease-in infinite}
-  .panda .drop{animation:rain 1s linear infinite}
+  /* Kluska: always breathing, swaying, blinking (sometimes twice), glancing around and twitching an ear */
+  .panda .pb{animation:p-breathe 3.6s ease-in-out infinite}
+  .panda .head{animation:p-sway 6s ease-in-out infinite}
+  .panda .eyes{animation:p-blink 6s infinite}
+  .panda .pupils{animation:p-look 8s ease-in-out infinite}
+  .panda .el{animation:p-earL 5s ease-in-out infinite}
+  .panda .er{animation:p-earR 5s ease-in-out 1.3s infinite}
+  .panda .blush{animation:p-blush 3s ease-in-out infinite}
+  .panda .spark{animation:p-twinkle 1.8s ease-in-out infinite}
+  /* happy: hops with squash and stretch, cheers with both paws, hearts float up */
+  .panda.happy .pb{animation:p-hop 1.8s cubic-bezier(.3,.7,.4,1) infinite}
+  .panda.happy .al{animation:p-cheerL 1.8s ease-in-out infinite}
+  .panda.happy .ar{animation:p-cheerR 1.8s ease-in-out infinite}
+  .panda.happy .heart{animation:p-heart 3.2s ease-out infinite}
+  .panda.happy .h2{animation-delay:1.6s}
+  /* waiting: tilts her head and thinks */
+  .panda.wait .head{animation:p-tilt 5s ease-in-out infinite}
+  .panda.wait .dot{animation:p-dot 1.4s ease-in-out infinite}
+  .panda.wait .d2{animation-delay:.2s} .panda.wait .d3{animation-delay:.4s}
+  /* first visit: waves hello */
+  .panda.new .ar{animation:p-wave 1.6s ease-in-out infinite}
+  /* sad: head down, ears drooping, sniffing, tears; very sad: a little rain cloud */
+  .panda.sad .head,.panda.sad2 .head{animation:p-sadhead 5s ease-in-out infinite}
+  .panda.sad .el,.panda.sad2 .el,.panda.sad .er,.panda.sad2 .er{animation:none}
+  .panda.sad .pb,.panda.sad2 .pb{animation:p-sniff 4.5s ease-in-out infinite}
+  .panda .tear{animation:p-tear 2.6s ease-in infinite}
+  .panda .t2{animation-delay:1.3s}
+  .panda .cloud{animation:p-drift 4s ease-in-out infinite}
+  .panda .drop{animation:p-rain 1s linear infinite}
+  .panda .r2{animation-delay:.33s} .panda .r3{animation-delay:.66s}
+  /* a tap: squish and a burst of hearts */
+  .panda.poke .pb{animation:p-squish .7s cubic-bezier(.3,1.6,.5,1)}
+  .panda.poke .heart{animation:p-burst .9s ease-out}
+  .panda.poke .h2{animation-delay:.12s}
 }
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @keyframes cardIn{from{opacity:0;transform:translateX(24px) rotate(1deg)}to{opacity:1;transform:none}}
@@ -283,13 +319,28 @@ ol.parts li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:sta
 @keyframes sheetUp{from{transform:translateY(100%)}}
 @keyframes floatIn{from{opacity:0;transform:translate(-50%,12px)}}
 @keyframes fall{to{transform:translate(var(--dx),110vh) rotate(var(--r))}}
-@keyframes breathe{50%{transform:scale(1.025,.975)}}
-@keyframes hop{0%,100%{transform:none}35%{transform:translateY(-7px)}55%{transform:scale(1.05,.95)}70%{transform:none}}
-@keyframes wiggle{25%{transform:rotate(-7deg)}75%{transform:rotate(7deg)}}
-@keyframes blink{0%,94%,100%{transform:none}97%{transform:scaleY(.1)}}
-@keyframes twinkle{50%{opacity:.25;transform:scale(.55)}}
-@keyframes tear{0%{opacity:0;transform:none}15%{opacity:1}75%{opacity:1;transform:translateY(14px)}100%{opacity:0;transform:translateY(18px)}}
-@keyframes rain{from{opacity:1;transform:none}to{opacity:0;transform:translateY(9px)}}
+@keyframes p-breathe{50%{transform:scale(1.022,.978)}}
+@keyframes p-sway{0%,100%{transform:rotate(0)}30%{transform:rotate(-2.5deg)}70%{transform:rotate(2.5deg)}}
+@keyframes p-blink{0%,44%,48%,90%,93%,96%,100%{transform:none}46%,91.5%,94.5%{transform:scaleY(.08)}}
+@keyframes p-look{0%,18%,72%,100%{transform:none}24%,40%{transform:translateX(-1.6px)}48%,64%{transform:translateX(1.6px)}}
+@keyframes p-earL{0%,64%,76%,100%{transform:none}68%{transform:rotate(-12deg)}72%{transform:rotate(4deg)}}
+@keyframes p-earR{0%,64%,76%,100%{transform:none}68%{transform:rotate(12deg)}72%{transform:rotate(-4deg)}}
+@keyframes p-blush{50%{opacity:.55}}
+@keyframes p-twinkle{50%{opacity:.2;transform:scale(.5) rotate(45deg)}}
+@keyframes p-hop{0%,100%{transform:none}12%{transform:scale(1.07,.92)}34%{transform:translateY(-10px) scale(.95,1.06)}50%{transform:translateY(0) scale(1.08,.91)}62%{transform:scale(.97,1.03)}74%{transform:none}}
+@keyframes p-cheerL{0%,10%,74%,100%{transform:none}34%,50%{transform:rotate(52deg)}}
+@keyframes p-cheerR{0%,10%,74%,100%{transform:none}34%,50%{transform:rotate(-52deg)}}
+@keyframes p-heart{0%{opacity:0;transform:translateY(6px) scale(.4)}15%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-26px) scale(.8) rotate(12deg)}}
+@keyframes p-tilt{0%,100%{transform:rotate(0)}20%,40%{transform:rotate(-9deg)}60%,80%{transform:rotate(7deg)}}
+@keyframes p-dot{0%,100%{opacity:.25;transform:none}40%{opacity:1;transform:translateY(-3px)}}
+@keyframes p-wave{0%,100%{transform:rotate(-48deg)}50%{transform:rotate(-78deg)}}
+@keyframes p-sadhead{0%,100%{transform:translateY(3px)}50%{transform:translateY(4.5px) rotate(-2deg)}}
+@keyframes p-sniff{0%,70%,100%{transform:none}74%,82%{transform:scale(1.012,.98)}78%{transform:scale(.99,1.012)}}
+@keyframes p-tear{0%{opacity:0;transform:translateY(-2px) scale(.3)}18%{opacity:1;transform:none}70%{opacity:1;transform:translateY(15px)}100%{opacity:0;transform:translateY(22px) scale(.8)}}
+@keyframes p-drift{0%,100%{transform:translateX(-3px)}50%{transform:translateX(3px)}}
+@keyframes p-rain{0%{opacity:0;transform:none}20%{opacity:1}100%{opacity:0;transform:translateY(12px)}}
+@keyframes p-squish{0%,100%{transform:none}25%{transform:scale(1.12,.86)}55%{transform:scale(.94,1.08)}80%{transform:scale(1.03,.97)}}
+@keyframes p-burst{0%{opacity:0;transform:scale(.3)}30%{opacity:1;transform:translateY(-6px) scale(1.15)}100%{opacity:0;transform:translateY(-22px) scale(.9)}}
 </style>
 
 <div class="readbar" id="readbar" hidden></div>
@@ -453,31 +504,45 @@ function pandaLine(mood,g,sk){
 const POKES=[["Dasz radę!","У тебя получится!"],["Jeszcze jedna lekcja?","Ещё один урок?"],["Uczę się razem z tobą.","Я учусь вместе с тобой."],["Polski nie jest taki straszny!","Польский не такой уж страшный!"],["Bambus po lekcji?","Бамбук после урока?"]];
 function spark(x,y,s,delay){ const a=1.7*s,b=6*s;
   return `<path class="spark" style="animation-delay:${delay}s" d="M${x} ${y-b}L${x+a} ${y-a}L${x+b} ${y}L${x+a} ${y+a}L${x} ${y+b}L${x-a} ${y+a}L${x-b} ${y}L${x-a} ${y-a}Z" fill="var(--sparkle)"/>`; }
+const heart=(cls,x,y,s)=>`<g class="heart ${cls}"><path transform="translate(${x} ${y}) scale(${s})" d="M0 3.2C-.6 2.6-5 .2-5-2.6a2.6 2.6 0 0 1 5-1.2a2.6 2.6 0 0 1 5 1.2C5 .2.6 2.6 0 3.2z" fill="#ff6f8e"/></g>`;
+// Kluska is drawn from separate parts (head, ears, paws, pupils) so each can move on its own
 function pandaSVG(mood){
-  const happy=mood==="happy", sad=mood==="sad"||mood==="sad2", D="var(--fur-dark)", W="var(--fur)", tilt=happy?14:sad?36:24;
+  const happy=mood==="happy", sad=mood==="sad"||mood==="sad2", D="var(--fur-dark)", W="var(--fur)", E='stroke="var(--fur-edge)" stroke-width="1.6"', tilt=happy?14:sad?36:24;
   const label={happy:"довольна",wait:"ждёт урока",new:"здоровается",sad:"грустит",sad2:"очень грустит"}[mood];
+  const px=sad?[44.5,75.5]:[46,74], py=sad?59.5:58;
   const eyes=happy?`<path d="M38.5 60q6.5-8 13 0M68.5 60q6.5-8 13 0" fill="none" stroke="${W}" stroke-width="3.2" stroke-linecap="round"/>`
-    :`<g class="eyes"><circle cx="45" cy="57" r="5.4" fill="${W}"/><circle cx="75" cy="57" r="5.4" fill="${W}"/>
-      <circle cx="${sad?44.5:46}" cy="${sad?59.5:58}" r="3.2" fill="${D}"/><circle cx="${sad?75.5:74}" cy="${sad?59.5:58}" r="3.2" fill="${D}"/>
-      <circle cx="${sad?43.6:47}" cy="${sad?58:56}" r="1.2" fill="${W}"/><circle cx="${sad?74.6:75}" cy="${sad?58:56}" r="1.2" fill="${W}"/></g>`;
-  const mouth=happy?`<path d="M52 76q8 11 16 0z" fill="#ff8fa3" stroke="${D}" stroke-width="2" stroke-linejoin="round"/>`
+    :`<g class="eyes"><circle cx="45" cy="57" r="5.6" fill="${W}"/><circle cx="75" cy="57" r="5.6" fill="${W}"/>
+      <g class="pupils"><circle cx="${px[0]}" cy="${py}" r="3.4" fill="${D}"/><circle cx="${px[1]}" cy="${py}" r="3.4" fill="${D}"/>
+        <circle cx="${px[0]+1.2}" cy="${py-1.8}" r="1.35" fill="${W}"/><circle cx="${px[1]+1.2}" cy="${py-1.8}" r="1.35" fill="${W}"/>
+        <circle cx="${px[0]-1}" cy="${py+1.4}" r=".6" fill="${W}"/><circle cx="${px[1]-1}" cy="${py+1.4}" r=".6" fill="${W}"/></g></g>`;
+  const mouth=happy?`<path d="M52 75.5q8 12 16 0z" fill="#5a2a33" stroke="${D}" stroke-width="2" stroke-linejoin="round"/><path d="M55.5 81q4.5 3.4 9 0q-4.5-2.8-9 0z" fill="#ff8fa3"/>`
     :sad?`<path d="M53.5 81.5q6.5-6 13 0" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round"/>`
     :`<path d="M54 76q3 3.2 6 0q3 3.2 6 0" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>`;
-  const op=happy?.95:sad?.45:.7;
-  const blush=`<ellipse cx="33" cy="76" rx="5.5" ry="3.3" fill="var(--blush)" opacity="${op}"/><ellipse cx="87" cy="76" rx="5.5" ry="3.3" fill="var(--blush)" opacity="${op}"/>`;
+  const blush=`<g class="blush" opacity="${happy?.95:sad?.45:.75}"><ellipse cx="33" cy="76" rx="5.5" ry="3.3" fill="var(--blush)"/><ellipse cx="87" cy="76" rx="5.5" ry="3.3" fill="var(--blush)"/></g>`;
   const brows=sad?`<path d="M36 44q6-6 12-5M72 39q6-1 12 5" fill="none" stroke="${D}" stroke-width="2.2" stroke-linecap="round"/>`:"";
-  const tear=`<path class="tear" d="M80 64q-3.6 5.6 0 8.4q3.6-2.8 0-8.4z" fill="var(--tear)"/>`;
-  const cloud=`<g><circle cx="49" cy="-4" r="7" fill="var(--cloud)"/><circle cx="60" cy="-8" r="9" fill="var(--cloud)"/><circle cx="71" cy="-4" r="7" fill="var(--cloud)"/><rect x="49" y="-4" width="22" height="7" rx="3.5" fill="var(--cloud)"/>
-    <path class="drop" d="M52 7v5M60 8v5M68 7v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/></g>`;
-  const extra=happy?spark(13,20,1,0)+spark(106,12,.8,.6)+spark(111,58,.6,1.1):mood==="new"?spark(108,16,.8,0):mood==="sad"?tear:mood==="sad2"?tear+cloud:"";
-  return `<svg class="panda ${mood}" viewBox="0 -20 120 144" role="img" aria-label="Панда Клуска ${label}"><g class="pb">
+  const tear=(cls,x)=>`<path class="tear ${cls}" d="M${x} 63q-3.6 5.6 0 8.4q3.6-2.8 0-8.4z" fill="var(--tear)"/>`;
+  const tears=mood==="sad"?tear("t1",80):mood==="sad2"?tear("t1",80)+tear("t2",40):"";
+  const cloud=mood!=="sad2"?"":`<g class="cloud"><circle cx="49" cy="-4" r="7" fill="var(--cloud)"/><circle cx="60" cy="-8" r="9" fill="var(--cloud)"/><circle cx="71" cy="-4" r="7" fill="var(--cloud)"/><rect x="49" y="-4" width="22" height="7" rx="3.5" fill="var(--cloud)"/>
+    <path class="drop" d="M52 6v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/><path class="drop r2" d="M60 7v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/><path class="drop r3" d="M68 6v5" stroke="var(--tear)" stroke-width="2" stroke-linecap="round"/></g>`;
+  const fx=heart("h1",92,10,1.1)+heart("h2",28,6,.9)
+    +(happy?spark(13,20,1,0)+spark(106,12,.8,.6)+spark(111,58,.6,1.1):"")
+    +(mood==="new"?spark(108,16,.8,0):"")
+    +(mood==="wait"?`<circle class="dot d1" cx="99" cy="10" r="2.2" fill="var(--muted)"/><circle class="dot d2" cx="106" cy="7" r="2.2" fill="var(--muted)"/><circle class="dot d3" cx="113" cy="4" r="2.2" fill="var(--muted)"/>`:"");
+  return `<svg class="panda ${mood}" viewBox="0 -20 120 144" role="img" aria-label="Панда Клуска ${label}">${cloud}<g class="pb">
+    <g ${E}><ellipse cx="45" cy="118" rx="10" ry="5.5" fill="${D}"/><ellipse cx="75" cy="118" rx="10" ry="5.5" fill="${D}"/></g>
+    <ellipse cx="45" cy="119" rx="3.6" ry="2.2" fill="#f2b2bf"/><ellipse cx="75" cy="119" rx="3.6" ry="2.2" fill="#f2b2bf"/>
     <ellipse cx="60" cy="103" rx="30" ry="17" fill="${W}" stroke="${D}" stroke-width="2.5"/>
-    <g stroke="var(--fur-edge)" stroke-width="1.6"><ellipse cx="45" cy="118" rx="10" ry="5.5" fill="${D}"/><ellipse cx="75" cy="118" rx="10" ry="5.5" fill="${D}"/>
-    <ellipse cx="37" cy="100" rx="8.5" ry="13" transform="rotate(28 37 100)" fill="${D}"/><ellipse cx="83" cy="100" rx="8.5" ry="13" transform="rotate(-28 83 100)" fill="${D}"/>
-    <circle cx="31" cy="30" r="13" fill="${D}"/><circle cx="89" cy="30" r="13" fill="${D}"/></g>
-    <ellipse cx="60" cy="58" rx="38" ry="34" fill="${W}" stroke="${D}" stroke-width="2.5"/>
-    <ellipse cx="44" cy="58" rx="10.5" ry="13" transform="rotate(${tilt} 44 58)" fill="${D}"/><ellipse cx="76" cy="58" rx="10.5" ry="13" transform="rotate(${-tilt} 76 58)" fill="${D}"/>
-    ${eyes}${brows}<ellipse cx="60" cy="69.5" rx="5" ry="3.6" fill="${D}"/>${mouth}${blush}</g>${extra}</svg>`;
+    <path d="M31 99Q60 82 89 99L86 106Q60 92 34 106Z" fill="${D}"/>
+    <g class="head">
+      <g class="el"><circle cx="31" cy="30" r="13" fill="${D}" ${E}/><circle cx="31" cy="30" r="6.5" fill="#4a3f45"/></g>
+      <g class="er"><circle cx="89" cy="30" r="13" fill="${D}" ${E}/><circle cx="89" cy="30" r="6.5" fill="#4a3f45"/></g>
+      <ellipse cx="60" cy="58" rx="38" ry="34" fill="${W}" stroke="${D}" stroke-width="2.5"/>
+      <ellipse cx="44" cy="58" rx="10.5" ry="13" transform="rotate(${tilt} 44 58)" fill="${D}"/><ellipse cx="76" cy="58" rx="10.5" ry="13" transform="rotate(${-tilt} 76 58)" fill="${D}"/>
+      ${eyes}${brows}<ellipse cx="60" cy="69.5" rx="5" ry="3.6" fill="${D}"/><ellipse cx="58.6" cy="68.4" rx="1.5" ry=".8" fill="${W}" opacity=".7"/>${mouth}${blush}${tears}
+    </g>
+    <g class="al"><ellipse cx="37" cy="100" rx="8.5" ry="13" transform="rotate(28 37 100)" fill="${D}" ${E}/></g>
+    <g class="ar"><ellipse cx="83" cy="100" rx="8.5" ry="13" transform="rotate(-28 83 100)" fill="${D}" ${E}/></g>
+  </g>${fx}</svg>`;
 }
 const PAW='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6.5" cy="9" r="2.4"/><circle cx="12" cy="6.2" r="2.4"/><circle cx="17.5" cy="9" r="2.4"/><path d="M12 11.5c-3.2 0-6 3.4-6 5.8 0 1.8 1.6 2.7 3.2 2.2.9-.3 1.8-.5 2.8-.5s1.9.2 2.8.5c1.6.5 3.2-.4 3.2-2.2 0-2.4-2.8-5.8-6-5.8z"/></svg>';
 function buddyHTML(sk){
